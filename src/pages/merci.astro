@@ -1,0 +1,12 @@
+---
+import Base from '../layouts/Base.astro';
+import { site } from '../data/site';
+---
+<Base title="Demande envoyée | Dargent Thermique" description="Votre demande a bien été envoyée à Dargent Thermique." path="/merci/" noindex>
+  <section class="section"><div class="container">
+    <h1>Votre demande est envoyée</h1>
+    <p class="promise">Nous vous rappelons pour convenir d’une visite technique ou répondre à votre question.</p>
+    <dl class="ruled"><dt>Par téléphone</dt><dd><a href={site.phoneHref}>{site.phone}</a></dd><dt>Par e-mail</dt><dd><a href={`mailto:${site.email}`}>{site.email}</a></dd></dl>
+    <p><a class="btn btn-outline" href="/">Retour à l’accueil</a></p>
+  </div></section>
+</Base>

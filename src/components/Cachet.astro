@@ -1,0 +1,13 @@
+---
+// Le cachet de l'entreprise : logo + NAP, légèrement tourné, comme sur une attestation d'entretien.
+import { site } from '../data/site';
+interface Props { compact?: boolean }
+const { compact = false } = Astro.props;
+---
+<div class="cachet" itemscope itemtype="https://schema.org/HVACBusiness">
+  <img src="/logo.png" alt="Dargent Thermique" width="337" height="94" itemprop="logo" />
+  <strong class="ln" itemprop="name">{site.legalName}</strong>
+  {!compact && <span class="ln" itemprop="address">{site.street}, {site.postalCode} {site.city}</span>}
+  <span class="ln">Tél. <a href={site.phoneHref} itemprop="telephone" class="tel">{site.phone}</a></span>
+  {!compact && <span class="ln">SIRET {site.siret}</span>}
+</div>

@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-21T00:00:00Z",
+  "title": "Design System: Dargent Thermique",
+  "extensions": {
+    "colorMeta": {
+      "paper": { "role": "neutral", "displayName": "Form Paper", "canonical": "#fbfcfd", "tonalRamp": ["#0d1114", "#1c2226", "#333c42", "#5c6a72", "#8b99a0", "#c4ced3", "#e7ecef", "#fbfcfd"] },
+      "navy-900": { "role": "primary", "displayName": "Pre-Printed Navy", "canonical": "#0b2a4a", "tonalRamp": ["#04121f", "#0b2a4a", "#123a66", "#1a4d87", "#2966ab", "#5688c2", "#96b4d9", "#dbe6f1"] },
+      "navy": { "role": "primary", "displayName": "Action Navy", "canonical": "#005ca9", "tonalRamp": ["#012d54", "#003d70", "#004a8a", "#005ca9", "#1c78c8", "#5aa2dd", "#9cc7ec", "#d9ebf9"] },
+      "navy-700": { "role": "primary", "displayName": "Action Navy (hover)", "canonical": "#004a8a", "tonalRamp": ["#012238", "#003360", "#004a8a", "#0060af", "#2e80c8", "#6ba7dc", "#a9cceb", "#e3f0fa"] },
+      "cyan": { "role": "secondary", "displayName": "Cachet Cyan", "canonical": "#2db8c5", "tonalRamp": ["#0b3438", "#124a50", "#1c6b73", "#248a94", "#2db8c5", "#6ccdd6", "#a6e2e8", "#e3f6f8"] },
+      "cyan-100": { "role": "secondary", "displayName": "Cyan Tint", "canonical": "#e3f6f8", "tonalRamp": ["#0b3438", "#124a50", "#248a94", "#2db8c5", "#6ccdd6", "#a6e2e8", "#d3f0f2", "#e3f6f8"] },
+      "cyan-200": { "role": "secondary", "displayName": "Cyan on Navy", "canonical": "#96dce2", "tonalRamp": ["#0b3438", "#1c6b73", "#248a94", "#2db8c5", "#6ccdd6", "#96dce2", "#c2ecef", "#e3f6f8"] },
+      "ink": { "role": "neutral", "displayName": "Body Ink", "canonical": "#21313e", "tonalRamp": ["#0a1014", "#151f27", "#21313e", "#354a5a", "#526879", "#7c8f9d", "#b3c0c9", "#e6ebee"] },
+      "ink-600": { "role": "neutral", "displayName": "Muted Ink", "canonical": "#4a5a68", "tonalRamp": ["#141a1f", "#233039", "#354453", "#4a5a68", "#6c7b87", "#98a4ad", "#c6ced3", "#e9edef"] },
+      "line": { "role": "neutral", "displayName": "Hairline", "canonical": "#d9e0e6", "tonalRamp": ["#1c2226", "#333c42", "#5c6a72", "#8b99a0", "#b7c1c7", "#d9e0e6", "#eaeef0", "#f6f8f9"] },
+      "bg-alt": { "role": "neutral", "displayName": "Alternate Section", "canonical": "#f3f4f5", "tonalRamp": ["#1a1b1c", "#333537", "#4d4f52", "#78797c", "#a5a7a9", "#c9cbcd", "#e5e6e7", "#f3f4f5"] },
+      "alert": { "role": "tertiary", "displayName": "Urgent Red (dépannage only)", "canonical": "#ea444e", "tonalRamp": ["#4a0206", "#7a080e", "#a91620", "#c9303a", "#ea444e", "#f17d84", "#f7b1b5", "#fbdbdd"] },
+      "warn": { "role": "neutral", "displayName": "Disclosure Amber (À confirmer)", "canonical": "#f5b800", "tonalRamp": ["#4d3b03", "#7a5e06", "#a67e08", "#d19f0a", "#f5b800", "#f8cc4d", "#fbe0a0", "#fff6d6"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Home hero H1 only, condensed 78% stretch." },
+      "h1": { "displayName": "H1", "purpose": "Content-template page headings, 82% stretch." },
+      "h2": { "displayName": "H2", "purpose": "Section headings." },
+      "body": { "displayName": "Body", "purpose": "Running prose, 17-18px floor for accessibility." },
+      "label": { "displayName": "Label", "purpose": "Ruled-table dt, photo caption label, footer legal line. Never uppercase, never a kicker." }
+    },
+    "shadows": [],
+    "motion": [
+      { "name": "dur-standard", "value": "150ms", "purpose": "Default transition duration for hover/active/border/background changes." },
+      { "name": "ease-standard", "value": "cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "Default easing for all state transitions." },
+      { "name": "click-scale", "value": "transform: scale(0.98)", "purpose": "Button :active feedback." },
+      { "name": "check-hover", "value": "background: var(--cyan-100); stroke-width 2 -> 2.5", "purpose": "The one authored micro-interaction: checked-proof row hover in .checks." }
+    ],
+    "breakpoints": [
+      { "name": "sm", "value": "600px" },
+      { "name": "md", "value": "768px" },
+      { "name": "lg", "value": "900px" },
+      { "name": "xl", "value": "1024px" },
+      { "name": "xxl", "value": "1200px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Default action pill: quote request, header CTA.",
+      "html": "<a class=\"ds-btn-primary\" href=\"/devis/\">Demander un devis</a>",
+      "css": ".ds-btn-primary { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 48px; padding: 12px 24px; border-radius: 999px; border: 1.5px solid #005ca9; background: #005ca9; color: #fff; font-family: 'Archivo Variable', sans-serif; font-weight: 600; text-decoration: none; white-space: nowrap; transition: background 150ms cubic-bezier(0.16,1,0.3,1), border-color 150ms cubic-bezier(0.16,1,0.3,1), transform 150ms cubic-bezier(0.16,1,0.3,1); } .ds-btn-primary:hover { background: #004a8a; border-color: #004a8a; } .ds-btn-primary:active { transform: scale(0.98); } .ds-btn-primary:focus-visible { outline: 3px solid #2db8c5; outline-offset: 3px; }"
+    },
+    {
+      "name": "Alert Button",
+      "kind": "button",
+      "refersTo": "button-alert",
+      "description": "Urgent dépannage phone CTA; red is reserved exclusively for this.",
+      "html": "<a class=\"ds-btn-alert\" href=\"tel:0238864646\">Appeler le 02 38 86 46 46</a>",
+      "css": ".ds-btn-alert { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 48px; padding: 12px 24px; border-radius: 999px; border: 1.5px solid #ea444e; background: #ea444e; color: #fff; font-family: 'Archivo Variable', sans-serif; font-weight: 600; text-decoration: none; transition: background 150ms cubic-bezier(0.16,1,0.3,1); } .ds-btn-alert:hover { background: #c9303a; border-color: #c9303a; } .ds-btn-alert:focus-visible { outline: 3px solid #2db8c5; outline-offset: 3px; }"
+    },
+    {
+      "name": "Text Input",
+      "kind": "input",
+      "refersTo": "input-field",
+      "description": "Square-corner form field, quote/contact forms.",
+      "html": "<label class=\"ds-field\">Nom<input type=\"text\" /></label>",
+      "css": ".ds-field { display: block; font-weight: 600; color: #0b2a4a; margin-bottom: 4px; font-size: 0.9375rem; font-family: 'Archivo Variable', sans-serif; } .ds-field input { width: 100%; min-height: 48px; padding: 12px; border: 1px solid #0b2a4a; border-radius: 0; background: #fff; color: #21313e; font: inherit; margin-top: 4px; } .ds-field input:focus { outline: 3px solid #2db8c5; outline-offset: 2px; border-color: #005ca9; }"
+    },
+    {
+      "name": "Ruled Fact Table",
+      "kind": "custom",
+      "refersTo": "ruled",
+      "description": "Definition-list styled as a form's field/value table; hero facts, qualifications, address block.",
+      "html": "<dl class=\"ds-ruled\"><dt>Entreprise</dt><dd>Dargent Thermique, fondée en 1936</dd><dt>Qualibat RGE</dt><dd>8321, 5423, 5312, 5112</dd></dl>",
+      "css": ".ds-ruled { display: grid; grid-template-columns: max-content 1fr; column-gap: 24px; margin: 0; border-top: 1px solid #0b2a4a; max-width: 60ch; font-family: 'Archivo Variable', sans-serif; } .ds-ruled dt, .ds-ruled dd { margin: 0; padding: 8px 0; border-bottom: 1px solid #d9e0e6; } .ds-ruled dt { color: #4a5a68; font-size: 0.8125rem; padding-top: 11px; } .ds-ruled dd { font-weight: 600; color: #0b2a4a; }"
+    },
+    {
+      "name": "Checked Proof List",
+      "kind": "custom",
+      "refersTo": "checks",
+      "description": "Real, disclosed proof items with a cyan checkmark; hover thickens the stroke and tints the row. The one authored micro-interaction in the system.",
+      "html": "<ul class=\"ds-checks\"><li><svg class=\"ds-check-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"2\"/><path d=\"M9 12l2 2 4-4\"/></svg><span><strong>Devis après visite sur place</strong> <span class=\"ds-muted\">jamais un prix au téléphone</span></span></li></ul>",
+      "css": ".ds-checks { list-style: none; padding: 0; margin: 0; font-family: 'Archivo Variable', sans-serif; } .ds-checks li { display: flex; gap: 12px; align-items: flex-start; padding: 8px; margin-inline: -8px; max-width: 60ch; transition: background 150ms cubic-bezier(0.16,1,0.3,1); } .ds-check-icon { color: #2db8c5; width: 1.5em; height: 1.5em; flex: none; margin-top: 0.05em; transition: stroke-width 150ms; } .ds-checks li:hover { background: #e3f6f8; } .ds-checks li:hover .ds-check-icon { stroke-width: 2.5; } .ds-muted { color: #4a5a68; }"
+    },
+    {
+      "name": "The Cachet",
+      "kind": "custom",
+      "refersTo": "cachet",
+      "description": "Signature stamp component: logo + NAP, rotated -1.5deg, double-ruled cartouche, always overlapping the element beneath it (negative margin + z-index, never absolute positioning or a shadow).",
+      "html": "<div class=\"ds-stamp-row\"><div class=\"ds-cachet\"><img src=\"/logo.png\" alt=\"Dargent Thermique\" width=\"168\" height=\"47\" /><strong class=\"ds-ln\">Dargent Thermique</strong><span class=\"ds-ln\">Tél. 02 38 86 46 46</span></div><div class=\"ds-cachet-overlap\">Contenu qui suit, mordu de 14px par le cachet</div></div>",
+      "css": ".ds-stamp-row { display: block; margin-top: -12px; } .ds-cachet { display: inline-block; padding: 12px 16px; border: 1px solid #005ca9; outline: 1px solid #005ca9; outline-offset: 3px; color: #005ca9; background: #fbfcfd; font-size: 0.8125rem; line-height: 1.35; transform: rotate(-1.5deg); max-width: 260px; position: relative; z-index: 1; margin-bottom: -14px; font-family: 'Archivo Variable', sans-serif; } .ds-cachet img { height: 34px; width: auto; margin-bottom: 8px; display: block; } .ds-cachet .ds-ln { display: block; } .ds-cachet-overlap { border-top: 1px solid #d9e0e6; padding-top: 22px; }"
+    },
+    {
+      "name": "Marks Row",
+      "kind": "custom",
+      "refersTo": "marks",
+      "description": "Grayscale qualification/partner logo row under a single hairline; the correct pattern that replaced a rejected bordered badge-grid ('bandeau de badges').",
+      "html": "<div class=\"ds-marks\"><img src=\"/images/qualifications/logo-qualibat.jpg\" alt=\"Qualibat RGE\" width=\"90\" height=\"90\" /><img src=\"/images/qualifications/RGE.png\" alt=\"RGE\" width=\"90\" height=\"90\" /></div>",
+      "css": ".ds-marks { display: flex; flex-wrap: wrap; gap: 24px; align-items: center; margin: 16px 0 12px; padding-top: 16px; border-top: 1px solid #0b2a4a; } .ds-marks img { height: 44px; width: auto; filter: grayscale(1); opacity: 0.75; transition: filter 150ms cubic-bezier(0.16,1,0.3,1), opacity 150ms cubic-bezier(0.16,1,0.3,1); } .ds-marks img:hover { filter: none; opacity: 1; }"
+    },
+    {
+      "name": "Tab Navigation",
+      "kind": "nav",
+      "refersTo": "nav",
+      "description": "Desktop primary nav: tab-like links flush with a 72px header, cyan underline for active/hover state.",
+      "html": "<nav class=\"ds-nav\"><a href=\"#\" class=\"ds-nav-link\" aria-current=\"page\">Pompe à chaleur</a><a href=\"#\" class=\"ds-nav-link\">Climatisation</a></nav>",
+      "css": ".ds-nav { display: flex; gap: 4px; font-family: 'Archivo Variable', sans-serif; } .ds-nav-link { display: inline-block; padding: 24px 10px 22px; color: #0b2a4a; text-decoration: none; font-weight: 600; font-size: 0.9375rem; border-bottom: 3px solid transparent; transition: border-color 150ms cubic-bezier(0.16,1,0.3,1), color 150ms cubic-bezier(0.16,1,0.3,1); } .ds-nav-link:hover, .ds-nav-link[aria-current] { border-bottom-color: #2db8c5; color: #005ca9; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "Le carnet d'entretien",
+    "overview": "The site is the maintenance logbook Dargent Thermique leaves after every visit: each page is a pre-printed sheet, each proof a checked box, the signature is the company's stamp. It deliberately refuses the category template — no smiling technician photo, no centered hero H1, no three equal cards, no bordered badge-bandeau of partner logos.\n\nThe build ships this literally, not decoratively: ruled definition-list tables (`<dl class=\"ruled\">`) stand in for form fields, checkmarks are real proof items (never promises), photos are captioned \"Observations :\" like a technician's notes, and the `.cachet` stamp is rotated -1.5° and physically overlaps the content beneath it, as a real rubber stamp would. Depth comes only from this overlap and from ruled hairlines — there is no shadow anywhere in the stylesheet. Content density is intentionally high (600–1200 words of real prose per page): this is a regulated-industry SEO site, and the \"carnet\" aesthetic's usual airiness is a deliberate trade against that requirement, not an oversight.",
+    "keyCharacteristics": [
+      "Three inks only: navy (ink/action), cyan (single accent, reserved), red (urgent-only)",
+      "One typeface (Archivo Variable), condensed via font-stretch for display, normal for body",
+      "No shadows; depth by overlap and hairline rules only",
+      "Numbered \"sorties\" (exit links) close every page, like footnotes on a form",
+      "Checked-box proof rows, never marketing kickers or claims"
+    ],
+    "rules": [
+      { "name": "The Three-Ink Rule", "body": "Only navy, cyan, and alert-red carry meaning. Cyan is rarity-gated to the cachet, checks, active states, and focus; red never appears except on a dépannage/urgent phone action. No other hue is introduced for decoration.", "section": "colors" },
+      { "name": "The Pre-Printed Label Rule", "body": "Labels (dt, caption .lbl) stay small, regular-weight, sentence case, and sit beside a bold value on its own line (dd) — a form field, not a marketing eyebrow. This is the one place a small caps-like label could have crept in as a kicker; the build never uppercases or bolds the label itself.", "section": "typography" },
+      { "name": "The Overlap-Not-Float Rule", "body": "The .cachet stamp must always visually bite into an adjacent element — never sit free on white space. Implementation pattern: wrap the stamp and the element it overlaps in a shared container, give the stamp position: relative; z-index: 1; and a negative bottom margin so it overlaps the ruled content that follows. Reuse this exact technique (negative margin + z-index, not absolute positioning) wherever the cachet appears.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do keep motion to 150ms CSS transitions on :hover/:active only; the checks-row cyan tint + stroke-thickening is the one authored moment, not a precedent for adding more.",
+      "Do reuse the negative-margin + z-index overlap technique for the cachet (see Elevation & Depth) rather than absolute positioning or drop shadows to fake depth.",
+      "Do use .marks (grayscale row under a hairline) for any future qualification/partner-logo listing.",
+      "Do keep cyan rare: cachet, checks, active nav/filter state, focus rings, and the single btn-cyan CTA variant — not a general-purpose accent.",
+      "Do respect prefers-reduced-motion (already zeroed site-wide) and the 17-18px body-text floor for this 40-75 audience."
+    ],
+    "donts": [
+      "Don't add a box-shadow anywhere; this world's depth model is overlap and hairlines only.",
+      "Don't reintroduce a bordered/boxed logo grid (\"bandeau de badges\") — it was explicitly rejected as the generic HVAC-template look; .marks is the replacement and the only sanctioned pattern.",
+      "Don't add kickers, eyebrows, or uppercase micro-labels above headings. No eyebrow class exists in the build and none should be added; small labels stay sentence-case and sit beside their value (see The Pre-Printed Label Rule).",
+      "Don't use red (#ea444e) for anything except urgent/dépannage phone CTAs; it is not a second accent.",
+      "Don't round the corners of cards, photos, inputs, or the cachet — square is the \"paper/data\" shape; pill is reserved for clickable actions only."
+    ]
+  }
+}

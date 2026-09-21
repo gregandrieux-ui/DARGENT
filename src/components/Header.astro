@@ -1,0 +1,48 @@
+---
+import Icon from './Icon.astro';
+import { site } from '../data/site';
+import { mainNav } from '../data/nav';
+const path = Astro.url.pathname;
+const isActive = (href: string) => (href === '/' ? path === '/' : path.startsWith(href));
+---
+<div class="topbar">
+  <div class="container">
+    <span class="addr">{site.street}, {site.city}</span>
+    <a href={site.phoneHref} class="tel"><Icon name="phone" /> {site.phone}</a>
+  </div>
+</div>
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="/" aria-label="Dargent Thermique, accueil"><img src="/logo.png" alt="Dargent Thermique" width="337" height="94" /></a>
+    <nav class="nav" aria-label="Navigation principale">
+      <ul>
+        {mainNav.map((item) => (
+          <li>
+            <a href={item.href} aria-current={isActive(item.href) ? 'page' : undefined}>{item.label}</a>
+            {item.children && (
+              <div class="sub">{item.children.map((c) => <a href={c.href} aria-current={path === c.href ? 'page' : undefined}>{c.label}</a>)}</div>
+            )}
+          </li>
+        ))}
+      </ul>
+    </nav>
+    <div class="header-actions">
+      <a class="btn" href="/devis/">Demander un devis</a>
+    </div>
+    <details class="menu">
+      <summary><Icon name="menu-2" /> Menu</summary>
+      <div class="panel">
+        <ul>
+          {mainNav.map((item) => (
+            <li>
+              <a href={item.href}>{item.label}</a>
+              {item.children && <div class="sub">{item.children.map((c) => <a href={c.href}>{c.label}</a>)}</div>}
+            </li>
+          ))}
+          <li><a href="/contact/">Contact</a></li>
+        </ul>
+        <a class="btn" href="/devis/">Demander un devis</a>
+      </div>
+    </details>
+  </div>
+</header>

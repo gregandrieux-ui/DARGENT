@@ -1,0 +1,40 @@
+---
+import Base from '../layouts/Base.astro';
+import Form from '../components/Form.astro';
+import Checks from '../components/Checks.astro';
+import Icon from '../components/Icon.astro';
+import ToConfirm from '../components/ToConfirm.astro';
+import Exits from '../components/Exits.astro';
+import { site } from '../data/site';
+import { breadcrumb, webPage } from '../lib/schema';
+const path = '/devis/';
+const title = 'Demander un devis gratuit : PAC, climatisation, chauffage';
+const description = 'Décrivez votre projet en quelques champs : nous vous rappelons pour organiser une visite technique et établir un devis gratuit et sans engagement.';
+---
+<Base title={title} description={description} path={path} schema={[breadcrumb([{ name: 'Accueil', path: '/' }, { name: 'Demander un devis', path }]), webPage('ContactPage', 'Demander un devis gratuit', description, path)]}>
+  <section class="hero"><div class="container">
+    <nav class="breadcrumb" aria-label="Fil d’Ariane"><ol><li><a href="/">Accueil</a></li><li><span aria-current="page">Demander un devis</span></li></ol></nav>
+    <div class="entry">
+      <div>
+        <h1>Demander un devis gratuit</h1>
+        <p class="promise">Un devis établi après visite sur place, pas un prix au téléphone.</p>
+        <h2 style="font-size: var(--text-h3); margin-top: 24px">Votre projet en 5 questions</h2>
+        <Form kind="devis" submit="Envoyer ma demande" />
+        <ToConfirm items={['Délai de rappel annonçable', 'Destinataire des demandes (notification Netlify Forms à configurer)', 'Outil de suivi des leads']} />
+      </div>
+      <div>
+        <h2 style="font-size: var(--text-h3)">Ce qui se passe ensuite</h2>
+        <dl class="ruled">
+          <dt>1</dt><dd>Nous vous rappelons pour comprendre votre projet et convenir d’une visite.</dd>
+          <dt>2</dt><dd>Un technicien ou un chargé d’affaires relève votre installation sur place.</dd>
+          <dt>3</dt><dd>Le bureau d’études dimensionne la solution et nous vous remettons le devis.</dd>
+        </dl>
+        <h2 style="font-size: var(--text-h3)">Ce que contient notre devis</h2>
+        <Checks items={[{ label: 'Le matériel proposé, marque et modèle' }, { label: 'La main-d’œuvre et la mise en service' }, { label: 'Les travaux annexes éventuels, chiffrés à part' }, { label: 'Étude personnalisée, devis gratuit et sans engagement' }]} />
+        <h2 style="font-size: var(--text-h3)">Vous préférez appeler ?</h2>
+        <p><a class="tel" href={site.phoneHref} style="font-size:1.25rem"><Icon name="phone" /> {site.phone}</a></p>
+        <Exits title="Voir aussi" links={[{ href: '/contact/', label: 'Nos coordonnées, horaires et accès' }, { href: '/entreprise/qualifications/', label: 'Nos qualifications RGE Qualibat' }, { href: '/aides-financieres-pompe-a-chaleur/', label: 'Les aides financières pour une pompe à chaleur' }]} />
+      </div>
+    </div>
+  </div></section>
+</Base>

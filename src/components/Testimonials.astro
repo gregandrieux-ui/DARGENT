@@ -1,0 +1,15 @@
+---
+import { site } from '../data/site';
+interface Props { title?: string }
+const { title = 'Avis clients' } = Astro.props;
+---
+<section class="section" aria-labelledby="avis-title">
+  <div class="container">
+    <h2 id="avis-title">{title}</h2>
+    <ul class="testimonials">
+      {site.reviews.map((r) => (
+        <li><blockquote>« {r.text} »</blockquote><cite>{r.name}</cite><span class="src">Avis Google, <a href={site.googleReviewUrl} rel="noopener">voir les avis</a></span></li>
+      ))}
+    </ul>
+  </div>
+</section>

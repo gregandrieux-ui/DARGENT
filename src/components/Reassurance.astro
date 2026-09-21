@@ -1,0 +1,15 @@
+---
+// Bloc systématique de fin de page service (feuille Maillage) : qualification, aides si pertinent, conversion.
+interface Props { aides?: boolean; cta: { href: string; label: string } }
+const { aides = false, cta } = Astro.props;
+---
+<section class="section section-alt" aria-labelledby="reassurance-title">
+  <div class="container">
+    <h2 id="reassurance-title">Avant de nous confier votre projet</h2>
+    <dl class="ruled ruled-wide">
+      <dt>Qualifications</dt><dd>Qualibat RGE 8321, 5423, 5312, 5112 ; QUALIPAC ; Professionnel du gaz ; attestation fluides n° 111363-R1. <a href="/entreprise/qualifications/">Voir nos qualifications</a></dd>
+      {aides && <><dt>Aides financières</dt><dd>Les dispositifs en vigueur, leurs conditions et les montants sont tenus à jour sur une seule page. <a href="/aides-financieres-pompe-a-chaleur/">Voir les aides pour une pompe à chaleur</a></dd></>}
+      <dt>Devis</dt><dd>Visite technique, étude, puis devis gratuit et sans engagement. <a href={cta.href}>{cta.label}</a></dd>
+    </dl>
+  </div>
+</section>

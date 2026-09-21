@@ -1,0 +1,19 @@
+---
+// Encart visible « À confirmer » : chaque item de la colonne « Données à confirmer » du xlsx.
+// Masqué quand PUBLIC_SHOW_TODO=false.
+import Icon from './Icon.astro';
+import { showTodo } from '../data/site';
+interface Props { items?: string[]; text?: string }
+const { items = [], text } = Astro.props;
+const list = items.filter(Boolean);
+---
+{showTodo && (list.length > 0 || text) && (
+  <aside class="todo" role="note">
+    <Icon name="alert-triangle" />
+    <div>
+      <strong>À confirmer avant publication</strong>
+      {text && <p style="margin:0">{text}</p>}
+      {list.length > 0 && <ul>{list.map((i) => <li>{i}</li>)}</ul>}
+    </div>
+  </aside>
+)}

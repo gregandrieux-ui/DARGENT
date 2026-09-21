@@ -1,0 +1,3378 @@
+{
+ "pages": [
+  {
+   "id": "H-01",
+   "priority": "P1",
+   "status": "Valider",
+   "url": "https://dargent-thermique.fr/",
+   "type": "Pilier / accueil",
+   "objective": "Présenter l'entreprise, orienter vers les 3 univers (PAC, climatisation, entretien) et générer la demande de devis. Porte la marque et la requête marque.",
+   "audience": "Mixte (priorité particulier)",
+   "keyword": "dargent thermique",
+   "keywordValidation": "Observé (Title et H1 actuels, marque)",
+   "secondaryKeywords": [
+    "chauffagiste Orléans",
+    "climatisation chauffage Orléans",
+    "installateur pompe à chaleur Orléans",
+    "entreprise RGE Orléans",
+    "Saint-Jean-de-Braye chauffage"
+   ],
+   "intent": "Navigationnelle + commerciale",
+   "area": "Agglomération orléanaise (Loiret)",
+   "title": "Chauffage, climatisation et PAC à Orléans | Dargent",
+   "description": "Installateur RGE de pompes à chaleur, climatisation et chauffage à Orléans depuis 1936. Étude personnalisée et devis gratuit. Appelez le 02 38 86 46 46.",
+   "h1": "Pompe à chaleur, climatisation et chauffage dans l'agglomération orléanaise",
+   "promise": "Un installateur orléanais qualifié RGE depuis 1936, qui étudie votre projet avant de le chiffrer.",
+   "h2": [
+    "Nos solutions (PAC, climatisation, chauffage, ventilation)",
+    "Pourquoi Dargent Thermique",
+    "Nos qualifications",
+    "Nos réalisations",
+    "Entretien et dépannage",
+    "Nos zones d'intervention",
+    "Avis clients",
+    "Demander un devis"
+   ],
+   "content": "Réécriture complète. Reprendre l'ancrage 1936 et l'agglomération orléanaise (vérifié). Supprimer le bloc 'Bienvenue chez Climatisation & Chauffage Orléans' dupliqué et le bloc aides chiffré. 3 blocs de mise en avant PAC en premier.",
+   "proofs": "Logos Qualibat/RGE/QUALIPAC/Professionnel du gaz; n° attestation fluides 111363-R1; 3 avis nommés existants; photos de réalisations; ancienneté 1936 (frise).",
+   "cta": "Demander un devis gratuit",
+   "cta2": "Appeler le 02 38 86 46 46",
+   "inbound": "Toutes les pages (logo) ; ancien domaine via 301",
+   "outbound": [
+    "pompe-a-chaleur/",
+    "climatisation/",
+    "chauffage/",
+    "entretien-depannage/",
+    "realisations/",
+    "zones-intervention/",
+    "devis/",
+    "entreprise/qualifications/"
+   ],
+   "oldUrl": "/",
+   "migration": "301",
+   "justification": "Page d'accueil vers page d'accueil : même intention navigationnelle et même rôle de hub.",
+   "schema": "Organization + LocalBusiness (HVACBusiness) + WebSite + BreadcrumbList",
+   "toConfirm": [
+    "Effectif actuel",
+    "horaires",
+    "nom du groupe propriétaire (2018)",
+    "zone réellement couverte",
+    "validité des certificats."
+   ],
+   "owner": "SEO + Rédaction + Direction",
+   "validation": "H1 unique, aucune promesse chiffrée non sourcée, 8 liens internes actifs, NAP identique à la fiche Google, Schema LocalBusiness validé.",
+   "path": "/"
+  },
+  {
+   "id": "PAC-00",
+   "priority": "P1",
+   "status": "Valider",
+   "url": "https://dargent-thermique.fr/pompe-a-chaleur/",
+   "type": "Pilier",
+   "objective": "Page pilier n°1 de la nouvelle stratégie : capter la requête générique PAC locale et orienter vers le bon type de PAC ou la bonne prestation.",
+   "audience": "Particulier",
+   "keyword": "pompe à chaleur Orléans",
+   "keywordValidation": "Observé (attributs title des liens du site actuel, H1 des pages .php)",
+   "secondaryKeywords": [
+    "installateur pompe à chaleur Orléans",
+    "PAC air eau Orléans",
+    "installation PAC Loiret",
+    "pompe à chaleur RGE Orléans",
+    "remplacer ma chaudière par une pompe à chaleur",
+    "prix pompe à chaleur Orléans"
+   ],
+   "intent": "Commerciale + locale",
+   "area": "Agglomération orléanaise (Loiret)",
+   "title": "Pompe à chaleur à Orléans : installateur RGE Qualibat",
+   "description": "Installation de pompe à chaleur air/eau, haute température ou hybride à Orléans par une entreprise RGE. Étude à domicile et devis gratuit : 02 38 86 46 46.",
+   "h1": "Pompe à chaleur à Orléans et dans l'agglomération",
+   "promise": "Une solution de chauffage dimensionnée pour votre logement, posée par une équipe qualifiée RGE.",
+   "h2": [
+    "Quelle pompe à chaleur pour votre logement",
+    "PAC air/eau",
+    "PAC haute température",
+    "PAC hybride gaz",
+    "Comment se déroule le projet",
+    "Aides financières",
+    "Entretien et dépannage",
+    "Nos réalisations",
+    "Questions fréquentes"
+   ],
+   "content": "Page de choix : tableau comparatif des 3 familles (usage, type d'émetteurs, type de logement). Reprendre et réécrire les explications BT/HT/hybride du site actuel. Aucun COP, aucune économie chiffrée sans source.",
+   "proofs": "Qualibat 8321 (PAC aérothermiques), QUALIPAC/RGE, attestation fluides; photos de PAC air/eau posées (À COLLECTER); avis client PAC.",
+   "cta": "Demander une étude gratuite",
+   "cta2": "Voir nos réalisations PAC",
+   "inbound": "Accueil; menu principal; toutes les pages PAC; aides; realisations; zones locales",
+   "outbound": [
+    "pompe-a-chaleur/air-eau/",
+    "/haute-temperature/",
+    "/hybride/",
+    "/installation/",
+    "/entretien/",
+    "/depannage/",
+    "aides-financieres-pompe-a-chaleur/",
+    "chauffage/plancher-chauffant/",
+    "realisations/",
+    "devis/"
+   ],
+   "oldUrl": "/solutions/climatisation-pompe-a-chaleur/",
+   "migration": "301",
+   "justification": "L'ancien hub regroupait 3 pages PAC sur 4 ; la nouvelle page PAC en est le successeur sémantique principal. La partie climatisation est reprise par climatisation/ (lien depuis la page).",
+   "schema": "Service + BreadcrumbList + FAQPage (questions réellement affichées)",
+   "toConfirm": [
+    "Marques de PAC réellement installées aujourd'hui",
+    "puissances/gammes",
+    "existence d'une offre de financement."
+   ],
+   "owner": "SEO + Rédaction",
+   "validation": "Au moins 2 photos de chantiers PAC réels; aucun chiffre d'aide; comparatif validé par le bureau d'études.",
+   "path": "/pompe-a-chaleur/"
+  },
+  {
+   "id": "PAC-01",
+   "priority": "P1",
+   "status": "Modifier",
+   "url": "https://dargent-thermique.fr/pompe-a-chaleur/air-eau/",
+   "type": "Service",
+   "objective": "Page produit principale : convertir sur la PAC air/eau basse et moyenne température (neuf et rénovation).",
+   "audience": "Particulier",
+   "keyword": "pompe à chaleur air eau Orléans",
+   "keywordValidation": "Observé (ancienne page 'basse température' + mentions air/eau du site)",
+   "secondaryKeywords": [
+    "PAC air eau basse température",
+    "pompe à chaleur air eau prix",
+    "PAC air eau plancher chauffant",
+    "pompe à chaleur avec eau chaude sanitaire",
+    "installateur PAC air eau Loiret"
+   ],
+   "intent": "Commerciale",
+   "area": "Agglomération orléanaise (Loiret)",
+   "title": "Pompe à chaleur air/eau à Orléans : pose et conseils",
+   "description": "La PAC air/eau assure chauffage, eau chaude et rafraîchissement. Dimensionnement, pose et mise en service par Dargent Thermique à Orléans. Devis gratuit.",
+   "h1": "Pompe à chaleur air/eau : chauffage, eau chaude et rafraîchissement",
+   "promise": "Une PAC air/eau dimensionnée selon votre isolation et vos émetteurs, pas selon un catalogue.",
+   "h2": [
+    "Comment fonctionne une PAC air/eau",
+    "Pour quels logements",
+    "Avec plancher chauffant ou radiateurs",
+    "Production d'eau chaude sanitaire",
+    "Le dimensionnement par notre bureau d'études",
+    "Aides financières",
+    "Entretien",
+    "Nos réalisations"
+   ],
+   "content": "Décision MODIFIER : la page doit couvrir explicitement basse et moyenne température (successeur de l'ancienne page 'basse température') et renvoyer vers la haute température, sinon cannibalisation. Reprendre le paragraphe 'solution 3 en 1' existant.",
+   "proofs": "Qualibat 8321; bureau d'études interne (existant depuis 1993); photos de chantiers air/eau (À COLLECTER); avis client PAC.",
+   "cta": "Demander une étude gratuite",
+   "cta2": "Comparer avec la PAC haute température",
+   "inbound": "pompe-a-chaleur/; accueil; plancher-chauffant; aides; realisations; zones locales",
+   "outbound": [
+    "pompe-a-chaleur/installation/",
+    "/entretien/",
+    "/depannage/",
+    "/haute-temperature/",
+    "chauffage/plancher-chauffant/",
+    "aides-financieres-pompe-a-chaleur/",
+    "devis/"
+   ],
+   "oldUrl": "/solutions/climatisation-pompe-a-chaleur/pompe-a-chaleur-basse-temperature/",
+   "migration": "301",
+   "justification": "La page 'basse température' décrit la PAC air/eau standard : même produit, même intention, périmètre élargi à la moyenne température.",
+   "schema": "Service + BreadcrumbList",
+   "toConfirm": [
+    "Marques et gammes air/eau installées",
+    "PAC air/eau avec rafraîchissement toujours proposée ?",
+    "délais moyens d'installation."
+   ],
+   "owner": "SEO + Rédaction + Bureau d'études",
+   "validation": "Distinction claire avec la page haute température (aucun H2 identique); photos réelles; validation technique.",
+   "path": "/pompe-a-chaleur/air-eau/"
+  },
+  {
+   "id": "PAC-04",
+   "priority": "P1",
+   "status": "Modifier",
+   "url": "https://dargent-thermique.fr/pompe-a-chaleur/installation/",
+   "type": "Service",
+   "objective": "Rassurer sur le déroulé du chantier et lever les freins (travaux, durée, garanties) pour transformer l'intérêt en demande de devis.",
+   "audience": "Particulier",
+   "keyword": "installation pompe à chaleur Orléans",
+   "keywordValidation": "Hypothèse éditoriale (déclinaison locale du service)",
+   "secondaryKeywords": [
+    "poser une pompe à chaleur",
+    "remplacement chaudière par PAC",
+    "étapes installation PAC",
+    "mise en service pompe à chaleur",
+    "installateur RGE PAC Loiret"
+   ],
+   "intent": "Transactionnelle + locale",
+   "area": "Agglomération orléanaise (Loiret)",
+   "title": "Installation de pompe à chaleur à Orléans : le déroulé",
+   "description": "Visite technique, dimensionnement, pose, mise en service et suivi : découvrez comment Dargent Thermique installe votre pompe à chaleur à Orléans et alentour.",
+   "h1": "Comment nous installons votre pompe à chaleur",
+   "promise": "Un déroulé de chantier expliqué avant la signature, du relevé sur place à la mise en service.",
+   "h2": [
+    "Étape 1 : la visite technique",
+    "Étape 2 : l'étude et le devis",
+    "Étape 3 : la préparation du chantier",
+    "Étape 4 : la pose",
+    "Étape 5 : la mise en service et la prise en main",
+    "Garanties et suivi",
+    "Ce que comprend le devis",
+    "Aides financières"
+   ],
+   "content": "MODIFIER : angle imposé 'déroulé du projet' pour éviter la cannibalisation avec le pilier. Ne pas redévelopper les types de PAC. Décrire la visite technique, le rôle du bureau d'études, l'accompagnement au dossier d'aides (mentionné dans un avis client).",
+   "proofs": "Bureau d'études; équipe interne; avis Sylvain Aguenier (délai respecté, accompagnement aides); photos de chantier étape par étape (À COLLECTER).",
+   "cta": "Demander une visite technique",
+   "cta2": "Appeler le 02 38 86 46 46",
+   "inbound": "pompe-a-chaleur/; air-eau; haute-temperature; hybride; zones locales",
+   "outbound": [
+    "pompe-a-chaleur/",
+    "aides-financieres-pompe-a-chaleur/",
+    "entreprise/qualifications/",
+    "realisations/",
+    "devis/"
+   ],
+   "oldUrl": "Aucune",
+   "migration": "Nouvelle page",
+   "justification": "Pas d'équivalent sur le site actuel : contenu à produire.",
+   "schema": "Service + HowTo (uniquement si les étapes sont affichées telles quelles) + BreadcrumbList",
+   "toConfirm": [
+    "Durée moyenne d'un chantier",
+    "garanties réellement accordées",
+    "sous-traitance éventuelle (électricité, maçonnerie)",
+    "prise en charge des démarches d'aides."
+   ],
+   "owner": "SEO + Rédaction + Direction",
+   "validation": "Aucun délai ni garantie annoncé sans confirmation écrite; aucun H2 dupliqué avec le pilier.",
+   "path": "/pompe-a-chaleur/installation/"
+  },
+  {
+   "id": "PAC-05",
+   "priority": "P1",
+   "status": "Valider",
+   "url": "https://dargent-thermique.fr/pompe-a-chaleur/entretien/",
+   "type": "Service",
+   "objective": "Vendre le contrat d'entretien PAC et fidéliser ; capter la recherche d'entretien annuel obligatoire.",
+   "audience": "Particulier",
+   "keyword": "entretien pompe à chaleur Orléans",
+   "keywordValidation": "Observé (contrats d'entretien PAC air-eau cités sur /solutions/maintenance-climatisation/)",
+   "secondaryKeywords": [
+    "contrat entretien pompe à chaleur",
+    "entretien PAC obligatoire",
+    "entretien annuel PAC air eau",
+    "attestation d'entretien PAC",
+    "forfait entretien pompe à chaleur Loiret"
+   ],
+   "intent": "Commerciale + locale",
+   "area": "Agglomération orléanaise (Loiret)",
+   "title": "Entretien de pompe à chaleur à Orléans et alentour",
+   "description": "Forfait ou contrat d'entretien pour votre pompe à chaleur : techniciens habilités fluides frigorigènes, rapport d'intervention et attestation remise.",
+   "h1": "Entretien de votre pompe à chaleur",
+   "promise": "Un entretien réalisé par des techniciens habilités à la manipulation des fluides frigorigènes, avec remise des documents réglementaires.",
+   "h2": [
+    "Pourquoi entretenir votre PAC",
+    "Ce que comprend notre intervention",
+    "Forfait ou contrat d'entretien",
+    "Vos obligations réglementaires",
+    "Nos engagements de service",
+    "Souscrire un contrat"
+   ],
+   "content": "Reprendre la matière de /solutions/maintenance-climatisation/ appliquée à la PAC. Formuler les obligations réglementaires sans citer de seuil chiffré non revérifié (seuils de puissance et de charge à re-sourcer sur Légifrance/service-public.fr avec date de consultation).",
+   "proofs": "Attestation de capacité n° 111363-R1 (Bureau Veritas, art. R.543-99); registre des fluides; équipe maintenance dédiée; engagements (devis obligatoire au-delà de 150 € TTC).",
+   "cta": "Souscrire un contrat d'entretien",
+   "cta2": "Demander un forfait entretien",
+   "inbound": "pompe-a-chaleur/; entretien-depannage/; air-eau; haute-temperature; hybride; zones locales",
+   "outbound": [
+    "entretien-depannage/",
+    "pompe-a-chaleur/depannage/",
+    "entreprise/qualifications/",
+    "contact/"
+   ],
+   "oldUrl": "Aucune (contenu partiellement issu de /solutions/maintenance-climatisation/)",
+   "migration": "Nouvelle page",
+   "justification": "L'ancienne page maintenance est redirigée vers climatisation/entretien/ ; cette page est une nouvelle déclinaison PAC, liée depuis le hub.",
+   "schema": "Service + BreadcrumbList + FAQPage (si FAQ affichée)",
+   "toConfirm": [
+    "Contenu exact des forfaits et contrats PAC",
+    "fréquence",
+    "périmètre géographique du contrat",
+    "tarifs communicables ou non."
+   ],
+   "owner": "SEO + Rédaction + Service maintenance",
+   "validation": "Obligations réglementaires re-sourcées et datées; aucun tarif ni délai non validé; mention 'sous réserve d'évolution de la réglementation'.",
+   "path": "/pompe-a-chaleur/entretien/"
+  },
+  {
+   "id": "PAC-06",
+   "priority": "P1",
+   "status": "Valider",
+   "url": "https://dargent-thermique.fr/pompe-a-chaleur/depannage/",
+   "type": "Service",
+   "objective": "Capter la recherche urgente (panne) et la convertir en appel téléphonique.",
+   "audience": "Particulier",
+   "keyword": "dépannage pompe à chaleur Orléans",
+   "keywordValidation": "Observé (dépannages et petits travaux courants cités sur le site; avis client dépannage)",
+   "secondaryKeywords": [
+    "panne pompe à chaleur",
+    "réparation PAC air eau",
+    "PAC qui ne chauffe plus",
+    "dépanneur pompe à chaleur Loiret",
+    "code erreur pompe à chaleur"
+   ],
+   "intent": "Transactionnelle + locale",
+   "area": "Agglomération orléanaise (Loiret)",
+   "title": "Dépannage de pompe à chaleur à Orléans et dans le 45",
+   "description": "Votre pompe à chaleur est en panne ? Nos techniciens interviennent sur rendez-vous, diagnostiquent et vous remettent un devis avant réparation. 02 38 86 46 46.",
+   "h1": "Dépannage de pompe à chaleur",
+   "promise": "Un diagnostic par un technicien habilité et un devis avant toute réparation importante.",
+   "h2": [
+    "Les pannes les plus fréquentes",
+    "Comment se passe une intervention",
+    "Devis avant réparation",
+    "Pièces détachées et limites d'intervention",
+    "Nous appeler"
+   ],
+   "content": "Reprendre les engagements réels : facture détaillée, devis obligatoire à partir de 150 € TTC, prévention en cas d'installation non conforme, limites de l'obligation de résultat (vétusté, R22, pièces indisponibles). Téléphone en évidence, cliquable sur mobile.",
+   "proofs": "Avis Geoffrey Thomas (remise en route d'un thermostat de PAC); techniciens habilités fluides; véhicules équipés et magasin de pièces.",
+   "cta": "Appeler le 02 38 86 46 46",
+   "cta2": "Décrire ma panne (formulaire)",
+   "inbound": "pompe-a-chaleur/; entretien-depannage/; pompe-a-chaleur/entretien/; zones locales",
+   "outbound": [
+    "pompe-a-chaleur/entretien/",
+    "entretien-depannage/",
+    "contact/"
+   ],
+   "oldUrl": "Aucune",
+   "migration": "Nouvelle page",
+   "justification": "Contenu nouveau, dérivé des engagements de service publiés sur l'ancienne page maintenance.",
+   "schema": "Service + BreadcrumbList",
+   "toConfirm": [
+    "Existence et périmètre d'une astreinte",
+    "délai d'intervention réellement tenable",
+    "zone de dépannage",
+    "intervention sur matériel non installé par l'entreprise."
+   ],
+   "owner": "SEO + Rédaction + Service maintenance",
+   "validation": "Aucune promesse de délai ('24 h', 'urgence') sans engagement écrit de la direction; téléphone cliquable; page testée sur mobile.",
+   "path": "/pompe-a-chaleur/depannage/"
+  },
+  {
+   "id": "CLIM-00",
+   "priority": "P1",
+   "status": "Valider",
+   "url": "https://dargent-thermique.fr/climatisation/",
+   "type": "Pilier",
+   "objective": "Pilier n°2 : capter la requête climatisation locale, adresser particuliers et professionnels, orienter vers le type de système.",
+   "audience": "Mixte",
+   "keyword": "climatisation Orléans",
+   "keywordValidation": "Confirmé comme terme du site (meta keywords, Title accueil, nom de domaine actuel)",
+   "secondaryKeywords": [
+    "installateur climatisation Orléans",
+    "climatiseur Orléans",
+    "climatisation réversible Orléans",
+    "climatisation gainable",
+    "clim tertiaire Loiret",
+    "entreprise climatisation 45"
+   ],
+   "intent": "Commerciale + locale",
+   "area": "Agglomération orléanaise et Loiret",
+   "title": "Climatisation à Orléans : installation et entretien",
+   "description": "Climatisation réversible, gainable, multi-split : étude, installation et entretien à Orléans par une entreprise Qualibat 5423. Devis gratuit et sans engagement.",
+   "h1": "Climatisation à Orléans : installation, entretien et dépannage",
+   "promise": "Un dimensionnement complet avant la pose : calcul des besoins, choix et emplacement des unités.",
+   "h2": [
+    "Quelle climatisation choisir",
+    "Climatisation réversible",
+    "Climatisation gainable",
+    "Pour les locaux professionnels",
+    "Installation",
+    "Entretien et contrats",
+    "Dépannage",
+    "Nos réalisations"
+   ],
+   "content": "Réécrire à partir de la page climatisation réversible existante et des réalisations tertiaires (VRV, gestion centralisée, traitement acoustique). Mentionner les types d'unités réellement proposés : mural, console, gainable, cassette.",
+   "proofs": "Qualibat 5423 technicité supérieure (climatiseurs à détente directe); attestation fluides; avis Patrick Blain (2 groupes / 6 unités Daikin); photos de réalisations climatisation.",
+   "cta": "Demander un devis climatisation",
+   "cta2": "Voir nos réalisations",
+   "inbound": "Accueil; menu; toutes les pages climatisation; realisations; zones locales; professionnels/",
+   "outbound": [
+    "climatisation/reversible/",
+    "/gainable/",
+    "/installation/",
+    "/entretien/",
+    "/depannage/",
+    "realisations/",
+    "professionnels/",
+    "devis/"
+   ],
+   "oldUrl": "Aucune (ancien hub redirigé vers pompe-a-chaleur/)",
+   "migration": "Nouvelle page",
+   "justification": "L'ancien hub /solutions/climatisation-pompe-a-chaleur/ est majoritairement PAC ; la climatisation obtient son propre pilier, lié depuis la page PAC.",
+   "schema": "Service + BreadcrumbList",
+   "toConfirm": [
+    "Marques de climatisation réellement proposées",
+    "offre professionnelle maintenue ?",
+    "traitement acoustique proposé en standard ?"
+   ],
+   "owner": "SEO + Rédaction",
+   "validation": "Aucun recoupement de H2 avec climatisation/installation/; photos légendées; lien vers la page professionnels si elle est retenue.",
+   "path": "/climatisation/"
+  },
+  {
+   "id": "CLIM-01",
+   "priority": "P1",
+   "status": "Valider",
+   "url": "https://dargent-thermique.fr/climatisation/reversible/",
+   "type": "Service",
+   "objective": "Convertir sur la climatisation réversible (PAC air/air), solution d'entrée de gamme la plus demandée chez les particuliers.",
+   "audience": "Particulier",
+   "keyword": "climatisation réversible Orléans",
+   "keywordValidation": "Observé (H1 et attribut title de la page actuelle)",
+   "secondaryKeywords": [
+    "PAC air air Orléans",
+    "climatiseur réversible mural",
+    "multi-split réversible",
+    "climatisation réversible prix",
+    "clim réversible maison Loiret"
+   ],
+   "intent": "Commerciale",
+   "area": "Agglomération orléanaise (Loiret)",
+   "title": "Climatisation réversible à Orléans : pose par un pro",
+   "description": "Rafraîchir l'été, chauffer en mi-saison : la climatisation réversible posée par Dargent Thermique à Orléans. Mural, console, cassette ou gainable.",
+   "h1": "Climatisation réversible : du frais l'été, de la chaleur l'hiver",
+   "promise": "Le bon type d'unité au bon endroit, choisi après un relevé sur place.",
+   "h2": [
+    "Le principe de la PAC air/air",
+    "Mono-split ou multi-split",
+    "Les types d'unités intérieures",
+    "Le pilotage à distance",
+    "Installation et mise en service",
+    "Entretien obligatoire",
+    "Nos réalisations"
+   ],
+   "content": "Reprendre et développer le texte existant (calories de l'air extérieur, inversion du cycle, mural/console/gainable/cassette, connectivité smartphone). Aucun COP ni température de fonctionnement chiffrée sans source constructeur.",
+   "proofs": "Avis Patrick Blain (étude, respect des délais, propreté du chantier); photos d'unités posées; Qualibat 5423.",
+   "cta": "Demander un devis gratuit",
+   "cta2": "Voir la climatisation gainable",
+   "inbound": "climatisation/; accueil; realisations; zones locales",
+   "outbound": [
+    "climatisation/gainable/",
+    "climatisation/installation/",
+    "climatisation/entretien/",
+    "realisations/",
+    "devis/"
+   ],
+   "oldUrl": "/solutions/climatisation-pompe-a-chaleur/climatisation-reversible/",
+   "migration": "301",
+   "justification": "Correspondance stricte : même produit, même intention, contenu repris et enrichi.",
+   "schema": "Service + BreadcrumbList",
+   "toConfirm": [
+    "Marques installées",
+    "proposition de pilotage connecté toujours d'actualité",
+    "pose en copropriété (contraintes)."
+   ],
+   "owner": "SEO + Rédaction",
+   "validation": "Aucune donnée de performance sans source constructeur datée; 3 photos minimum.",
+   "path": "/climatisation/reversible/"
+  },
+  {
+   "id": "CLIM-03",
+   "priority": "P1",
+   "status": "Modifier",
+   "url": "https://dargent-thermique.fr/climatisation/installation/",
+   "type": "Service",
+   "objective": "Rassurer sur le déroulé de la pose (percements, emplacement, copropriété, mise en service) et convertir.",
+   "audience": "Mixte",
+   "keyword": "installation climatisation Orléans",
+   "keywordValidation": "Hypothèse éditoriale (déclinaison locale du service)",
+   "secondaryKeywords": [
+    "poser une climatisation",
+    "installateur climatiseur Orléans",
+    "mise en service climatisation",
+    "installation clim appartement",
+    "devis installation climatisation Loiret"
+   ],
+   "intent": "Transactionnelle + locale",
+   "area": "Agglomération orléanaise et Loiret",
+   "title": "Installation de climatisation à Orléans : nos étapes",
+   "description": "Visite technique, dimensionnement, pose des unités, mise en service et prise en main : découvrez comment se déroule une installation de climatisation à Orléans.",
+   "h1": "Comment nous installons votre climatisation",
+   "promise": "Une installation préparée en amont : emplacement, passage des liaisons et contraintes du bâtiment étudiés avant le chantier.",
+   "h2": [
+    "Étape 1 : le relevé sur place",
+    "Étape 2 : l'étude et le devis",
+    "Étape 3 : la pose",
+    "Étape 4 : la mise en service",
+    "Contraintes de copropriété et de voisinage",
+    "Traitement acoustique",
+    "Ce que comprend le devis"
+   ],
+   "content": "MODIFIER : angle 'déroulé', sans redévelopper les types de climatisation. Valoriser le traitement acoustique des unités extérieures, visible sur plusieurs réalisations.",
+   "proofs": "Photos de chantiers avec traitement acoustique; avis Patrick Blain; équipe interne; Qualibat 5423.",
+   "cta": "Demander une visite technique",
+   "cta2": "Appeler le 02 38 86 46 46",
+   "inbound": "climatisation/; reversible; gainable; zones locales",
+   "outbound": [
+    "climatisation/",
+    "climatisation/entretien/",
+    "realisations/",
+    "entreprise/qualifications/",
+    "devis/"
+   ],
+   "oldUrl": "Aucune",
+   "migration": "Nouvelle page",
+   "justification": "Contenu à produire ; aucune page équivalente sur le site actuel.",
+   "schema": "Service + BreadcrumbList",
+   "toConfirm": [
+    "Délais de pose",
+    "gestion des démarches en copropriété",
+    "prestations annexes facturées (percements, habillage, alimentation électrique)."
+   ],
+   "owner": "SEO + Rédaction + Conduite de travaux",
+   "validation": "Aucun délai annoncé sans validation; aucun H2 dupliqué avec le pilier climatisation.",
+   "path": "/climatisation/installation/"
+  },
+  {
+   "id": "CLIM-04",
+   "priority": "P1",
+   "status": "Valider",
+   "url": "https://dargent-thermique.fr/climatisation/entretien/",
+   "type": "Service",
+   "objective": "Page de réassurance et de revenu récurrent : forfaits et contrats d'entretien climatisation. Destination du 301 de l'ancienne page maintenance.",
+   "audience": "Mixte",
+   "keyword": "entretien climatisation Orléans",
+   "keywordValidation": "Observé (H1 'Maintenance Climatisation' et attribut title 'Maintenance climatisation Orléans')",
+   "secondaryKeywords": [
+    "contrat entretien climatisation",
+    "maintenance climatisation Loiret",
+    "nettoyage climatiseur",
+    "contrôle d'étanchéité fluides frigorigènes",
+    "attestation d'entretien climatisation"
+   ],
+   "intent": "Commerciale + locale",
+   "area": "Agglomération orléanaise et Loiret",
+   "title": "Entretien de climatisation à Orléans : forfait, contrat",
+   "description": "Entretien et maintenance de votre climatisation à Orléans : techniciens habilités fluides frigorigènes, rapport d'intervention et suivi réglementaire.",
+   "h1": "Entretien et maintenance de votre climatisation",
+   "promise": "Une intervention conforme à la réglementation sur les fluides frigorigènes, tracée et documentée.",
+   "h2": [
+    "Pourquoi entretenir votre climatisation",
+    "Ce que comprend l'intervention",
+    "Forfait entretien ou contrat",
+    "La réglementation fluides frigorigènes",
+    "Nos engagements de service",
+    "Souscrire"
+   ],
+   "content": "Réécriture de /solutions/maintenance-climatisation/ : attestation de capacité, registre des fluides, audits, engagements (information tarifaire, devis au-delà de 150 € TTC, prévention, moyens, obligation de résultat et ses limites). Remplacer le lien 'règlementation' vide par un lien vers une source officielle datée.",
+   "proofs": "Attestation n° 111363-R1 (Bureau Veritas, décision ministérielle DEVP1320768A du 10/09/2013); équipe maintenance; véhicules équipés et magasin de pièces; registre des manipulations.",
+   "cta": "Souscrire un contrat d'entretien",
+   "cta2": "Demander un forfait entretien",
+   "inbound": "climatisation/; entretien-depannage/; reversible; gainable; accueil; zones locales",
+   "outbound": [
+    "entretien-depannage/",
+    "climatisation/depannage/",
+    "entreprise/qualifications/",
+    "contact/"
+   ],
+   "oldUrl": "/solutions/maintenance-climatisation/",
+   "migration": "301",
+   "justification": "Même prestation et même mot-clé ('maintenance/entretien climatisation'). Le hub entretien-depannage/ reçoit un lien contextuel depuis cette page.",
+   "schema": "Service + BreadcrumbList + FAQPage (si FAQ affichée)",
+   "toConfirm": [
+    "Composition actuelle de l'équipe maintenance (le site annonce 1 assistante, 6 techniciens, 1 référent)",
+    "contenu des forfaits",
+    "validité de l'attestation de capacité."
+   ],
+   "owner": "SEO + Rédaction + Service maintenance + Juridique",
+   "validation": "Attestation à jour et consultable; seuils réglementaires re-sourcés et datés; effectif confirmé ou retiré.",
+   "path": "/climatisation/entretien/"
+  },
+  {
+   "id": "CLIM-05",
+   "priority": "P1",
+   "status": "Valider",
+   "url": "https://dargent-thermique.fr/climatisation/depannage/",
+   "type": "Service",
+   "objective": "Capter la panne de climatisation (forte saisonnalité estivale) et convertir en appel.",
+   "audience": "Mixte",
+   "keyword": "dépannage climatisation Orléans",
+   "keywordValidation": "Observé (dépannages et travaux courants cités sur le site)",
+   "secondaryKeywords": [
+    "réparation climatiseur Orléans",
+    "clim en panne",
+    "fuite de fluide climatisation",
+    "climatisation qui ne refroidit plus",
+    "dépannage clim professionnel Loiret"
+   ],
+   "intent": "Transactionnelle + locale",
+   "area": "Agglomération orléanaise et Loiret",
+   "title": "Dépannage de climatisation à Orléans et dans le Loiret",
+   "description": "Climatisation en panne ou qui ne refroidit plus ? Diagnostic par un technicien habilité fluides et devis avant réparation. Appelez le 02 38 86 46 46.",
+   "h1": "Dépannage de climatisation",
+   "promise": "Un diagnostic honnête : nous vous prévenons quand une réparation n'est pas raisonnable.",
+   "h2": [
+    "Symptômes et causes fréquentes",
+    "Le déroulé d'une intervention",
+    "Devis avant réparation",
+    "Les cas où la réparation n'est pas possible",
+    "Nous appeler"
+   ],
+   "content": "Reprendre les limites d'intervention réellement publiées (vétusté, équipements au R22, pièces indisponibles, disparition du fabricant, devis refusé) : c'est un élément de transparence différenciant.",
+   "proofs": "Techniciens habilités fluides; magasin de pièces; engagements de service publiés.",
+   "cta": "Appeler le 02 38 86 46 46",
+   "cta2": "Décrire ma panne (formulaire)",
+   "inbound": "climatisation/; entretien-depannage/; climatisation/entretien/; zones locales",
+   "outbound": [
+    "climatisation/entretien/",
+    "entretien-depannage/",
+    "contact/"
+   ],
+   "oldUrl": "Aucune",
+   "migration": "Nouvelle page",
+   "justification": "Contenu nouveau, dérivé des engagements de service de l'ancienne page maintenance.",
+   "schema": "Service + BreadcrumbList",
+   "toConfirm": [
+    "Délais d'intervention en pic estival",
+    "intervention sur matériel non installé par l'entreprise",
+    "astreinte week-end."
+   ],
+   "owner": "SEO + Rédaction + Service maintenance",
+   "validation": "Aucune promesse de délai non validée; téléphone cliquable; test mobile.",
+   "path": "/climatisation/depannage/"
+  },
+  {
+   "id": "ZON-01",
+   "priority": "P1",
+   "status": "Valider",
+   "url": "https://dargent-thermique.fr/zones-intervention/orleans/",
+   "type": "Local",
+   "objective": "Capter les requêtes locales orléanaises et prouver une présence réelle à Orléans même (le siège est à Saint-Jean-de-Braye).",
+   "audience": "Mixte",
+   "keyword": "chauffagiste Orléans",
+   "keywordValidation": "Hypothèse éditoriale (à arbitrer avec 'pompe à chaleur Orléans', déjà porté par le pilier)",
+   "secondaryKeywords": [
+    "climatisation Orléans centre",
+    "pompe à chaleur Orléans maison de ville",
+    "installateur RGE Orléans",
+    "entretien chaudière Orléans",
+    "dépannage chauffage Orléans"
+   ],
+   "intent": "Locale",
+   "area": "Orléans (45000)",
+   "title": "Chauffage et climatisation à Orléans : nos interventions",
+   "description": "Dargent Thermique intervient à Orléans pour l'installation et l'entretien de pompes à chaleur, climatisations et chaudières. Chantiers réalisés à voir.",
+   "h1": "Nos interventions à Orléans",
+   "promise": "Une entreprise installée à quelques minutes d'Orléans, qui connaît les contraintes du bâti local.",
+   "h2": [
+    "Nos chantiers à Orléans",
+    "Les contraintes des logements orléanais",
+    "Les solutions adaptées",
+    "Entretien et dépannage sur Orléans",
+    "Nous rendre visite",
+    "Demander un devis"
+   ],
+   "content": "ATTENTION : page à ne publier qu'avec de vraies preuves orléanaises (chantiers localisés, avis rattachables, types de bâti : maisons de ville, immeubles anciens, copropriétés). Sans ces éléments, rétrograder en P2 et reporter.",
+   "proofs": "2 à 3 chantiers réalisés à Orléans avec photos et description (À COLLECTER); avis clients orléanais; distance/accès depuis Saint-Jean-de-Braye.",
+   "cta": "Demander un devis à Orléans",
+   "cta2": "Appeler le 02 38 86 46 46",
+   "inbound": "zones-intervention/; accueil; pages de service; contact",
+   "outbound": [
+    "pompe-a-chaleur/",
+    "climatisation/",
+    "entretien-depannage/",
+    "realisations/",
+    "devis/"
+   ],
+   "oldUrl": "Aucune",
+   "migration": "Nouvelle page",
+   "justification": "Aucune page locale sur le site actuel. La mention d'Orléans est présente partout mais sans page dédiée.",
+   "schema": "LocalBusiness (areaServed) + BreadcrumbList",
+   "toConfirm": [
+    "Chantiers orléanais citables (accord client)",
+    "prestations réellement proposées intra-muros",
+    "contraintes d'accès et de stationnement."
+   ],
+   "owner": "SEO + Rédaction + Commerce",
+   "validation": "Au moins 3 éléments propres à Orléans (chantier, photo, avis ou spécificité de bâti). Sinon : REPORTER.",
+   "path": "/zones-intervention/orleans/"
+  },
+  {
+   "id": "ZON-02",
+   "priority": "P1",
+   "status": "Valider",
+   "url": "https://dargent-thermique.fr/zones-intervention/saint-jean-de-braye/",
+   "type": "Local",
+   "objective": "Page locale la plus légitime (siège social) : renforcer le SEO local et la fiche Google Business Profile.",
+   "audience": "Mixte",
+   "keyword": "chauffagiste Saint-Jean-de-Braye",
+   "keywordValidation": "Observé (adresse du siège, mentionnée sur toutes les pages)",
+   "secondaryKeywords": [
+    "climatisation Saint-Jean-de-Braye",
+    "pompe à chaleur Saint-Jean-de-Braye",
+    "entreprise chauffage 45800",
+    "salle d'exposition chauffage Orléans est",
+    "dépannage climatisation Saint-Jean-de-Braye"
+   ],
+   "intent": "Locale",
+   "area": "Saint-Jean-de-Braye (45800)",
+   "title": "Chauffage et climatisation à Saint-Jean-de-Braye (45)",
+   "description": "Notre entreprise est installée avenue Ampère à Saint-Jean-de-Braye depuis 1969 : PAC, climatisation, chauffage, entretien. Passez nous voir quand vous voulez.",
+   "h1": "Dargent Thermique à Saint-Jean-de-Braye",
+   "promise": "Votre installateur est à quelques minutes de chez vous, avec un magasin de pièces et une salle d'exposition.",
+   "h2": [
+    "Notre site avenue Ampère",
+    "Venir nous voir",
+    "Nos prestations sur la commune",
+    "Nos engagements sur place (tri des déchets, ruches)",
+    "Nos chantiers alentour",
+    "Nous contacter"
+   ],
+   "content": "Éléments locaux vérifiés et réutilisables : implantation ZI avenue Ampère depuis 1969, proximité tangentielle/A10/A71, salle d'exposition avec barèmes affichés, tri des déchets, 4 ruches depuis mai 2014, vidéos.",
+   "proofs": "Adresse et NAP; photos du site et des ruches; vidéos existantes; fiche Google Business Profile; historique 1969.",
+   "cta": "Demander un devis",
+   "cta2": "Voir l'itinéraire",
+   "inbound": "zones-intervention/; contact; accueil; entreprise/engagements/",
+   "outbound": [
+    "contact/",
+    "entreprise/engagements/",
+    "entreprise/notre-histoire/",
+    "pompe-a-chaleur/",
+    "climatisation/"
+   ],
+   "oldUrl": "Aucune",
+   "migration": "Nouvelle page",
+   "justification": "Nouvelle page locale. Récupère des éléments de /contact/ (localisation) et de /societe/engagements-ecologiques/ (ruches, tri).",
+   "schema": "LocalBusiness avec address + geo + openingHours + BreadcrumbList",
+   "toConfirm": [
+    "Salle d'exposition ouverte au public et horaires",
+    "accueil sans rendez-vous",
+    "ruches toujours en place."
+   ],
+   "owner": "SEO + Rédaction + Direction",
+   "validation": "NAP strictement identique à la fiche Google; horaires confirmés; carte et itinéraire fonctionnels.",
+   "path": "/zones-intervention/saint-jean-de-braye/"
+  },
+  {
+   "id": "CONV-01",
+   "priority": "P1",
+   "status": "Valider",
+   "url": "https://dargent-thermique.fr/devis/",
+   "type": "Conversion",
+   "objective": "Page de conversion principale : formulaire court et qualifiant, distinct du formulaire de contact actuel jugé trop long.",
+   "audience": "Mixte",
+   "keyword": "devis pompe à chaleur Orléans",
+   "keywordValidation": "Hypothèse éditoriale",
+   "secondaryKeywords": [
+    "devis climatisation Orléans",
+    "devis gratuit chauffage Loiret",
+    "demande d'étude personnalisée",
+    "chiffrage pompe à chaleur",
+    "devis installateur RGE"
+   ],
+   "intent": "Transactionnelle",
+   "area": "Agglomération orléanaise et Loiret",
+   "title": "Demander un devis gratuit : PAC, climatisation, chauffage",
+   "description": "Décrivez votre projet en quelques champs : nous vous rappelons pour organiser une visite technique et établir un devis gratuit et sans engagement.",
+   "h1": "Demander un devis gratuit",
+   "promise": "Un devis établi après visite sur place, pas un prix au téléphone.",
+   "h2": [
+    "Votre projet en 5 questions",
+    "Ce qui se passe ensuite",
+    "Ce que contient notre devis",
+    "Vous préférez appeler ?"
+   ],
+   "content": "Formulaire court : type de projet, type de logement, commune, téléphone, e-mail, message. Supprimer les champs adresse/société/fonction obligatoires et la question 'Comment nous avez-vous connu ?' (ou la rendre facultative). Supprimer le pavé anti-spam.",
+   "proofs": "Mentions 'étude personnalisée' et 'devis gratuit et sans engagement' déjà affichées sur le site; qualifications; avis clients.",
+   "cta": "Envoyer ma demande",
+   "cta2": "Appeler le 02 38 86 46 46",
+   "inbound": "Toutes les pages de service; accueil; pages locales; realisations",
+   "outbound": [
+    "contact/",
+    "entreprise/qualifications/",
+    "aides-financieres-pompe-a-chaleur/"
+   ],
+   "oldUrl": "Aucune (formulaire actuel sur /contact/)",
+   "migration": "Nouvelle page",
+   "justification": "Séparation volontaire des rôles : devis = projet, contact = coordonnées et SAV. /contact/ conserve son URL et sa redirection propre.",
+   "schema": "ContactPage + BreadcrumbList",
+   "toConfirm": [
+    "Délai de rappel annonçable",
+    "destinataire des demandes",
+    "conformité RGPD du nouveau formulaire",
+    "outil de suivi des leads."
+   ],
+   "owner": "Développement + SEO + Juridique",
+   "validation": "Formulaire testé sur mobile, envoi et accusé de réception vérifiés, mentions RGPD validées, suivi de conversion en place.",
+   "path": "/devis/"
+  },
+  {
+   "id": "CONV-02",
+   "priority": "P1",
+   "status": "Valider",
+   "url": "https://dargent-thermique.fr/contact/",
+   "type": "Conversion",
+   "objective": "Fournir toutes les coordonnées, horaires, accès et canaux (devis, SAV, recrutement, administratif).",
+   "audience": "Mixte",
+   "keyword": "Dargent Thermique contact",
+   "keywordValidation": "Observé (page existante)",
+   "secondaryKeywords": [
+    "chauffagiste Orléans téléphone",
+    "adresse Dargent Thermique",
+    "horaires",
+    "contacter un climaticien Loiret"
+   ],
+   "intent": "Navigationnelle",
+   "area": "Saint-Jean-de-Braye / agglomération orléanaise",
+   "title": "Contacter Dargent Thermique à Saint-Jean-de-Braye (45)",
+   "description": "Adresse, téléphone, horaires et accès de Dargent Thermique, 1 avenue Ampère à Saint-Jean-de-Braye. Une question, un dépannage, un devis ? Écrivez-nous.",
+   "h1": "Nous contacter",
+   "promise": "Un interlocuteur identifié pour chaque demande : projet, entretien, dépannage ou candidature.",
+   "h2": [
+    "Nos coordonnées",
+    "Horaires d'ouverture",
+    "Venir nous voir (accès A10/A71)",
+    "Quel interlocuteur pour quelle demande",
+    "Formulaire de contact"
+   ],
+   "content": "Conserver l'information d'accès existante (tangentielle, A10, A71). Ajouter horaires et carte. Retirer le pavé juridique anti-spam ('amende de 750 €') et la formulation menaçante. Alléger le formulaire.",
+   "proofs": "NAP; carte; photo du bâtiment; lien vers la fiche Google et les avis.",
+   "cta": "Appeler le 02 38 86 46 46",
+   "cta2": "Demander un devis",
+   "inbound": "Toutes les pages (menu et pied de page)",
+   "outbound": [
+    "devis/",
+    "recrutement/",
+    "entretien-depannage/",
+    "zones-intervention/saint-jean-de-braye/"
+   ],
+   "oldUrl": "/contact/",
+   "migration": "Conserver",
+   "justification": "URL inchangée dans la nouvelle arborescence (changement de domaine uniquement) : 301 de domaine à domaine, chemin identique.",
+   "schema": "ContactPage + LocalBusiness + BreadcrumbList",
+   "toConfirm": [
+    "Horaires d'ouverture",
+    "accueil physique",
+    "adresses e-mail par service",
+    "numéro dédié SAV."
+   ],
+   "owner": "Rédaction + Développement + Juridique",
+   "validation": "Horaires confirmés, carte fonctionnelle, mention RGPD conforme, pavé anti-spam supprimé.",
+   "path": "/contact/"
+  },
+  {
+   "id": "PAC-02",
+   "priority": "P2",
+   "status": "Valider",
+   "url": "https://dargent-thermique.fr/pompe-a-chaleur/haute-temperature/",
+   "type": "Service",
+   "objective": "Capter le remplacement de chaudière sans changement de radiateurs : cible à forte valeur en rénovation.",
+   "audience": "Particulier",
+   "keyword": "pompe à chaleur haute température",
+   "keywordValidation": "Observé (H1 et attribut title de la page actuelle)",
+   "secondaryKeywords": [
+    "PAC haute température Orléans",
+    "remplacer une chaudière fioul par une PAC",
+    "PAC sur radiateurs existants",
+    "pompe à chaleur maison ancienne",
+    "PAC haute température rénovation Loiret"
+   ],
+   "intent": "Commerciale",
+   "area": "Agglomération orléanaise (Loiret)",
+   "title": "Pompe à chaleur haute température à Orléans et dans le 45",
+   "description": "La PAC haute température remplace votre chaudière sans changer vos radiateurs. Étude, dimensionnement et pose par Dargent Thermique à Orléans. Devis gratuit.",
+   "h1": "Pompe à chaleur haute température",
+   "promise": "Remplacer votre chaudière en conservant vos radiateurs existants, quand votre installation le permet.",
+   "h2": [
+    "Le principe du double étage de compression",
+    "Pour quels logements",
+    "Conserver ses radiateurs",
+    "Notre mise en œuvre (bouteille de découplage)",
+    "Aides financières",
+    "Entretien",
+    "Demander une étude"
+   ],
+   "content": "Reprendre les éléments techniques réels et différenciants : production d'eau chaude à 80 °C, technologie double étage de compression, mise en place systématique d'une bouteille de découplage 25 L. Ne pas reprendre les plages 65-75 °C des pages .php (non sourcées).",
+   "proofs": "Détail technique existant; bureau d'études; Qualibat 8321; chantiers de remplacement de chaudière (À COLLECTER).",
+   "cta": "Demander une étude gratuite",
+   "cta2": "Comparer avec la PAC air/eau",
+   "inbound": "pompe-a-chaleur/; air-eau; chaudiere-condensation; aides; zones locales",
+   "outbound": [
+    "pompe-a-chaleur/",
+    "/air-eau/",
+    "/installation/",
+    "aides-financieres-pompe-a-chaleur/",
+    "devis/"
+   ],
+   "oldUrl": "/solutions/climatisation-pompe-a-chaleur/pompe-a-chaleur-haute-temperature/",
+   "migration": "301",
+   "justification": "Correspondance stricte : même produit, même intention.",
+   "schema": "Service + BreadcrumbList",
+   "toConfirm": [
+    "Marques/gammes HT installées",
+    "température de départ réellement atteinte selon les gammes",
+    "bouteille de découplage toujours systématique."
+   ],
+   "owner": "SEO + Rédaction + Bureau d'études",
+   "validation": "Validation technique du bureau d'études; distinction claire avec la page air/eau.",
+   "path": "/pompe-a-chaleur/haute-temperature/"
+  },
+  {
+   "id": "PAC-03",
+   "priority": "P2",
+   "status": "Valider",
+   "url": "https://dargent-thermique.fr/pompe-a-chaleur/hybride/",
+   "type": "Service",
+   "objective": "Positionner la solution hybride gaz/PAC pour les foyers raccordés au gaz, sans cannibaliser la page chaudière.",
+   "audience": "Particulier",
+   "keyword": "pompe à chaleur hybride",
+   "keywordValidation": "Observé (H1 et attribut title de la page actuelle)",
+   "secondaryKeywords": [
+    "PAC hybride gaz Orléans",
+    "chaudière hybride",
+    "PAC et chaudière à condensation",
+    "hybride gaz pompe à chaleur avantages",
+    "installateur PAC hybride Loiret"
+   ],
+   "intent": "Commerciale",
+   "area": "Agglomération orléanaise (Loiret)",
+   "title": "Pompe à chaleur hybride gaz à Orléans : le principe",
+   "description": "La PAC hybride associe pompe à chaleur et chaudière gaz à condensation et bascule vers le mode le plus économique. Étude et devis gratuits à Orléans.",
+   "h1": "Pompe à chaleur hybride gaz",
+   "promise": "Un système qui choisit automatiquement le mode de fonctionnement le plus économique.",
+   "h2": [
+    "Comment fonctionne une PAC hybride",
+    "Pour quels logements",
+    "La régulation automatique",
+    "Eau chaude sanitaire",
+    "Aides financières",
+    "Entretien",
+    "Demander une étude"
+   ],
+   "content": "Reprendre le texte hybride existant et SUPPRIMER son doublon dans la page chaudière à condensation (duplication interne constatée).",
+   "proofs": "Qualification Professionnel du gaz; Qualibat 5312; partenariat GRDF affiché; chantiers hybrides (À COLLECTER).",
+   "cta": "Demander une étude gratuite",
+   "cta2": "Voir les aides financières",
+   "inbound": "pompe-a-chaleur/; chaudiere-condensation; aides; accueil",
+   "outbound": [
+    "pompe-a-chaleur/",
+    "chauffage/chaudiere-condensation/",
+    "aides-financieres-pompe-a-chaleur/",
+    "devis/"
+   ],
+   "oldUrl": "/solutions/climatisation-pompe-a-chaleur/pompe-a-chaleur-hybride/",
+   "migration": "301",
+   "justification": "Correspondance stricte. La section 'chaudières hybrides' de /solutions/chaudiere-condensation/ pointera vers cette page au lieu de dupliquer le texte.",
+   "schema": "Service + BreadcrumbList",
+   "toConfirm": [
+    "Marques hybrides proposées",
+    "partenariat GRDF actif",
+    "éligibilité aides à re-vérifier."
+   ],
+   "owner": "SEO + Rédaction",
+   "validation": "Zéro duplication avec la page chaudière; aucun montant d'aide sur la page.",
+   "path": "/pompe-a-chaleur/hybride/"
+  },
+  {
+   "id": "CLIM-02",
+   "priority": "P2",
+   "status": "Valider",
+   "url": "https://dargent-thermique.fr/climatisation/gainable/",
+   "type": "Service",
+   "objective": "Capter une demande haut de gamme (neuf et rénovation lourde) et valoriser le savoir-faire tertiaire.",
+   "audience": "Mixte",
+   "keyword": "climatisation gainable Orléans",
+   "keywordValidation": "Observé (le gainable est cité parmi les unités proposées)",
+   "secondaryKeywords": [
+    "clim gainable maison",
+    "climatisation invisible",
+    "gainable ou split",
+    "installation gainable Loiret",
+    "climatisation gainable prix"
+   ],
+   "intent": "Commerciale",
+   "area": "Agglomération orléanaise et Loiret",
+   "title": "Climatisation gainable à Orléans : discrète et intégrée",
+   "description": "La climatisation gainable diffuse l'air par des grilles intégrées, sans unité murale visible. Étude de faisabilité et devis gratuit à Orléans et dans le Loiret.",
+   "h1": "Climatisation gainable",
+   "promise": "Une climatisation qui se fait oublier, quand la configuration du logement le permet.",
+   "h2": [
+    "Le principe du gainable",
+    "Les conditions de faisabilité",
+    "Gainable ou split : comment choisir",
+    "La régulation par zone",
+    "Notre mise en œuvre",
+    "Entretien",
+    "Nos réalisations"
+   ],
+   "content": "Page à produire. Insister sur les conditions de faisabilité (combles, faux plafond, hauteur disponible), point où l'expertise de l'entreprise se voit.",
+   "proofs": "Photos de gainable posé (À COLLECTER - aucune identifiée aujourd'hui); Qualibat 5423; réalisations tertiaires.",
+   "cta": "Demander une étude de faisabilité",
+   "cta2": "Voir la climatisation réversible",
+   "inbound": "climatisation/; reversible; realisations; professionnels",
+   "outbound": [
+    "climatisation/",
+    "climatisation/reversible/",
+    "climatisation/installation/",
+    "realisations/",
+    "devis/"
+   ],
+   "oldUrl": "Aucune",
+   "migration": "Nouvelle page",
+   "justification": "Mentionné mais non développé sur le site actuel ; aucune URL source.",
+   "schema": "Service + BreadcrumbList",
+   "toConfirm": [
+    "Gainable réellement proposé en résidentiel",
+    "marques",
+    "réalisations photographiables."
+   ],
+   "owner": "SEO + Rédaction + Bureau d'études",
+   "validation": "Au moins 2 photos de gainable réel, sinon report du lot 2 vers le lot 3.",
+   "path": "/climatisation/gainable/"
+  },
+  {
+   "id": "CHA-00",
+   "priority": "P2",
+   "status": "Modifier",
+   "url": "https://dargent-thermique.fr/chauffage/",
+   "type": "Pilier",
+   "objective": "Éviter un dossier sans page et regrouper les solutions de chauffage hors PAC.",
+   "audience": "Particulier",
+   "keyword": "chauffage Orléans",
+   "keywordValidation": "Observé (nom de domaine actuel, Title accueil)",
+   "secondaryKeywords": [
+    "chaudière à condensation Orléans",
+    "plancher chauffant Loiret",
+    "ballon thermodynamique Orléans",
+    "entretien chaudière Orléans",
+    "installateur chauffage 45"
+   ],
+   "intent": "Commerciale + locale",
+   "area": "Agglomération orléanaise et Loiret",
+   "title": "Chauffage à Orléans : chaudière, plancher chauffant",
+   "description": "Chaudière à condensation, plancher chauffant, ballon thermodynamique, régulation : nos solutions de chauffage à Orléans, installées par nos équipes.",
+   "h1": "Nos solutions de chauffage",
+   "promise": "Le bon système selon votre logement et votre énergie, sans solution imposée.",
+   "h2": [
+    "Quelle énergie pour votre logement",
+    "Chaudière à condensation",
+    "Plancher chauffant",
+    "Ballon thermodynamique (eau chaude)",
+    "Régulation et pilotage",
+    "Et la pompe à chaleur ?",
+    "Entretien de votre chauffage"
+   ],
+   "content": "URL MANQUANTE ajoutée (le sitemap prévoyait un dossier sans page). Page hub courte (600-800 mots) qui oriente et renvoie vers la PAC, priorité commerciale.",
+   "proofs": "Qualibat 5312 et 5112; Professionnel du gaz; photos de chaudières en cascade et au sol; 3 générations de chauffagistes.",
+   "cta": "Demander un devis chauffage",
+   "cta2": "Découvrir la pompe à chaleur",
+   "inbound": "Accueil; menu; toutes les pages chauffage; entretien-depannage",
+   "outbound": [
+    "chauffage/chaudiere-condensation/",
+    "/plancher-chauffant/",
+    "/ballon-thermodynamique/",
+    "/entretien-chaudiere/",
+    "/regulation-connectee/",
+    "pompe-a-chaleur/",
+    "devis/"
+   ],
+   "oldUrl": "Aucune",
+   "migration": "Nouvelle page",
+   "justification": "Page de structure nécessaire ; ne reçoit aucune redirection pour ne pas concurrencer les pages produits.",
+   "schema": "CollectionPage + BreadcrumbList",
+   "toConfirm": [
+    "Énergies réellement couvertes aujourd'hui (gaz, fioul, électricité, bois ?)."
+   ],
+   "owner": "SEO + Rédaction",
+   "validation": "Page courte, aucun H2 dupliqué avec les pages filles, lien sortant vers la PAC en évidence.",
+   "path": "/chauffage/"
+  },
+  {
+   "id": "CHA-01",
+   "priority": "P2",
+   "status": "Valider",
+   "url": "https://dargent-thermique.fr/chauffage/chaudiere-condensation/",
+   "type": "Service",
+   "objective": "Conserver le trafic de la page la plus riche du site actuel tout en réorientant vers la PAC quand c'est pertinent.",
+   "audience": "Particulier",
+   "keyword": "chaudière à condensation Orléans",
+   "keywordValidation": "Observé (H1 et attribut title de la page actuelle)",
+   "secondaryKeywords": [
+    "chaudière gaz à condensation",
+    "remplacement de chaudière Orléans",
+    "chaudière murale ou au sol",
+    "régulation loi d'eau",
+    "chaudière à ventouse",
+    "installateur chaudière Loiret"
+   ],
+   "intent": "Commerciale",
+   "area": "Agglomération orléanaise et Loiret",
+   "title": "Chaudière à condensation à Orléans : pose et conseils",
+   "description": "Chaudière gaz à condensation murale ou au sol, régulation loi d'eau, évacuation ventouse : installation et remplacement à Orléans par Dargent Thermique.",
+   "h1": "Chaudière à condensation",
+   "promise": "Une chaudière dimensionnée et régulée correctement, installée par une entreprise Professionnel du gaz.",
+   "h2": [
+    "Le principe de la condensation",
+    "Chaudière murale ou au sol",
+    "L'évacuation par ventouse",
+    "La régulation loi d'eau",
+    "Le remplacement de votre chaudière actuelle",
+    "Entretien annuel",
+    "Et si une PAC était plus adaptée ?"
+   ],
+   "content": "Réécriture de la page existante. SUPPRIMER la section hybride (doublon, renvoi vers pompe-a-chaleur/hybride/). ARBITRER le maintien des sections fioul et biofioul F30 (le décret n° 2022-8 du 05/01/2022 cité doit être re-vérifié). Retirer les économies chiffrées non sourcées (15-20 %, 20-25 %).",
+   "proofs": "Qualibat 5312; Professionnel du gaz; photos de chaudières au sol et en cascade; partenaires Vaillant, Frisquet, Chappée, Viessmann (à confirmer).",
+   "cta": "Demander un devis",
+   "cta2": "Comparer avec une pompe à chaleur",
+   "inbound": "chauffage/; accueil; pompe-a-chaleur/hybride/; entretien-chaudiere",
+   "outbound": [
+    "chauffage/",
+    "chauffage/entretien-chaudiere/",
+    "pompe-a-chaleur/hybride/",
+    "pompe-a-chaleur/haute-temperature/",
+    "marques-partenaires/",
+    "devis/"
+   ],
+   "oldUrl": "/solutions/chaudiere-condensation/",
+   "migration": "301",
+   "justification": "Correspondance stricte : même produit, même intention, contenu conservé et nettoyé.",
+   "schema": "Service + BreadcrumbList",
+   "toConfirm": [
+    "Chaudières fioul et biofioul toujours commercialisées ?",
+    "marques distribuées",
+    "position commerciale gaz vs PAC."
+   ],
+   "owner": "SEO + Rédaction + Direction",
+   "validation": "Zéro duplication hybride; chiffres d'économies supprimés ou sourcés; arbitrage fioul tranché.",
+   "path": "/chauffage/chaudiere-condensation/"
+  },
+  {
+   "id": "CHA-02",
+   "priority": "P2",
+   "status": "Valider",
+   "url": "https://dargent-thermique.fr/chauffage/plancher-chauffant/",
+   "type": "Service",
+   "objective": "Capter le neuf et la rénovation lourde, et renforcer la page PAC air/eau (émetteur idéal).",
+   "audience": "Particulier",
+   "keyword": "plancher chauffant Orléans",
+   "keywordValidation": "Observé (H1 et attribut title de la page actuelle)",
+   "secondaryKeywords": [
+    "plancher chauffant rafraîchissant",
+    "plancher chauffant et pompe à chaleur",
+    "isolation des sols DTU 52.10",
+    "chape de ravoirage",
+    "plancher chauffant hydraulique Loiret"
+   ],
+   "intent": "Commerciale",
+   "area": "Agglomération orléanaise et Loiret",
+   "title": "Plancher chauffant à Orléans : pose et isolation du sol",
+   "description": "Plancher chauffant hydraulique et isolation des sols selon le DTU 52.10, en neuf comme en rénovation. Étude et devis gratuit par Dargent Thermique à Orléans.",
+   "h1": "Plancher chauffant et isolation des sols",
+   "promise": "Une mise en œuvre conforme au DTU 52.10, avec le traitement de l'isolation du sol.",
+   "h2": [
+    "Le principe du plancher chauffant",
+    "Les deux solutions d'isolation (isolant en plaque, isolant projeté)",
+    "La chape de ravoirage",
+    "Plancher chauffant et pompe à chaleur",
+    "Plancher rafraîchissant",
+    "Documentation",
+    "Demander une étude"
+   ],
+   "content": "Réécriture de la page existante. RETIRER 'confort et économies garantis' du H1 (promesse invérifiable). Conserver les références DTU 52.10, Rehau ou similaire, ISOLAT SOL ou similaire, et les 2 brochures PDF (à re-héberger).",
+   "proofs": "Photos 'plancher chauffant sous mousse projetée'; 2 brochures techniques; Qualibat 5112/5312.",
+   "cta": "Demander une étude gratuite",
+   "cta2": "Voir la PAC air/eau",
+   "inbound": "chauffage/; pompe-a-chaleur/air-eau/; realisations",
+   "outbound": [
+    "pompe-a-chaleur/air-eau/",
+    "chauffage/",
+    "realisations/",
+    "devis/"
+   ],
+   "oldUrl": "/solutions/plancher-chauffant/",
+   "migration": "301",
+   "justification": "Correspondance stricte.",
+   "schema": "Service + BreadcrumbList",
+   "toConfirm": [
+    "Marques de systèmes posées aujourd'hui",
+    "prestation réalisée en interne ou sous-traitée",
+    "droits de diffusion des brochures."
+   ],
+   "owner": "SEO + Rédaction",
+   "validation": "H1 sans promesse; brochures accessibles; lien PAC air/eau en place.",
+   "path": "/chauffage/plancher-chauffant/"
+  },
+  {
+   "id": "CHA-03",
+   "priority": "P2",
+   "status": "Valider",
+   "url": "https://dargent-thermique.fr/chauffage/ballon-thermodynamique/",
+   "type": "Service",
+   "objective": "Capter la demande eau chaude sanitaire économique et créer une vente complémentaire à la PAC.",
+   "audience": "Particulier",
+   "keyword": "ballon thermodynamique Orléans",
+   "keywordValidation": "Observé (H1 et attribut title de la page actuelle)",
+   "secondaryKeywords": [
+    "chauffe-eau thermodynamique",
+    "ballon thermodynamique quelle capacité",
+    "chauffe-eau thermodynamique bruit",
+    "remplacer un cumulus",
+    "installation chauffe-eau thermodynamique Loiret"
+   ],
+   "intent": "Commerciale + informationnelle",
+   "area": "Agglomération orléanaise et Loiret",
+   "title": "Ballon thermodynamique à Orléans : bien le choisir",
+   "description": "Capacité, niveau sonore, emplacement, raccordement à la ventilation : nos conseils pour choisir un chauffe-eau thermodynamique, et sa pose à Orléans.",
+   "h1": "Ballon thermodynamique (chauffe-eau thermodynamique)",
+   "promise": "Un conseil franc sur la capacité et l'emplacement, y compris sur les limites de l'appareil.",
+   "h2": [
+    "Comment fonctionne un ballon thermodynamique",
+    "Quelle capacité selon le foyer",
+    "Le niveau sonore et l'emplacement",
+    "Prise d'air et raccordement à la ventilation",
+    "Sécurité anti-légionellose",
+    "Installation et entretien",
+    "Demander un devis"
+   ],
+   "content": "Réécriture. Les données COSTIC et les COP cités aujourd'hui ne sont ni datés ni sourcés : soit re-sourcer (source + date de consultation), soit reformuler qualitativement. Conserver le ton conseil, qui est un atout.",
+   "proofs": "Photo de ballon thermodynamique posé; Qualibat 5112; conseils de dimensionnement du bureau d'études.",
+   "cta": "Demander un devis",
+   "cta2": "Voir la PAC air/eau (ECS intégrée)",
+   "inbound": "chauffage/; pompe-a-chaleur/air-eau/; ventilation/",
+   "outbound": [
+    "chauffage/",
+    "pompe-a-chaleur/air-eau/",
+    "ventilation/",
+    "devis/"
+   ],
+   "oldUrl": "/solutions/ballon-thermodynamique/",
+   "migration": "301",
+   "justification": "Correspondance stricte.",
+   "schema": "Service + BreadcrumbList + FAQPage (si FAQ affichée)",
+   "toConfirm": [
+    "Marques et capacités proposées",
+    "étude COSTIC citée (référence et date) ou suppression."
+   ],
+   "owner": "SEO + Rédaction",
+   "validation": "Aucune donnée chiffrée sans source datée; conseils validés techniquement.",
+   "path": "/chauffage/ballon-thermodynamique/"
+  },
+  {
+   "id": "CHA-04",
+   "priority": "P2",
+   "status": "Modifier",
+   "url": "https://dargent-thermique.fr/chauffage/entretien-chaudiere/",
+   "type": "Service",
+   "objective": "Capter une requête locale à fort volume potentiel et une prestation réellement exercée, absente du sitemap initial.",
+   "audience": "Particulier",
+   "keyword": "entretien chaudière Orléans",
+   "keywordValidation": "Observé (prestation de maintenance chauffage visible dans les réalisations; qualification Professionnel du gaz)",
+   "secondaryKeywords": [
+    "contrat entretien chaudière gaz",
+    "révision chaudière annuelle",
+    "attestation d'entretien chaudière",
+    "dépannage chaudière Orléans",
+    "entretien chaudière Loiret"
+   ],
+   "intent": "Commerciale + locale",
+   "area": "Agglomération orléanaise et Loiret",
+   "title": "Entretien de chaudière à Orléans : forfait ou contrat",
+   "description": "Entretien annuel de votre chaudière gaz à Orléans : contrôle, nettoyage, attestation d'entretien et conseils. Forfait ou contrat, par des professionnels du gaz.",
+   "h1": "Entretien de votre chaudière",
+   "promise": "Un entretien annuel réalisé par une entreprise qualifiée Professionnel du gaz, avec attestation.",
+   "h2": [
+    "L'entretien annuel : ce que dit la réglementation",
+    "Ce que comprend notre intervention",
+    "Forfait ou contrat",
+    "Attestation d'entretien",
+    "Dépannage chaudière",
+    "Souscrire"
+   ],
+   "content": "URL MANQUANTE ajoutée. Vérifier l'obligation réglementaire d'entretien annuel sur une source officielle (service-public.fr / Légifrance) avec date de consultation.",
+   "proofs": "Professionnel du gaz; Qualibat 5312; photos 'maintenance chauffage'; engagements de service publiés.",
+   "cta": "Souscrire un contrat d'entretien",
+   "cta2": "Appeler le 02 38 86 46 46",
+   "inbound": "chauffage/; chaudiere-condensation; entretien-depannage/",
+   "outbound": [
+    "entretien-depannage/",
+    "chauffage/chaudiere-condensation/",
+    "contact/"
+   ],
+   "oldUrl": "Aucune",
+   "migration": "Nouvelle page",
+   "justification": "Ajout justifié par une prestation réelle et une intention de recherche locale non couverte par le sitemap cible.",
+   "schema": "Service + BreadcrumbList",
+   "toConfirm": [
+    "Prestation d'entretien chaudière effectivement commercialisée auprès des particuliers",
+    "énergies couvertes",
+    "périmètre géographique."
+   ],
+   "owner": "SEO + Rédaction + Service maintenance",
+   "validation": "Prestation confirmée par la direction (sinon SUPPRIMER la page); obligation réglementaire sourcée et datée.",
+   "path": "/chauffage/entretien-chaudiere/"
+  },
+  {
+   "id": "VEN-01",
+   "priority": "P2",
+   "status": "Valider",
+   "url": "https://dargent-thermique.fr/ventilation/",
+   "type": "Service",
+   "objective": "Compléter l'offre rénovation énergétique (qualité d'air) et servir la clientèle tertiaire/collectivités.",
+   "audience": "Mixte",
+   "keyword": "VMC double flux Orléans",
+   "keywordValidation": "Observé (contenu actuel sur simple et double flux; réalisations double flux)",
+   "secondaryKeywords": [
+    "ventilation double flux",
+    "VMC hygroréglable",
+    "ventilation simple flux rénovation",
+    "installation VMC Loiret",
+    "centrale de traitement d'air"
+   ],
+   "intent": "Commerciale",
+   "area": "Agglomération orléanaise et Loiret",
+   "title": "Ventilation et VMC double flux à Orléans et dans le 45",
+   "description": "VMC simple flux autoréglable ou hygroréglable, ventilation double flux avec récupération de chaleur : étude et installation à Orléans. Devis gratuit.",
+   "h1": "Ventilation : simple flux et double flux",
+   "promise": "Une ventilation choisie selon le bâti, en neuf comme en rénovation.",
+   "h2": [
+    "Pourquoi ventiler",
+    "La ventilation simple flux",
+    "La ventilation double flux",
+    "Double flux et pompe à chaleur",
+    "Nos réalisations (écoles, tertiaire)",
+    "Entretien",
+    "Demander une étude"
+   ],
+   "content": "Réécriture de la page existante en conservant les éléments techniques réels (autoréglable, hygroréglable, échangeur à plaques moyenne ou haute efficacité, extraction en pièces humides, soufflage en pièces principales).",
+   "proofs": "Photos de ventilation double flux en groupe scolaire et de centrale de traitement d'air; Qualibat 5312.",
+   "cta": "Demander une étude",
+   "cta2": "Voir nos réalisations",
+   "inbound": "accueil; chauffage/; ballon-thermodynamique; realisations; professionnels",
+   "outbound": [
+    "chauffage/ballon-thermodynamique/",
+    "realisations/",
+    "professionnels/",
+    "devis/"
+   ],
+   "oldUrl": "/solutions/ventilation/",
+   "migration": "301",
+   "justification": "Correspondance stricte.",
+   "schema": "Service + BreadcrumbList",
+   "toConfirm": [
+    "Ventilation proposée aux particuliers ou uniquement en tertiaire",
+    "accord des établissements photographiés."
+   ],
+   "owner": "SEO + Rédaction",
+   "validation": "Accord de publication des chantiers scolaires; distinction claire entre offre particulier et tertiaire.",
+   "path": "/ventilation/"
+  },
+  {
+   "id": "ENT-00",
+   "priority": "P2",
+   "status": "Modifier",
+   "url": "https://dargent-thermique.fr/entretien-depannage/",
+   "type": "Réassurance / hub",
+   "objective": "Hub transversal des services : engagements, contrats, réglementation fluides, tarification. Ne doit PAS viser les requêtes des pages spécialisées.",
+   "audience": "Mixte",
+   "keyword": "contrat d'entretien chauffage et climatisation",
+   "keywordValidation": "Observé (forfaits, contrats et dépannages listés sur le site)",
+   "secondaryKeywords": [
+    "nos engagements de service",
+    "maintenance chauffage climatisation Loiret",
+    "devis avant réparation",
+    "réglementation fluides frigorigènes",
+    "équipe maintenance Orléans"
+   ],
+   "intent": "Informationnelle + commerciale",
+   "area": "Agglomération orléanaise et Loiret",
+   "title": "Entretien et dépannage : nos engagements de service",
+   "description": "Forfaits, contrats d'entretien et dépannage pour votre PAC, climatisation ou chaudière : nos engagements, nos moyens et le cadre réglementaire.",
+   "h1": "Entretien et dépannage de vos équipements",
+   "promise": "Des règles d'intervention écrites : information tarifaire, devis avant réparation et traçabilité.",
+   "h2": [
+    "Nos formules (forfait, contrat, dépannage)",
+    "Nos engagements",
+    "Nos moyens (équipe, véhicules, pièces)",
+    "La réglementation fluides frigorigènes",
+    "Les limites de notre obligation de résultat",
+    "Entretien par équipement"
+   ],
+   "content": "MODIFIER : rôle de hub imposé pour éviter la cannibalisation des 5 pages entretien/dépannage. Reprendre intégralement les engagements de l'ancienne page maintenance (information, conseils et devis, prévention, moyens, résultat).",
+   "proofs": "Attestation n° 111363-R1; arrêté du 28/11/2011 cité; registre des fluides et audits; barèmes affichés en salle d'exposition; devis obligatoire au-delà de 150 € TTC.",
+   "cta": "Souscrire un contrat d'entretien",
+   "cta2": "Appeler pour un dépannage",
+   "inbound": "Accueil; menu; toutes les pages entretien et dépannage; contact",
+   "outbound": [
+    "pompe-a-chaleur/entretien/",
+    "pompe-a-chaleur/depannage/",
+    "climatisation/entretien/",
+    "climatisation/depannage/",
+    "chauffage/entretien-chaudiere/",
+    "entreprise/qualifications/"
+   ],
+   "oldUrl": "Aucune (l'ancienne page maintenance est redirigée vers climatisation/entretien/)",
+   "migration": "Nouvelle page",
+   "justification": "Hub transversal nouveau. Reçoit un lien contextuel depuis climatisation/entretien/ pour conserver la continuité éditoriale.",
+   "schema": "CollectionPage + BreadcrumbList",
+   "toConfirm": [
+    "Seuil de 150 € TTC toujours appliqué",
+    "composition de l'équipe",
+    "contenu des formules."
+   ],
+   "owner": "SEO + Rédaction + Service maintenance",
+   "validation": "Aucun H2 en concurrence directe avec les pages spécialisées; engagements validés par la direction.",
+   "path": "/entretien-depannage/"
+  },
+  {
+   "id": "AID-01",
+   "priority": "P2",
+   "status": "Valider",
+   "url": "https://dargent-thermique.fr/aides-financieres-pompe-a-chaleur/",
+   "type": "Réassurance",
+   "objective": "Page centrale unique sur les aides : lever le frein financier et éviter la dispersion des montants sur le site.",
+   "audience": "Particulier",
+   "keyword": "aides pompe à chaleur Orléans",
+   "keywordValidation": "Observé (page existante 'Les aides financières', très datée)",
+   "secondaryKeywords": [
+    "MaPrimeRénov pompe à chaleur",
+    "CEE pompe à chaleur",
+    "prime coup de pouce chauffage",
+    "aides remplacement chaudière",
+    "installateur RGE obligatoire pour les aides"
+   ],
+   "intent": "Informationnelle",
+   "area": "Loiret / France",
+   "title": "Aides financières pour une pompe à chaleur en 2026",
+   "description": "Quelles aides pour installer une pompe à chaleur ? Dispositifs, conditions générales et rôle de la certification RGE, avec nos sources officielles et leur date.",
+   "h1": "Les aides financières pour votre pompe à chaleur",
+   "promise": "Une information à jour et sourcée, et un accompagnement dans le montage de votre dossier.",
+   "h2": [
+    "Les dispositifs existants",
+    "La condition RGE",
+    "Comment nous vous accompagnons",
+    "Où vérifier votre éligibilité",
+    "Date de mise à jour de cette page"
+   ],
+   "content": "RÉÉCRITURE INTÉGRALE : la page actuelle (Anah Ecosubvention, liens renovation-info-service) est obsolète. Seule page du site autorisée à citer des montants. Chaque dispositif : source officielle + date de consultation. Mention 'Sous réserve d'éligibilité et d'évolution des dispositifs'. Date de mise à jour visible en haut de page.",
+   "proofs": "Certification RGE Qualibat et QUALIPAC (condition d'accès aux aides); avis Sylvain Aguenier (accompagnement aux aides); liens vers sources officielles.",
+   "cta": "Faire le point sur mon projet",
+   "cta2": "Demander un devis",
+   "inbound": "Toutes les pages PAC et chauffage; accueil; installation",
+   "outbound": [
+    "pompe-a-chaleur/",
+    "entreprise/qualifications/",
+    "devis/",
+    "sources officielles externes"
+   ],
+   "oldUrl": "/aides-financieres/",
+   "migration": "301",
+   "justification": "Même sujet et même intention ; l'URL cible est plus explicite et ciblée PAC, conformément à la nouvelle priorité.",
+   "schema": "FAQPage (si FAQ affichée) + BreadcrumbList",
+   "toConfirm": [
+    "Dispositifs et montants en vigueur à la date de publication",
+    "prestations d'accompagnement réellement assurées",
+    "mandat administratif éventuel."
+   ],
+   "owner": "SEO + Rédaction + Direction + Juridique",
+   "validation": "Chaque montant a une source officielle datée; date de mise à jour affichée; procédure de revue trimestrielle actée.",
+   "path": "/aides-financieres-pompe-a-chaleur/"
+  },
+  {
+   "id": "REA-00",
+   "priority": "P2",
+   "status": "Valider",
+   "url": "https://dargent-thermique.fr/realisations/",
+   "type": "Réassurance",
+   "objective": "Prouver le savoir-faire par l'image et alimenter toutes les pages de service et les pages locales.",
+   "audience": "Mixte",
+   "keyword": "réalisations chauffage climatisation Orléans",
+   "keywordValidation": "Observé (page existante)",
+   "secondaryKeywords": [
+    "chantiers pompe à chaleur Loiret",
+    "photos installation climatisation",
+    "exemples de chantiers chauffage",
+    "références Dargent Thermique"
+   ],
+   "intent": "Informationnelle + commerciale",
+   "area": "Agglomération orléanaise et Loiret",
+   "title": "Nos réalisations : PAC, climatisation et chauffage",
+   "description": "Découvrez en images nos installations de pompes à chaleur, climatisations, chaudières et ventilations réalisées à Orléans et dans le Loiret par nos équipes.",
+   "h1": "Nos réalisations en images",
+   "promise": "Des chantiers réels, photographiés et décrits.",
+   "h2": [
+    "Pompes à chaleur",
+    "Climatisations",
+    "Chauffage",
+    "Ventilation",
+    "Eau chaude sanitaire",
+    "Maintenance",
+    "Voir les études de cas"
+   ],
+   "content": "Reprendre la galerie existante en ajoutant, pour chaque photo : type d'équipement, type de bâtiment, commune (si l'accord client le permet) et année. PRIORITÉ ABSOLUE : ajouter des photos de PAC air/eau, aujourd'hui totalement absentes alors que c'est la priorité commerciale.",
+   "proofs": "~30 photos existantes classées en 6 catégories; nouvelles photos PAC et gainable (À COLLECTER); accords clients.",
+   "cta": "Demander un devis pour un projet similaire",
+   "cta2": "Voir nos études de cas",
+   "inbound": "Accueil; toutes les pages de service; pages locales",
+   "outbound": [
+    "pompe-a-chaleur/",
+    "climatisation/",
+    "realisations/etudes-de-cas-*/",
+    "zones-intervention/*",
+    "devis/"
+   ],
+   "oldUrl": "/references/realisations/",
+   "migration": "301",
+   "justification": "Même contenu et même intention ; URL raccourcie.",
+   "schema": "ImageGallery / CollectionPage + BreadcrumbList",
+   "toConfirm": [
+    "Accord de publication et de localisation des chantiers",
+    "année de réalisation",
+    "photos PAC disponibles."
+   ],
+   "owner": "SEO + Rédaction + Commerce",
+   "validation": "Au moins 3 chantiers PAC air/eau documentés; chaque photo légendée; attributs alt renseignés.",
+   "path": "/realisations/"
+  },
+  {
+   "id": "ZON-00",
+   "priority": "P2",
+   "status": "Valider",
+   "url": "https://dargent-thermique.fr/zones-intervention/",
+   "type": "Local / hub",
+   "objective": "Décrire honnêtement le périmètre d'intervention et distribuer le maillage vers les pages locales.",
+   "audience": "Mixte",
+   "keyword": "zone d'intervention chauffagiste Loiret",
+   "keywordValidation": "Observé (texte de localisation de /contact/)",
+   "secondaryKeywords": [
+    "chauffagiste agglomération orléanaise",
+    "climatisation Loiret 45",
+    "intervention Orléans Métropole",
+    "périmètre d'intervention Dargent Thermique"
+   ],
+   "intent": "Locale + navigationnelle",
+   "area": "Loiret et Centre-Val de Loire",
+   "title": "Nos zones d'intervention autour d'Orléans (Loiret)",
+   "description": "Basés à Saint-Jean-de-Braye, nous intervenons sur l'agglomération orléanaise et le Loiret pour l'installation, l'entretien et le dépannage de vos équipements.",
+   "h1": "Nos zones d'intervention",
+   "promise": "Un périmètre clair : nous vous disons si votre commune est couverte.",
+   "h2": [
+    "Notre périmètre principal",
+    "Les communes que nous couvrons",
+    "Les interventions plus éloignées (projets tertiaires)",
+    "Vérifier votre commune"
+   ],
+   "content": "S'appuyer sur le texte vérifié de /contact/ : implantation près de la tangentielle, A10 et A71, intervention sur Orléans et son agglomération et, pour les projets d'ampleur, 'de Châteauroux à Chartres et de Blois à Montargis'. Ne pas lister de communes non confirmées.",
+   "proofs": "Texte de localisation existant; adresse du siège; réalisations localisées (Gien, Pithiviers, Fay-aux-Loges via les logos clients).",
+   "cta": "Vérifier ma commune",
+   "cta2": "Demander un devis",
+   "inbound": "Accueil; menu; pied de page; pages locales",
+   "outbound": [
+    "zones-intervention/orleans/",
+    "/saint-jean-de-braye/",
+    "(olivet, fleury, saint-jean-de-la-ruelle quand publiées)",
+    "contact/"
+   ],
+   "oldUrl": "Aucune",
+   "migration": "Nouvelle page",
+   "justification": "Page de structure nouvelle. Récupère la section 'Localisation' de /contact/, qui conserve par ailleurs son URL.",
+   "schema": "CollectionPage + LocalBusiness (areaServed) + BreadcrumbList",
+   "toConfirm": [
+    "Liste exacte des communes couvertes en dépannage et en installation",
+    "distinction B2C / B2B sur le périmètre élargi."
+   ],
+   "owner": "SEO + Rédaction + Direction",
+   "validation": "Périmètre validé par la direction; aucune commune listée sans capacité réelle d'intervention.",
+   "path": "/zones-intervention/"
+  },
+  {
+   "id": "ENTR-00",
+   "priority": "P2",
+   "status": "Modifier",
+   "url": "https://dargent-thermique.fr/entreprise/",
+   "type": "Institutionnel",
+   "objective": "Éviter un dossier sans page et porter la requête de marque élargie.",
+   "audience": "Mixte",
+   "keyword": "Dargent Thermique entreprise",
+   "keywordValidation": "Observé (marque)",
+   "secondaryKeywords": [
+    "entreprise de chauffage familiale Orléans",
+    "chauffagiste depuis 1936",
+    "équipe Dargent Thermique",
+    "entreprise RGE Loiret"
+   ],
+   "intent": "Navigationnelle + informationnelle",
+   "area": "Saint-Jean-de-Braye / Loiret",
+   "title": "Dargent Thermique : notre entreprise à Orléans depuis 1936",
+   "description": "Trois générations de chauffagistes à Orléans : découvrez notre histoire, nos qualifications, nos engagements et nos références. Une équipe basée dans le 45.",
+   "h1": "L'entreprise Dargent Thermique",
+   "promise": "Une entreprise locale ancienne, dont les qualifications et les engagements sont publics.",
+   "h2": [
+    "Qui sommes-nous",
+    "Nos chiffres clés",
+    "Notre histoire",
+    "Nos qualifications",
+    "Nos engagements",
+    "Nos références"
+   ],
+   "content": "URL MANQUANTE ajoutée. Page courte de présentation avec chiffres clés vérifiés (activité depuis 1936, société créée en 1982, siège à Saint-Jean-de-Braye) et renvois vers les 4 sous-pages.",
+   "proofs": "Frise historique; logos de qualifications; effectif (À CONFIRMER); appartenance à un groupe (À CONFIRMER).",
+   "cta": "Demander un devis",
+   "cta2": "Découvrir nos qualifications",
+   "inbound": "Accueil; menu; pied de page; pages de service",
+   "outbound": [
+    "entreprise/notre-histoire/",
+    "/qualifications/",
+    "/engagements/",
+    "/references/",
+    "zones-intervention/saint-jean-de-braye/",
+    "recrutement/"
+   ],
+   "oldUrl": "Aucune",
+   "migration": "Nouvelle page",
+   "justification": "Page de structure ; les redirections vont vers les sous-pages correspondantes.",
+   "schema": "AboutPage + Organization + BreadcrumbList",
+   "toConfirm": [
+    "Effectif",
+    "nombre de clients",
+    "nom du groupe propriétaire",
+    "chiffres communicables."
+   ],
+   "owner": "Rédaction + Direction",
+   "validation": "Aucun chiffre non confirmé; page courte; liens vers les 4 sous-pages.",
+   "path": "/entreprise/"
+  },
+  {
+   "id": "ENTR-01",
+   "priority": "P2",
+   "status": "Valider",
+   "url": "https://dargent-thermique.fr/entreprise/notre-histoire/",
+   "type": "Institutionnel",
+   "objective": "Différencier par l'ancienneté et la continuité familiale, argument commercial fort sur un marché à forte rotation.",
+   "audience": "Mixte",
+   "keyword": "Dargent Thermique histoire",
+   "keywordValidation": "Observé (page existante)",
+   "secondaryKeywords": [
+    "chauffagiste Orléans depuis 1936",
+    "entreprise familiale chauffage Loiret",
+    "trois générations chauffagistes",
+    "histoire Dargent Thermique"
+   ],
+   "intent": "Informationnelle",
+   "area": "Orléans / Loiret",
+   "title": "Notre histoire : chauffagiste à Orléans depuis 1936",
+   "description": "De René Dargent en 1936 à aujourd'hui : bois, charbon, fioul, gaz, climatisation puis pompes à chaleur. L'histoire d'une entreprise orléanaise.",
+   "h1": "Notre histoire depuis 1936",
+   "promise": "Une entreprise qui a traversé toutes les transitions énergétiques du chauffage.",
+   "h2": [
+    "1936-1947 : les débuts à Beaugency puis Orléans",
+    "1960 : le charbon puis le fioul",
+    "1969 : l'installation à Saint-Jean-de-Braye",
+    "1982 : la création de Dargent Thermique",
+    "1993 : la climatisation et le bureau d'études",
+    "2007-2023 : aujourd'hui"
+   ],
+   "content": "Reprendre la frise existante (1936, 1960, 1969, 1982, 1993, 2007, 2018, 2023) en la reliant à la transition actuelle vers la pompe à chaleur. Le nom du groupe repreneur (2018) n'est pas cité : à confirmer avant publication.",
+   "proofs": "Frise datée; date de création RCS (01/02/1982, source annuaire-entreprises.data.gouv.fr, consulté le 15/09/2026); photos d'archives (À COLLECTER).",
+   "cta": "Rencontrer notre équipe",
+   "cta2": "Demander un devis",
+   "inbound": "entreprise/; accueil; zones-intervention/saint-jean-de-braye/",
+   "outbound": [
+    "entreprise/",
+    "entreprise/qualifications/",
+    "recrutement/",
+    "devis/"
+   ],
+   "oldUrl": "/societe/historique/",
+   "migration": "301",
+   "justification": "Correspondance stricte : même contenu, même intention.",
+   "schema": "AboutPage + BreadcrumbList",
+   "toConfirm": [
+    "Nom du groupe (2018) communicable",
+    "tonnage 1964 et autres chiffres historiques",
+    "photos d'archives disponibles."
+   ],
+   "owner": "Rédaction + Direction",
+   "validation": "Frise validée par la direction; mentions du groupe arbitrées.",
+   "path": "/entreprise/notre-histoire/"
+  },
+  {
+   "id": "ENTR-02",
+   "priority": "P2",
+   "status": "Valider",
+   "url": "https://dargent-thermique.fr/entreprise/qualifications/",
+   "type": "Réassurance",
+   "objective": "Page de preuve centrale, appelée par toutes les pages de service et par la page aides (condition RGE).",
+   "audience": "Mixte",
+   "keyword": "entreprise RGE Qualibat Orléans",
+   "keywordValidation": "Observé (page existante, codes Qualibat détaillés)",
+   "secondaryKeywords": [
+    "Qualibat 8321 pompe à chaleur",
+    "QUALIPAC RGE Loiret",
+    "attestation manipulation fluides frigorigènes",
+    "installateur RGE Orléans",
+    "Professionnel du gaz"
+   ],
+   "intent": "Informationnelle",
+   "area": "Orléans / Loiret",
+   "title": "Nos qualifications : RGE, Qualibat, QUALIPAC, fluides",
+   "description": "RGE Qualibat (8321, 5423, 5312, 5112), QUALIPAC, Professionnel du gaz et attestation fluides frigorigènes : le détail de nos qualifications et de leur portée.",
+   "h1": "Nos qualifications et certifications",
+   "promise": "Des qualifications vérifiables, avec leur portée et leur date de validité.",
+   "h2": [
+    "RGE Qualibat",
+    "Le détail de nos codes Qualibat",
+    "QUALIPAC",
+    "Professionnel du gaz",
+    "L'attestation de manipulation des fluides frigorigènes",
+    "Notre adhésion à Ecologic",
+    "Pourquoi cela compte pour vos aides"
+   ],
+   "content": "Reprendre le contenu existant, déjà précis (5112, 5312, 5423 technicité supérieure, 8321 et qualifications induites). AJOUTER la date de validité de chaque certificat (le site rappelle lui-même que le certificat Qualibat est valable un an).",
+   "proofs": "Certificats Qualibat; attestation de capacité n° 111363-R1 (PDF à re-héberger); logo Ecologic; numéro SIRET.",
+   "cta": "Demander un devis à une entreprise RGE",
+   "cta2": "Voir les aides financières",
+   "inbound": "Toutes les pages de service; aides; accueil; installation",
+   "outbound": [
+    "aides-financieres-pompe-a-chaleur/",
+    "entreprise/",
+    "devis/",
+    "PDF attestation"
+   ],
+   "oldUrl": "/societe/qualifications/",
+   "migration": "301",
+   "justification": "Correspondance stricte.",
+   "schema": "AboutPage + Organization (hasCredential) + BreadcrumbList",
+   "toConfirm": [
+    "Validité en cours de chaque qualification et date d'échéance",
+    "adhésion Ecologic toujours active",
+    "mentions Daikin/Viessmann/Climaticiens de France (vues uniquement sur un site satellite)."
+   ],
+   "owner": "SEO + Rédaction + Direction + Qualité",
+   "validation": "Chaque qualification affichée avec sa date de validité; attestation PDF accessible; aucune mention non confirmée.",
+   "path": "/entreprise/qualifications/"
+  },
+  {
+   "id": "MRQ-01",
+   "priority": "P2",
+   "status": "Valider",
+   "url": "https://dargent-thermique.fr/marques-partenaires/",
+   "type": "Réassurance",
+   "objective": "Rassurer sur la qualité du matériel et capter les recherches par marque.",
+   "audience": "Mixte",
+   "keyword": "installateur Daikin Orléans",
+   "keywordValidation": "Observé (Daikin cité dans un avis client et parmi les partenaires)",
+   "secondaryKeywords": [
+    "marques de pompes à chaleur installées",
+    "installateur Mitsubishi Electric Loiret",
+    "Atlantic Fujitsu Orléans",
+    "Vaillant Frisquet Chappée",
+    "Viessmann Orléans"
+   ],
+   "intent": "Commerciale + navigationnelle",
+   "area": "Agglomération orléanaise et Loiret",
+   "title": "Nos marques partenaires : Daikin, Mitsubishi, Vaillant",
+   "description": "Nous installons et entretenons les principales marques du marché : pompes à chaleur, climatisations et chaudières. Découvrez nos partenaires et leurs gammes.",
+   "h1": "Nos marques partenaires",
+   "promise": "Des marques choisies pour la disponibilité des pièces et le suivi dans la durée.",
+   "h2": [
+    "Pourquoi le choix de la marque compte",
+    "Pompes à chaleur et climatisation",
+    "Chaudières",
+    "Régulation et ventilation",
+    "Pièces détachées et service après-vente"
+   ],
+   "content": "La page actuelle ne contient que 7 logos sans texte. Ajouter 2 à 3 lignes par marque (gamme installée, type d'équipement, service associé). Ne citer que les marques confirmées et autorisées.",
+   "proofs": "Logos existants (Daikin, Atlantic Fujitsu, Mitsubishi Electric, Vaillant, Frisquet, Chappée, GRDF); magasin de pièces; avis client mentionnant Daikin.",
+   "cta": "Demander un conseil sur le matériel",
+   "cta2": "Demander un devis",
+   "inbound": "Accueil; pages produits; entreprise/",
+   "outbound": [
+    "pompe-a-chaleur/",
+    "climatisation/",
+    "chauffage/chaudiere-condensation/",
+    "devis/"
+   ],
+   "oldUrl": "/partenaires/",
+   "migration": "301",
+   "justification": "Correspondance stricte : même contenu, URL plus explicite.",
+   "schema": "CollectionPage + BreadcrumbList",
+   "toConfirm": [
+    "Partenariats en cours",
+    "droit d'usage des logos",
+    "statuts 'Expert Confort Habitat Daikin' et 'Station Technique Viessmann' (vus sur un site satellite uniquement)."
+   ],
+   "owner": "Rédaction + Direction + Juridique",
+   "validation": "Chaque logo couvert par une autorisation; aucun statut de partenariat affiché sans preuve écrite.",
+   "path": "/marques-partenaires/"
+  },
+  {
+   "id": "PRO-01",
+   "priority": "P2",
+   "status": "Modifier",
+   "url": "https://dargent-thermique.fr/professionnels/",
+   "type": "Service / B2B",
+   "objective": "Conserver l'activité tertiaire réelle (banques, enseignes, industrie, collectivités) sans diluer les pages destinées aux particuliers.",
+   "audience": "Professionnel",
+   "keyword": "climatisation tertiaire Orléans",
+   "keywordValidation": "Observé (réalisations VRV, gestion centralisée, logos clients B2B)",
+   "secondaryKeywords": [
+    "installation VRV Loiret",
+    "maintenance climatisation entreprise Orléans",
+    "ventilation double flux collectivité",
+    "contrat de maintenance multi-sites",
+    "chauffage tertiaire 45"
+   ],
+   "intent": "Commerciale",
+   "area": "Loiret et Centre-Val de Loire",
+   "title": "Climatisation et chauffage pour les professionnels (45)",
+   "description": "Bureaux, commerces, industrie et collectivités : étude, installation et maintenance de vos équipements dans le Loiret. Plus de 40 clients référencés.",
+   "h1": "Nos solutions pour les professionnels et les collectivités",
+   "promise": "Un interlocuteur unique pour l'étude, l'installation et la maintenance de vos installations.",
+   "h2": [
+    "Nos domaines d'intervention",
+    "Installations climatiques tertiaires (VRV, gestion centralisée)",
+    "Ventilation et traitement d'air",
+    "Contrats de maintenance",
+    "Nos références",
+    "Nous consulter"
+   ],
+   "content": "URL MANQUANTE ajoutée pour éviter que les pages B2C ne soient diluées par la clientèle professionnelle. S'appuyer sur les réalisations tertiaires existantes et la page clients.",
+   "proofs": "Photos VRV, gestion centralisée, traitement acoustique, double flux scolaire; ~45 logos clients; bureau d'études; Qualibat 5423 technicité supérieure.",
+   "cta": "Nous consulter pour un projet",
+   "cta2": "Voir nos références",
+   "inbound": "Accueil; climatisation/; ventilation/; entreprise/references/",
+   "outbound": [
+    "climatisation/",
+    "ventilation/",
+    "entretien-depannage/",
+    "entreprise/references/",
+    "contact/"
+   ],
+   "oldUrl": "Aucune",
+   "migration": "Nouvelle page",
+   "justification": "Ajout justifié par une activité B2B massivement documentée sur le site actuel mais absente du sitemap cible.",
+   "schema": "Service + BreadcrumbList",
+   "toConfirm": [
+    "Volonté commerciale de conserver et d'afficher l'offre B2B",
+    "capacité actuelle",
+    "interlocuteur dédié."
+   ],
+   "owner": "SEO + Rédaction + Direction",
+   "validation": "Arbitrage de la direction (sinon SUPPRIMER); aucune référence client affichée sans accord.",
+   "path": "/professionnels/"
+  },
+  {
+   "id": "REA-01",
+   "priority": "P3",
+   "status": "Reporter",
+   "url": "https://dargent-thermique.fr/realisations/etudes-de-cas-pompe-a-chaleur/",
+   "type": "Réassurance",
+   "objective": "Prouver l'expertise PAC par des cas concrets (situation initiale, solution, résultat constaté).",
+   "audience": "Particulier",
+   "keyword": "étude de cas pompe à chaleur",
+   "keywordValidation": "Hypothèse éditoriale",
+   "secondaryKeywords": [
+    "remplacement chaudière fioul par PAC exemple",
+    "installation PAC maison ancienne Loiret",
+    "chantier pompe à chaleur Orléans"
+   ],
+   "intent": "Informationnelle",
+   "area": "Agglomération orléanaise (Loiret)",
+   "title": "Études de cas : nos installations de pompes à chaleur",
+   "description": "Des chantiers de pompe à chaleur racontés en détail : la situation de départ, la solution retenue, la mise en œuvre et le retour du client. À paraître.",
+   "h1": "Études de cas : pompes à chaleur",
+   "promise": "Des projets décrits sans embellissement, contraintes comprises.",
+   "h2": [
+    "À définir selon les cas collectés"
+   ],
+   "content": "REPORTER : aucun matériau exploitable aujourd'hui (aucune photo de PAC air/eau sur le site). Publier le hub une fois 2 études de cas disponibles. Aucune donnée d'économie sans relevé réel et accord du client.",
+   "proofs": "2 chantiers documentés minimum : photos avant/après, description technique, accord écrit du client, témoignage.",
+   "cta": "Demander une étude pour mon projet",
+   "cta2": "Voir toutes nos réalisations",
+   "inbound": "realisations/; pompe-a-chaleur/; pages locales",
+   "outbound": [
+    "realisations/",
+    "pompe-a-chaleur/",
+    "devis/"
+   ],
+   "oldUrl": "Aucune",
+   "migration": "Nouvelle page",
+   "justification": "Page reportée : ne pas publier une coquille vide.",
+   "schema": "CollectionPage (+ Article par étude de cas) + BreadcrumbList",
+   "toConfirm": [
+    "Clients acceptant d'être cités",
+    "données de consommation avant/après réellement mesurées."
+   ],
+   "owner": "Commerce + Rédaction",
+   "validation": "Minimum 2 études de cas complètes avec accord écrit avant mise en ligne.",
+   "path": "/realisations/etudes-de-cas-pompe-a-chaleur/"
+  },
+  {
+   "id": "REA-02",
+   "priority": "P3",
+   "status": "Reporter",
+   "url": "https://dargent-thermique.fr/realisations/etudes-de-cas-climatisation/",
+   "type": "Réassurance",
+   "objective": "Prouver l'expertise climatisation, notamment sur les projets multi-split et tertiaires.",
+   "audience": "Mixte",
+   "keyword": "étude de cas climatisation",
+   "keywordValidation": "Hypothèse éditoriale",
+   "secondaryKeywords": [
+    "installation multi-split exemple",
+    "climatisation commerce Orléans",
+    "chantier VRV Loiret",
+    "climatisation avec traitement acoustique"
+   ],
+   "intent": "Informationnelle",
+   "area": "Agglomération orléanaise et Loiret",
+   "title": "Études de cas : nos chantiers de climatisation à Orléans",
+   "description": "Des installations de climatisation racontées en détail : contraintes du bâtiment, solution retenue, mise en œuvre et retour du client. À paraître.",
+   "h1": "Études de cas : climatisation",
+   "promise": "Des chantiers décrits avec leurs contraintes réelles.",
+   "h2": [
+    "À définir selon les cas collectés"
+   ],
+   "content": "REPORTER, mais matériau partiel disponible (installation Daikin 2 groupes / 6 unités décrite dans un avis, VRV tertiaire, traitement acoustique, site GEMO Gien) : déblocage plus rapide que pour la PAC.",
+   "proofs": "Photos existantes; avis Patrick Blain; accords clients (À OBTENIR).",
+   "cta": "Demander une étude pour mon projet",
+   "cta2": "Voir toutes nos réalisations",
+   "inbound": "realisations/; climatisation/; professionnels/",
+   "outbound": [
+    "realisations/",
+    "climatisation/",
+    "devis/"
+   ],
+   "oldUrl": "Aucune",
+   "migration": "Nouvelle page",
+   "justification": "Page reportée jusqu'à obtention des accords clients.",
+   "schema": "CollectionPage (+ Article par étude de cas) + BreadcrumbList",
+   "toConfirm": [
+    "Accord des clients cités (enseignes, particuliers)",
+    "droit d'utiliser le nom des enseignes."
+   ],
+   "owner": "Commerce + Rédaction + Juridique",
+   "validation": "Minimum 2 études de cas avec accord écrit.",
+   "path": "/realisations/etudes-de-cas-climatisation/"
+  },
+  {
+   "id": "ZON-03",
+   "priority": "P3",
+   "status": "Reporter",
+   "url": "https://dargent-thermique.fr/zones-intervention/olivet/",
+   "type": "Local",
+   "objective": "Couvrir une commune limitrophe à fort potentiel résidentiel, uniquement si des preuves locales existent.",
+   "audience": "Particulier",
+   "keyword": "chauffagiste Olivet",
+   "keywordValidation": "Hypothèse éditoriale (Olivet n'apparaît que dans la FAQ rédigée par l'agence)",
+   "secondaryKeywords": [
+    "pompe à chaleur Olivet",
+    "climatisation Olivet",
+    "entretien chaudière Olivet",
+    "installateur RGE Olivet"
+   ],
+   "intent": "Locale",
+   "area": "Olivet (45160)",
+   "title": "Chauffage et climatisation à Olivet : nos interventions",
+   "description": "Installation et entretien de pompes à chaleur, climatisations et chaudières à Olivet, par une entreprise basée à Saint-Jean-de-Braye. À paraître.",
+   "h1": "Nos interventions à Olivet",
+   "promise": "À définir après collecte des preuves locales.",
+   "h2": [
+    "Nos chantiers à Olivet",
+    "Les logements que nous y rencontrons",
+    "Nos prestations",
+    "Demander un devis"
+   ],
+   "content": "À PRODUIRE ULTÉRIEUREMENT APRÈS COLLECTE DE PREUVES LOCALES. Interdiction de cloner la page Orléans en changeant le nom de la commune.",
+   "proofs": "Minimum requis : 1 chantier localisé avec photo + 1 avis ou une spécificité de bâti réellement observée.",
+   "cta": "Demander un devis à Olivet",
+   "cta2": "Appeler le 02 38 86 46 46",
+   "inbound": "zones-intervention/",
+   "outbound": [
+    "pompe-a-chaleur/",
+    "climatisation/",
+    "devis/"
+   ],
+   "oldUrl": "Aucune",
+   "migration": "Nouvelle page",
+   "justification": "Report : aucune preuve locale disponible à ce jour.",
+   "schema": "LocalBusiness (areaServed) + BreadcrumbList",
+   "toConfirm": [
+    "Chantiers réalisés à Olivet",
+    "clients acceptant la citation."
+   ],
+   "owner": "Commerce + Rédaction + SEO",
+   "validation": "3 éléments propres à la commune minimum, sinon page non publiée.",
+   "path": "/zones-intervention/olivet/"
+  },
+  {
+   "id": "ZON-04",
+   "priority": "P3",
+   "status": "Reporter",
+   "url": "https://dargent-thermique.fr/zones-intervention/fleury-les-aubrais/",
+   "type": "Local",
+   "objective": "Couvrir une commune limitrophe, uniquement si des preuves locales existent.",
+   "audience": "Particulier",
+   "keyword": "chauffagiste Fleury-les-Aubrais",
+   "keywordValidation": "Hypothèse éditoriale (commune citée uniquement dans la FAQ de l'agence)",
+   "secondaryKeywords": [
+    "pompe à chaleur Fleury-les-Aubrais",
+    "climatisation Fleury-les-Aubrais",
+    "dépannage chauffage Fleury-les-Aubrais"
+   ],
+   "intent": "Locale",
+   "area": "Fleury-les-Aubrais (45400)",
+   "title": "Chauffage et climatisation à Fleury-les-Aubrais (45)",
+   "description": "Installation et entretien de pompes à chaleur, climatisations et chaudières à Fleury-les-Aubrais par une entreprise voisine du Loiret. À paraître.",
+   "h1": "Nos interventions à Fleury-les-Aubrais",
+   "promise": "À définir après collecte des preuves locales.",
+   "h2": [
+    "Nos chantiers",
+    "Les logements que nous y rencontrons",
+    "Nos prestations",
+    "Demander un devis"
+   ],
+   "content": "À PRODUIRE ULTÉRIEUREMENT APRÈS COLLECTE DE PREUVES LOCALES.",
+   "proofs": "Minimum requis : 1 chantier localisé avec photo + 1 avis ou une spécificité de bâti.",
+   "cta": "Demander un devis",
+   "cta2": "Appeler le 02 38 86 46 46",
+   "inbound": "zones-intervention/",
+   "outbound": [
+    "pompe-a-chaleur/",
+    "climatisation/",
+    "devis/"
+   ],
+   "oldUrl": "Aucune",
+   "migration": "Nouvelle page",
+   "justification": "Report : aucune preuve locale disponible.",
+   "schema": "LocalBusiness (areaServed) + BreadcrumbList",
+   "toConfirm": [
+    "Chantiers réalisés sur la commune."
+   ],
+   "owner": "Commerce + Rédaction + SEO",
+   "validation": "3 éléments propres à la commune minimum.",
+   "path": "/zones-intervention/fleury-les-aubrais/"
+  },
+  {
+   "id": "ZON-05",
+   "priority": "P3",
+   "status": "Reporter",
+   "url": "https://dargent-thermique.fr/zones-intervention/saint-jean-de-la-ruelle/",
+   "type": "Local",
+   "objective": "Couvrir une commune limitrophe, uniquement si des preuves locales existent.",
+   "audience": "Particulier",
+   "keyword": "chauffagiste Saint-Jean-de-la-Ruelle",
+   "keywordValidation": "Hypothèse éditoriale (commune citée uniquement dans la FAQ de l'agence)",
+   "secondaryKeywords": [
+    "pompe à chaleur Saint-Jean-de-la-Ruelle",
+    "climatisation Saint-Jean-de-la-Ruelle",
+    "entretien chaudière 45140"
+   ],
+   "intent": "Locale",
+   "area": "Saint-Jean-de-la-Ruelle (45140)",
+   "title": "Chauffage et climatisation à Saint-Jean-de-la-Ruelle",
+   "description": "Installation et entretien de pompes à chaleur, climatisations et chaudières à Saint-Jean-de-la-Ruelle par une entreprise du Loiret. À paraître.",
+   "h1": "Nos interventions à Saint-Jean-de-la-Ruelle",
+   "promise": "À définir après collecte des preuves locales.",
+   "h2": [
+    "Nos chantiers",
+    "Les logements que nous y rencontrons",
+    "Nos prestations",
+    "Demander un devis"
+   ],
+   "content": "À PRODUIRE ULTÉRIEUREMENT APRÈS COLLECTE DE PREUVES LOCALES.",
+   "proofs": "Minimum requis : 1 chantier localisé avec photo + 1 avis ou une spécificité de bâti.",
+   "cta": "Demander un devis",
+   "cta2": "Appeler le 02 38 86 46 46",
+   "inbound": "zones-intervention/",
+   "outbound": [
+    "pompe-a-chaleur/",
+    "climatisation/",
+    "devis/"
+   ],
+   "oldUrl": "Aucune",
+   "migration": "Nouvelle page",
+   "justification": "Report : aucune preuve locale disponible.",
+   "schema": "LocalBusiness (areaServed) + BreadcrumbList",
+   "toConfirm": [
+    "Chantiers réalisés sur la commune."
+   ],
+   "owner": "Commerce + Rédaction + SEO",
+   "validation": "3 éléments propres à la commune minimum.",
+   "path": "/zones-intervention/saint-jean-de-la-ruelle/"
+  },
+  {
+   "id": "ENTR-03",
+   "priority": "P3",
+   "status": "Valider",
+   "url": "https://dargent-thermique.fr/entreprise/engagements/",
+   "type": "Institutionnel",
+   "objective": "Regrouper les engagements environnementaux et de service, argument différenciant peu exploité aujourd'hui.",
+   "audience": "Mixte",
+   "keyword": "engagements écologiques Dargent Thermique",
+   "keywordValidation": "Observé (page existante)",
+   "secondaryKeywords": [
+    "recyclage climatiseurs Ecologic",
+    "tri des déchets de chantier",
+    "entreprise chauffage responsable Loiret",
+    "engagements de service"
+   ],
+   "intent": "Informationnelle",
+   "area": "Saint-Jean-de-Braye / Loiret",
+   "title": "Nos engagements environnementaux et de service client",
+   "description": "Tri des déchets de chantier, recyclage des climatiseurs via Ecologic, ruches sur notre site et engagements de service : nos pratiques concrètes au quotidien.",
+   "h1": "Nos engagements",
+   "promise": "Des engagements datés et vérifiables, pas des intentions.",
+   "h2": [
+    "Le tri des déchets de chantier",
+    "Le recyclage des climatiseurs (Ecologic, depuis juin 2012)",
+    "Les ruches de l'entreprise (depuis mai 2014)",
+    "Nos engagements de service envers nos clients"
+   ],
+   "content": "Reprendre /societe/engagements-ecologiques/ et y ajouter les engagements de service issus de l'ancienne page maintenance (information tarifaire, devis, prévention, moyens, résultat). Re-héberger les 3 vidéos.",
+   "proofs": "Adhésion Ecologic (juin 2012); 4 ruches (mai 2014) et vidéos; zones de tri différenciées; engagements de service publiés.",
+   "cta": "Découvrir l'entreprise",
+   "cta2": "Demander un devis",
+   "inbound": "entreprise/; zones-intervention/saint-jean-de-braye/; entretien-depannage/",
+   "outbound": [
+    "entreprise/",
+    "entretien-depannage/",
+    "entreprise/qualifications/"
+   ],
+   "oldUrl": "/societe/engagements-ecologiques/",
+   "migration": "301",
+   "justification": "Même contenu, périmètre élargi aux engagements de service.",
+   "schema": "AboutPage + BreadcrumbList",
+   "toConfirm": [
+    "Ruches toujours présentes",
+    "adhésion Ecologic active",
+    "engagements de service à jour."
+   ],
+   "owner": "Rédaction + Direction + Qualité",
+   "validation": "Chaque engagement daté et confirmé; vidéos fonctionnelles.",
+   "path": "/entreprise/engagements/"
+  },
+  {
+   "id": "ENTR-04",
+   "priority": "P3",
+   "status": "Valider",
+   "url": "https://dargent-thermique.fr/entreprise/references/",
+   "type": "Réassurance",
+   "objective": "Appuyer la crédibilité B2B et servir de preuve à la page professionnels.",
+   "audience": "Professionnel",
+   "keyword": "références clients Dargent Thermique",
+   "keywordValidation": "Observé (page existante)",
+   "secondaryKeywords": [
+    "clients entreprises chauffage Loiret",
+    "références climatisation tertiaire Orléans",
+    "ils nous font confiance"
+   ],
+   "intent": "Informationnelle",
+   "area": "Loiret et Centre-Val de Loire",
+   "title": "Nos références clients : entreprises et collectivités",
+   "description": "Banques, assurances, commerces, industrie, collectivités : découvrez les organisations qui nous confient leurs installations de chauffage et de climatisation.",
+   "h1": "Ils nous font confiance",
+   "promise": "Des références vérifiables, dans des secteurs exigeants.",
+   "h2": [
+    "Banques et assurances",
+    "Commerces et enseignes",
+    "Hôtellerie et restauration",
+    "Tertiaire et industrie",
+    "Collectivités",
+    "Particuliers"
+   ],
+   "content": "Reprendre la page clients existante. VALIDATION JURIDIQUE PRÉALABLE de l'usage des logos et des noms. La mention 'plus de 8 000 clients particuliers' doit être confirmée ou retirée.",
+   "proofs": "~45 logos classés en 9 catégories; autorisations d'utilisation (À OBTENIR).",
+   "cta": "Nous consulter pour un projet",
+   "cta2": "Voir nos réalisations",
+   "inbound": "entreprise/; professionnels/; realisations/",
+   "outbound": [
+    "professionnels/",
+    "realisations/",
+    "contact/"
+   ],
+   "oldUrl": "/references/clients/",
+   "migration": "301",
+   "justification": "Correspondance stricte.",
+   "schema": "CollectionPage + BreadcrumbList",
+   "toConfirm": [
+    "Autorisation d'affichage de chaque logo",
+    "relations commerciales toujours actives",
+    "chiffre de 8 000 clients."
+   ],
+   "owner": "Juridique + Direction + Rédaction",
+   "validation": "Aucun logo affiché sans autorisation écrite; chiffres confirmés ou retirés.",
+   "path": "/entreprise/references/"
+  },
+  {
+   "id": "CHA-05",
+   "priority": "P3",
+   "status": "Modifier",
+   "url": "https://dargent-thermique.fr/chauffage/regulation-connectee/",
+   "type": "Service",
+   "objective": "Destination éditoriale de l'ancienne page Connectivité et vente complémentaire (confort, économies de pilotage).",
+   "audience": "Particulier",
+   "keyword": "thermostat connecté chauffage Orléans",
+   "keywordValidation": "Observé (page Connectivité existante : robinets thermostatiques, thermostat, télécommande)",
+   "secondaryKeywords": [
+    "robinet thermostatique connecté",
+    "piloter son chauffage à distance",
+    "thermostat d'ambiance programmable",
+    "régulation loi d'eau",
+    "pilotage pompe à chaleur smartphone"
+   ],
+   "intent": "Commerciale + informationnelle",
+   "area": "Agglomération orléanaise et Loiret",
+   "title": "Régulation et pilotage de votre chauffage à distance",
+   "description": "Thermostat d'ambiance, robinets thermostatiques et pilotage à distance : mieux réguler votre chauffage pièce par pièce. Conseils et installation à Orléans.",
+   "h1": "Régulation et pilotage de votre chauffage",
+   "promise": "Piloter pièce par pièce, sans se déplacer jusqu'à la chaudière.",
+   "h2": [
+    "Pourquoi réguler",
+    "Le robinet thermostatique",
+    "Le thermostat d'ambiance",
+    "La télécommande",
+    "La régulation loi d'eau",
+    "Le pilotage à distance de votre PAC ou de votre climatisation"
+   ],
+   "content": "URL MANQUANTE ajoutée pour éviter une 410 sur un contenu utile. Reprendre la page Connectivité (robinets Danfoss 'living', télécommande, thermostat) + la régulation loi d'eau de la page chaudière. Re-héberger les 3 brochures et la vidéo.",
+   "proofs": "3 brochures Danfoss; vidéo; contenu technique existant.",
+   "cta": "Demander conseil",
+   "cta2": "Demander un devis",
+   "inbound": "chauffage/; chaudiere-condensation; pompe-a-chaleur/; climatisation/reversible/",
+   "outbound": [
+    "chauffage/",
+    "chauffage/chaudiere-condensation/",
+    "pompe-a-chaleur/",
+    "devis/"
+   ],
+   "oldUrl": "/solutions/connectivite/",
+   "migration": "301",
+   "justification": "Conserve l'antériorité d'une page au contenu technique réel. ALTERNATIVE si la page n'est pas retenue : 410 et intégration en section de chauffage/ (à arbitrer).",
+   "schema": "Service + BreadcrumbList",
+   "toConfirm": [
+    "Marques de régulation proposées aujourd'hui",
+    "brochures encore valides",
+    "prestation vendue séparément ?"
+   ],
+   "owner": "SEO + Rédaction",
+   "validation": "Arbitrage tranché (page ou section); brochures à jour ou retirées.",
+   "path": "/chauffage/regulation-connectee/"
+  },
+  {
+   "id": "REC-01",
+   "priority": "P3",
+   "status": "Valider",
+   "url": "https://dargent-thermique.fr/recrutement/",
+   "type": "Institutionnel",
+   "objective": "Recruter des techniciens (métier en tension) et valoriser l'employeur.",
+   "audience": "Candidats",
+   "keyword": "emploi technicien climatisation Orléans",
+   "keywordValidation": "Hypothèse éditoriale",
+   "secondaryKeywords": [
+    "recrutement chauffagiste Loiret",
+    "offre d'emploi frigoriste Orléans",
+    "alternance chauffage climatisation 45",
+    "candidature spontanée Dargent Thermique"
+   ],
+   "intent": "Navigationnelle + transactionnelle",
+   "area": "Saint-Jean-de-Braye / Loiret",
+   "title": "Recrutement : rejoindre Dargent Thermique (Loiret)",
+   "description": "Technicien de maintenance, monteur, chargé d'affaires : découvrez nos métiers, notre organisation et déposez votre candidature chez un installateur du Loiret.",
+   "h1": "Nous rejoindre",
+   "promise": "Une entreprise ancienne, avec un bureau d'études interne et des équipes formées régulièrement.",
+   "h2": [
+    "Nos métiers",
+    "Travailler chez Dargent Thermique",
+    "Nos postes ouverts",
+    "L'alternance et la formation",
+    "Déposer une candidature"
+   ],
+   "content": "Enrichir la page actuelle, qui ne contient qu'un formulaire. Ajouter la présentation des métiers et des équipes (formation périodique, habilitations, véhicules équipés, bureau d'études depuis 1993).",
+   "proofs": "Composition des équipes; formation continue; ancienneté de l'entreprise; photos d'équipe (À COLLECTER).",
+   "cta": "Déposer ma candidature",
+   "cta2": "Découvrir l'entreprise",
+   "inbound": "entreprise/; contact/; pied de page",
+   "outbound": [
+    "entreprise/",
+    "entreprise/notre-histoire/",
+    "contact/"
+   ],
+   "oldUrl": "/postuler/",
+   "migration": "301",
+   "justification": "Même intention (candidature), URL plus explicite.",
+   "schema": "WebPage (+ JobPosting uniquement si de vraies offres sont publiées et tenues à jour) + BreadcrumbList",
+   "toConfirm": [
+    "Postes ouverts",
+    "avantages communicables",
+    "process de recrutement",
+    "contact RH."
+   ],
+   "owner": "Direction + RH + Rédaction",
+   "validation": "JobPosting uniquement pour des offres réelles et datées; formulaire testé; RGPD candidats conforme.",
+   "path": "/recrutement/"
+  },
+  {
+   "id": "LEG-01",
+   "priority": "P3",
+   "status": "Valider",
+   "url": "https://dargent-thermique.fr/mentions-legales/",
+   "type": "Légal",
+   "objective": "Conformité légale (LCEN) sur le nouveau domaine.",
+   "audience": "Mixte",
+   "keyword": "mentions légales",
+   "keywordValidation": "Observé",
+   "secondaryKeywords": [
+    "éditeur du site",
+    "hébergeur",
+    "SIRET Dargent Thermique"
+   ],
+   "intent": "Navigationnelle",
+   "area": "Sans objet",
+   "title": "Mentions légales du site | Dargent Thermique Orléans",
+   "description": "Éditeur, hébergeur, forme juridique, SIRET et informations légales du site dargent-thermique.fr, édité par la société Dargent Thermique (Loiret).",
+   "h1": "Mentions légales",
+   "promise": "Sans objet (page légale).",
+   "h2": [
+    "Éditeur du site",
+    "Hébergeur",
+    "Propriété intellectuelle",
+    "Responsabilité",
+    "Contact"
+   ],
+   "content": "Réécriture : nouveau domaine, nouvel hébergeur. INCOHÉRENCE À CORRIGER : un site satellite mentionne 'SARL au capital de 40 000 €' alors que le registre indique une SAS (source : annuaire-entreprises.data.gouv.fr, consulté le 15/09/2026).",
+   "proofs": "Extrait Kbis; capital social; coordonnées de l'hébergeur; directeur de la publication.",
+   "cta": "Aucun",
+   "cta2": "Aucun",
+   "inbound": "Pied de page (toutes les pages)",
+   "outbound": [
+    "contact/",
+    "politique-confidentialite/"
+   ],
+   "oldUrl": "/mentions-legales/",
+   "migration": "Conserver",
+   "justification": "URL identique, changement de domaine uniquement.",
+   "schema": "WebPage",
+   "toConfirm": [
+    "Forme juridique et capital exacts",
+    "directeur de la publication",
+    "hébergeur."
+   ],
+   "owner": "Juridique + Direction",
+   "validation": "Validation juridique écrite avant mise en ligne.",
+   "path": "/mentions-legales/"
+  },
+  {
+   "id": "LEG-02",
+   "priority": "P3",
+   "status": "Valider",
+   "url": "https://dargent-thermique.fr/politique-confidentialite/",
+   "type": "Légal",
+   "objective": "Conformité RGPD.",
+   "audience": "Mixte",
+   "keyword": "politique de confidentialité",
+   "keywordValidation": "Observé",
+   "secondaryKeywords": [
+    "données personnelles",
+    "base légale",
+    "durée de conservation"
+   ],
+   "intent": "Navigationnelle",
+   "area": "Sans objet",
+   "title": "Politique de confidentialité | Dargent Thermique (45)",
+   "description": "Comment nous collectons, utilisons et conservons vos données personnelles lorsque vous utilisez nos formulaires ou naviguez sur dargent-thermique.fr.",
+   "h1": "Politique de confidentialité",
+   "promise": "Sans objet (page légale).",
+   "h2": [
+    "Données collectées",
+    "Finalités et base légale",
+    "Durées de conservation",
+    "Destinataires",
+    "Vos droits",
+    "Contact"
+   ],
+   "content": "Réécriture alignée sur les nouveaux formulaires (devis, contact, recrutement). La base légale invoquée aujourd'hui (intérêt légitime) doit être revue avec le conseil juridique.",
+   "proofs": "Registre de traitement; contrat de sous-traitance avec l'hébergeur.",
+   "cta": "Aucun",
+   "cta2": "Aucun",
+   "inbound": "Pied de page; formulaires",
+   "outbound": [
+    "protection-donnees/",
+    "cookies/",
+    "contact/"
+   ],
+   "oldUrl": "/politique-confidentialite/",
+   "migration": "Conserver",
+   "justification": "URL identique.",
+   "schema": "WebPage",
+   "toConfirm": [
+    "Bases légales",
+    "durées de conservation",
+    "destinataires",
+    "DPO ou référent."
+   ],
+   "owner": "Juridique",
+   "validation": "Validation juridique écrite; cohérence avec les formulaires en ligne.",
+   "path": "/politique-confidentialite/"
+  },
+  {
+   "id": "LEG-03",
+   "priority": "P3",
+   "status": "Valider",
+   "url": "https://dargent-thermique.fr/protection-donnees/",
+   "type": "Légal",
+   "objective": "Informer sur les droits RGPD (page historiquement distincte).",
+   "audience": "Mixte",
+   "keyword": "protection des données personnelles",
+   "keywordValidation": "Observé",
+   "secondaryKeywords": [
+    "droit d'accès",
+    "droit de rectification",
+    "réclamation CNIL"
+   ],
+   "intent": "Navigationnelle",
+   "area": "Sans objet",
+   "title": "Protection des données personnelles | Dargent Thermique",
+   "description": "Exercer vos droits d'accès, de rectification, d'effacement et d'opposition sur les données que nous détenons : la procédure et nos coordonnées.",
+   "h1": "Protection de vos données personnelles",
+   "promise": "Sans objet (page légale).",
+   "h2": [
+    "Vos droits",
+    "Comment les exercer",
+    "Délais de réponse",
+    "Réclamation auprès de la CNIL"
+   ],
+   "content": "ARBITRAGE : fusionner avec la politique de confidentialité (recommandé) ou conserver deux pages distinctes. En cas de fusion, 301 vers politique-confidentialite/.",
+   "proofs": "Procédure interne de traitement des demandes.",
+   "cta": "Aucun",
+   "cta2": "Aucun",
+   "inbound": "Pied de page; formulaires",
+   "outbound": [
+    "politique-confidentialite/",
+    "contact/"
+   ],
+   "oldUrl": "/protection-donnees-personnelles/",
+   "migration": "301",
+   "justification": "Même contenu, URL raccourcie conformément au sitemap cible.",
+   "schema": "WebPage",
+   "toConfirm": [
+    "Fusion ou maintien de deux pages",
+    "contact dédié aux demandes RGPD."
+   ],
+   "owner": "Juridique",
+   "validation": "Validation juridique; arbitrage fusion tranché.",
+   "path": "/protection-donnees/"
+  },
+  {
+   "id": "LEG-04",
+   "priority": "P3",
+   "status": "Valider",
+   "url": "https://dargent-thermique.fr/cookies/",
+   "type": "Légal",
+   "objective": "Conformité à la réglementation sur les traceurs.",
+   "audience": "Mixte",
+   "keyword": "politique cookies",
+   "keywordValidation": "Observé",
+   "secondaryKeywords": [
+    "gestion des traceurs",
+    "consentement cookies",
+    "mesure d'audience"
+   ],
+   "intent": "Navigationnelle",
+   "area": "Sans objet",
+   "title": "Gestion des cookies et traceurs | Dargent Thermique",
+   "description": "Quels cookies sont déposés sur dargent-thermique.fr, à quoi ils servent et comment modifier votre consentement à tout moment, depuis cette page.",
+   "h1": "Gestion des cookies",
+   "promise": "Sans objet (page légale).",
+   "h2": [
+    "Les cookies que nous utilisons",
+    "Finalités",
+    "Durée de conservation",
+    "Modifier votre choix"
+   ],
+   "content": "À aligner sur les outils réellement installés sur le nouveau site (analytics, carte, vidéo, formulaires). Bandeau de consentement à prévoir.",
+   "proofs": "Inventaire technique des traceurs.",
+   "cta": "Modifier mes préférences",
+   "cta2": "Aucun",
+   "inbound": "Pied de page; bandeau cookies",
+   "outbound": [
+    "politique-confidentialite/"
+   ],
+   "oldUrl": "/cookies/",
+   "migration": "Conserver",
+   "justification": "URL identique.",
+   "schema": "WebPage",
+   "toConfirm": [
+    "Liste des traceurs",
+    "solution de consentement retenue."
+   ],
+   "owner": "Juridique + Développement",
+   "validation": "Inventaire des traceurs conforme au bandeau; test de refus effectif.",
+   "path": "/cookies/"
+  },
+  {
+   "id": "LEG-05",
+   "priority": "P3",
+   "status": "Valider",
+   "url": "https://dargent-thermique.fr/cgu/",
+   "type": "Légal",
+   "objective": "Encadrer l'utilisation du site.",
+   "audience": "Mixte",
+   "keyword": "conditions générales d'utilisation",
+   "keywordValidation": "Observé",
+   "secondaryKeywords": [
+    "CGU site internet",
+    "conditions d'utilisation"
+   ],
+   "intent": "Navigationnelle",
+   "area": "Sans objet",
+   "title": "Conditions générales d'utilisation | Dargent Thermique",
+   "description": "Les conditions dans lesquelles vous pouvez consulter et utiliser le site dargent-thermique.fr, ainsi que les limites de responsabilité applicables.",
+   "h1": "Conditions générales d'utilisation",
+   "promise": "Sans objet (page légale).",
+   "h2": [
+    "Objet",
+    "Accès au site",
+    "Propriété intellectuelle",
+    "Responsabilité",
+    "Droit applicable"
+   ],
+   "content": "Réécriture juridique. Supprimer les formulations agressives présentes aujourd'hui sur les pages à formulaire (menace d'amende de 750 € pour démarchage), qui nuisent à l'image.",
+   "proofs": "Sans objet.",
+   "cta": "Aucun",
+   "cta2": "Aucun",
+   "inbound": "Pied de page",
+   "outbound": [
+    "mentions-legales/",
+    "politique-confidentialite/"
+   ],
+   "oldUrl": "/cgu/",
+   "migration": "Conserver",
+   "justification": "URL identique.",
+   "schema": "WebPage",
+   "toConfirm": [
+    "Texte validé par le conseil juridique."
+   ],
+   "owner": "Juridique",
+   "validation": "Validation juridique écrite; pavé anti-spam supprimé du site.",
+   "path": "/cgu/"
+  }
+ ],
+ "redirects": [
+  {
+   "order": "P1",
+   "case": "Redirection simple",
+   "old": "https://www.climatisation-chauffage-orleans.com/",
+   "new": "https://dargent-thermique.fr/",
+   "status": "301",
+   "check": "Tester la redirection avec et sans www, en http et https, avec et sans slash final."
+  },
+  {
+   "order": "P1",
+   "case": "Redirection simple",
+   "old": "https://www.climatisation-chauffage-orleans.com/solutions/climatisation-pompe-a-chaleur/",
+   "new": "https://dargent-thermique.fr/pompe-a-chaleur/",
+   "status": "301",
+   "check": "Vérifier dans GSC les requêtes de cette URL : si la majorité porte sur la climatisation, rediriger plutôt vers /climatisation/."
+  },
+  {
+   "order": "P1",
+   "case": "Redirection simple",
+   "old": "https://www.climatisation-chauffage-orleans.com/solutions/climatisation-pompe-a-chaleur/pompe-a-chaleur-basse-temperature/",
+   "new": "https://dargent-thermique.fr/pompe-a-chaleur/air-eau/",
+   "status": "301",
+   "check": "Vérifier que la nouvelle page couvre explicitement la basse et la moyenne température."
+  },
+  {
+   "order": "P1",
+   "case": "Redirection simple",
+   "old": "https://www.climatisation-chauffage-orleans.com/solutions/climatisation-pompe-a-chaleur/climatisation-reversible/",
+   "new": "https://dargent-thermique.fr/climatisation/reversible/",
+   "status": "301",
+   "check": "Aucune."
+  },
+  {
+   "order": "P1",
+   "case": "Redirection simple",
+   "old": "https://www.climatisation-chauffage-orleans.com/solutions/maintenance-climatisation/",
+   "new": "https://dargent-thermique.fr/climatisation/entretien/",
+   "status": "301",
+   "check": "Lier explicitement vers /pompe-a-chaleur/entretien/, /climatisation/depannage/ et le hub /entretien-depannage/ dès le haut de page."
+  },
+  {
+   "order": "P1",
+   "case": "URL conservée",
+   "old": "https://www.climatisation-chauffage-orleans.com/contact/",
+   "new": "https://dargent-thermique.fr/contact/",
+   "status": "301",
+   "check": "Vérifier que le formulaire allégé fonctionne et que le pavé anti-spam a été supprimé."
+  },
+  {
+   "order": "P2",
+   "case": "Redirection simple",
+   "old": "https://www.climatisation-chauffage-orleans.com/solutions/climatisation-pompe-a-chaleur/pompe-a-chaleur-haute-temperature/",
+   "new": "https://dargent-thermique.fr/pompe-a-chaleur/haute-temperature/",
+   "status": "301",
+   "check": "Faire valider les données techniques par le bureau d'études."
+  },
+  {
+   "order": "P2",
+   "case": "Redirection simple",
+   "old": "https://www.climatisation-chauffage-orleans.com/solutions/climatisation-pompe-a-chaleur/pompe-a-chaleur-hybride/",
+   "new": "https://dargent-thermique.fr/pompe-a-chaleur/hybride/",
+   "status": "301",
+   "check": "Supprimer le doublon de ce texte dans la page chaudière à condensation."
+  },
+  {
+   "order": "P2",
+   "case": "Redirection simple",
+   "old": "https://www.climatisation-chauffage-orleans.com/solutions/chaudiere-condensation/",
+   "new": "https://dargent-thermique.fr/chauffage/chaudiere-condensation/",
+   "status": "301",
+   "check": "Arbitrer le maintien des sections fioul/biofioul et re-vérifier le décret cité (n° 2022-8 du 05/01/2022)."
+  },
+  {
+   "order": "P2",
+   "case": "Redirection simple",
+   "old": "https://www.climatisation-chauffage-orleans.com/solutions/plancher-chauffant/",
+   "new": "https://dargent-thermique.fr/chauffage/plancher-chauffant/",
+   "status": "301",
+   "check": "Re-héberger les 2 PDF et rediriger leurs anciennes URL."
+  },
+  {
+   "order": "P2",
+   "case": "Redirection simple",
+   "old": "https://www.climatisation-chauffage-orleans.com/solutions/ballon-thermodynamique/",
+   "new": "https://dargent-thermique.fr/chauffage/ballon-thermodynamique/",
+   "status": "301",
+   "check": "Re-sourcer ou supprimer les données chiffrées (COP, étude COSTIC) non datées."
+  },
+  {
+   "order": "P2",
+   "case": "Redirection simple",
+   "old": "https://www.climatisation-chauffage-orleans.com/solutions/ventilation/",
+   "new": "https://dargent-thermique.fr/ventilation/",
+   "status": "301",
+   "check": "Aucune."
+  },
+  {
+   "order": "P2",
+   "case": "Redirection simple",
+   "old": "https://www.climatisation-chauffage-orleans.com/aides-financieres/",
+   "new": "https://dargent-thermique.fr/aides-financieres-pompe-a-chaleur/",
+   "status": "301",
+   "check": "Re-sourcer chaque dispositif (source officielle + date) avant publication ; afficher une date de mise à jour."
+  },
+  {
+   "order": "P2",
+   "case": "Redirection simple",
+   "old": "https://www.climatisation-chauffage-orleans.com/references/realisations/",
+   "new": "https://dargent-thermique.fr/realisations/",
+   "status": "301",
+   "check": "Rediriger aussi les fichiers images ou conserver l'arborescence /assets/img/realisations/."
+  },
+  {
+   "order": "P2",
+   "case": "Redirection simple",
+   "old": "https://www.climatisation-chauffage-orleans.com/partenaires/",
+   "new": "https://dargent-thermique.fr/marques-partenaires/",
+   "status": "301",
+   "check": "Vérifier les autorisations d'usage des logos avant republication."
+  },
+  {
+   "order": "P2",
+   "case": "Redirection simple",
+   "old": "https://www.climatisation-chauffage-orleans.com/societe/qualifications/",
+   "new": "https://dargent-thermique.fr/entreprise/qualifications/",
+   "status": "301",
+   "check": "Ajouter les dates de validité des certificats."
+  },
+  {
+   "order": "P2",
+   "case": "Redirection simple",
+   "old": "https://www.climatisation-chauffage-orleans.com/societe/historique/",
+   "new": "https://dargent-thermique.fr/entreprise/notre-histoire/",
+   "status": "301",
+   "check": "Arbitrer la mention du groupe repreneur (2018), aujourd'hui non nommé."
+  },
+  {
+   "order": "P3",
+   "case": "Redirection simple",
+   "old": "https://www.climatisation-chauffage-orleans.com/societe/engagements-ecologiques/",
+   "new": "https://dargent-thermique.fr/entreprise/engagements/",
+   "status": "301",
+   "check": "Re-héberger les vidéos et rediriger leurs URL."
+  },
+  {
+   "order": "P3",
+   "case": "Redirection simple",
+   "old": "https://www.climatisation-chauffage-orleans.com/references/clients/",
+   "new": "https://dargent-thermique.fr/entreprise/references/",
+   "status": "301",
+   "check": "Obtenir les autorisations d'affichage ; confirmer ou retirer le chiffre de 8 000 clients particuliers."
+  },
+  {
+   "order": "P3",
+   "case": "À arbitrer",
+   "old": "https://www.climatisation-chauffage-orleans.com/solutions/connectivite/",
+   "new": "https://dargent-thermique.fr/chauffage/regulation-connectee/",
+   "status": "301 ou 410",
+   "check": "Décision attendue : page dédiée, section de /chauffage/, ou 410. Vérifier le trafic dans GSC."
+  },
+  {
+   "order": "P3",
+   "case": "Redirection simple",
+   "old": "https://www.climatisation-chauffage-orleans.com/postuler/",
+   "new": "https://dargent-thermique.fr/recrutement/",
+   "status": "301",
+   "check": "Vérifier la conformité RGPD du formulaire candidats."
+  },
+  {
+   "order": "Légal",
+   "case": "URL conservée",
+   "old": "https://www.climatisation-chauffage-orleans.com/mentions-legales/",
+   "new": "https://dargent-thermique.fr/mentions-legales/",
+   "status": "301",
+   "check": "Corriger l'incohérence SARL/SAS constatée sur un site satellite."
+  },
+  {
+   "order": "Légal",
+   "case": "URL conservée",
+   "old": "https://www.climatisation-chauffage-orleans.com/politique-confidentialite/",
+   "new": "https://dargent-thermique.fr/politique-confidentialite/",
+   "status": "301",
+   "check": "Aligner sur les nouveaux formulaires."
+  },
+  {
+   "order": "Légal",
+   "case": "Redirection simple",
+   "old": "https://www.climatisation-chauffage-orleans.com/protection-donnees-personnelles/",
+   "new": "https://dargent-thermique.fr/protection-donnees/",
+   "status": "301",
+   "check": "Arbitrer la fusion avec la politique de confidentialité."
+  },
+  {
+   "order": "Légal",
+   "case": "URL conservée",
+   "old": "https://www.climatisation-chauffage-orleans.com/cookies/",
+   "new": "https://dargent-thermique.fr/cookies/",
+   "status": "301",
+   "check": "Aligner sur les traceurs réellement installés."
+  },
+  {
+   "order": "Légal",
+   "case": "URL conservée",
+   "old": "https://www.climatisation-chauffage-orleans.com/cgu/",
+   "new": "https://dargent-thermique.fr/cgu/",
+   "status": "301",
+   "check": "Supprimer les formulations menaçantes (amende de 750 €)."
+  },
+  {
+   "order": "Atypique",
+   "case": "Décision à prendre",
+   "old": "https://www.climatisation-chauffage-orleans.com/referencement-site-internet-orleans.php",
+   "new": "410 par défaut, ou /pompe-a-chaleur/",
+   "status": "À ARBITRER",
+   "check": "Consulter GSC (impressions, clics, requêtes) et les backlinks. 301 uniquement si trafic ou liens externes significatifs."
+  },
+  {
+   "order": "Atypique",
+   "case": "Suppression",
+   "old": "https://www.climatisation-chauffage-orleans.com/referencement-site-internet-loiret.php",
+   "new": "(aucune)",
+   "status": "410",
+   "check": "Confirmer l'absence de backlinks avant application."
+  },
+  {
+   "order": "Atypique",
+   "case": "Suppression",
+   "old": "https://www.climatisation-chauffage-orleans.com/referencement-site-internet-45.php",
+   "new": "(aucune)",
+   "status": "410",
+   "check": "Ouvrir la page et confirmer le doublon, puis vérifier les backlinks."
+  },
+  {
+   "order": "Atypique",
+   "case": "Fichier",
+   "old": "https://www.climatisation-chauffage-orleans.com/assets/pdf/attestation-de-capacite.pdf",
+   "new": "https://dargent-thermique.fr/documents/attestation-de-capacite.pdf",
+   "status": "301",
+   "check": "Vérifier que l'attestation est toujours valide avant republication."
+  },
+  {
+   "order": "Atypique",
+   "case": "Fichiers",
+   "old": "https://www.climatisation-chauffage-orleans.com/assets/pdf/brochure-*.pdf (5 fichiers Rehau et Danfoss)",
+   "new": "https://dargent-thermique.fr/documents/*",
+   "status": "301",
+   "check": "Vérifier les droits de diffusion auprès des fabricants ; retirer si périmés."
+  },
+  {
+   "order": "Atypique",
+   "case": "Fichiers",
+   "old": "https://www.climatisation-chauffage-orleans.com/assets/img/realisations/* (~30 images)",
+   "new": "https://dargent-thermique.fr/images/realisations/*",
+   "status": "301 ou conservation du chemin",
+   "check": "Conserver si possible la même arborescence pour éviter 30 redirections."
+  },
+  {
+   "order": "Atypique",
+   "case": "Fichiers",
+   "old": "https://www.climatisation-chauffage-orleans.com/assets/videos/video-*.mp4",
+   "new": "https://dargent-thermique.fr/videos/*",
+   "status": "301",
+   "check": "Re-encoder et intégrer dans un lecteur plutôt qu'en lien direct."
+  },
+  {
+   "order": "Atypique",
+   "case": "Variantes d'URL",
+   "old": "http:// et https://, avec et sans www, avec et sans slash final",
+   "new": "Version canonique unique en https, sans www (à arbitrer), avec slash final",
+   "status": "301",
+   "check": "Choisir une version canonique, la déclarer partout (canonical, sitemap, liens internes) et tester les 8 combinaisons."
+  },
+  {
+   "order": "Atypique",
+   "case": "Propriété externe",
+   "old": "https://www.plomberie-chauffage-sanitaire-orleans.fr/ (site satellite)",
+   "new": "https://dargent-thermique.fr/",
+   "status": "À ARBITRER (301 recommandé)",
+   "check": "Confirmer la propriété du domaine et l'accès technique."
+  },
+  {
+   "order": "Atypique",
+   "case": "Propriété externe",
+   "old": "sites.google.com/site/climatisationorleans et climatiseurs-orleans.blogspot.fr",
+   "new": "(aucune)",
+   "status": "À ARBITRER",
+   "check": "Supprimer les liens depuis le nouveau site ; fermer ou dépublier si les comptes sont accessibles."
+  },
+  {
+   "order": "Atypique",
+   "case": "Propriété externe",
+   "old": "www.dargent-thermique.com (ancien domaine cité en annuaire)",
+   "new": "https://dargent-thermique.fr/",
+   "status": "À ARBITRER (301 recommandé)",
+   "check": "Vérifier la détention du domaine et son état (actif, parqué, expiré)."
+  },
+  {
+   "order": "Nouveau",
+   "case": "Nouvelle page sans ancienne URL",
+   "old": "(aucune)",
+   "new": "https://dargent-thermique.fr/climatisation/ ; /pompe-a-chaleur/installation/ ; /pompe-a-chaleur/entretien/ ; /pompe-a-chaleur/depannage/ ; /climatisation/installation/ ; /climatisation/depannage/ ; /climatisation/gainable/",
+   "status": "Nouvelle page",
+   "check": "Les lier depuis l'accueil et les piliers dès la mise en ligne ; les soumettre dans le sitemap XML."
+  },
+  {
+   "order": "Nouveau",
+   "case": "Nouvelle page sans ancienne URL",
+   "old": "(aucune)",
+   "new": "https://dargent-thermique.fr/chauffage/ ; /chauffage/entretien-chaudiere/ ; /entretien-depannage/ ; /zones-intervention/ et pages locales ; /entreprise/ ; /devis/ ; /professionnels/ ; études de cas",
+   "status": "Nouvelle page",
+   "check": "Ne publier les pages locales et les études de cas qu'avec leurs preuves ; sinon les maintenir hors sitemap."
+  }
+ ],
+ "linking": [
+  {
+   "Page de départ": "Accueil",
+   "Pointe vers": "pompe-a-chaleur/ ; climatisation/ ; chauffage/ ; entretien-depannage/ ; realisations/ ; zones-intervention/ ; devis/ ; entreprise/qualifications/",
+   "Nature du lien": "Navigation + blocs éditoriaux",
+   "Règle": "La PAC apparaît en premier dans la navigation et dans le premier bloc de contenu : c'est la priorité commerciale."
+  },
+  {
+   "Page de départ": "pompe-a-chaleur/ (pilier)",
+   "Pointe vers": "air-eau/ ; haute-temperature/ ; hybride/ ; installation/ ; entretien/ ; depannage/ ; aides-financieres-pompe-a-chaleur/ ; chauffage/plancher-chauffant/ ; realisations/ ; devis/",
+   "Nature du lien": "Liens contextuels + blocs de fin de page",
+   "Règle": "Le pilier distribue vers ses 6 pages filles et vers les aides. Il ne développe pas le contenu des filles."
+  },
+  {
+   "Page de départ": "pompe-a-chaleur/air-eau/",
+   "Pointe vers": "installation/ ; entretien/ ; depannage/ ; haute-temperature/ ; chauffage/plancher-chauffant/ ; aides ; devis/",
+   "Nature du lien": "Liens contextuels",
+   "Règle": "Le lien vers le plancher chauffant est obligatoire (émetteur idéal) et réciproque."
+  },
+  {
+   "Page de départ": "pompe-a-chaleur/haute-temperature/",
+   "Pointe vers": "air-eau/ ; installation/ ; chauffage/chaudiere-condensation/ ; aides ; devis/",
+   "Nature du lien": "Liens contextuels",
+   "Règle": "Doit renvoyer vers la PAC air/eau pour éviter que l'internaute ne se trompe de page."
+  },
+  {
+   "Page de départ": "pompe-a-chaleur/hybride/",
+   "Pointe vers": "chauffage/chaudiere-condensation/ ; aides ; devis/",
+   "Nature du lien": "Liens contextuels",
+   "Règle": "Remplace la duplication de texte entre les deux pages."
+  },
+  {
+   "Page de départ": "climatisation/ (pilier)",
+   "Pointe vers": "reversible/ ; gainable/ ; installation/ ; entretien/ ; depannage/ ; realisations/ ; professionnels/ ; devis/",
+   "Nature du lien": "Navigation + blocs éditoriaux",
+   "Règle": "Même logique que le pilier PAC."
+  },
+  {
+   "Page de départ": "Pages de service (toutes)",
+   "Pointe vers": "entreprise/qualifications/ ; aides-financieres-pompe-a-chaleur/ ; devis/",
+   "Nature du lien": "Bloc de réassurance en fin de page",
+   "Règle": "Règle systématique : qualification, aides (si pertinent), conversion. Les aides ne sont pas liées depuis les pages climatisation si le dispositif ne s'applique pas."
+  },
+  {
+   "Page de départ": "entretien-depannage/ (hub)",
+   "Pointe vers": "pompe-a-chaleur/entretien/ ; pompe-a-chaleur/depannage/ ; climatisation/entretien/ ; climatisation/depannage/ ; chauffage/entretien-chaudiere/",
+   "Nature du lien": "Liste de services",
+   "Règle": "Le hub distribue ; il ne concurrence aucune page fille sur leurs mots-clés."
+  },
+  {
+   "Page de départ": "aides-financieres-pompe-a-chaleur/",
+   "Pointe vers": "pompe-a-chaleur/ ; entreprise/qualifications/ ; devis/ ; sources officielles",
+   "Nature du lien": "Liens contextuels",
+   "Règle": "Seule page portant des montants : toutes les autres pages y renvoient au lieu de les répéter."
+  },
+  {
+   "Page de départ": "realisations/",
+   "Pointe vers": "pompe-a-chaleur/ ; climatisation/ ; études de cas ; zones-intervention/* ; devis/",
+   "Nature du lien": "Liens contextuels par catégorie",
+   "Règle": "Chaque catégorie de photos renvoie vers la page de service correspondante."
+  },
+  {
+   "Page de départ": "zones-intervention/ (hub)",
+   "Pointe vers": "orleans/ ; saint-jean-de-braye/ ; (autres communes quand publiées) ; contact/",
+   "Nature du lien": "Liste de communes",
+   "Règle": "Ne lister que les communes disposant d'une page réellement publiée."
+  },
+  {
+   "Page de départ": "Pages locales",
+   "Pointe vers": "Prestations réellement proposées sur la zone ; realisations/ (chantiers locaux) ; devis/ ; contact/",
+   "Nature du lien": "Liens contextuels",
+   "Règle": "Interdiction de cloner le même bloc de liens d'une commune à l'autre : les prestations et les chantiers cités doivent différer."
+  },
+  {
+   "Page de départ": "entreprise/qualifications/",
+   "Pointe vers": "aides-financieres-pompe-a-chaleur/ ; devis/ ; PDF attestation",
+   "Nature du lien": "Liens contextuels",
+   "Règle": "Fait le lien entre la qualification RGE et l'accès aux aides."
+  },
+  {
+   "Page de départ": "devis/",
+   "Pointe vers": "contact/ ; entreprise/qualifications/ ; aides-financieres-pompe-a-chaleur/",
+   "Nature du lien": "Liens de réassurance",
+   "Règle": "Peu de liens sortants : la page doit convertir, pas disperser."
+  },
+  {
+   "Page de départ": "Pied de page (toutes les pages)",
+   "Pointe vers": "entreprise/ ; zones-intervention/ ; entretien-depannage/ ; contact/ ; recrutement/ ; pages légales",
+   "Nature du lien": "Navigation secondaire",
+   "Règle": "Supprimer tous les liens sortants vers l'agence web et les sites satellites présents aujourd'hui."
+  },
+  {
+   "Page de départ": "RISQUE D'ORPHELINAT",
+   "Pointe vers": "recrutement/ ; entreprise/engagements/ ; entreprise/references/ ; chauffage/regulation-connectee/ ; ventilation/ ; chauffage/entretien-chaudiere/ ; professionnels/",
+   "Nature du lien": "—",
+   "Règle": "Ces pages ne sont liées ni depuis l'accueil ni depuis un pilier : prévoir un lien depuis le pied de page et au moins un lien contextuel depuis une page à trafic (entreprise/, chauffage/, climatisation/, entretien-depannage/)."
+  },
+  {
+   "Page de départ": "RÈGLE GÉNÉRALE",
+   "Pointe vers": "—",
+   "Nature du lien": "—",
+   "Règle": "Chaque page doit recevoir au moins 3 liens internes hors navigation. Aucune page ne doit être accessible en plus de 3 clics depuis l'accueil. Ancres descriptives et variées, jamais 'cliquez ici'."
+  }
+ ],
+ "toConfirm": [
+  {
+   "Thème": "Offre",
+   "Information à confirmer": "Les chaudières fioul et biofioul F30 sont-elles toujours commercialisées ?",
+   "Pourquoi c'est bloquant": "Conditionne le contenu de la page chaudière et la cohérence avec le positionnement PAC.",
+   "Pages concernées": "chauffage/chaudiere-condensation/",
+   "Interlocuteur": "Direction",
+   "Réponse": null
+  },
+  {
+   "Thème": "Offre",
+   "Information à confirmer": "L'entretien de chaudière est-il vendu aux particuliers ?",
+   "Pourquoi c'est bloquant": "Conditionne la création de la page entretien-chaudiere (sinon la page est supprimée).",
+   "Pages concernées": "chauffage/entretien-chaudiere/",
+   "Interlocuteur": "Direction",
+   "Réponse": null
+  },
+  {
+   "Thème": "Offre",
+   "Information à confirmer": "L'offre professionnelle et collectivités est-elle maintenue et doit-elle être affichée ?",
+   "Pourquoi c'est bloquant": "Conditionne la création de la page professionnels et le traitement des références clients.",
+   "Pages concernées": "professionnels/ ; entreprise/references/",
+   "Interlocuteur": "Direction",
+   "Réponse": null
+  },
+  {
+   "Thème": "Offre",
+   "Information à confirmer": "La climatisation gainable est-elle proposée en résidentiel ? Des chantiers sont-ils photographiables ?",
+   "Pourquoi c'est bloquant": "Sans photo, la page gainable bascule du lot 2 au lot 3.",
+   "Pages concernées": "climatisation/gainable/",
+   "Interlocuteur": "Commerce",
+   "Réponse": null
+  },
+  {
+   "Thème": "Offre",
+   "Information à confirmer": "Quelles marques sont réellement distribuées aujourd'hui (PAC, climatisation, chaudières) ?",
+   "Pourquoi c'est bloquant": "Le site actuel affiche 7 logos sans texte ; certaines mentions (Daikin Expert Confort Habitat, Station Technique Viessmann) n'apparaissent que sur un site satellite.",
+   "Pages concernées": "marques-partenaires/ ; pages produits",
+   "Interlocuteur": "Direction",
+   "Réponse": null
+  },
+  {
+   "Thème": "Preuves",
+   "Information à confirmer": "Photos de chantiers de PAC air/eau (aucune sur le site actuel).",
+   "Pourquoi c'est bloquant": "Bloquant : c'est la priorité commerciale n°1 et elle n'a aucune preuve visuelle.",
+   "Pages concernées": "pompe-a-chaleur/ et filles ; realisations/",
+   "Interlocuteur": "Commerce + Conduite de travaux",
+   "Réponse": null
+  },
+  {
+   "Thème": "Preuves",
+   "Information à confirmer": "Chantiers localisés à Orléans, Olivet, Fleury-les-Aubrais, Saint-Jean-de-la-Ruelle.",
+   "Pourquoi c'est bloquant": "Conditionne la publication des pages locales (sinon statut Reporter).",
+   "Pages concernées": "zones-intervention/*",
+   "Interlocuteur": "Commerce",
+   "Réponse": null
+  },
+  {
+   "Thème": "Preuves",
+   "Information à confirmer": "Accords écrits des clients pour les avis, réalisations et études de cas.",
+   "Pourquoi c'est bloquant": "Obligatoire avant toute publication nominative.",
+   "Pages concernées": "realisations/ ; études de cas ; entreprise/references/",
+   "Interlocuteur": "Commerce + Juridique",
+   "Réponse": null
+  },
+  {
+   "Thème": "Preuves",
+   "Information à confirmer": "Le chiffre de 'plus de 8 000 clients particuliers' est-il à jour ?",
+   "Pourquoi c'est bloquant": "Chiffre affiché aujourd'hui sans source : à confirmer ou retirer.",
+   "Pages concernées": "entreprise/references/ ; accueil",
+   "Interlocuteur": "Direction",
+   "Réponse": null
+  },
+  {
+   "Thème": "Entreprise",
+   "Information à confirmer": "Composition actuelle de l'équipe maintenance (le site annonce 1 assistante, 6 techniciens, 1 référent).",
+   "Pourquoi c'est bloquant": "Argument de réassurance repris sur plusieurs pages.",
+   "Pages concernées": "entretien-depannage/ ; pages entretien",
+   "Interlocuteur": "Direction",
+   "Réponse": null
+  },
+  {
+   "Thème": "Entreprise",
+   "Information à confirmer": "Nom du groupe repreneur (2018) : communicable ou non ?",
+   "Pourquoi c'est bloquant": "Le site mentionne un rachat sans nommer le groupe ; élément de réassurance potentiellement fort.",
+   "Pages concernées": "entreprise/notre-histoire/ ; entreprise/",
+   "Interlocuteur": "Direction",
+   "Réponse": null
+  },
+  {
+   "Thème": "Entreprise",
+   "Information à confirmer": "Horaires d'ouverture, accueil physique et salle d'exposition ouverte au public.",
+   "Pourquoi c'est bloquant": "Nécessaire pour la page contact, la page locale et le Schema LocalBusiness.",
+   "Pages concernées": "contact/ ; zones-intervention/saint-jean-de-braye/",
+   "Interlocuteur": "Direction",
+   "Réponse": null
+  },
+  {
+   "Thème": "Entreprise",
+   "Information à confirmer": "Forme juridique et capital exacts (incohérence SARL / SAS relevée).",
+   "Pourquoi c'est bloquant": "Conformité des mentions légales.",
+   "Pages concernées": "mentions-legales/",
+   "Interlocuteur": "Juridique",
+   "Réponse": null
+  },
+  {
+   "Thème": "Service",
+   "Information à confirmer": "Délais d'intervention réellement tenables (installation, dépannage, astreinte).",
+   "Pourquoi c'est bloquant": "Aucune promesse de délai ne sera publiée sans engagement écrit.",
+   "Pages concernées": "pages installation et dépannage",
+   "Interlocuteur": "Direction",
+   "Réponse": null
+  },
+  {
+   "Thème": "Service",
+   "Information à confirmer": "Contenu exact des forfaits et contrats d'entretien (PAC, climatisation, chaudière).",
+   "Pourquoi c'est bloquant": "Cœur des pages entretien et du revenu récurrent.",
+   "Pages concernées": "pages entretien ; entretien-depannage/",
+   "Interlocuteur": "Service maintenance",
+   "Réponse": null
+  },
+  {
+   "Thème": "Service",
+   "Information à confirmer": "Le seuil de devis obligatoire de 150 € TTC est-il toujours appliqué ?",
+   "Pourquoi c'est bloquant": "Élément de transparence repris comme engagement.",
+   "Pages concernées": "entretien-depannage/ ; pages dépannage",
+   "Interlocuteur": "Direction",
+   "Réponse": null
+  },
+  {
+   "Thème": "Service",
+   "Information à confirmer": "Intervenez-vous sur du matériel non installé par l'entreprise ?",
+   "Pourquoi c'est bloquant": "Détermine le périmètre annoncé sur les pages dépannage.",
+   "Pages concernées": "pages dépannage",
+   "Interlocuteur": "Service maintenance",
+   "Réponse": null
+  },
+  {
+   "Thème": "Qualifications",
+   "Information à confirmer": "Validité et date d'échéance de chaque qualification (Qualibat, QUALIPAC, RGE, Professionnel du gaz, attestation fluides).",
+   "Pourquoi c'est bloquant": "Le certificat Qualibat est valable un an : afficher une qualification périmée est un risque.",
+   "Pages concernées": "entreprise/qualifications/ ; aides",
+   "Interlocuteur": "Qualité + Direction",
+   "Réponse": null
+  },
+  {
+   "Thème": "Qualifications",
+   "Information à confirmer": "Adhésion Ecologic toujours active ?",
+   "Pourquoi c'est bloquant": "Affichée depuis juin 2012 sur la page engagements.",
+   "Pages concernées": "entreprise/engagements/",
+   "Interlocuteur": "Qualité",
+   "Réponse": null
+  },
+  {
+   "Thème": "Zones",
+   "Information à confirmer": "Liste exacte des communes couvertes, en installation et en dépannage.",
+   "Pourquoi c'est bloquant": "Interdiction de lister des communes sans capacité réelle d'intervention.",
+   "Pages concernées": "zones-intervention/ et pages locales",
+   "Interlocuteur": "Direction",
+   "Réponse": null
+  },
+  {
+   "Thème": "Technique",
+   "Information à confirmer": "Propriété des sites satellites (plomberie-chauffage-sanitaire-orleans.fr, Google Sites, Blogspot, dargent-thermique.com).",
+   "Pourquoi c'est bloquant": "Conditionne les redirections de consolidation.",
+   "Pages concernées": "Matrice de redirections",
+   "Interlocuteur": "Direction + Agence sortante",
+   "Réponse": null
+  },
+  {
+   "Thème": "Technique",
+   "Information à confirmer": "Accès à Google Search Console, GA4, logs et données de backlinks.",
+   "Pourquoi c'est bloquant": "Bloquant pour les décisions 301/410 sur les pages atypiques et pour mesurer l'effet de la migration.",
+   "Pages concernées": "Ensemble du projet",
+   "Interlocuteur": "Direction + Agence sortante",
+   "Réponse": null
+  },
+  {
+   "Thème": "Technique",
+   "Information à confirmer": "Arbitrage sur l'ancienne page Connectivité : page dédiée, section ou 410 ?",
+   "Pourquoi c'est bloquant": "Détermine une ligne de la matrice de redirections.",
+   "Pages concernées": "chauffage/regulation-connectee/",
+   "Interlocuteur": "Direction + SEO",
+   "Réponse": null
+  },
+  {
+   "Thème": "Réglementaire",
+   "Information à confirmer": "Dispositifs d'aides en vigueur à la date de publication et accompagnement réellement assuré.",
+   "Pourquoi c'est bloquant": "Seule page autorisée à porter des montants ; risque juridique et commercial si obsolète.",
+   "Pages concernées": "aides-financieres-pompe-a-chaleur/",
+   "Interlocuteur": "Direction + Juridique",
+   "Réponse": null
+  }
+ ],
+ "checklist": [
+  {
+   "Étape": "Avant bascule — Contenu",
+   "Point à vérifier": "Chaque page publiée a un H1 unique et différent des autres pages.",
+   "Responsable": "SEO",
+   "Fait (O/N)": null
+  },
+  {
+   "Étape": "Avant bascule — Contenu",
+   "Point à vérifier": "Chaque Title et chaque meta description est unique (le site actuel a la même meta partout).",
+   "Responsable": "SEO",
+   "Fait (O/N)": null
+  },
+  {
+   "Étape": "Avant bascule — Contenu",
+   "Point à vérifier": "Aucun montant d'aide, tarif, délai, COP ou pourcentage d'économie hors page aides, et chaque donnée est sourcée et datée.",
+   "Responsable": "SEO + Direction",
+   "Fait (O/N)": null
+  },
+  {
+   "Étape": "Avant bascule — Contenu",
+   "Point à vérifier": "Aucune promesse invérifiable (garanties, positions, 'économies garanties').",
+   "Responsable": "Direction",
+   "Fait (O/N)": null
+  },
+  {
+   "Étape": "Avant bascule — Contenu",
+   "Point à vérifier": "Le bloc générique 'Bienvenue chez Climatisation & Chauffage Orléans' n'a pas été repris.",
+   "Responsable": "Rédaction",
+   "Fait (O/N)": null
+  },
+  {
+   "Étape": "Avant bascule — Contenu",
+   "Point à vérifier": "Le pavé anti-spam menaçant (amende de 750 €) a été supprimé de toutes les pages.",
+   "Responsable": "Juridique",
+   "Fait (O/N)": null
+  },
+  {
+   "Étape": "Avant bascule — Contenu",
+   "Point à vérifier": "Les preuves annoncées sont présentes : qualifications, attestation, photos, avis.",
+   "Responsable": "Rédaction",
+   "Fait (O/N)": null
+  },
+  {
+   "Étape": "Avant bascule — Technique",
+   "Point à vérifier": "Version canonique unique choisie (https, www ou non, slash final) et appliquée partout.",
+   "Responsable": "Développement",
+   "Fait (O/N)": null
+  },
+  {
+   "Étape": "Avant bascule — Technique",
+   "Point à vérifier": "Balises canonical cohérentes avec les URL réellement servies (écart constaté sur l'ancien site).",
+   "Responsable": "Développement",
+   "Fait (O/N)": null
+  },
+  {
+   "Étape": "Avant bascule — Technique",
+   "Point à vérifier": "Sitemap XML généré, limité aux pages publiées (ni pages reportées ni pages vides).",
+   "Responsable": "Développement",
+   "Fait (O/N)": null
+  },
+  {
+   "Étape": "Avant bascule — Technique",
+   "Point à vérifier": "robots.txt correct et aucune balise noindex résiduelle de la préproduction.",
+   "Responsable": "Développement",
+   "Fait (O/N)": null
+  },
+  {
+   "Étape": "Avant bascule — Technique",
+   "Point à vérifier": "Données structurées Schema.org en place et testées (Organization, LocalBusiness, Service, BreadcrumbList, FAQPage si FAQ affichée).",
+   "Responsable": "Développement + SEO",
+   "Fait (O/N)": null
+  },
+  {
+   "Étape": "Avant bascule — Technique",
+   "Point à vérifier": "NAP (nom, adresse, téléphone) strictement identique sur le site et sur la fiche Google Business Profile.",
+   "Responsable": "SEO",
+   "Fait (O/N)": null
+  },
+  {
+   "Étape": "Avant bascule — Technique",
+   "Point à vérifier": "Aucun lien sortant vers l'agence web ou les sites satellites.",
+   "Responsable": "Développement",
+   "Fait (O/N)": null
+  },
+  {
+   "Étape": "Avant bascule — Technique",
+   "Point à vérifier": "Performances et affichage mobile vérifiés sur les pages P1 ; téléphone cliquable.",
+   "Responsable": "Développement",
+   "Fait (O/N)": null
+  },
+  {
+   "Étape": "Avant bascule — Redirections",
+   "Point à vérifier": "Table de redirections complète, testée URL par URL, sans chaîne ni boucle.",
+   "Responsable": "Développement + SEO",
+   "Fait (O/N)": null
+  },
+  {
+   "Étape": "Avant bascule — Redirections",
+   "Point à vérifier": "Fichiers redirigés : PDF d'attestation, brochures, images de réalisations, vidéos.",
+   "Responsable": "Développement",
+   "Fait (O/N)": null
+  },
+  {
+   "Étape": "Avant bascule — Redirections",
+   "Point à vérifier": "Décisions 301/410 des pages .php confirmées par les données GSC.",
+   "Responsable": "SEO",
+   "Fait (O/N)": null
+  },
+  {
+   "Étape": "Avant bascule — Conversion",
+   "Point à vérifier": "Formulaires de devis, contact et candidature testés (envoi, réception, accusé).",
+   "Responsable": "Développement",
+   "Fait (O/N)": null
+  },
+  {
+   "Étape": "Avant bascule — Conversion",
+   "Point à vérifier": "Mentions RGPD conformes sur chaque formulaire ; bandeau cookies fonctionnel, refus effectif.",
+   "Responsable": "Juridique + Développement",
+   "Fait (O/N)": null
+  },
+  {
+   "Étape": "Avant bascule — Conversion",
+   "Point à vérifier": "Suivi des conversions en place (appels, formulaires) avant la bascule, pour disposer d'un point de comparaison.",
+   "Responsable": "SEO",
+   "Fait (O/N)": null
+  },
+  {
+   "Étape": "Avant bascule — Juridique",
+   "Point à vérifier": "Mentions légales, politique de confidentialité, cookies et CGU validées et en ligne.",
+   "Responsable": "Juridique",
+   "Fait (O/N)": null
+  },
+  {
+   "Étape": "Avant bascule — Juridique",
+   "Point à vérifier": "Autorisations d'usage des logos clients et des marques partenaires obtenues.",
+   "Responsable": "Juridique",
+   "Fait (O/N)": null
+  },
+  {
+   "Étape": "Avant bascule — Juridique",
+   "Point à vérifier": "Accords écrits des clients cités dans les avis, réalisations et études de cas.",
+   "Responsable": "Commerce + Juridique",
+   "Fait (O/N)": null
+  },
+  {
+   "Étape": "Jour de la bascule",
+   "Point à vérifier": "Nouveau domaine déclaré dans Google Search Console ; outil de changement d'adresse utilisé si disponible.",
+   "Responsable": "SEO",
+   "Fait (O/N)": null
+  },
+  {
+   "Étape": "Jour de la bascule",
+   "Point à vérifier": "Sitemap XML soumis dans GSC ; demande d'indexation des pages P1.",
+   "Responsable": "SEO",
+   "Fait (O/N)": null
+  },
+  {
+   "Étape": "Jour de la bascule",
+   "Point à vérifier": "Ancien domaine conservé et maintenu actif au moins 12 mois pour servir les redirections.",
+   "Responsable": "Direction + Développement",
+   "Fait (O/N)": null
+  },
+  {
+   "Étape": "Jour de la bascule",
+   "Point à vérifier": "Fiche Google Business Profile, annuaires, réseaux sociaux et signatures mail mis à jour avec la nouvelle URL.",
+   "Responsable": "Marketing",
+   "Fait (O/N)": null
+  },
+  {
+   "Étape": "Après bascule — J+1 à J+7",
+   "Point à vérifier": "Crawl complet du nouveau site : aucune 404 interne, aucune chaîne de redirection.",
+   "Responsable": "SEO",
+   "Fait (O/N)": null
+  },
+  {
+   "Étape": "Après bascule — J+1 à J+7",
+   "Point à vérifier": "Suivi quotidien des erreurs d'exploration et des pages indexées dans GSC.",
+   "Responsable": "SEO",
+   "Fait (O/N)": null
+  },
+  {
+   "Étape": "Après bascule — J+30",
+   "Point à vérifier": "Comparaison du trafic et des positions avec la période précédente ; correction des redirections manquantes.",
+   "Responsable": "SEO",
+   "Fait (O/N)": null
+  },
+  {
+   "Étape": "Après bascule — J+90",
+   "Point à vérifier": "Revue des pages reportées (locales, études de cas) et publication de celles dont les preuves sont réunies.",
+   "Responsable": "SEO + Commerce",
+   "Fait (O/N)": null
+  },
+  {
+   "Étape": "Récurrent — Trimestriel",
+   "Point à vérifier": "Revue de la page aides : dispositifs, montants, sources et date de mise à jour.",
+   "Responsable": "Rédaction + Direction",
+   "Fait (O/N)": null
+  },
+  {
+   "Étape": "Récurrent — Annuel",
+   "Point à vérifier": "Revue des qualifications et de leur date de validité (certificat Qualibat valable un an).",
+   "Responsable": "Qualité + Direction",
+   "Fait (O/N)": null
+  }
+ ]
+}

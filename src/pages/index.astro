@@ -1,0 +1,149 @@
+---
+import Base from '../layouts/Base.astro';
+import Icon from '../components/Icon.astro';
+import Photo from '../components/Photo.astro';
+import Checks from '../components/Checks.astro';
+import Cachet from '../components/Cachet.astro';
+import ToConfirm from '../components/ToConfirm.astro';
+import Testimonials from '../components/Testimonials.astro';
+import CtaBand from '../components/CtaBand.astro';
+import { site } from '../data/site';
+import { byCat } from '../data/realisations';
+import { breadcrumb } from '../lib/schema';
+
+const title = 'Chauffage, climatisation et PAC à Orléans | Dargent';
+const description = 'Installateur RGE de pompes à chaleur, climatisation et chauffage à Orléans depuis 1936. Étude personnalisée et devis gratuit. Appelez le 02 38 86 46 46.';
+const hero = byCat('maintenance').find((x) => x.n === '033')!;
+const gallery = [byCat('climatisations-reversibles')[0], byCat('chaudieres-condensation-basses-temperatures')[0], byCat('planchers-chauffants')[0], byCat('ventilations')[2], byCat('maintenance')[2], byCat('climatisations-reversibles')[3]];
+---
+<Base title={title} description={description} path="/" schema={[breadcrumb([{ name: 'Accueil', path: '/' }])]} ogImage={hero.src}>
+  <section class="hero"><div class="container">
+    <div class="entry entry-even">
+      <div>
+        <h1 class="display">Pompe à chaleur, climatisation et chauffage dans l’agglomération orléanaise</h1>
+        <p class="promise">Un installateur orléanais qualifié RGE depuis 1936, qui étudie votre projet avant de le chiffrer.</p>
+        <div class="actions">
+          <a class="btn" href="/devis/">Demander un devis</a>
+          <a class="tel" href={site.phoneHref}><Icon name="phone" /> {site.phone}</a>
+        </div>
+        <dl class="ruled">
+          <dt>Entreprise</dt><dd>{site.legalName}, fondée en {site.founded}</dd>
+          <dt>Siège</dt><dd>Avenue Ampère, Saint-Jean-de-Braye, depuis {site.atAmpereSince}</dd>
+          <dt>Qualibat RGE</dt><dd>8321, 5423, 5312, 5112</dd>
+          <dt>Fluides frigorigènes</dt><dd>Attestation n° 111363-R1</dd>
+          <dt>Bureau d’études</dt><dd>Interne, depuis {site.designOfficeSince}</dd>
+        </dl>
+        <div class="stamp-row">
+          <Cachet compact />
+          <div class="stamp-checks">
+            <Checks items={[{ label: 'Devis après visite sur place', detail: 'jamais un prix au téléphone' }, { label: 'Attestation remise', detail: 'après chaque entretien' }, { label: 'Registre des fluides tenu', detail: 'techniciens habilités' }]} />
+          </div>
+        </div>
+      </div>
+      <Photo src={hero.src} alt={hero.caption} caption={hero.caption} priority class="hero-photo" />
+    </div>
+  </div></section>
+
+  <section class="section" style="padding-top:0"><div class="container">
+    <h2>Nos solutions : pompe à chaleur, climatisation, chauffage, ventilation</h2>
+    <div class="cards cards-solutions">
+      <article class="card card-lead">
+        <Photo missing="pompe à chaleur air/eau posée par nos équipes" />
+        <div>
+          <h3><a href="/pompe-a-chaleur/">Pompe à chaleur</a></h3>
+          <p>Air/eau, haute température ou hybride gaz : la solution est dimensionnée par notre bureau d’études selon votre isolation et vos émetteurs, pas selon un catalogue.</p>
+          <p><a class="more" href="/pompe-a-chaleur/">Choisir sa pompe à chaleur <Icon name="arrow-right" /></a></p>
+        </div>
+      </article>
+      <article class="card card-side">
+        <Photo src={byCat('climatisations-reversibles')[1].thumb} alt={byCat('climatisations-reversibles')[1].caption} />
+        <div>
+          <h3><a href="/climatisation/">Climatisation</a></h3>
+          <p>Réversible, gainable ou multi-split, pour la maison comme pour les locaux professionnels.</p>
+          <p><a class="more" href="/climatisation/">Voir la climatisation <Icon name="arrow-right" /></a></p>
+        </div>
+      </article>
+      <article class="card card-side">
+        <Photo src={byCat('chaudieres-condensation-basses-temperatures')[4].thumb} alt={byCat('chaudieres-condensation-basses-temperatures')[4].caption} />
+        <div>
+          <h3><a href="/chauffage/">Chauffage</a></h3>
+          <p>Chaudière à condensation, plancher chauffant, ballon thermodynamique, régulation.</p>
+          <p><a class="more" href="/chauffage/">Nos solutions de chauffage <Icon name="arrow-right" /></a></p>
+        </div>
+      </article>
+    </div>
+    <p class="ruled-row" style="margin-top:16px"><span class="lbl">Ventilation</span><span>Simple flux, hygroréglable ou double flux : <a href="/ventilation/">voir la ventilation</a>.</span></p>
+  </div></section>
+
+  <section class="section section-alt"><div class="container">
+    <div class="entry entry-rev">
+      <div>
+        <h2>Pourquoi Dargent Thermique</h2>
+        <p>Trois générations de chauffagistes se sont succédé depuis 1936. En 1993, l’entreprise a créé son bureau d’études : chaque installation est calculée avant d’être chiffrée, et le devis n’arrive qu’après la visite technique.</p>
+        <p>Nos techniciens sont habilités à la manipulation des fluides frigorigènes, l’entreprise est qualifiée Qualibat RGE, et nous adhérons à l’éco-organisme Ecologic pour le traitement des déchets de chantier.</p>
+        <p><a href="/entreprise/">Découvrir l’entreprise</a></p>
+      </div>
+      <Photo src="/images/produits/fourgon-dargent.jpg" alt="Fourgon d’intervention Dargent Thermique" caption="Véhicule d’intervention équipé, magasin de pièces à Saint-Jean-de-Braye" label="Moyens" />
+    </div>
+  </div></section>
+
+  <section class="section"><div class="container">
+    <h2>Nos qualifications</h2>
+    <div class="entry">
+      <dl class="ruled ruled-wide">
+        {site.qualifications.map((q) => <><dt>{q.code}</dt><dd>{q.label}</dd></>)}
+      </dl>
+      <div>
+        <div class="marks">
+          <img src="/images/qualifications/logo-qualibat.jpg" alt="Qualibat RGE" width="90" height="90" loading="lazy" />
+          <img src="/images/qualifications/RGE.png" alt="Reconnu Garant de l’Environnement" width="90" height="90" loading="lazy" />
+          <img src="/images/qualifications/logo-professionnels-du-gaz.jpg" alt="Professionnel du gaz" width="90" height="90" loading="lazy" />
+          <img src="/images/qualifications/ecologic.png" alt="Ecologic" width="90" height="90" loading="lazy" />
+        </div>
+        <p><a href="/entreprise/qualifications/">Le détail de nos qualifications et leur validité</a></p>
+      </div>
+    </div>
+  </div></section>
+
+  <section class="section section-alt"><div class="container">
+    <h2>Nos réalisations</h2>
+    <ul class="gallery gallery-3">
+      {gallery.map((x) => <li><Photo src={x.thumb} alt={x.caption} caption={x.caption} label="Chantier" /></li>)}
+    </ul>
+    <p style="margin-top:24px"><a class="btn btn-outline" href="/realisations/">Voir nos réalisations</a></p>
+  </div></section>
+
+  <section class="section"><div class="container">
+    <h2>Entretien et dépannage</h2>
+    <div class="grid-2">
+      <div>
+        <h3>Entretenir</h3>
+        <p>Forfait ou contrat d’entretien pour votre pompe à chaleur, votre climatisation ou votre chaudière, avec rapport d’intervention et attestation remise.</p>
+        <ul class="exits"><li><a href="/pompe-a-chaleur/entretien/">Entretien de pompe à chaleur</a></li><li><a href="/climatisation/entretien/">Entretien de climatisation</a></li><li><a href="/chauffage/entretien-chaudiere/">Entretien de chaudière</a></li></ul>
+      </div>
+      <div>
+        <h3>Dépanner</h3>
+        <p>En cas de panne, un technicien habilité diagnostique et vous remet un devis avant toute réparation importante.</p>
+        <ul class="exits"><li><a href="/pompe-a-chaleur/depannage/">Dépannage de pompe à chaleur</a></li><li><a href="/climatisation/depannage/">Dépannage de climatisation</a></li><li><a href="/entretien-depannage/">Toutes nos prestations d’entretien et de dépannage</a></li></ul>
+      </div>
+    </div>
+  </div></section>
+
+  <section class="section section-alt"><div class="container">
+    <h2>Nos zones d’intervention</h2>
+    <p>Depuis la zone industrielle de Saint-Jean-de-Braye, à côté de la tangentielle et des autoroutes A10 et A71, nous intervenons sur Orléans et toute l’agglomération.</p>
+    <dl class="ruled">
+      <dt>Siège</dt><dd><a href="/zones-intervention/saint-jean-de-braye/">Saint-Jean-de-Braye</a></dd>
+      <dt>Agglomération</dt><dd><a href="/zones-intervention/">Orléans et les communes de l’agglomération</a></dd>
+    </dl>
+    <ToConfirm items={['Effectif actuel', 'Horaires d’ouverture', 'Nom du groupe propriétaire depuis 2018', 'Zone réellement couverte en installation et en dépannage', 'Validité des certificats Qualibat']} />
+  </div></section>
+
+  <Testimonials />
+  <CtaBand title="Demander un devis" text="Étude personnalisée après visite, devis gratuit et sans engagement." />
+  <style>
+    .stamp-row { display: block; margin-top: -12px; }
+    .stamp-row .cachet { position: relative; z-index: 1; margin-bottom: -14px; }
+    .stamp-checks { border-top: 1px solid var(--line); padding-top: 22px; }
+  </style>
+</Base>

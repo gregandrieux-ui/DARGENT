@@ -1,0 +1,67 @@
+// Navigation principale (PAC en premier : priorité commerciale) et pied de page (feuille Maillage interne).
+export const mainNav = [
+  { label: 'Pompe à chaleur', href: '/pompe-a-chaleur/', children: [
+    { label: 'PAC air/eau', href: '/pompe-a-chaleur/air-eau/' },
+    { label: 'PAC haute température', href: '/pompe-a-chaleur/haute-temperature/' },
+    { label: 'PAC hybride gaz', href: '/pompe-a-chaleur/hybride/' },
+    { label: 'Installation', href: '/pompe-a-chaleur/installation/' },
+    { label: 'Entretien', href: '/pompe-a-chaleur/entretien/' },
+    { label: 'Dépannage', href: '/pompe-a-chaleur/depannage/' },
+    { label: 'Aides financières', href: '/aides-financieres-pompe-a-chaleur/' },
+  ]},
+  { label: 'Climatisation', href: '/climatisation/', children: [
+    { label: 'Climatisation réversible', href: '/climatisation/reversible/' },
+    { label: 'Climatisation gainable', href: '/climatisation/gainable/' },
+    { label: 'Installation', href: '/climatisation/installation/' },
+    { label: 'Entretien', href: '/climatisation/entretien/' },
+    { label: 'Dépannage', href: '/climatisation/depannage/' },
+    { label: 'Professionnels', href: '/professionnels/' },
+  ]},
+  { label: 'Chauffage', href: '/chauffage/', children: [
+    { label: 'Chaudière à condensation', href: '/chauffage/chaudiere-condensation/' },
+    { label: 'Plancher chauffant', href: '/chauffage/plancher-chauffant/' },
+    { label: 'Ballon thermodynamique', href: '/chauffage/ballon-thermodynamique/' },
+    { label: 'Régulation connectée', href: '/chauffage/regulation-connectee/' },
+    { label: 'Entretien de chaudière', href: '/chauffage/entretien-chaudiere/' },
+    { label: 'Ventilation', href: '/ventilation/' },
+  ]},
+  { label: 'Entretien et dépannage', href: '/entretien-depannage/' },
+  { label: 'Réalisations', href: '/realisations/' },
+  { label: 'Entreprise', href: '/entreprise/', children: [
+    { label: 'Nos qualifications', href: '/entreprise/qualifications/' },
+    { label: 'Notre histoire', href: '/entreprise/notre-histoire/' },
+    { label: 'Nos engagements', href: '/entreprise/engagements/' },
+    { label: 'Nos références', href: '/entreprise/references/' },
+    { label: 'Marques partenaires', href: '/marques-partenaires/' },
+    { label: 'Zones d’intervention', href: '/zones-intervention/' },
+    { label: 'Recrutement', href: '/recrutement/' },
+  ]},
+];
+export const footerNav = {
+  Solutions: [
+    { label: 'Pompe à chaleur', href: '/pompe-a-chaleur/' },
+    { label: 'Climatisation', href: '/climatisation/' },
+    { label: 'Chauffage', href: '/chauffage/' },
+    { label: 'Ventilation', href: '/ventilation/' },
+    { label: 'Entretien et dépannage', href: '/entretien-depannage/' },
+    { label: 'Aides financières', href: '/aides-financieres-pompe-a-chaleur/' },
+    { label: 'Professionnels et collectivités', href: '/professionnels/' },
+  ],
+  Entreprise: [
+    { label: 'L’entreprise', href: '/entreprise/' },
+    { label: 'Qualifications', href: '/entreprise/qualifications/' },
+    { label: 'Notre histoire', href: '/entreprise/notre-histoire/' },
+    { label: 'Engagements', href: '/entreprise/engagements/' },
+    { label: 'Références', href: '/entreprise/references/' },
+    { label: 'Réalisations', href: '/realisations/' },
+    { label: 'Zones d’intervention', href: '/zones-intervention/' },
+    { label: 'Recrutement', href: '/recrutement/' },
+  ],
+  Légal: [
+    { label: 'Mentions légales', href: '/mentions-legales/' },
+    { label: 'Politique de confidentialité', href: '/politique-confidentialite/' },
+    { label: 'Protection des données', href: '/protection-donnees/' },
+    { label: 'Cookies', href: '/cookies/' },
+    { label: 'CGU', href: '/cgu/' },
+  ],
+};

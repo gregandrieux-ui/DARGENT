@@ -1,0 +1,55 @@
+# Redirections de migration climatisation-chauffage-orleans.com -> dargent-thermique.fr
+# Source : onglet « Redirections » de specification-production-seo-dargent-thermique.xlsx (15/09/2026).
+# Ordre : règles de domaine d'abord (Netlify évalue dans l'ordre du fichier, la première qui matche gagne).
+# Prérequis : ajouter www.climatisation-chauffage-orleans.com ET climatisation-chauffage-orleans.com comme alias du site Netlify.
+
+# --- Fichiers (chemins conservés ou déplacés) ---
+https://www.climatisation-chauffage-orleans.com/assets/pdf/*   https://dargent-thermique.fr/documents/:splat   301!
+https://climatisation-chauffage-orleans.com/assets/pdf/*       https://dargent-thermique.fr/documents/:splat   301!
+https://www.climatisation-chauffage-orleans.com/assets/img/realisations/*   https://dargent-thermique.fr/images/realisations/:splat   301!
+https://climatisation-chauffage-orleans.com/assets/img/realisations/*       https://dargent-thermique.fr/images/realisations/:splat   301!
+https://www.climatisation-chauffage-orleans.com/assets/videos/*   https://dargent-thermique.fr/videos/:splat   301!
+https://climatisation-chauffage-orleans.com/assets/videos/*       https://dargent-thermique.fr/videos/:splat   301!
+
+# --- Pages atypiques : 410 par défaut (spec). À CONFIRMER via GSC/backlinks avant bascule ; passer en 301 vers /pompe-a-chaleur/ si trafic ou liens significatifs. ---
+https://www.climatisation-chauffage-orleans.com/referencement-site-internet-orleans.php   /410.html   410!
+https://www.climatisation-chauffage-orleans.com/referencement-site-internet-loiret.php    /410.html   410!
+https://www.climatisation-chauffage-orleans.com/referencement-site-internet-45.php        /410.html   410!
+https://climatisation-chauffage-orleans.com/referencement-site-internet-orleans.php   /410.html   410!
+https://climatisation-chauffage-orleans.com/referencement-site-internet-loiret.php    /410.html   410!
+https://climatisation-chauffage-orleans.com/referencement-site-internet-45.php        /410.html   410!
+
+# --- Pages : ancien chemin -> nouveau chemin, sur l'ancien domaine (P1, P2, P3, légal) ---
+https://www.climatisation-chauffage-orleans.com/*   https://dargent-thermique.fr/:splat   301!
+https://climatisation-chauffage-orleans.com/*       https://dargent-thermique.fr/:splat   301!
+
+# --- Anciens chemins servis sur le nouveau domaine (après la règle de domaine, :splat garde l'ancien chemin) ---
+/solutions/climatisation-pompe-a-chaleur/                                     /pompe-a-chaleur/                       301
+/solutions/climatisation-pompe-a-chaleur/pompe-a-chaleur-basse-temperature/   /pompe-a-chaleur/air-eau/               301
+/solutions/climatisation-pompe-a-chaleur/pompe-a-chaleur-haute-temperature/   /pompe-a-chaleur/haute-temperature/     301
+/solutions/climatisation-pompe-a-chaleur/pompe-a-chaleur-hybride/             /pompe-a-chaleur/hybride/               301
+/solutions/climatisation-pompe-a-chaleur/climatisation-reversible/            /climatisation/reversible/              301
+/solutions/maintenance-climatisation/                                         /climatisation/entretien/               301
+/solutions/chaudiere-condensation/                                            /chauffage/chaudiere-condensation/      301
+/solutions/plancher-chauffant/                                                /chauffage/plancher-chauffant/          301
+/solutions/ballon-thermodynamique/                                            /chauffage/ballon-thermodynamique/      301
+/solutions/ventilation/                                                       /ventilation/                           301
+/solutions/connectivite/                                                      /chauffage/regulation-connectee/        301
+/aides-financieres/                                                           /aides-financieres-pompe-a-chaleur/     301
+/references/realisations/                                                     /realisations/                          301
+/references/clients/                                                          /entreprise/references/                 301
+/partenaires/                                                                 /marques-partenaires/                   301
+/societe/qualifications/                                                      /entreprise/qualifications/             301
+/societe/historique/                                                          /entreprise/notre-histoire/             301
+/societe/engagements-ecologiques/                                             /entreprise/engagements/                301
+/postuler/                                                                    /recrutement/                           301
+/protection-donnees-personnelles/                                             /protection-donnees/                    301
+/referencement-site-internet-orleans.php                                      /410.html                               410
+/referencement-site-internet-loiret.php                                       /410.html                               410
+/referencement-site-internet-45.php                                           /410.html                               410
+/assets/pdf/*                                                                 /documents/:splat                       301
+/assets/img/realisations/*                                                    /images/realisations/:splat             301
+/assets/videos/*                                                              /videos/:splat                          301
+# /contact/, /mentions-legales/, /politique-confidentialite/, /cookies/, /cgu/ : chemin identique, couverts par la règle de domaine.
+
+# --- Variantes d'URL : www -> apex géré par Netlify (domaine principal sans www) ; slash final géré par Astro (trailingSlash: always). ---

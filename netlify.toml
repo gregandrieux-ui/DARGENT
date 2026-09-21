@@ -1,0 +1,17 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# Redirections: public/_redirects (copied into dist by Astro).
+# Ancien domaine: ajouter www.climatisation-chauffage-orleans.com et climatisation-chauffage-orleans.com
+# comme alias de domaine du site Netlify pour que les règles de domaine s'appliquent.
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "DENY"
+    Referrer-Policy = "strict-origin-when-cross-origin"

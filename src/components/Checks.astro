@@ -1,0 +1,11 @@
+---
+// Cases cochées : preuves réelles, jamais des promesses.
+import Icon from './Icon.astro';
+interface Props { items: { label: string; detail?: string }[] }
+const { items } = Astro.props;
+---
+<ul class="checks">
+  {items.map((it) => (
+    <li><Icon name="square-check" /><span><strong>{it.label}</strong>{it.detail && <span class="muted"> {it.detail}</span>}</span></li>
+  ))}
+</ul>

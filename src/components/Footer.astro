@@ -1,0 +1,25 @@
+---
+import Cachet from './Cachet.astro';
+import { site } from '../data/site';
+import { footerNav } from '../data/nav';
+---
+<footer class="site-footer">
+  <div class="container">
+    <div class="cols">
+      <div>
+        <Cachet />
+        <p style="margin-top: 24px">Ouvert du lundi au vendredi. Horaires : {site.hours}</p>
+        <p><a href={`mailto:${site.email}`}>{site.email}</a><br /><a href="/contact/">Nous contacter</a><br /><a href="/devis/">Demander un devis</a></p>
+      </div>
+      {Object.entries(footerNav).map(([title, links]) => (
+        <div><h2>{title}</h2><ul>{links.map((l) => <li><a href={l.href}>{l.label}</a></li>)}</ul></div>
+      ))}
+    </div>
+    <div class="legal">
+      <span>© {new Date().getFullYear()} {site.legalName}</span>
+      <span>SIRET {site.siret}</span>
+      <span>RCS {site.rcs}</span>
+      <span>Qualibat RGE, QUALIPAC, Professionnel du gaz, attestation fluides 111363-R1</span>
+    </div>
+  </div>
+</footer>

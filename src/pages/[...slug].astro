@@ -1,0 +1,105 @@
+---
+import { getCollection, render } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import Icon from '../components/Icon.astro';
+import Photo from '../components/Photo.astro';
+import Checks from '../components/Checks.astro';
+import Exits from '../components/Exits.astro';
+import Faq from '../components/Faq.astro';
+import ToConfirm from '../components/ToConfirm.astro';
+import Reassurance from '../components/Reassurance.astro';
+import CtaBand from '../components/CtaBand.astro';
+import Cachet from '../components/Cachet.astro';
+import { site } from '../data/site';
+import { breadcrumb, faqPage, howTo, localBusiness, service, webPage } from '../lib/schema';
+
+export async function getStaticPaths() {
+  const pages = await getCollection('pages');
+  return pages.map((p) => ({ params: { slug: p.id }, props: { page: p } }));
+}
+const { page } = Astro.props;
+const d = page.data;
+const path = `/${page.id}/`;
+const { Content } = await render(page);
+
+const crumbs = [{ name: 'Accueil', path: '/' }, ...d.crumbs.map((c) => ({ name: c.label, path: c.href })), { name: d.h1, path }];
+const schema: object[] = [breadcrumb(crumbs)];
+if (d.schema === 'Service') schema.push(service(d.h1, d.description, path));
+else if (d.schema === 'LocalBusiness') schema.push(localBusiness(d.h1, path, d.crumbs.length ? d.h1.replace(/^.*à /, '') : 'Orléans'));
+else schema.push(webPage(d.schema, d.h1, d.description, path));
+if (d.faq.length) schema.push(faqPage(d.faq));
+if (d.howto.length) schema.push(howTo(d.h1, d.howto));
+
+const isService = d.template === 'service' || d.template === 'pilier';
+const heroPhoto = d.photos[0];
+const morePhotos = d.photos.slice(1);
+const simple = d.template === 'legal';
+const isLocal = d.template === 'local';
+const osm = `https://www.openstreetmap.org/export/embed.html?bbox=${site.geo.lng - 0.012},${site.geo.lat - 0.007},${site.geo.lng + 0.012},${site.geo.lat + 0.007}&layer=mapnik&marker=${site.geo.lat},${site.geo.lng}`;
+---
+<Base title={d.title} description={d.description} path={path} noindex={d.draft} schema={schema} alert={d.alert} ogImage={heroPhoto?.src}>
+  <section class={`hero ${d.alert ? 'hero-alert' : ''}`}>
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Fil d’Ariane">
+        <ol>{crumbs.map((c, i) => <li>{i < crumbs.length - 1 ? <a href={c.path}>{c.name}</a> : <span aria-current="page">{c.name}</span>}</li>)}</ol>
+      </nav>
+      <div class={simple ? '' : 'entry'}>
+        <div>
+          <h1>{d.h1}</h1>
+          <p class="promise">{d.promise}</p>
+          {d.facts.length > 0 && <dl class="ruled">{d.facts.map((f) => <><dt>{f.label}</dt><dd>{f.value}</dd></>)}</dl>}
+          {d.checks.length > 0 && <Checks items={d.checks} />}
+          {!simple && (
+            <div class="actions">
+              {d.alert ? (
+                <a class="tel-big" href={site.phoneHref}><Icon name="phone" /> {site.phone}</a>
+              ) : (
+                <a class="btn" href={d.cta.href}>{d.cta.label}</a>
+              )}
+              {d.alert ? <a class="btn btn-cyan" href={d.cta.href}>{d.cta.label}</a> : <a class="tel" href={site.phoneHref}><Icon name="phone" /> {site.phone}</a>}
+            </div>
+          )}
+        </div>
+        {!simple && (heroPhoto ? (
+          <Photo src={heroPhoto.src} alt={heroPhoto.alt} caption={heroPhoto.caption} missing={heroPhoto.missing} priority class="hero-photo" />
+        ) : (
+          <div class="hero-photo"><Cachet /></div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top: 0">
+    <div class="container">
+      <ToConfirm items={d.toConfirm} />
+      <div class="prose">
+        <Content />
+      </div>
+      {morePhotos.length > 0 && (
+        <ul class="gallery" style="margin-top: 32px">
+          {morePhotos.map((p) => <li><Photo src={p.src} alt={p.alt} caption={p.caption} missing={p.missing} /></li>)}
+        </ul>
+      )}
+      {isLocal && (
+        <>
+          <h2>Nous trouver</h2>
+          <div class="entry">
+            <dl class="ruled">
+              <dt>Adresse</dt><dd>{site.street}<br />{site.postalCode} {site.city}</dd>
+              <dt>Téléphone</dt><dd><a href={site.phoneHref}>{site.phone}</a></dd>
+              <dt>Accès</dt><dd>Zone industrielle, à proximité de la tangentielle, de l’A10 et de l’A71</dd>
+              <dt>Horaires</dt><dd>{site.hours}</dd>
+            </dl>
+            <iframe title="Plan d’accès à Dargent Thermique" src={osm} width="600" height="320" style="width:100%;border:1px solid var(--rule)" loading="lazy" referrerpolicy="no-referrer"></iframe>
+          </div>
+        </>
+      )}
+      {d.faq.length > 0 && <><h2>Questions fréquentes</h2><Faq items={d.faq} /></>}
+      {d.cta2 && <p style="margin-top: 32px"><a class="btn btn-outline" href={d.cta2.href}>{d.cta2.label}</a></p>}
+      <Exits links={d.links} />
+    </div>
+  </section>
+
+  {isService && <Reassurance aides={d.aides} cta={d.cta} />}
+  {!simple && <CtaBand alert={d.alert} cta={d.alert ? `Appeler le ${site.phone}` : d.cta.label} href={d.cta.href} title={d.alert ? 'Une panne ? Un diagnostic, puis un devis avant toute réparation.' : undefined} text={d.alert ? 'Intervention sur rendez-vous par un technicien habilité fluides frigorigènes.' : undefined} />}
+</Base>

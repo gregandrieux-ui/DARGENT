@@ -1,0 +1,28 @@
+{
+  "name": "dargent-thermique",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check": "astro check",
+    "spec": "python3 scripts/spec-to-json.py",
+    "assets": "bash scripts/fetch-old-assets.sh",
+    "test": "node scripts/check-site.mjs dist"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "^3.7.4",
+    "@fontsource-variable/archivo": "latest",
+    "astro": "^7.3.3"
+  },
+  "devDependencies": {
+    "@astrojs/check": "latest",
+    "@tabler/icons": "latest",
+    "typescript": "latest"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true
+  }
+}

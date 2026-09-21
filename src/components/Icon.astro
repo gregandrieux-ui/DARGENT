@@ -1,0 +1,12 @@
+---
+// Icônes Tabler outline copiées dans src/icons (un seul trait, jamais dessinées à la main).
+const icons = import.meta.glob('../icons/*.svg', { query: '?raw', import: 'default', eager: true }) as Record<string, string>;
+interface Props { name: string; class?: string; label?: string }
+const { name, class: cls = '', label } = Astro.props;
+const raw = icons[`../icons/${name}.svg`];
+if (!raw) throw new Error(`Icône inconnue : ${name}`);
+const svg = raw
+  .replace(/<svg[^>]*>/, `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" class="icon ${cls}" ${label ? `role="img" aria-label="${label}"` : 'aria-hidden="true"'}>`)
+  .replace(/\n\s*/g, '');
+---
+<Fragment set:html={svg} />

@@ -1,0 +1,47 @@
+---
+// GA4 uniquement si PUBLIC_GA4_ID est défini : Consent Mode v2, défaut refusé, gtag chargé après acceptation.
+import { ga4Id } from '../data/site';
+---
+{ga4Id && (
+  <>
+    <div id="consent" class="consent" hidden>
+      <div class="container">
+        <p>Ce site peut mesurer son audience avec Google Analytics. Aucune donnée n’est collectée sans votre accord. <a href="/cookies/">En savoir plus</a></p>
+        <div class="actions"><button type="button" class="btn btn-outline" data-consent="denied">Refuser</button><button type="button" class="btn" data-consent="granted">Accepter</button></div>
+      </div>
+    </div>
+    <script is:inline define:vars={{ ga4Id }}>
+      (function () {
+        var KEY = 'dt-consent';
+        var el = document.getElementById('consent');
+        function load() {
+          window.dataLayer = window.dataLayer || [];
+          function gtag() { window.dataLayer.push(arguments); }
+          window.gtag = gtag;
+          gtag('consent', 'default', { ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied', analytics_storage: 'granted' });
+          var s = document.createElement('script'); s.async = true; s.src = 'https://www.googletagmanager.com/gtag/js?id=' + ga4Id; document.head.appendChild(s);
+          gtag('js', new Date()); gtag('config', ga4Id, { anonymize_ip: true });
+          document.querySelectorAll('a[href^="tel:"]').forEach(function (a) { a.addEventListener('click', function () { gtag('event', 'click_tel'); }); });
+        }
+        var choice = null;
+        try { choice = localStorage.getItem(KEY); } catch (e) {}
+        if (choice === 'granted') load();
+        else if (choice !== 'denied') el.hidden = false;
+        el.querySelectorAll('[data-consent]').forEach(function (b) {
+          b.addEventListener('click', function () {
+            var v = b.getAttribute('data-consent');
+            try { localStorage.setItem(KEY, v); } catch (e) {}
+            el.hidden = true;
+            if (v === 'granted') load();
+          });
+        });
+      })();
+    </script>
+    <style>
+      .consent { position: fixed; left: 0; right: 0; bottom: 0; z-index: 70; background: var(--paper); border-top: 1px solid var(--rule); padding: 16px 0; font-size: var(--text-small); }
+      .consent .container { display: flex; flex-wrap: wrap; gap: 16px; align-items: center; justify-content: space-between; }
+      .consent p { margin: 0; max-width: 60ch; }
+      .consent .actions { display: flex; gap: 8px; }
+    </style>
+  </>
+)}

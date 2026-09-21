@@ -1,0 +1,52 @@
+---
+import Base from '../layouts/Base.astro';
+import Form from '../components/Form.astro';
+import Cachet from '../components/Cachet.astro';
+import Icon from '../components/Icon.astro';
+import ToConfirm from '../components/ToConfirm.astro';
+import Exits from '../components/Exits.astro';
+import CtaBand from '../components/CtaBand.astro';
+import { site } from '../data/site';
+import { breadcrumb, webPage } from '../lib/schema';
+const path = '/contact/';
+const title = 'Contacter Dargent Thermique à Saint-Jean-de-Braye (45)';
+const description = 'Adresse, téléphone, horaires et accès de Dargent Thermique, 1 avenue Ampère à Saint-Jean-de-Braye. Une question, un dépannage, un devis ? Écrivez-nous.';
+const osm = `https://www.openstreetmap.org/export/embed.html?bbox=${site.geo.lng - 0.012},${site.geo.lat - 0.007},${site.geo.lng + 0.012},${site.geo.lat + 0.007}&layer=mapnik&marker=${site.geo.lat},${site.geo.lng}`;
+---
+<Base title={title} description={description} path={path} schema={[breadcrumb([{ name: 'Accueil', path: '/' }, { name: 'Nous contacter', path }]), webPage('ContactPage', 'Nous contacter', description, path)]}>
+  <section class="hero"><div class="container">
+    <nav class="breadcrumb" aria-label="Fil d’Ariane"><ol><li><a href="/">Accueil</a></li><li><span aria-current="page">Nous contacter</span></li></ol></nav>
+    <div class="entry">
+      <div>
+        <h1>Nous contacter</h1>
+        <p class="promise">Un interlocuteur identifié pour chaque demande : projet, entretien, dépannage ou candidature.</p>
+        <h2 style="font-size: var(--text-h3)">Nos coordonnées</h2>
+        <dl class="ruled">
+          <dt>Téléphone</dt><dd><a href={site.phoneHref}>{site.phone}</a></dd>
+          <dt>E-mail</dt><dd><a href={`mailto:${site.email}`}>{site.email}</a></dd>
+          <dt>Adresse</dt><dd>{site.street}<br />{site.postalCode} {site.city}</dd>
+          <dt>Horaires</dt><dd>{site.hours}</dd>
+        </dl>
+        <h2 style="font-size: var(--text-h3)">Venir nous voir</h2>
+        <p>Nous sommes dans la zone industrielle de Saint-Jean-de-Braye, à proximité de la tangentielle et des autoroutes A10 et A71. Cette position nous permet d’intervenir sur Orléans et son agglomération, et plus largement de Châteauroux à Chartres et de Blois à Montargis. Voir <a href="/zones-intervention/">nos zones d’intervention</a>.</p>
+        <p><a href={`https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(site.street + ', ' + site.postalCode + ' ' + site.city)}`} rel="noopener">Itinéraire <Icon name="arrow-up-right" /></a></p>
+        <h2 style="font-size: var(--text-h3)">Quel interlocuteur pour quelle demande</h2>
+        <dl class="ruled">
+          <dt>Projet</dt><dd><a href="/devis/">Demander un devis</a> : nous vous rappelons pour organiser une visite technique.</dd>
+          <dt>Entretien</dt><dd>Contrats et forfaits : <a href="/entretien-depannage/">entretien et dépannage</a>.</dd>
+          <dt>Dépannage</dt><dd>Appelez le <a href={site.phoneHref}>{site.phone}</a> : diagnostic, puis devis avant réparation.</dd>
+          <dt>Candidature</dt><dd><a href="/recrutement/">Nous rejoindre</a>.</dd>
+        </dl>
+        <ToConfirm items={['Horaires d’ouverture', 'Accueil physique et salle d’exposition ouverte au public', 'Adresses e-mail par service', 'Numéro dédié SAV']} />
+      </div>
+      <div>
+        <Cachet />
+        <div style="margin-top: 32px"><iframe title="Plan d’accès à Dargent Thermique" src={osm} width="600" height="360" style="width:100%;border:1px solid var(--rule)" loading="lazy" referrerpolicy="no-referrer"></iframe></div>
+        <h2 style="font-size: var(--text-h3); margin-top: 32px">Formulaire de contact</h2>
+        <Form kind="contact" submit="Envoyer" />
+      </div>
+    </div>
+    <Exits title="Voir aussi" links={[{ href: '/devis/', label: 'Demander un devis' }, { href: '/recrutement/', label: 'Rejoindre nos équipes' }, { href: '/entretien-depannage/', label: 'Entretien et dépannage de vos équipements' }, { href: '/zones-intervention/saint-jean-de-braye/', label: 'Dargent Thermique à Saint-Jean-de-Braye' }]} />
+  </div></section>
+  <CtaBand />
+</Base>

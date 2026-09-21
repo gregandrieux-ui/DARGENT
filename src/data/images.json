@@ -1,0 +1,622 @@
+{
+"/images/clients/assurances/logo-GMF.jpg": {
+"w": 298,
+"h": 173
+},
+"/images/clients/assurances/logo-MAE.jpg": {
+"w": 298,
+"h": 173
+},
+"/images/clients/assurances/logo-MMA.jpg": {
+"w": 298,
+"h": 173
+},
+"/images/clients/assurances/logo-matmut.jpg": {
+"w": 298,
+"h": 173
+},
+"/images/clients/assurances/logo-mutame.jpg": {
+"w": 298,
+"h": 173
+},
+"/images/clients/banques/logo-BNP-paribas.jpg": {
+"w": 298,
+"h": 173
+},
+"/images/clients/banques/logo-banque-populaire.png": {
+"w": 298,
+"h": 173
+},
+"/images/clients/banques/logo-caisse-d-epargne.png": {
+"w": 298,
+"h": 173
+},
+"/images/clients/boutiques/logo-MIM.jpg": {
+"w": 298,
+"h": 173
+},
+"/images/clients/boutiques/logo-Saint-Maclou.jpg": {
+"w": 298,
+"h": 173
+},
+"/images/clients/boutiques/logo-Swarovski.jpg": {
+"w": 298,
+"h": 173
+},
+"/images/clients/boutiques/logo-bizzbee.jpg": {
+"w": 298,
+"h": 173
+},
+"/images/clients/boutiques/logo-bonobo.jpg": {
+"w": 298,
+"h": 173
+},
+"/images/clients/boutiques/logo-cache-cache.jpg": {
+"w": 298,
+"h": 173
+},
+"/images/clients/boutiques/logo-carefil.jpg": {
+"w": 298,
+"h": 173
+},
+"/images/clients/boutiques/logo-chauss-expo.jpg": {
+"w": 298,
+"h": 173
+},
+"/images/clients/boutiques/logo-gemo.jpg": {
+"w": 298,
+"h": 173
+},
+"/images/clients/boutiques/logo-jennyfer.jpg": {
+"w": 298,
+"h": 173
+},
+"/images/clients/boutiques/logo-keria.jpg": {
+"w": 298,
+"h": 173
+},
+"/images/clients/boutiques/logo-opticien-krys.png": {
+"w": 298,
+"h": 173
+},
+"/images/clients/boutiques/logo-paraboot.jpg": {
+"w": 298,
+"h": 173
+},
+"/images/clients/boutiques/logo-patrice-breal.jpg": {
+"w": 298,
+"h": 173
+},
+"/images/clients/boutiques/logo-sfr.jpg": {
+"w": 298,
+"h": 173
+},
+"/images/clients/boutiques/logo-yves-rocher.jpg": {
+"w": 298,
+"h": 173
+},
+"/images/clients/collectivites/logo-creche-fay-aux-loges.jpg": {
+"w": 298,
+"h": 173
+},
+"/images/clients/grand-tertiaire/Logo-Kverneland.jpg": {
+"w": 298,
+"h": 173
+},
+"/images/clients/grand-tertiaire/logo-baudin-chateauneuf.jpg": {
+"w": 298,
+"h": 173
+},
+"/images/clients/grand-tertiaire/logo-gam-ingenierie.jpg": {
+"w": 298,
+"h": 173
+},
+"/images/clients/grand-tertiaire/logo-gemey-maybelline.jpg": {
+"w": 298,
+"h": 173
+},
+"/images/clients/grand-tertiaire/logo-kuehne-nagel.jpg": {
+"w": 298,
+"h": 173
+},
+"/images/clients/grand-tertiaire/logo-partnaire.jpg": {
+"w": 298,
+"h": 173
+},
+"/images/clients/grand-tertiaire/logo-schenker-joyau.jpg": {
+"w": 298,
+"h": 173
+},
+"/images/clients/hotels-restaurants/logo-buffalo.jpg": {
+"w": 298,
+"h": 173
+},
+"/images/clients/hotels-restaurants/logo-courtepaille.jpg": {
+"w": 298,
+"h": 173
+},
+"/images/clients/industrie/logo-Novartis.jpg": {
+"w": 298,
+"h": 173
+},
+"/images/clients/industrie/logo-guinault.jpg": {
+"w": 298,
+"h": 173
+},
+"/images/clients/industrie/logo-iris-instruments.jpg": {
+"w": 298,
+"h": 173
+},
+"/images/clients/industrie/logo-servier.jpg": {
+"w": 298,
+"h": 173
+},
+"/images/clients/tertiaire-divers/logo-Gamaf.jpg": {
+"w": 298,
+"h": 173
+},
+"/images/clients/tertiaire-divers/logo-adecco.jpg": {
+"w": 298,
+"h": 173
+},
+"/images/clients/tertiaire-divers/logo-cars-dunois.jpg": {
+"w": 298,
+"h": 173
+},
+"/images/clients/tertiaire-divers/logo-clemessy.jpg": {
+"w": 298,
+"h": 173
+},
+"/images/clients/tertiaire-divers/logo-croixalmetal.jpg": {
+"w": 298,
+"h": 173
+},
+"/images/clients/tertiaire-divers/logo-croixmarie.jpg": {
+"w": 298,
+"h": 173
+},
+"/images/clients/tertiaire-divers/logo-elephant-bleu.jpg": {
+"w": 298,
+"h": 173
+},
+"/images/clients/tertiaire-divers/logo-ets-cornet.jpg": {
+"w": 298,
+"h": 173
+},
+"/images/clients/tertiaire-divers/logo-vergnet.jpg": {
+"w": 298,
+"h": 173
+},
+"/images/partenaires/GRDF.jpg": {
+"w": 320,
+"h": 163
+},
+"/images/partenaires/atlantic-fujitsu.jpg": {
+"w": 300,
+"h": 154
+},
+"/images/partenaires/chappee.jpg": {
+"w": 350,
+"h": 78
+},
+"/images/partenaires/daikin.jpg": {
+"w": 355,
+"h": 77
+},
+"/images/partenaires/frisquet.jpg": {
+"w": 350,
+"h": 58
+},
+"/images/partenaires/mitsubishi-electric.jpg": {
+"w": 320,
+"h": 95
+},
+"/images/partenaires/vaillant.jpg": {
+"w": 350,
+"h": 97
+},
+"/images/produits/ballon-thermodynamique-conso.jpg": {
+"w": 220,
+"h": 410
+},
+"/images/produits/ballons-thermodynamiques.jpg": {
+"w": 500,
+"h": 425
+},
+"/images/produits/bouteilles-recuperation-fluide.jpg": {
+"w": 228,
+"h": 128
+},
+"/images/produits/chaudiere-fioul-condensation.jpg": {
+"w": 395,
+"h": 316
+},
+"/images/produits/chaudiere-gaz-condensation.jpg": {
+"w": 396,
+"h": 316
+},
+"/images/produits/chaudiere-hybride.jpg": {
+"w": 399,
+"h": 253
+},
+"/images/produits/chaudiere-ventouse.jpg": {
+"w": 818,
+"h": 200
+},
+"/images/produits/climatisation-reversible-part.jpg": {
+"w": 298,
+"h": 174
+},
+"/images/produits/climatisation-reversible.jpg": {
+"w": 298,
+"h": 198
+},
+"/images/produits/conduit.jpg": {
+"w": 394,
+"h": 267
+},
+"/images/produits/connectivite.png": {
+"w": 75,
+"h": 75
+},
+"/images/produits/engagements-ecologiques.jpg": {
+"w": 400,
+"h": 250
+},
+"/images/produits/entretien-climatisation.jpg": {
+"w": 164,
+"h": 291
+},
+"/images/produits/forfait-entretien.jpg": {
+"w": 206,
+"h": 116
+},
+"/images/produits/fourgon-dargent.jpg": {
+"w": 205,
+"h": 154
+},
+"/images/produits/isolation-polyurethane.jpg": {
+"w": 900,
+"h": 275
+},
+"/images/produits/nos-engagements.jpg": {
+"w": 405,
+"h": 216
+},
+"/images/produits/pac-bt-part.jpg": {
+"w": 298,
+"h": 174
+},
+"/images/produits/pac-bt.jpg": {
+"w": 298,
+"h": 198
+},
+"/images/produits/pac-ht-part.jpg": {
+"w": 298,
+"h": 174
+},
+"/images/produits/pac-ht.jpg": {
+"w": 298,
+"h": 300
+},
+"/images/produits/pac-hybride-part.jpg": {
+"w": 298,
+"h": 174
+},
+"/images/produits/plancher-chauffant-part.jpg": {
+"w": 298,
+"h": 174
+},
+"/images/produits/robinet-thermostatique.jpg": {
+"w": 175,
+"h": 175
+},
+"/images/produits/ruche-01.jpg": {
+"w": 447,
+"h": 268
+},
+"/images/produits/ruche-02.jpg": {
+"w": 447,
+"h": 268
+},
+"/images/produits/ruche-03.jpg": {
+"w": 447,
+"h": 268
+},
+"/images/produits/ruche-04.jpg": {
+"w": 447,
+"h": 268
+},
+"/images/produits/slide-1.jpg": {
+"w": 2000,
+"h": 800
+},
+"/images/produits/slide-2.jpg": {
+"w": 2000,
+"h": 800
+},
+"/images/produits/slide-3.jpg": {
+"w": 2000,
+"h": 800
+},
+"/images/produits/telecommande.jpg": {
+"w": 386,
+"h": 252
+},
+"/images/produits/thermostat.jpg": {
+"w": 152,
+"h": 240
+},
+"/images/produits/ventilation.jpg": {
+"w": 298,
+"h": 173
+},
+"/images/produits/video-ruches.png": {
+"w": 277,
+"h": 212
+},
+"/images/produits/vitotronic.jpg": {
+"w": 401,
+"h": 225
+},
+"/images/qualifications/RGE.png": {
+"w": 67,
+"h": 38
+},
+"/images/qualifications/attestation-manipulation-fluides-frigorigenes.jpg": {
+"w": 149,
+"h": 170
+},
+"/images/qualifications/ecologic.png": {
+"w": 84,
+"h": 31
+},
+"/images/qualifications/logo-professionnels-du-gaz.jpg": {
+"w": 153,
+"h": 170
+},
+"/images/qualifications/logo-qualibat.jpg": {
+"w": 144,
+"h": 170
+},
+"/images/realisations/ballons-thermodynamiques/dargent-thermique-019.jpg": {
+"w": 450,
+"h": 600
+},
+"/images/realisations/ballons-thermodynamiques/v/dargent-thermique-019.jpg": {
+"w": 298,
+"h": 223
+},
+"/images/realisations/chaudieres-condensation-basses-temperatures/dargent-thermique-012.jpg": {
+"w": 450,
+"h": 600
+},
+"/images/realisations/chaudieres-condensation-basses-temperatures/dargent-thermique-013.jpg": {
+"w": 450,
+"h": 600
+},
+"/images/realisations/chaudieres-condensation-basses-temperatures/dargent-thermique-022.jpg": {
+"w": 800,
+"h": 598
+},
+"/images/realisations/chaudieres-condensation-basses-temperatures/dargent-thermique-023.jpg": {
+"w": 448,
+"h": 600
+},
+"/images/realisations/chaudieres-condensation-basses-temperatures/dargent-thermique-024.jpg": {
+"w": 448,
+"h": 600
+},
+"/images/realisations/chaudieres-condensation-basses-temperatures/dargent-thermique-025.jpg": {
+"w": 450,
+"h": 600
+},
+"/images/realisations/chaudieres-condensation-basses-temperatures/dargent-thermique-035.jpg": {
+"w": 338,
+"h": 600
+},
+"/images/realisations/chaudieres-condensation-basses-temperatures/dargent-thermique-036.jpg": {
+"w": 338,
+"h": 600
+},
+"/images/realisations/chaudieres-condensation-basses-temperatures/v/dargent-thermique-012.jpg": {
+"w": 298,
+"h": 223
+},
+"/images/realisations/chaudieres-condensation-basses-temperatures/v/dargent-thermique-013.jpg": {
+"w": 298,
+"h": 223
+},
+"/images/realisations/chaudieres-condensation-basses-temperatures/v/dargent-thermique-022.jpg": {
+"w": 298,
+"h": 223
+},
+"/images/realisations/chaudieres-condensation-basses-temperatures/v/dargent-thermique-023.jpg": {
+"w": 298,
+"h": 223
+},
+"/images/realisations/chaudieres-condensation-basses-temperatures/v/dargent-thermique-024.jpg": {
+"w": 298,
+"h": 223
+},
+"/images/realisations/chaudieres-condensation-basses-temperatures/v/dargent-thermique-025.jpg": {
+"w": 298,
+"h": 223
+},
+"/images/realisations/chaudieres-condensation-basses-temperatures/v/dargent-thermique-035.jpg": {
+"w": 298,
+"h": 223
+},
+"/images/realisations/chaudieres-condensation-basses-temperatures/v/dargent-thermique-036.jpg": {
+"w": 298,
+"h": 223
+},
+"/images/realisations/climatisations-reversibles/dargent-thermique-006.jpg": {
+"w": 800,
+"h": 600
+},
+"/images/realisations/climatisations-reversibles/dargent-thermique-007.jpg": {
+"w": 800,
+"h": 600
+},
+"/images/realisations/climatisations-reversibles/dargent-thermique-014.jpg": {
+"w": 800,
+"h": 450
+},
+"/images/realisations/climatisations-reversibles/dargent-thermique-026.jpg": {
+"w": 798,
+"h": 600
+},
+"/images/realisations/climatisations-reversibles/dargent-thermique-027.jpg": {
+"w": 450,
+"h": 600
+},
+"/images/realisations/climatisations-reversibles/dargent-thermique-030.jpg": {
+"w": 450,
+"h": 600
+},
+"/images/realisations/climatisations-reversibles/dargent-thermique-031.jpg": {
+"w": 800,
+"h": 600
+},
+"/images/realisations/climatisations-reversibles/dargent-thermique-032.jpg": {
+"w": 800,
+"h": 600
+},
+"/images/realisations/climatisations-reversibles/v/dargent-thermique-006.jpg": {
+"w": 298,
+"h": 223
+},
+"/images/realisations/climatisations-reversibles/v/dargent-thermique-007.jpg": {
+"w": 298,
+"h": 223
+},
+"/images/realisations/climatisations-reversibles/v/dargent-thermique-014.jpg": {
+"w": 298,
+"h": 223
+},
+"/images/realisations/climatisations-reversibles/v/dargent-thermique-026.jpg": {
+"w": 298,
+"h": 223
+},
+"/images/realisations/climatisations-reversibles/v/dargent-thermique-027.jpg": {
+"w": 298,
+"h": 223
+},
+"/images/realisations/climatisations-reversibles/v/dargent-thermique-030.jpg": {
+"w": 298,
+"h": 223
+},
+"/images/realisations/climatisations-reversibles/v/dargent-thermique-031.jpg": {
+"w": 298,
+"h": 223
+},
+"/images/realisations/climatisations-reversibles/v/dargent-thermique-032.jpg": {
+"w": 298,
+"h": 223
+},
+"/images/realisations/maintenance/dargent-thermique-008.jpg": {
+"w": 800,
+"h": 449
+},
+"/images/realisations/maintenance/dargent-thermique-033.jpg": {
+"w": 800,
+"h": 450
+},
+"/images/realisations/maintenance/dargent-thermique-034.jpg": {
+"w": 800,
+"h": 450
+},
+"/images/realisations/maintenance/dargent-thermique-037.jpg": {
+"w": 338,
+"h": 600
+},
+"/images/realisations/maintenance/dargent-thermique-038.jpg": {
+"w": 338,
+"h": 600
+},
+"/images/realisations/maintenance/v/dargent-thermique-008.jpg": {
+"w": 298,
+"h": 223
+},
+"/images/realisations/maintenance/v/dargent-thermique-033.jpg": {
+"w": 298,
+"h": 223
+},
+"/images/realisations/maintenance/v/dargent-thermique-034.jpg": {
+"w": 298,
+"h": 223
+},
+"/images/realisations/maintenance/v/dargent-thermique-037.jpg": {
+"w": 298,
+"h": 223
+},
+"/images/realisations/maintenance/v/dargent-thermique-038.jpg": {
+"w": 298,
+"h": 223
+},
+"/images/realisations/planchers-chauffants/dargent-thermique-010.jpg": {
+"w": 450,
+"h": 600
+},
+"/images/realisations/planchers-chauffants/dargent-thermique-011.jpg": {
+"w": 800,
+"h": 600
+},
+"/images/realisations/planchers-chauffants/dargent-thermique-015.jpg": {
+"w": 800,
+"h": 450
+},
+"/images/realisations/planchers-chauffants/v/dargent-thermique-010.jpg": {
+"w": 298,
+"h": 223
+},
+"/images/realisations/planchers-chauffants/v/dargent-thermique-011.jpg": {
+"w": 298,
+"h": 223
+},
+"/images/realisations/planchers-chauffants/v/dargent-thermique-015.jpg": {
+"w": 298,
+"h": 223
+},
+"/images/realisations/ventilations/dargent-thermique-001.jpg": {
+"w": 800,
+"h": 600
+},
+"/images/realisations/ventilations/dargent-thermique-002.jpg": {
+"w": 800,
+"h": 600
+},
+"/images/realisations/ventilations/dargent-thermique-009.jpg": {
+"w": 800,
+"h": 600
+},
+"/images/realisations/ventilations/dargent-thermique-021.jpg": {
+"w": 798,
+"h": 600
+},
+"/images/realisations/ventilations/dargent-thermique-040.jpg": {
+"w": 800,
+"h": 600
+},
+"/images/realisations/ventilations/v/dargent-thermique-001.jpg": {
+"w": 298,
+"h": 223
+},
+"/images/realisations/ventilations/v/dargent-thermique-002.jpg": {
+"w": 298,
+"h": 223
+},
+"/images/realisations/ventilations/v/dargent-thermique-009.jpg": {
+"w": 298,
+"h": 223
+},
+"/images/realisations/ventilations/v/dargent-thermique-021.jpg": {
+"w": 298,
+"h": 223
+},
+"/images/realisations/ventilations/v/dargent-thermique-040.jpg": {
+"w": 298,
+"h": 223
+}
+}
