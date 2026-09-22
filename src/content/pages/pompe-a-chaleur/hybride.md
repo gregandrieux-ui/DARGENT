@@ -22,7 +22,7 @@ checks:
   - { label: "Partie gaz réalisée par nos propres équipes", detail: "qualification Professionnel du gaz" }
   - { label: "Fluides frigorigènes manipulés sous attestation de capacité", detail: "n° 111363-R1, Bureau Veritas" }
 photos:
-  - { missing: "pompe à chaleur hybride gaz posée : unité extérieure et module mural avec chaudière à condensation", caption: "Photo à collecter" }
+  - { src: "/images/illustrations/pac-hybride.svg", alt: "Pompe à chaleur hybride : unité extérieure, module hydraulique et chaudière à condensation", caption: "Pompe à chaleur hybride : unité extérieure, module hydraulique et chaudière à condensation" }
 links:
   - { href: "/pompe-a-chaleur/", label: "Toutes nos pompes à chaleur à Orléans et dans l’agglomération" }
   - { href: "/chauffage/chaudiere-condensation/", label: "La chaudière à condensation seule, sans pompe à chaleur" }

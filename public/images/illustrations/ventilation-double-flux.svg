@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Illustration : centrale de ventilation double flux et ses quatre gaines en local technique">
+<rect width="800" height="600" fill="#f4f8fb"/>
+<rect y="500" width="800" height="100" fill="#e1e8ee"/>
+<rect x="250" y="250" width="300" height="200" rx="14" fill="#fff" stroke="#0b2a4a" stroke-width="6"/>
+<path d="M250 250l300 200M550 250L250 450" stroke="#c9d5df" stroke-width="4"/>
+<rect x="360" y="310" width="80" height="80" rx="8" fill="#eaf3fa" stroke="#0b2a4a" stroke-width="5" transform="rotate(45 400 350)"/>
+<rect x="270" y="270" width="60" height="16" rx="4" fill="#0b2a4a"/><rect x="278" y="275" width="26" height="6" rx="3" fill="#2db8c5"/>
+<rect x="270" y="450" width="20" height="50" fill="#0b2a4a"/><rect x="510" y="450" width="20" height="50" fill="#0b2a4a"/>
+<g fill="none" stroke-linecap="round" stroke-width="44">
+<path d="M300 250V120H60" stroke="#96dce2"/><path d="M500 250V120h240" stroke="#f3b3b7"/>
+<path d="M330 450v0" stroke="#96dce2"/>
+</g>
+<g fill="none" stroke-linecap="round" stroke-width="44"><path d="M250 400H60" stroke="#f3b3b7"/><path d="M550 400h190" stroke="#96dce2"/></g>
+<g fill="none" stroke="#0b2a4a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+<path d="M120 120h-40m12-12l-12 12 12 12"/><path d="M680 120h40m-12-12l12 12-12 12"/>
+<path d="M90 400h40m-12-12l12 12-12 12"/><path d="M710 400h-40m12-12l-12 12 12 12"/>
+</g>
+</svg>

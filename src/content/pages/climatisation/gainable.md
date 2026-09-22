@@ -23,8 +23,8 @@ checks:
   - { label: "Bureau d’études interne depuis 1993", detail: "chaque gainable est dimensionné sur relevé, jamais sur plan seul" }
   - { label: "Chantiers de climatisation tertiaire", detail: "unités intérieures posées dans des locaux professionnels, visibles sur nos réalisations" }
 photos:
-  - { missing: "unité gainable posée dans des combles ou un faux plafond", caption: "Photo à collecter" }
-  - { missing: "grille de soufflage intégrée au plafond d’une pièce équipée", caption: "Photo à collecter" }
+  - { src: "/images/illustrations/gainable-combles.svg", alt: "Unité gainable en combles, gaines de soufflage isolées", caption: "Unité gainable en combles, gaines de soufflage isolées" }
+  - { src: "/images/illustrations/gainable-plafond.svg", alt: "Grille de soufflage linéaire intégrée au plafond", caption: "Grille de soufflage linéaire intégrée au plafond" }
 links:
   - { href: "/climatisation/", label: "Toute la climatisation à Orléans : installation, entretien et dépannage" }
   - { href: "/climatisation/reversible/", label: "Climatisation réversible : mural, console ou cassette selon la pièce" }

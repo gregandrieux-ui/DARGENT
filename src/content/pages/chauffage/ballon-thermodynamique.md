@@ -25,7 +25,7 @@ checks:
   - { label: "Dimensionnement par notre bureau d’études", detail: "capacité et emplacement étudiés ensemble" }
   - { label: "Attestation de capacité fluides frigorigènes", detail: "n° 111363-R1, Bureau Veritas" }
 photos:
-  - { missing: "ballon thermodynamique posé", caption: "Photo à collecter" }
+  - { src: "/images/illustrations/ballon-thermodynamique.svg", alt: "Ballon thermodynamique, pompe à chaleur intégrée sur le dessus", caption: "Ballon thermodynamique, pompe à chaleur intégrée sur le dessus" }
 links:
   - { href: "/chauffage/", label: "Nos solutions de chauffage à Orléans" }
   - { href: "/pompe-a-chaleur/air-eau/", label: "Pompe à chaleur air/eau : chauffage, eau chaude et rafraîchissement" }

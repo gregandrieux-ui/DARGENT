@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Illustration : unité de climatisation gainable posée dans les combles, gaines isolées">
+<rect width="800" height="600" fill="#eaf3fa"/>
+<path d="M0 560L400 60l400 500z" fill="#f4f8fb"/>
+<g stroke="#b88a5a" stroke-width="16" stroke-linecap="round"><path d="M20 540L400 70l380 470"/></g>
+<g stroke="#d4ae84" stroke-width="10"><path d="M200 320v240M400 90v470M600 320v240"/></g>
+<rect x="0" y="520" width="800" height="80" fill="#f2d29b"/>
+<g fill="#e8bf7e"><circle cx="60" cy="540" r="18"/><circle cx="170" cy="548" r="22"/><circle cx="300" cy="538" r="16"/><circle cx="520" cy="546" r="20"/><circle cx="660" cy="540" r="18"/><circle cx="760" cy="548" r="16"/></g>
+<rect x="280" y="400" width="240" height="100" rx="12" fill="#fff" stroke="#0b2a4a" stroke-width="6"/>
+<rect x="300" y="425" width="90" height="50" rx="6" fill="#eaf3fa" stroke="#0b2a4a" stroke-width="4"/>
+<circle cx="470" cy="450" r="10" fill="#2db8c5"/>
+<g fill="none" stroke="#96dce2" stroke-width="34" stroke-linecap="round"><path d="M280 450c-80 0-100 60-190 60M520 440c80 0 110 70 200 70M470 400c0-80 60-90 60-160"/></g>
+<g fill="none" stroke="#0b2a4a" stroke-width="3" stroke-dasharray="6 10" opacity=".45"><path d="M280 450c-80 0-100 60-190 60M520 440c80 0 110 70 200 70M470 400c0-80 60-90 60-160"/></g>
+<path d="M330 400v-60h-40" fill="none" stroke="#2db8c5" stroke-width="8" stroke-linecap="round"/>
+<path d="M350 400v-80h-60" fill="none" stroke="#005ca9" stroke-width="8" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Illustration : pompe à chaleur air/eau, unité extérieure contre le mur d'une maison">
+<rect width="800" height="600" fill="#eaf3fa"/>
+<circle cx="650" cy="120" r="46" fill="#fff" opacity=".9"/>
+<path d="M80 500V230l230-130 230 130v270z" fill="#fff"/>
+<path d="M60 240L310 95l250 145" fill="none" stroke="#0b2a4a" stroke-width="14" stroke-linejoin="round"/>
+<rect x="130" y="280" width="110" height="120" rx="6" fill="#c9e6f0" stroke="#0b2a4a" stroke-width="6"/>
+<path d="M185 280v120M130 340h110" stroke="#0b2a4a" stroke-width="5"/>
+<rect x="360" y="330" width="90" height="170" rx="6" fill="#005ca9"/>
+<circle cx="435" cy="420" r="5" fill="#fff"/>
+<rect x="0" y="498" width="800" height="102" fill="#d6e6d0"/>
+<rect x="0" y="494" width="800" height="10" fill="#b9d1b1"/>
+<rect x="500" y="468" width="240" height="30" rx="4" fill="#c9d5df"/>
+<rect x="520" y="300" width="200" height="170" rx="14" fill="#fff" stroke="#0b2a4a" stroke-width="6"/>
+<circle cx="595" cy="385" r="58" fill="#f4f8fb" stroke="#0b2a4a" stroke-width="6"/>
+<g stroke="#0b2a4a" stroke-width="4"><path d="M545 385h100M595 335v100M560 350l70 70M630 350l-70 70"/></g>
+<circle cx="595" cy="385" r="12" fill="#2db8c5" stroke="#0b2a4a" stroke-width="4"/>
+<rect x="670" y="320" width="34" height="130" rx="6" fill="#eaf3fa" stroke="#0b2a4a" stroke-width="4"/>
+<path d="M540 300v-40h-10M560 300v-50h-10" fill="none" stroke="#2db8c5" stroke-width="8" stroke-linecap="round"/>
+<path d="M535 262h-45v-10M552 252h-62" fill="none" stroke="#2db8c5" stroke-width="8" stroke-linecap="round"/>
+<g fill="none" stroke="#96dce2" stroke-width="6" stroke-linecap="round"><path d="M740 360c20-10 30 10 50 0M740 390c20-10 30 10 50 0M740 420c20-10 30 10 50 0"/></g>
+</svg>

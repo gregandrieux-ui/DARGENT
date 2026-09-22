@@ -6,10 +6,12 @@ const { title = 'Un devis établi après visite sur place, pas un prix au télé
 ---
 <section class="cta-band" aria-labelledby="cta-title">
   <div class="container">
-    <div><h2 id="cta-title">{title}</h2><p>{text}</p></div>
-    <div class="actions">
-      <a class={`btn ${alert ? 'btn-alert' : 'btn-cyan'}`} href={alert ? site.phoneHref : href}>{alert && <Icon name="phone" />}{cta}</a>
-      {!alert && <a class="tel" href={site.phoneHref}><Icon name="phone" /> {site.phone}</a>}
+    <div class={`cta-card ${alert ? 'is-alert' : ''}`}>
+      <div><h2 id="cta-title">{title}</h2><p>{text}</p></div>
+      <div class="actions">
+        <a class={`btn ${alert ? 'btn-alert' : ''}`} href={alert ? site.phoneHref : href}>{alert && <Icon name="phone" />}{cta}</a>
+        {!alert && <a class="tel" href={site.phoneHref}><Icon name="phone" /> {site.phone}</a>}
+      </div>
     </div>
   </div>
 </section>

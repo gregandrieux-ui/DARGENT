@@ -21,7 +21,7 @@ checks:
   - { label: "Dimensionnement par notre bureau d’études", detail: "adapté au bâti et aux pièces du logement" }
   - { label: "Interventions en groupe scolaire et en tertiaire", detail: "centrales de traitement d’air" }
 photos:
-  - { missing: "ventilation double flux installée en groupe scolaire", caption: "Photo à collecter" }
+  - { src: "/images/illustrations/ventilation-double-flux.svg", alt: "Centrale double flux : air neuf, air soufflé, air repris, air rejeté", caption: "Centrale double flux : air neuf, air soufflé, air repris, air rejeté" }
   - { missing: "centrale de traitement d’air en local technique", caption: "Photo à collecter" }
 links:
   - { href: "/chauffage/", label: "Nos solutions de chauffage à Orléans" }

@@ -8,7 +8,7 @@ const { title = 'Avis clients' } = Astro.props;
     <h2 id="avis-title">{title}</h2>
     <ul class="testimonials">
       {site.reviews.map((r) => (
-        <li><blockquote>« {r.text} »</blockquote><cite>{r.name}</cite><span class="src">Avis Google, <a href={site.googleReviewUrl} rel="noopener">voir les avis</a></span></li>
+        <li><span class="quote" aria-hidden="true">“</span><blockquote>{r.text}</blockquote><cite>{r.name}</cite><span class="src">Avis Google, <a href={site.googleReviewUrl} rel="noopener">voir les avis</a></span></li>
       ))}
     </ul>
   </div>

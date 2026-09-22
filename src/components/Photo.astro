@@ -1,17 +1,19 @@
 ---
-// Photo « agrafée » avec sa légende sur une ligne pré-imprimée. Sans src : slot « à collecter ».
+// Photo avec sa légende. Sans src : slot « à collecter ».
+// Les visuels de /images/illustrations/ sont des dessins (pas des chantiers) : libellé « Illustration » imposé.
 import Icon from './Icon.astro';
 import images from '../data/images.json';
 import { showTodo } from '../data/site';
 interface Props { src?: string; alt?: string; caption?: string; label?: string; missing?: string; priority?: boolean; class?: string; sizes?: string }
 const { src, alt = '', caption, label = 'Observations', missing, priority = false, class: cls = '' } = Astro.props;
-const dim = src ? (images as Record<string, { w: number; h: number }>)[src] : undefined;
+const illustration = src?.startsWith('/images/illustrations/') ?? false;
+const dim = illustration ? { w: 800, h: 600 } : src ? (images as Record<string, { w: number; h: number }>)[src] : undefined;
 ---
-<figure class={`photo ${cls}`}>
+<figure class={`photo ${illustration ? 'photo-illustration' : ''} ${cls}`}>
   {src ? (
     <img src={src} alt={alt} width={dim?.w} height={dim?.h} loading={priority ? 'eager' : 'lazy'} fetchpriority={priority ? 'high' : undefined} decoding={priority ? 'sync' : 'async'} />
   ) : showTodo ? (
     <div class="photo-missing"><Icon name="photo" /><span>Photo de chantier à collecter{missing ? ` : ${missing}` : ''}</span></div>
   ) : null}
-  {caption && (src || showTodo) && <figcaption><span class="lbl">{label}</span><span>{caption}</span></figcaption>}
+  {caption && (src || showTodo) && <figcaption><span class="lbl">{illustration ? 'Illustration' : label}</span><span>{caption}</span></figcaption>}
 </figure>

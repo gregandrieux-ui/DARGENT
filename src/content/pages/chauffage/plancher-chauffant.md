@@ -21,7 +21,7 @@ checks:
   - { label: "Photos de chantiers avec isolation projetée", detail: "plancher chauffant sous mousse projetée" }
   - { label: "Brochures techniques disponibles", detail: "régulation multizone et plancher rafraîchissant" }
 photos:
-  - { missing: "Photo de plancher chauffant sous mousse projetée", caption: "Photo à collecter" }
+  - { src: "/images/illustrations/plancher-chauffant.svg", alt: "Tubes de plancher chauffant en serpentin, avant la chape", caption: "Tubes de plancher chauffant en serpentin, avant la chape" }
 links:
   - { href: "/pompe-a-chaleur/air-eau/", label: "la pompe à chaleur air/eau" }
   - { href: "/chauffage/", label: "nos solutions de chauffage" }

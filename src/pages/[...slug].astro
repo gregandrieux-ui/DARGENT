@@ -37,7 +37,7 @@ const simple = d.template === 'legal';
 const isLocal = d.template === 'local';
 const osm = `https://www.openstreetmap.org/export/embed.html?bbox=${site.geo.lng - 0.012},${site.geo.lat - 0.007},${site.geo.lng + 0.012},${site.geo.lat + 0.007}&layer=mapnik&marker=${site.geo.lat},${site.geo.lng}`;
 ---
-<Base title={d.title} description={d.description} path={path} noindex={d.draft} schema={schema} alert={d.alert} ogImage={heroPhoto?.src}>
+<Base title={d.title} description={d.description} path={path} noindex={d.draft} schema={schema} alert={d.alert} ogImage={heroPhoto?.src?.endsWith('.svg') ? undefined : heroPhoto?.src}>
   <section class={`hero ${d.alert ? 'hero-alert' : ''}`}>
     <div class="container">
       <nav class="breadcrumb" aria-label="Fil d’Ariane">

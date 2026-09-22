@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Illustration : tubes de plancher chauffant posés en serpentin sur l'isolant, avant la chape">
+<rect width="800" height="600" fill="#f4f8fb"/>
+<rect width="800" height="180" fill="#fff"/>
+<rect x="520" y="30" width="180" height="130" rx="6" fill="#c9e6f0" stroke="#0b2a4a" stroke-width="5"/>
+<path d="M0 180h800v420H0z" fill="#f6e6b5"/>
+<path d="M0 180l80 420M160 180l60 420M320 180l40 420M480 180l20 420M640 180v420" stroke="#ecd594" stroke-width="3" opacity=".7"/>
+<g fill="none" stroke="#ea444e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+<path d="M150 200v360h60V240h60v320h60V240h60v320h60V240h60v320h60V240h60v340"/>
+</g>
+<g fill="none" stroke="#005ca9" stroke-width="12" stroke-linecap="round"><path d="M110 200v380h640"/></g>
+<rect x="60" y="120" width="170" height="90" rx="10" fill="#fff" stroke="#0b2a4a" stroke-width="6"/>
+<rect x="80" y="140" width="130" height="14" rx="7" fill="#ea444e"/><rect x="80" y="172" width="130" height="14" rx="7" fill="#005ca9"/>
+<g fill="#0b2a4a"><circle cx="100" cy="147" r="6"/><circle cx="130" cy="147" r="6"/><circle cx="160" cy="147" r="6"/><circle cx="190" cy="147" r="6"/></g>
+</svg>
