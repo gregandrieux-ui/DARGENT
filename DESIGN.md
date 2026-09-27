@@ -150,6 +150,13 @@ The editorial rules don't change (PRODUCT.md): proof before promise, no invented
 ## Illustrations
 `public/images/illustrations/*.svg` are flat drawings in the brand palette (PAC air/eau, PAC hybride, gainable ×2, VMC double flux, ballon thermodynamique, plancher chauffant). They stand in for missing site photos. **They are not chantier photos.** `Photo.astro` detects the folder, forces the caption label "Illustration", and uses 800×600 dimensions. They are never used in réalisations or as the OG image. Replace them with real photos (with client consent) as they come in.
 
+## Homepage: direction C « service direct » (27/09/2026)
+Chosen by the client from three directions. **Homepage only**; header, footer, sticky call bar and every other page keep « clair et net ».
+- The hero is an intent chooser: three rounded (26px) colour tiles. Navy = install (PAC chip highlighted white), cyan-700 = maintain, alert red = breakdown with the phone number. Red keeps its meaning here: urgent only.
+- A proof strip follows (tint band, 4 facts): 1936, RGE, 1993, 111363-R1. Then the visit-first steps with the photo, the reviews, and a navy-900 closing CTA.
+- Headings use Bricolage Grotesque Variable (`@fontsource-variable/bricolage-grotesque`, imported by `index.astro` only). The body stays Archivo.
+- All styles are scoped in `src/pages/index.astro` under `.home-c`. `global.css` is untouched.
+
 ## Do / Don't
 - **Do** keep transitions at 200ms (`--dur`) on hover and active only, and respect `prefers-reduced-motion` (zeroed site-wide).
 - **Do** keep touch targets at 44px or more (nav, chips, footer links, exits).

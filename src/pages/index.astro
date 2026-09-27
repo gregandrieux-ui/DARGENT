@@ -1,10 +1,9 @@
 ---
+import '@fontsource-variable/bricolage-grotesque';
 import Base from '../layouts/Base.astro';
 import Icon from '../components/Icon.astro';
 import Photo from '../components/Photo.astro';
 import ToConfirm from '../components/ToConfirm.astro';
-import Testimonials from '../components/Testimonials.astro';
-import CtaBand from '../components/CtaBand.astro';
 import { site } from '../data/site';
 import { byCat } from '../data/realisations';
 import { breadcrumb } from '../lib/schema';
@@ -12,199 +11,160 @@ import { breadcrumb } from '../lib/schema';
 const title = 'Chauffage, climatisation et PAC à Orléans | Dargent';
 const description = 'Installateur RGE de pompes à chaleur, climatisation et chauffage à Orléans depuis 1936. Étude personnalisée et devis gratuit. Appelez le 02 38 86 46 46.';
 const hero = byCat('maintenance').find((x) => x.n === '033')!;
-const gallery = [byCat('climatisations-reversibles')[0], byCat('chaudieres-condensation-basses-temperatures')[0], byCat('planchers-chauffants')[0], byCat('ventilations')[2], byCat('maintenance')[2], byCat('climatisations-reversibles')[3]];
-const clim = byCat('climatisations-reversibles')[1];
-const chaud = byCat('chaudieres-condensation-basses-temperatures')[4];
-const services = [
-  { href: '/pompe-a-chaleur/', title: 'Pompe à chaleur', icon: 'flame', tag: 'Notre priorité', img: '/images/illustrations/pac-air-eau.svg', alt: '', text: 'Air/eau, haute température ou hybride gaz : dimensionnée par notre bureau d’études selon votre isolation et vos émetteurs.', more: 'Choisir sa pompe à chaleur' },
-  { href: '/climatisation/', title: 'Climatisation', icon: 'snowflake', img: clim.thumb, alt: clim.caption, text: 'Réversible, gainable ou multi-split, pour la maison comme pour les locaux professionnels.', more: 'Voir la climatisation' },
-  { href: '/chauffage/', title: 'Chauffage', icon: 'droplet', img: chaud.thumb, alt: chaud.caption, text: 'Chaudière à condensation, plancher chauffant, ballon thermodynamique, régulation.', more: 'Nos solutions de chauffage' },
-  { href: '/ventilation/', title: 'Ventilation', icon: 'wind', img: '/images/illustrations/ventilation-double-flux.svg', alt: '', text: 'Simple flux, hygroréglable ou double flux, choisie selon le bâtiment.', more: 'Voir la ventilation' },
+const install = [
+  { href: '/pompe-a-chaleur/', label: 'Pompe à chaleur', hot: true },
+  { href: '/climatisation/', label: 'Climatisation' },
+  { href: '/chauffage/', label: 'Chauffage' },
+  { href: '/ventilation/', label: 'Ventilation' },
 ];
-const facts = [
-  { value: '1936', label: 'Création de l’entreprise, trois générations de chauffagistes' },
-  { value: '1969', label: 'Installés avenue Ampère, à Saint-Jean-de-Braye' },
-  { value: '1993', label: 'Création de notre bureau d’études interne' },
-  { value: 'RGE', label: 'Qualibat 8321, 5423, 5312, 5112' },
+const maintain = [
+  { href: '/pompe-a-chaleur/entretien/', label: 'Pompe à chaleur' },
+  { href: '/climatisation/entretien/', label: 'Climatisation' },
+  { href: '/chauffage/entretien-chaudiere/', label: 'Chaudière' },
+];
+const proofs = [
+  { icon: 'calendar', value: '1936', label: 'trois générations de chauffagistes' },
+  { icon: 'file-certificate', value: 'RGE', label: 'Qualibat, QUALIPAC' },
+  { icon: 'tool', value: '1993', label: 'bureau d’études interne' },
+  { icon: 'droplet', value: '111363-R1', label: 'habilités fluides frigorigènes' },
+];
+const steps = [
+  { title: 'Visite technique', text: 'Un technicien vient voir votre logement, vos émetteurs et l’emplacement des équipements.' },
+  { title: 'Étude', text: 'Notre bureau d’études dimensionne l’installation selon votre isolation et vos usages.' },
+  { title: 'Devis', text: 'Il arrive après la visite : gratuit et sans engagement.' },
 ];
 ---
 <Base title={title} description={description} path="/" schema={[breadcrumb([{ name: 'Accueil', path: '/' }])]} ogImage={hero.src}>
-  <section class="hero"><div class="container">
-    <div class="entry entry-even">
+  <div class="home-c">
+    <section class="intro"><div class="container">
+      <div class="intro-top">
+        <h1>Chauffage, climatisation et pompe à chaleur à Orléans&nbsp;: par quoi commence-t-on&nbsp;?</h1>
+        <p>Choisissez votre situation, on vous emmène directement au bon endroit.</p>
+      </div>
+
+      <div class="tiles">
+        <div class="tile tile-install">
+          <p class="q">J’ai un projet</p>
+          <h2>Installer un nouvel équipement</h2>
+          <p>Visite technique et étude par notre bureau d’études avant tout devis.</p>
+          <ul class="chips">{install.map((l) => <li><a href={l.href} class={l.hot ? 'hot' : ''}>{l.label}</a></li>)}</ul>
+        </div>
+        <div class="tile tile-maintain">
+          <p class="q">J’ai déjà un équipement</p>
+          <h2>L’entretenir</h2>
+          <p>Forfait ou contrat, avec rapport d’intervention et attestation remis.</p>
+          <ul class="chips">{maintain.map((l) => <li><a href={l.href}>{l.label}</a></li>)}</ul>
+        </div>
+        <div class="tile tile-alert">
+          <p class="q">C’est urgent</p>
+          <h2>Mon appareil est en panne</h2>
+          <p>Diagnostic, puis devis avant toute réparation importante.</p>
+          <a class="num" href={site.phoneHref}><Icon name="phone" /> {site.phone}</a>
+          <a class="small" href="/entretien-depannage/">Nos engagements de dépannage</a>
+        </div>
+      </div>
+
+      <ul class="proofs">
+        {proofs.map((p) => <li><span class="dot"><Icon name={p.icon} /></span><span><strong>{p.value}</strong>{p.label}</span></li>)}
+      </ul>
+    </div></section>
+
+    <section class="section"><div class="container how">
       <div>
-        <p class="eyebrow"><Icon name="map-pin" /> Orléans et son agglomération</p>
-        <h1 class="display">Pompe à chaleur, climatisation et chauffage dans l’agglomération orléanaise</h1>
-        <p class="promise">Un installateur orléanais qualifié RGE depuis 1936, qui étudie votre projet avant de le chiffrer.</p>
-        <div class="actions">
-          <a class="btn" href="/devis/">Demander un devis <Icon name="arrow-right" /></a>
+        <h2>Pas de prix au téléphone. Une visite d’abord.</h2>
+        <ol class="nums">
+          {steps.map((s, i) => <li><span class="k">{i + 1}</span><div><h3>{s.title}</h3><p>{s.text}</p></div></li>)}
+        </ol>
+      </div>
+      <Photo src={hero.src} alt={hero.caption} class="how-photo" />
+    </div></section>
+
+    <section class="section reviews" aria-labelledby="avis-title"><div class="container">
+      <h2 id="avis-title">Ils nous ont confié leur maison</h2>
+      <ul class="revs">
+        {site.reviews.map((r) => (
+          <li><blockquote>« {r.text} »</blockquote><p class="who"><span class="av" aria-hidden="true">{r.name[0]}</span><span>{r.name}<small>Avis Google</small></span></p></li>
+        ))}
+      </ul>
+      <p class="more"><a href={site.googleReviewUrl} rel="noopener">Voir tous les avis Google <Icon name="arrow-up-right" /></a></p>
+    </div></section>
+
+    <section class="closing"><div class="container">
+      <div class="big-cta">
+        <div><h2>Parlons de votre projet</h2><p>Visite technique, étude, puis devis gratuit et sans engagement.</p></div>
+        <div class="acts">
+          <a class="pill" href="/devis/">Demander un devis <Icon name="arrow-right" /></a>
           <a class="tel" href={site.phoneHref}><Icon name="phone" /> {site.phone}</a>
         </div>
-        <ul class="trust">
-          <li><Icon name="file-certificate" /> Qualifié RGE Qualibat</li>
-          <li><Icon name="calendar" /> Depuis 1936</li>
-          <li><Icon name="tool" /> Bureau d’études interne</li>
-        </ul>
       </div>
-      <div class="hero-visual">
-        <Photo src={hero.src} alt={hero.caption} priority class="hero-photo" />
-        <div class="hero-badge">
-          <span class="card-icon"><Icon name="square-check" /></span>
-          <span><strong>Devis après visite sur place</strong><span class="muted">jamais un prix au téléphone</span></span>
-        </div>
-      </div>
-    </div>
-  </div></section>
-
-  <section class="section"><div class="container">
-    <div class="section-head">
-      <h2>Nos solutions</h2>
-      <p>Pompe à chaleur, climatisation, chauffage et ventilation : une seule équipe, de l’étude à l’entretien.</p>
-    </div>
-    <div class="cards services">
-      {services.map((s, i) => (
-        <article class={`card ${i === 0 ? 'card-featured' : ''}`}>
-          <Photo src={s.img} alt={s.alt} />
-          <div class="card-body">
-            <div class="card-top"><span class="card-icon"><Icon name={s.icon} /></span>{s.tag && <span class="tag">{s.tag}</span>}</div>
-            <h3><a class="stretched" href={s.href}>{s.title}</a></h3>
-            <p>{s.text}</p>
-            <span class="more" aria-hidden="true">{s.more} <Icon name="arrow-right" /></span>
-          </div>
-        </article>
-      ))}
-    </div>
-  </div></section>
-
-  <section class="section section-alt"><div class="container">
-    <div class="entry entry-rev why">
-      <div>
-        <h2>Pourquoi Dargent Thermique</h2>
-        <p>Trois générations de chauffagistes se sont succédé depuis 1936. En 1993, l’entreprise a créé son bureau d’études : chaque installation est calculée avant d’être chiffrée, et le devis n’arrive qu’après la visite technique.</p>
-        <p>Nos techniciens sont habilités à la manipulation des fluides frigorigènes (attestation n° 111363-R1), l’entreprise est qualifiée Qualibat RGE, et nous adhérons à l’éco-organisme Ecologic pour le traitement des déchets de chantier.</p>
-        <dl class="facts">
-          {facts.map((f) => <div><dt>{f.label}</dt><dd>{f.value}</dd></div>)}
-        </dl>
-        <p><a class="btn btn-outline" href="/entreprise/">Découvrir l’entreprise</a></p>
-      </div>
-      <Photo src="/images/produits/fourgon-dargent.jpg" alt="Fourgon d’intervention Dargent Thermique" caption="Véhicule d’intervention équipé, magasin de pièces à Saint-Jean-de-Braye" label="Moyens" />
-    </div>
-  </div></section>
-
-  <section class="section"><div class="container">
-    <div class="section-head">
-      <h2>Comment se déroule votre projet</h2>
-      <p>Pas de prix au téléphone : nous voyons votre logement avant de chiffrer.</p>
-    </div>
-    <ol class="steps steps-row">
-      <li><h3>Visite technique</h3><p>Un technicien vient voir votre logement, vos émetteurs et l’emplacement des équipements.</p></li>
-      <li><h3>Étude</h3><p>Notre bureau d’études dimensionne l’installation selon votre isolation et vos usages.</p></li>
-      <li><h3>Devis</h3><p>Le devis arrive après la visite : gratuit et sans engagement.</p></li>
-    </ol>
-  </div></section>
-
-  <section class="section section-alt"><div class="container">
-    <div class="entry">
-      <div>
-        <h2>Nos qualifications</h2>
-        <p>Qualibat RGE, QUALIPAC, Professionnel du gaz et habilitation aux fluides frigorigènes.</p>
-        <p><a href="/entreprise/qualifications/">Le détail de nos qualifications et leur validité</a></p>
-      </div>
-      <div>
-        <ul class="quals">
-          {site.qualifications.map((q) => <li><Icon name="square-check" /><span><strong>{q.code}</strong><span class="muted">{q.label}</span></span></li>)}
-        </ul>
-        <div class="marks">
-          <img src="/images/qualifications/logo-qualibat.jpg" alt="Qualibat RGE" width="90" height="90" loading="lazy" />
-          <img src="/images/qualifications/RGE.png" alt="Reconnu Garant de l’Environnement" width="90" height="90" loading="lazy" />
-          <img src="/images/qualifications/logo-professionnels-du-gaz.jpg" alt="Professionnel du gaz" width="90" height="90" loading="lazy" />
-          <img src="/images/qualifications/ecologic.png" alt="Ecologic" width="90" height="90" loading="lazy" />
-        </div>
-      </div>
-    </div>
-  </div></section>
-
-  <section class="section"><div class="container">
-    <div class="section-head">
-      <h2>Nos réalisations</h2>
-      <p>Des chantiers réels, posés par nos équipes.</p>
-    </div>
-    <ul class="gallery gallery-3">
-      {gallery.map((x) => <li><Photo src={x.thumb} alt={x.caption} caption={x.caption} label="Chantier" /></li>)}
-    </ul>
-    <p style="margin-top:32px"><a class="btn btn-outline" href="/realisations/">Voir nos réalisations</a></p>
-  </div></section>
-
-  <section class="section section-alt"><div class="container">
-    <h2>Entretien et dépannage</h2>
-    <div class="grid-2">
-      <div class="panel">
-        <span class="card-icon"><Icon name="calendar" /></span>
-        <h3>Entretenir</h3>
-        <p>Forfait ou contrat d’entretien pour votre pompe à chaleur, votre climatisation ou votre chaudière, avec rapport d’intervention et attestation remise.</p>
-        <ul class="exits"><li><a href="/pompe-a-chaleur/entretien/">Entretien de pompe à chaleur</a></li><li><a href="/climatisation/entretien/">Entretien de climatisation</a></li><li><a href="/chauffage/entretien-chaudiere/">Entretien de chaudière</a></li></ul>
-      </div>
-      <div class="panel">
-        <span class="card-icon card-icon-alert"><Icon name="alert-triangle" /></span>
-        <h3>Dépanner</h3>
-        <p>En cas de panne, un technicien habilité diagnostique et vous remet un devis avant toute réparation importante.</p>
-        <p><a class="btn btn-alert" href={site.phoneHref}><Icon name="phone" /> Appeler le {site.phone}</a></p>
-        <ul class="exits"><li><a href="/pompe-a-chaleur/depannage/">Dépannage de pompe à chaleur</a></li><li><a href="/climatisation/depannage/">Dépannage de climatisation</a></li><li><a href="/entretien-depannage/">Toutes nos prestations d’entretien et de dépannage</a></li></ul>
-      </div>
-    </div>
-  </div></section>
-
-  <section class="section"><div class="container">
-    <div class="entry">
-      <div>
-        <h2>Nos zones d’intervention</h2>
-        <p>Depuis la zone industrielle de Saint-Jean-de-Braye, à côté de la tangentielle et des autoroutes A10 et A71, nous intervenons sur Orléans et toute l’agglomération.</p>
-      </div>
-      <div>
-        <ul class="exits">
-          <li><a href="/zones-intervention/saint-jean-de-braye/">Notre siège à Saint-Jean-de-Braye</a></li>
-          <li><a href="/zones-intervention/">Orléans et les communes de l’agglomération</a></li>
-        </ul>
-        <ToConfirm items={['Effectif actuel', 'Horaires d’ouverture', 'Nom du groupe propriétaire depuis 2018', 'Zone réellement couverte en installation et en dépannage', 'Validité des certificats Qualibat']} />
-      </div>
-    </div>
-  </div></section>
-
-  <Testimonials />
-  <CtaBand title="Demander un devis" text="Étude personnalisée après visite, devis gratuit et sans engagement." />
+      <p class="zones"><Icon name="map-pin" /> Depuis <a href="/zones-intervention/saint-jean-de-braye/">notre siège de Saint-Jean-de-Braye</a>, nous intervenons à <a href="/zones-intervention/">Orléans et dans toute l’agglomération</a>.</p>
+      <ToConfirm items={['Effectif actuel', 'Horaires d’ouverture', 'Nom du groupe propriétaire depuis 2018', 'Zone réellement couverte en installation et en dépannage', 'Validité des certificats Qualibat']} />
+    </div></section>
+  </div>
 
   <style>
-    .trust { list-style: none; padding: 0; margin: var(--s-5) 0 0; display: flex; flex-wrap: wrap; gap: var(--s-2) var(--s-5); color: var(--ink-600); font-size: var(--text-small); }
-    .trust li { display: inline-flex; align-items: center; gap: var(--s-2); }
-    .trust .icon { color: var(--cyan-700); }
-    .hero-visual { display: flex; flex-direction: column; }
-    .hero-visual .photo img { aspect-ratio: 4 / 3; }
-    .hero-badge {
-      align-self: flex-start; display: flex; gap: var(--s-3); align-items: center; margin: -32px 0 0 var(--s-4); position: relative;
-      background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow-2); padding: var(--s-3) var(--s-4); font-size: var(--text-small); line-height: 1.35;
-    }
-    .hero-badge strong, .hero-badge .muted { display: block; }
-    .services { grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
-    .card-top { display: flex; align-items: center; justify-content: space-between; gap: var(--s-2); margin-bottom: var(--s-1); }
-    .card-featured { border-color: var(--cyan-200); }
-    .facts { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--s-3); margin: var(--s-5) 0 var(--s-6); }
-    .facts > div { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: var(--s-4); display: flex; flex-direction: column-reverse; }
-    .facts dt { font-size: var(--text-label); color: var(--ink-600); line-height: 1.4; }
-    .facts dd { margin: 0 0 var(--s-1); font-size: 1.75rem; font-weight: 700; font-stretch: 88%; color: var(--navy); line-height: 1.1; }
-    .why .photo img { box-shadow: var(--shadow-2); }
-    @media (min-width: 900px) { .why { align-items: center; } }
-    .steps-row { margin: 0; }
-    @media (min-width: 768px) {
-      .steps-row { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--s-5); }
-      .steps-row > li { padding: 60px 0 0; }
-      .steps-row > li::after { left: 52px; right: calc(-1 * var(--s-5) + 4px); top: 19px; bottom: auto; width: auto; height: 2px; }
-    }
-    .quals { list-style: none; padding: 0; margin: 0 0 var(--s-4); display: grid; gap: var(--s-2); }
-    .quals li { display: flex; gap: var(--s-3); align-items: flex-start; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-sm); padding: var(--s-3) var(--s-4); max-width: none; }
-    .quals .icon { color: var(--cyan-700); margin-top: 0.15em; }
-    .quals strong, .quals .muted { display: block; }
-    .quals .muted { font-size: var(--text-small); }
-    .panel { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow-1); padding: var(--s-6) var(--s-5); }
-    .panel h3 { margin-top: var(--s-4); }
-    .card-icon-alert { background: var(--alert-50); color: var(--alert); }
+    /* Direction C « service direct », scoped to the homepage only (DESIGN.md) */
+    .home-c { --display: 'Bricolage Grotesque Variable', var(--font); --round: 26px; }
+    .home-c h1, .home-c h2, .home-c h3 { font-family: var(--display); font-stretch: normal; color: var(--navy-900); letter-spacing: -0.02em; text-wrap: balance; }
+    .home-c h1 { font-size: clamp(2.125rem, 1.3rem + 3vw, 3.5rem); line-height: 1.04; font-weight: 800; max-width: 22ch; margin: 0; }
+    .home-c h2 { font-weight: 800; line-height: 1.08; }
+
+    .intro { padding: var(--s-7) 0 var(--s-6); }
+    .intro-top { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: var(--s-4) var(--s-6); margin-bottom: var(--s-6); }
+    .intro-top p { color: var(--ink-600); max-width: 34ch; margin: 0; }
+
+    .tiles { display: grid; gap: var(--s-4); }
+    @media (min-width: 900px) { .tiles { grid-template-columns: 1.25fr 1fr 1fr; } }
+    .tile { border-radius: var(--round); padding: var(--s-6); color: #fff; display: flex; flex-direction: column; gap: var(--s-3); min-height: 300px; }
+    .tile h2 { color: #fff; font-size: clamp(1.625rem, 1.3rem + 1.2vw, 2.25rem); margin: 0; max-width: 14ch; }
+    .tile p { margin: 0; max-width: 30ch; }
+    .tile .q { font-size: var(--text-label); font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; opacity: 0.9; }
+    .tile-install { background: var(--navy); }
+    .tile-maintain { background: var(--cyan-700); }
+    .tile-alert { background: var(--alert); }
+    .chips { list-style: none; padding: 0; margin: auto 0 0; display: flex; flex-wrap: wrap; gap: var(--s-2); }
+    .chips a { display: inline-flex; align-items: center; min-height: 44px; padding: 0 var(--s-4); border-radius: var(--pill); background: rgba(255, 255, 255, 0.16); border: 1px solid rgba(255, 255, 255, 0.4); color: #fff; font-weight: 600; text-decoration: none; transition: background var(--dur) var(--ease); }
+    .chips a:hover { background: rgba(255, 255, 255, 0.28); }
+    .chips a.hot { background: #fff; color: var(--navy-900); border-color: #fff; }
+    .tile-alert .num { margin-top: auto; display: inline-flex; align-items: center; gap: var(--s-2); font-family: var(--display); font-weight: 800; font-size: clamp(1.625rem, 1.3rem + 1vw, 2rem); color: #fff; text-decoration: none; min-height: 48px; white-space: nowrap; }
+    .tile-alert .small { color: #fff; font-size: var(--text-small); }
+
+    .proofs { list-style: none; padding: 0; margin: var(--s-4) 0 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); background: var(--tint); border-radius: 22px; }
+    @media (min-width: 900px) { .proofs { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+    .proofs li { display: flex; align-items: center; gap: var(--s-3); padding: var(--s-4); font-size: var(--text-small); line-height: 1.3; }
+    .proofs strong { display: block; font-family: var(--display); font-size: 1.25rem; color: var(--navy-900); }
+    .proofs .dot { width: 42px; height: 42px; flex: none; border-radius: 50%; background: var(--surface); display: grid; place-items: center; color: var(--navy); }
+
+    .how { display: grid; gap: var(--s-6); align-items: center; }
+    @media (min-width: 900px) { .how { grid-template-columns: 1fr 1fr; gap: var(--s-7); } }
+    .nums { list-style: none; padding: 0; margin: var(--s-5) 0 0; display: grid; gap: var(--s-3); }
+    .nums li { display: grid; grid-template-columns: 52px minmax(0, 1fr); gap: var(--s-4); align-items: start; background: var(--tint); border-radius: 18px; padding: var(--s-4); max-width: none; }
+    .nums .k { width: 52px; height: 52px; border-radius: 50%; background: var(--navy-900); color: #fff; display: grid; place-items: center; font-family: var(--display); font-weight: 800; font-size: 1.3rem; }
+    .nums h3 { margin: 0 0 var(--s-1); }
+    .nums p { margin: 0; color: var(--ink-600); }
+    .how :global(.how-photo img) { border-radius: var(--round); aspect-ratio: 5 / 4; object-fit: cover; width: 100%; }
+
+    .reviews { padding-top: 0; }
+    .revs { list-style: none; padding: 0; margin: var(--s-5) 0 0; display: grid; gap: var(--s-4); }
+    @media (min-width: 900px) { .revs { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+    .revs li { border: 2px solid var(--tint); border-radius: 22px; padding: var(--s-5); display: flex; flex-direction: column; gap: var(--s-4); max-width: none; }
+    .revs blockquote { margin: 0; }
+    .who { margin: auto 0 0; display: flex; gap: var(--s-3); align-items: center; font-weight: 700; }
+    .who small { display: block; font-weight: 500; color: var(--ink-600); }
+    .av { width: 40px; height: 40px; border-radius: 50%; background: var(--cyan); color: var(--navy-900); display: grid; place-items: center; font-weight: 800; }
+    .reviews .more { margin-top: var(--s-5); }
+    .reviews .more a { display: inline-flex; align-items: center; gap: var(--s-2); min-height: 44px; font-weight: 600; }
+
+    .closing { padding-bottom: var(--s-8); }
+    .big-cta { background: var(--navy-900); border-radius: 30px; padding: var(--s-6); display: grid; gap: var(--s-5); align-items: center; margin-bottom: var(--s-5); }
+    @media (min-width: 900px) { .big-cta { grid-template-columns: 1fr auto; padding: var(--s-7); } }
+    .big-cta h2 { color: #fff; margin: 0; }
+    .big-cta p { color: var(--cyan-200); margin: var(--s-2) 0 0; }
+    .big-cta .acts { display: flex; flex-wrap: wrap; gap: var(--s-3) var(--s-5); align-items: center; }
+    .big-cta .pill { display: inline-flex; align-items: center; gap: var(--s-2); min-height: 50px; padding: 0 var(--s-5); border-radius: var(--pill); background: #fff; color: var(--navy-900); font-weight: 700; text-decoration: none; }
+    .big-cta .pill:hover { background: var(--navy-50); }
+    .big-cta .tel { color: #fff; }
+    .zones { color: var(--ink-600); margin: 0 0 var(--s-5); max-width: none; }
+    .zones :global(.icon) { color: var(--cyan-700); vertical-align: -0.15em; }
   </style>
 </Base>

@@ -4,6 +4,13 @@ import { site } from '../data/site';
 import { mainNav } from '../data/nav';
 const path = Astro.url.pathname;
 const isActive = (href: string) => (href === '/' ? path === '/' : path.startsWith(href));
+// Premier lien de chaque accordéon du menu mobile : la page de la rubrique elle-même.
+const overview: Record<string, string> = {
+  '/pompe-a-chaleur/': 'Tout sur la pompe à chaleur',
+  '/climatisation/': 'Tout sur la climatisation',
+  '/chauffage/': 'Tout sur le chauffage',
+  '/entreprise/': 'Tout sur l’entreprise',
+};
 ---
 <div class="topbar">
   <div class="container">
@@ -30,13 +37,20 @@ const isActive = (href: string) => (href === '/' ? path === '/' : path.startsWit
       <a class="btn" href="/devis/">Demander un devis</a>
     </div>
     <details class="menu">
-      <summary><Icon name="menu-2" /> Menu</summary>
+      <summary><Icon name="menu-2" class="i-open" /><Icon name="x" class="i-close" /> Menu</summary>
       <div class="panel">
         <ul>
           {mainNav.map((item) => (
             <li>
-              <a href={item.href}>{item.label}</a>
-              {item.children && <div class="sub">{item.children.map((c) => <a href={c.href}>{c.label}</a>)}</div>}
+              {item.children ? (
+                <details class="acc" name="menu-acc" open={isActive(item.href)}>
+                  <summary>{item.label}<Icon name="chevron-down" /></summary>
+                  <div class="sub">
+                    <a class="overview" href={item.href}>{overview[item.href] ?? item.label}</a>
+                    {item.children.map((c) => <a href={c.href}>{c.label}</a>)}
+                  </div>
+                </details>
+              ) : <a href={item.href}>{item.label}</a>}
             </li>
           ))}
           <li><a href="/contact/">Contact</a></li>
@@ -46,3 +60,16 @@ const isActive = (href: string) => (href === '/' ? path === '/' : path.startsWit
     </details>
   </div>
 </header>
+<script>
+  // Ferme le menu : Échap (focus rendu au bouton), clic sur un lien, clic hors du menu.
+  const menu = document.querySelector<HTMLDetailsElement>('.site-header .menu');
+  if (menu) {
+    const close = () => { menu.open = false; };
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && menu.open) { close(); menu.querySelector('summary')?.focus(); } });
+    document.addEventListener('click', (e) => {
+      if (!menu.open) return;
+      const t = e.target as Element;
+      if (!menu.contains(t) || t.closest('.panel a')) close();
+    });
+  }
+</script>

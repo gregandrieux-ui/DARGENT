@@ -152,14 +152,28 @@ th { color: var(--navy-900); font-weight: 600; background: var(--tint); border-b
 .menu > summary { list-style: none; display: inline-flex; align-items: center; gap: var(--s-2); min-height: 44px; cursor: pointer; padding: var(--s-2) var(--s-4); border: 1.5px solid var(--rule); border-radius: var(--pill); font-weight: 600; color: var(--navy); background: var(--surface); }
 .menu > summary::-webkit-details-marker { display: none; }
 .menu[open] > summary { background: var(--navy); border-color: var(--navy); color: #fff; }
-.menu .panel { position: fixed; inset: calc(var(--header-h) + 36px) 0 0 0; background: var(--paper); overflow: auto; padding: var(--s-4) var(--gutter) var(--s-9); z-index: 60; border-top: 1px solid var(--line); }
+.menu > summary .i-close, .menu[open] > summary .i-open { display: none; }
+.menu[open] > summary .i-close { display: inline; }
+/* absolute, pas fixed : le backdrop-filter de .site-header fait de l'en-tête le bloc conteneur */
+.menu .panel { position: absolute; top: 100%; left: 0; right: 0; height: calc(100dvh - var(--header-h)); background: var(--paper); overflow: auto; padding: var(--s-4) var(--gutter) var(--s-9); z-index: 60; border-top: 1px solid var(--line); }
 .menu .panel ul { list-style: none; margin: 0; padding: 0; }
 .menu .panel > ul > li { border-bottom: 1px solid var(--line); padding-block: var(--s-1); }
 .menu .panel > ul > li > a { display: flex; align-items: center; min-height: 48px; font-weight: 700; color: var(--navy-900); text-decoration: none; font-size: 1.125rem; }
+.menu .panel .acc > summary { list-style: none; display: flex; align-items: center; justify-content: space-between; gap: var(--s-3); min-height: 48px; cursor: pointer; font-weight: 700; color: var(--navy-900); font-size: 1.125rem; }
+.menu .panel .acc > summary::-webkit-details-marker { display: none; }
+.menu .panel .acc > summary .icon { color: var(--navy); transition: transform var(--dur) var(--ease); }
+.menu .panel .acc[open] > summary { color: var(--navy); }
+.menu .panel .acc[open] > summary .icon { transform: rotate(180deg); }
+.menu .panel .sub .overview { font-weight: 600; color: var(--navy); }
 .menu .panel .sub { padding-bottom: var(--s-2); }
 .menu .panel .sub a { display: flex; align-items: center; min-height: 44px; padding-left: var(--s-4); color: var(--ink); text-decoration: none; border-radius: var(--radius-sm); }
 .menu .panel .sub a:hover { background: var(--tint); }
 .menu .panel .btn { margin-top: var(--s-5); width: 100%; }
+@media (min-width: 600px) {
+  .header-actions { display: flex; }
+  .header-actions + .menu { margin-left: 0; }
+  .menu .panel .btn { display: none; }
+}
 @media (min-width: 1024px) {
   .nav { display: block; }
   .header-actions { display: flex; }
