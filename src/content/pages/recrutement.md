@@ -22,6 +22,7 @@ checks:
 faq: []
 howto: []
 photos:
+  - { src: "/images/illustrations/recrutement-metiers.svg", alt: "Nos trois métiers : technicien de maintenance, monteur, chargé d’affaires", caption: "Les trois métiers sur lesquels nous recrutons" }
   - { missing: "Photo de l'équipe technique", caption: "Photo à collecter" }
 links:
   - { href: "/entreprise/", label: "Découvrir l'entreprise Dargent Thermique" }

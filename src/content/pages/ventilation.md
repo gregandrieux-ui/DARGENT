@@ -21,7 +21,7 @@ checks:
   - { label: "Dimensionnement par notre bureau d’études", detail: "adapté au bâti et aux pièces du logement" }
   - { label: "Interventions en groupe scolaire et en tertiaire", detail: "centrales de traitement d’air" }
 photos:
-  - { src: "/images/illustrations/ventilation-double-flux.svg", alt: "Centrale double flux : air neuf, air soufflé, air repris, air rejeté", caption: "Centrale double flux : air neuf, air soufflé, air repris, air rejeté" }
+  - { src: "/images/illustrations/ventilation-double-flux.svg", alt: "Schéma d’une ventilation double flux : l’air neuf est préchauffé dans l’échangeur par l’air repris avant d’être soufflé dans les pièces de vie", caption: "Ventilation double flux : air neuf, air soufflé, air repris, air rejeté" }
   - { missing: "centrale de traitement d’air en local technique", caption: "Photo à collecter" }
 links:
   - { href: "/chauffage/", label: "Nos solutions de chauffage à Orléans" }

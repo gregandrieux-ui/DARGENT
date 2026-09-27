@@ -27,7 +27,7 @@ faq:
   - { q: "Combien coûte une pompe à chaleur à Orléans ?", a: "Le prix dépend de la famille de PAC, de la puissance, des émetteurs et de la production d’eau chaude. Nous ne donnons pas de prix au téléphone : le devis est établi après la visite technique et l’étude, gratuites." }
 howto: []
 photos:
-  - { src: "/images/illustrations/pac-air-eau.svg", alt: "Pompe à chaleur air/eau : unité extérieure raccordée au logement", caption: "Pompe à chaleur air/eau : unité extérieure raccordée au logement" }
+  - { src: "/images/illustrations/pac-air-eau.svg", alt: "Schéma d’une pompe à chaleur air/eau : l’unité extérieure capte la chaleur de l’air, le module hydraulique la transmet aux radiateurs, au plancher chauffant et au ballon d’eau chaude", caption: "Principe de fonctionnement d’une pompe à chaleur air/eau" }
 needs:
   - { q: "Je chauffe la maison et l’eau chaude", title: "Pompe à chaleur air/eau", text: "Chauffage, eau chaude et rafraîchissement sur votre réseau d’eau.", href: "/pompe-a-chaleur/air-eau/" }
   - { q: "Je remplace une vieille chaudière", title: "PAC haute température", text: "Elle garde vos radiateurs existants, sans refaire les émetteurs.", href: "/pompe-a-chaleur/haute-temperature/" }

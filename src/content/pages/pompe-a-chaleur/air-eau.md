@@ -22,7 +22,7 @@ checks:
   - { label: "Dimensionnement par notre bureau d’études", detail: "calcul des déperditions pièce par pièce" }
   - { label: "Attestation de capacité fluides frigorigènes", detail: "n° 111363-R1, Bureau Veritas" }
 photos:
-  - { src: "/images/illustrations/pac-air-eau.svg", alt: "Unité extérieure d’une pompe à chaleur air/eau", caption: "Unité extérieure d’une pompe à chaleur air/eau" }
+  - { src: "/images/illustrations/pac-air-eau.svg", alt: "Schéma d’une pompe à chaleur air/eau : l’unité extérieure capte la chaleur de l’air, le module hydraulique la transmet aux radiateurs, au plancher chauffant et au ballon d’eau chaude", caption: "Principe de fonctionnement d’une pompe à chaleur air/eau" }
 links:
   - { href: "/pompe-a-chaleur/installation/", label: "Comment nous installons votre pompe à chaleur" }
   - { href: "/pompe-a-chaleur/entretien/", label: "Entretien de votre pompe à chaleur" }

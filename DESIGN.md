@@ -144,11 +144,17 @@ The editorial rules don't change (PRODUCT.md): proof before promise, no invented
 - **FAQ**: separated rounded `<details>` with a round +/− badge.
 - **Steps**: numbered navy-50 discs joined by a line. Vertical by default, horizontal (`.steps-row`) on the home page from 768px.
 - **CTA band**: a rounded navy-50 card inside the container (`.cta-card`), red-tinted `is-alert` variant.
-- **Header**: white, translucent with blur, sticky. Nav items are pills (tint on hover, navy-50 when active). The dropdown is a rounded shadowed panel.
+- **Header**: white, translucent with blur, sticky. The full nav shows from 1100px (it needs ≈1070px). Below that: burger + devis button. Nav items are pills (tint on hover, navy-50 when active). The dropdown is a rounded shadowed panel.
 - **Footer**: `--tint`, contact card, four link columns, legal line.
 
 ## Illustrations
-`public/images/illustrations/*.svg` are flat drawings in the brand palette (PAC air/eau, PAC hybride, gainable ×2, VMC double flux, ballon thermodynamique, plancher chauffant). They stand in for missing site photos. **They are not chantier photos.** `Photo.astro` detects the folder, forces the caption label "Illustration", and uses 800×600 dimensions. They are never used in réalisations or as the OG image. Replace them with real photos (with client consent) as they come in.
+`public/images/illustrations/*.svg` stand in for weak or missing site photos. There are two styles, chosen by page type:
+- **Schéma** (product pages): cutaway/section views, no scenery. Navy-50 background, navy-900 outlines 4–6px, white equipment. Flows: supply/warm = navy solid with an arrowhead, return/cold = cyan dashed. Numbered navy-900 discs, with at most 3–4 labels of 26px or more in `system-ui` (webfonts don't load inside `<img>` SVG). Examples: `pac-air-eau.svg`, `clim-reversible.svg`.
+- **Infographie** (service/info pages): white 22px-radius cards on navy-50, a numbered disc, a simple line icon, a bold label plus a muted detail. Example: `entretien-pac.svg`.
+- Both are 800×600, `role="img"` with an `aria-label`, with no red, and no figures that the page text doesn't state.
+- In the hero they use `object-fit: contain` so labels are never cropped.
+- Set (27/09/2026): schémas `pac-air-eau`, `pac-hybride`, `pac-haute-temperature`, `clim-reversible`, `gainable-combles`, `gainable-plafond`, `ventilation-double-flux`, `ballon-thermodynamique`, `plancher-chauffant`, `vrv-tertiaire`; infographies `entretien-pac`, `pac-installation`, `aides-parcours`, `qualifications-qualibat`, `histoire-frise`, `recrutement-metiers`.
+- A visual goes in as `photos[0]` (hero). Real photos and « à collecter » slots stay after it, so real chantier photos keep being collected. **They are not chantier photos.** `Photo.astro` detects the folder, forces the caption label "Illustration", and uses 800×600 dimensions. They are never used in réalisations or as the OG image. Replace them with real photos (with client consent) as they come in.
 
 ## Direction C « service direct » (site-wide, 27/09/2026)
 Chosen by the client from three directions. It was applied first to the homepage and then to every page.

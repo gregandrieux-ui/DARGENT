@@ -21,7 +21,7 @@ checks:
   - { label: "Photos de chantiers avec isolation projetée", detail: "plancher chauffant sous mousse projetée" }
   - { label: "Brochures techniques disponibles", detail: "régulation multizone et plancher rafraîchissant" }
 photos:
-  - { src: "/images/illustrations/plancher-chauffant.svg", alt: "Tubes de plancher chauffant en serpentin, avant la chape", caption: "Tubes de plancher chauffant en serpentin, avant la chape" }
+  - { src: "/images/illustrations/plancher-chauffant.svg", alt: "Coupe d’un plancher chauffant : support, isolant en plaque ou projeté, chape avec les tubes d’eau chaude, revêtement", caption: "Les couches d’un plancher chauffant, du support au revêtement" }
 links:
   - { href: "/pompe-a-chaleur/air-eau/", label: "la pompe à chaleur air/eau" }
   - { href: "/chauffage/", label: "nos solutions de chauffage" }

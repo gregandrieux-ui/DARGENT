@@ -1,20 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Illustration : grille de soufflage de climatisation gainable intégrée au plafond d'un séjour">
-<rect width="800" height="600" fill="#f4f8fb"/>
-<rect width="800" height="90" fill="#fff"/>
-<rect y="88" width="800" height="4" fill="#e1e8ee"/>
-<rect x="230" y="70" width="340" height="30" rx="6" fill="#fff" stroke="#0b2a4a" stroke-width="5"/>
-<g stroke="#0b2a4a" stroke-width="3"><path d="M250 78v14M270 78v14M290 78v14M310 78v14M330 78v14M350 78v14M370 78v14M390 78v14M410 78v14M430 78v14M450 78v14M470 78v14M490 78v14M510 78v14M530 78v14M550 78v14"/></g>
-<g fill="none" stroke="#2db8c5" stroke-width="6" stroke-linecap="round" opacity=".8"><path d="M290 120c-10 40 10 70-10 110M400 125c0 45 0 75 0 115M510 120c10 40-10 70 10 110"/></g>
-<rect x="0" y="470" width="800" height="130" fill="#e8dccb"/>
-<g stroke="#d6c7b2" stroke-width="3"><path d="M0 520h800M0 560h800M160 470v50M420 520v40M640 470v50M280 560v40"/></g>
-<rect x="60" y="150" width="200" height="230" rx="8" fill="#c9e6f0" stroke="#0b2a4a" stroke-width="6"/>
-<path d="M160 150v230" stroke="#0b2a4a" stroke-width="5"/>
-<rect x="440" y="360" width="300" height="100" rx="20" fill="#005ca9"/>
-<rect x="420" y="320" width="340" height="60" rx="22" fill="#0b2a4a" opacity=".9"/>
-<rect x="460" y="330" width="120" height="44" rx="14" fill="#96dce2"/>
-<rect x="600" y="330" width="120" height="44" rx="14" fill="#96dce2"/>
-<rect x="450" y="458" width="12" height="18" fill="#0b2a4a"/><rect x="718" y="458" width="12" height="18" fill="#0b2a4a"/>
-<path d="M300 470v-150" stroke="#0b2a4a" stroke-width="6"/>
-<path d="M270 320h60l-12-50h-36z" fill="#2db8c5"/>
-<rect x="276" y="462" width="48" height="10" rx="4" fill="#0b2a4a"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Coupe d&#39;un faux plafond : la gaine isolée arrive dans un plénum qui souffle l&#39;air par une grille linéaire, seule partie visible">
+<defs>
+<marker id="an" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0 0L10 5L0 10z" fill="#005ca9"/></marker>
+<marker id="ac" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0 0L10 5L0 10z" fill="#2db8c5"/></marker>
+</defs>
+<rect width="800" height="600" fill="#eaf3fa"/>
+<g font-family="system-ui,-apple-system,Segoe UI,sans-serif" stroke-linecap="round" stroke-linejoin="round">
+<rect x="40" y="60" width="720" height="40" fill="#c9d5df"/><path d="M40 100H760" stroke="#0b2a4a" stroke-width="6"/><path d="M40 300H320M480 300H760" stroke="#0b2a4a" stroke-width="10"/><path d="M100 100v200M700 100v200" stroke="#c9d5df" stroke-width="4" stroke-dasharray="6 8"/><path d="M40 170H340" stroke="#0b2a4a" stroke-width="44"/><path d="M40 170H340" stroke="#fff" stroke-width="32"/><path d="M340 146H470V292H330V194" fill="#fff" stroke="#0b2a4a" stroke-width="5"/><rect x="320" y="292" width="160" height="16" rx="3" fill="#0b2a4a"/><path d="M340 300h120" stroke="#eaf3fa" stroke-width="3" stroke-dasharray="6 6"/><path d="M190 170H300" fill="none" stroke="#005ca9" stroke-width="5" marker-end="url(#an)"/><path d="M350 322q-10 30 0 60t0 50" fill="none" stroke="#005ca9" stroke-width="5" marker-end="url(#an)"/><path d="M400 322q-10 30 0 60t0 50" fill="none" stroke="#005ca9" stroke-width="5" marker-end="url(#an)"/><path d="M450 322q-10 30 0 60t0 50" fill="none" stroke="#005ca9" stroke-width="5" marker-end="url(#an)"/><text x="60" y="240" font-size="28" font-weight="700" fill="#0b2a4a" text-anchor="start">Gaine isolée</text><text x="496" y="220" font-size="28" font-weight="700" fill="#0b2a4a" text-anchor="start">Plénum</text><text x="496" y="360" font-size="28" font-weight="700" fill="#0b2a4a" text-anchor="start">Grille linéaire</text><text x="400" y="540" font-size="26" font-weight="400" fill="#4a5a68" text-anchor="middle">Seule la grille reste visible dans la pièce</text>
+</g>
 </svg>

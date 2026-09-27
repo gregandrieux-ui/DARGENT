@@ -23,6 +23,7 @@ checks:
 faq: []
 howto: []
 photos:
+  - { src: "/images/illustrations/qualifications-qualibat.svg", alt: "Nos quatre codes Qualibat : 8321 pompes à chaleur aérothermiques, 5423 climatisation, 5312 installations thermiques, 5112 plomberie sanitaire", caption: "Nos quatre codes Qualibat" }
   - { missing: "Certificats Qualibat et attestation fluides frigorigènes", caption: "Photo à collecter" }
 links:
   - { href: "/entreprise/", label: "L’entreprise Dargent Thermique" }

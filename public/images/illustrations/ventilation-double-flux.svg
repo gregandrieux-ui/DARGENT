@@ -1,18 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Illustration : centrale de ventilation double flux et ses quatre gaines en local technique">
-<rect width="800" height="600" fill="#f4f8fb"/>
-<rect y="500" width="800" height="100" fill="#e1e8ee"/>
-<rect x="250" y="250" width="300" height="200" rx="14" fill="#fff" stroke="#0b2a4a" stroke-width="6"/>
-<path d="M250 250l300 200M550 250L250 450" stroke="#c9d5df" stroke-width="4"/>
-<rect x="360" y="310" width="80" height="80" rx="8" fill="#eaf3fa" stroke="#0b2a4a" stroke-width="5" transform="rotate(45 400 350)"/>
-<rect x="270" y="270" width="60" height="16" rx="4" fill="#0b2a4a"/><rect x="278" y="275" width="26" height="6" rx="3" fill="#2db8c5"/>
-<rect x="270" y="450" width="20" height="50" fill="#0b2a4a"/><rect x="510" y="450" width="20" height="50" fill="#0b2a4a"/>
-<g fill="none" stroke-linecap="round" stroke-width="44">
-<path d="M300 250V120H60" stroke="#96dce2"/><path d="M500 250V120h240" stroke="#f3b3b7"/>
-<path d="M330 450v0" stroke="#96dce2"/>
-</g>
-<g fill="none" stroke-linecap="round" stroke-width="44"><path d="M250 400H60" stroke="#f3b3b7"/><path d="M550 400h190" stroke="#96dce2"/></g>
-<g fill="none" stroke="#0b2a4a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
-<path d="M120 120h-40m12-12l-12 12 12 12"/><path d="M680 120h40m-12-12l12 12-12 12"/>
-<path d="M90 400h40m-12-12l12 12-12 12"/><path d="M710 400h-40m12-12l-12 12 12 12"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Schéma d&#39;une ventilation double flux : l&#39;air neuf est préchauffé dans l&#39;échangeur par l&#39;air repris avant d&#39;être soufflé dans les pièces de vie, l&#39;air vicié est rejeté dehors">
+<defs>
+<marker id="an" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0 0L10 5L0 10z" fill="#005ca9"/></marker>
+<marker id="ac" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0 0L10 5L0 10z" fill="#2db8c5"/></marker>
+</defs>
+<rect width="800" height="600" fill="#eaf3fa"/>
+<g font-family="system-ui,-apple-system,Segoe UI,sans-serif" stroke-linecap="round" stroke-linejoin="round">
+<rect x="600" y="40" width="200" height="520" fill="#fff" opacity=".55"/><path d="M600 40V560" stroke="#0b2a4a" stroke-width="8"/><text x="700" y="80" font-size="24" font-weight="700" fill="#4a5a68" text-anchor="middle">Dehors</text><text x="560" y="80" font-size="24" font-weight="700" fill="#4a5a68" text-anchor="end">Dedans</text><rect x="300" y="200" width="200" height="200" rx="16" fill="#fff" stroke="#0b2a4a" stroke-width="6"/><path d="M400 230L470 300L400 370L330 300Z" fill="#eaf3fa" stroke="#0b2a4a" stroke-width="5"/><path d="M350 280L450 320M350 320L450 280" stroke="#c9d5df" stroke-width="4"/><text x="400" y="190" font-size="24" font-weight="700" fill="#0b2a4a" text-anchor="middle">Échangeur</text><path d="M780 170H470V222" fill="none" stroke="#2db8c5" stroke-width="9" marker-end="url(#ac)"/><text x="700" y="150" font-size="26" font-weight="700" fill="#117a85" text-anchor="middle">Air neuf</text><path d="M330 230V170H60" fill="none" stroke="#005ca9" stroke-width="9" marker-end="url(#an)"/><text x="80" y="150" font-size="26" font-weight="700" fill="#005ca9" text-anchor="start">Air soufflé</text><text x="80" y="208" font-size="22" font-weight="400" fill="#4a5a68" text-anchor="start">pièces de vie</text><path d="M60 470H330V378" fill="none" stroke="#005ca9" stroke-width="9" stroke-dasharray="14 10" marker-end="url(#an)"/><text x="80" y="510" font-size="26" font-weight="700" fill="#005ca9" text-anchor="start">Air repris</text><text x="80" y="540" font-size="22" font-weight="400" fill="#4a5a68" text-anchor="start">cuisine, salle de bain</text><path d="M470 378V470H780" fill="none" stroke="#2db8c5" stroke-width="9" stroke-dasharray="14 10" marker-end="url(#ac)"/><text x="700" y="510" font-size="26" font-weight="700" fill="#117a85" text-anchor="middle">Air rejeté</text>
 </g>
 </svg>

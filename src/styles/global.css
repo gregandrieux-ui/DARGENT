@@ -178,12 +178,13 @@ th { color: var(--navy-900); font-weight: 600; background: var(--tint); border-b
   .header-actions + .menu { margin-left: 0; }
   .menu .panel .btn { display: none; }
 }
-@media (min-width: 1024px) {
+/* 1100 : sous ce seuil la nav complète (≈1070px) déborde → burger. */
+@media (min-width: 1100px) {
   .nav { display: block; }
   .header-actions { display: flex; }
   .menu { display: none; }
 }
-@media (min-width: 1024px) and (max-width: 1199px) {
+@media (min-width: 1100px) and (max-width: 1199px) {
   .site-header .container { gap: var(--s-3); }
   .nav > ul > li > a { padding: 0 7px; font-size: 0.875rem; }
   .brand img { height: 34px; }
@@ -416,6 +417,7 @@ a.stretched::after { content: ''; position: absolute; inset: 0; z-index: 1; }
 .hero .promise { font-size: 1.1875rem; color: var(--ink-600); max-width: 42ch; }
 .hero .actions { display: flex; flex-wrap: wrap; align-items: center; gap: var(--s-3) var(--s-5); margin: var(--s-5) 0; }
 .hero-photo img { border-radius: var(--round); aspect-ratio: 5 / 4; object-fit: cover; }
+.hero-photo.photo-illustration img { object-fit: contain; } /* schémas : ne jamais rogner les légendes */
 @media (min-width: 900px) { .hero .entry { grid-template-columns: 1fr 1fr; gap: var(--s-7); align-items: center; } }
 .hero-facts { margin-top: var(--s-6); }
 .hero-alert { background: var(--navy-900); color: #fff; }

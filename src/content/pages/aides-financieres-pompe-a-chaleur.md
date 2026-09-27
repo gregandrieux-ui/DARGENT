@@ -25,6 +25,7 @@ faq:
   - { q: "Ces montants sont-ils garantis ?", a: "Non. Les dispositifs et leurs montants évoluent. Consultez la date de mise à jour de cette page et les sources officielles avant toute décision." }
 howto: []
 photos:
+  - { src: "/images/illustrations/aides-parcours.svg", alt: "Parcours pour une aide : visite technique, devis d’une entreprise RGE, dossier monté avec notre aide, vérification de l’éligibilité", caption: "Notre accompagnement, de la visite au dossier" }
   - { missing: "Photo d’un dossier ou d’un rendez-vous de conseil", caption: "Photo à collecter" }
 links:
   - { href: "/pompe-a-chaleur/", label: "Pompe à chaleur à Orléans et dans l’agglomération" }

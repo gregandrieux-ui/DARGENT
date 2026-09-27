@@ -28,6 +28,7 @@ checks:
   - { label: "Avis Google de Sylvain Aguenier", detail: "délai respecté, accompagnement pour les aides" }
   - { label: "Trois générations de chauffagistes depuis 1936" }
 photos:
+  - { src: "/images/illustrations/pac-installation.svg", alt: "Les cinq étapes de l’installation d’une pompe à chaleur : visite technique, étude et devis, préparation, pose, mise en service", caption: "Les cinq étapes de votre chantier" }
   - { missing: "chantier d’installation de PAC, étape par étape", caption: "Photo à collecter" }
 links:
   - { href: "/pompe-a-chaleur/", label: "Pompe à chaleur à Orléans et dans l’agglomération : quel modèle pour votre maison" }

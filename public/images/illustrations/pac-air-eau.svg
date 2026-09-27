@@ -1,21 +1,57 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Illustration : pompe à chaleur air/eau, unité extérieure contre le mur d'une maison">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Schéma d'une pompe à chaleur air/eau : l'unité extérieure capte la chaleur de l'air, le module hydraulique la transmet aux radiateurs, au plancher chauffant et au ballon d'eau chaude">
+<defs>
+<marker id="an" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0 0L10 5L0 10z" fill="#005ca9"/></marker>
+<marker id="ac" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0 0L10 5L0 10z" fill="#2db8c5"/></marker>
+</defs>
 <rect width="800" height="600" fill="#eaf3fa"/>
-<circle cx="650" cy="120" r="46" fill="#fff" opacity=".9"/>
-<path d="M80 500V230l230-130 230 130v270z" fill="#fff"/>
-<path d="M60 240L310 95l250 145" fill="none" stroke="#0b2a4a" stroke-width="14" stroke-linejoin="round"/>
-<rect x="130" y="280" width="110" height="120" rx="6" fill="#c9e6f0" stroke="#0b2a4a" stroke-width="6"/>
-<path d="M185 280v120M130 340h110" stroke="#0b2a4a" stroke-width="5"/>
-<rect x="360" y="330" width="90" height="170" rx="6" fill="#005ca9"/>
-<circle cx="435" cy="420" r="5" fill="#fff"/>
-<rect x="0" y="498" width="800" height="102" fill="#d6e6d0"/>
-<rect x="0" y="494" width="800" height="10" fill="#b9d1b1"/>
-<rect x="500" y="468" width="240" height="30" rx="4" fill="#c9d5df"/>
-<rect x="520" y="300" width="200" height="170" rx="14" fill="#fff" stroke="#0b2a4a" stroke-width="6"/>
-<circle cx="595" cy="385" r="58" fill="#f4f8fb" stroke="#0b2a4a" stroke-width="6"/>
-<g stroke="#0b2a4a" stroke-width="4"><path d="M545 385h100M595 335v100M560 350l70 70M630 350l-70 70"/></g>
-<circle cx="595" cy="385" r="12" fill="#2db8c5" stroke="#0b2a4a" stroke-width="4"/>
-<rect x="670" y="320" width="34" height="130" rx="6" fill="#eaf3fa" stroke="#0b2a4a" stroke-width="4"/>
-<path d="M540 300v-40h-10M560 300v-50h-10" fill="none" stroke="#2db8c5" stroke-width="8" stroke-linecap="round"/>
-<path d="M535 262h-45v-10M552 252h-62" fill="none" stroke="#2db8c5" stroke-width="8" stroke-linecap="round"/>
-<g fill="none" stroke="#96dce2" stroke-width="6" stroke-linecap="round"><path d="M740 360c20-10 30 10 50 0M740 390c20-10 30 10 50 0M740 420c20-10 30 10 50 0"/></g>
+<g font-family="system-ui,-apple-system,Segoe UI,sans-serif" stroke-linecap="round" stroke-linejoin="round">
+<!-- maison en coupe -->
+<path d="M60 500V200H540V500" fill="#f4f8fb"/>
+<path d="M36 214L300 72L564 214" fill="none" stroke="#0b2a4a" stroke-width="10"/>
+<path d="M60 200V500M540 200V500" stroke="#0b2a4a" stroke-width="8"/>
+<path d="M20 500H780" stroke="#0b2a4a" stroke-width="6"/>
+<path d="M40 512l-14 14M80 512l-14 14M120 512l-14 14M160 512l-14 14M200 512l-14 14M240 512l-14 14M280 512l-14 14M320 512l-14 14M360 512l-14 14M400 512l-14 14M440 512l-14 14M480 512l-14 14M520 512l-14 14M560 512l-14 14M600 512l-14 14M640 512l-14 14M680 512l-14 14M720 512l-14 14M760 512l-14 14" stroke="#c9d5df" stroke-width="3"/>
+<!-- plancher chauffant -->
+<rect x="64" y="466" width="472" height="30" fill="#dfeaf3"/>
+<path d="M440 460V476H96a7 7 0 0 0 0 14H500" fill="none" stroke="#005ca9" stroke-width="5"/>
+<!-- radiateur -->
+<rect x="104" y="238" width="150" height="66" rx="8" fill="#fff" stroke="#0b2a4a" stroke-width="5"/>
+<path d="M132 250v42M158 250v42M184 250v42M210 250v42M234 250v42" stroke="#c9d5df" stroke-width="5"/>
+<!-- ballon eau chaude -->
+<rect x="296" y="336" width="74" height="124" rx="30" fill="#fff" stroke="#0b2a4a" stroke-width="5"/>
+<path d="M314 372h38M314 390h38" stroke="#c9d5df" stroke-width="4"/>
+<!-- départ / retour vers radiateur -->
+<path d="M482 340V256H262" fill="none" stroke="#005ca9" stroke-width="7" marker-end="url(#an)"/>
+<path d="M254 290H454V334" fill="none" stroke="#2db8c5" stroke-width="7" stroke-dasharray="14 10" marker-end="url(#ac)"/>
+<path d="M420 400H378" stroke="#005ca9" stroke-width="7" marker-end="url(#an)"/>
+<!-- module hydraulique -->
+<rect x="420" y="340" width="80" height="120" rx="10" fill="#fff" stroke="#0b2a4a" stroke-width="5"/>
+<circle cx="460" cy="384" r="18" fill="#eaf3fa" stroke="#0b2a4a" stroke-width="4"/>
+<path d="M440 428h40M440 442h40" stroke="#c9d5df" stroke-width="4"/>
+<!-- liaison unité extérieure -->
+<path d="M592 396H508" stroke="#005ca9" stroke-width="7" marker-end="url(#an)"/>
+<path d="M500 432H584" stroke="#2db8c5" stroke-width="7" stroke-dasharray="14 10" marker-end="url(#ac)"/>
+<!-- unité extérieure -->
+<rect x="590" y="366" width="150" height="126" rx="14" fill="#fff" stroke="#0b2a4a" stroke-width="5"/>
+<circle cx="652" cy="429" r="44" fill="#f4f8fb" stroke="#0b2a4a" stroke-width="5"/>
+<path d="M652 429l0-34M652 429l30 17M652 429l-30 17" stroke="#0b2a4a" stroke-width="6"/>
+<circle cx="652" cy="429" r="9" fill="#2db8c5" stroke="#0b2a4a" stroke-width="4"/>
+<path d="M712 386v86" stroke="#c9d5df" stroke-width="10"/>
+<!-- air extérieur -->
+<path d="M790 300q-22 12 0 24t0 24q-14 8-38 10" fill="none" stroke="#2db8c5" stroke-width="5" marker-end="url(#ac)"/>
+<path d="M600 300q16 14 0 28t8 24" fill="none" stroke="#2db8c5" stroke-width="5" marker-end="url(#ac)"/>
+<text x="666" y="286" font-size="26" font-weight="700" fill="#117a85" text-anchor="middle">Air extérieur</text>
+<!-- repères -->
+<g font-size="26" font-weight="700" fill="#fff" text-anchor="middle">
+<circle cx="665" cy="336" r="22" fill="#0b2a4a"/><text x="665" y="345">1</text>
+<circle cx="396" cy="316" r="22" fill="#0b2a4a"/><text x="396" y="325">2</text>
+<circle cx="180" cy="208" r="22" fill="#0b2a4a"/><text x="180" y="217">3</text>
+</g>
+<!-- légende -->
+<g font-size="24" fill="#0b2a4a">
+<circle cx="52" cy="566" r="15" fill="#0b2a4a"/><text x="52" y="574" fill="#fff" font-weight="700" text-anchor="middle" font-size="20">1</text><text x="76" y="574">Air capté</text>
+<circle cx="236" cy="566" r="15" fill="#0b2a4a"/><text x="236" y="574" fill="#fff" font-weight="700" text-anchor="middle" font-size="20">2</text><text x="260" y="574">Transfert à l'eau</text>
+<circle cx="480" cy="566" r="15" fill="#0b2a4a"/><text x="480" y="574" fill="#fff" font-weight="700" text-anchor="middle" font-size="20">3</text><text x="504" y="574">Chauffage, eau chaude</text>
+</g>
+</g>
 </svg>

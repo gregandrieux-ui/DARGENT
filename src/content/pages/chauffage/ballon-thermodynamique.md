@@ -25,7 +25,7 @@ checks:
   - { label: "Dimensionnement par notre bureau d’études", detail: "capacité et emplacement étudiés ensemble" }
   - { label: "Attestation de capacité fluides frigorigènes", detail: "n° 111363-R1, Bureau Veritas" }
 photos:
-  - { src: "/images/illustrations/ballon-thermodynamique.svg", alt: "Ballon thermodynamique, pompe à chaleur intégrée sur le dessus", caption: "Ballon thermodynamique, pompe à chaleur intégrée sur le dessus" }
+  - { src: "/images/illustrations/ballon-thermodynamique.svg", alt: "Schéma d’un ballon thermodynamique : la pompe à chaleur du dessus capte la chaleur de l’air et la transmet à l’eau, une résistance sert d’appoint", caption: "Principe d’un ballon thermodynamique" }
 links:
   - { href: "/chauffage/", label: "Nos solutions de chauffage à Orléans" }
   - { href: "/pompe-a-chaleur/air-eau/", label: "Pompe à chaleur air/eau : chauffage, eau chaude et rafraîchissement" }
