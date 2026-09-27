@@ -47,7 +47,6 @@ const osm = `https://www.openstreetmap.org/export/embed.html?bbox=${site.geo.lng
         <div>
           <h1>{d.h1}</h1>
           <p class="promise">{d.promise}</p>
-          {d.facts.length > 0 && <dl class="ruled">{d.facts.map((f) => <><dt>{f.label}</dt><dd>{f.value}</dd></>)}</dl>}
           {d.checks.length > 0 && <Checks items={d.checks} />}
           {!simple && (
             <div class="actions">
@@ -66,8 +65,27 @@ const osm = `https://www.openstreetmap.org/export/embed.html?bbox=${site.geo.lng
           <div class="hero-photo"><Cachet /></div>
         ))}
       </div>
+      {d.facts.length > 0 && <dl class="facts">{d.facts.map((f) => <div><dt>{f.label}</dt><dd>{f.value}</dd></div>)}</dl>}
     </div>
   </section>
+
+  {d.needs.length > 0 && (
+    <section class="section needs" aria-labelledby="needs-title">
+      <div class="container">
+        <h2 id="needs-title">Votre besoin, notre réponse</h2>
+        <div class="tiles tiles-3">
+          {d.needs.map((n, i) => (
+            <div class={`tile ${['tile-install', 'tile-maintain', 'tile-dark'][i % 3]}`}>
+              <p class="q">{n.q}</p>
+              <h3>{n.title}</h3>
+              <p>{n.text}</p>
+              <a class="go" href={n.href}>Découvrir <Icon name="arrow-right" /></a>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
 
   <section class="section" style="padding-top: 0">
     <div class="container">

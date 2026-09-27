@@ -1,4 +1,5 @@
 ---
+import Icon from './Icon.astro';
 import { site } from '../data/site';
 interface Props { title?: string }
 const { title = 'Avis clients' } = Astro.props;
@@ -6,10 +7,11 @@ const { title = 'Avis clients' } = Astro.props;
 <section class="section" aria-labelledby="avis-title">
   <div class="container">
     <h2 id="avis-title">{title}</h2>
-    <ul class="testimonials">
+    <ul class="revs">
       {site.reviews.map((r) => (
-        <li><span class="quote" aria-hidden="true">“</span><blockquote>{r.text}</blockquote><cite>{r.name}</cite><span class="src">Avis Google, <a href={site.googleReviewUrl} rel="noopener">voir les avis</a></span></li>
+        <li><blockquote>« {r.text} »</blockquote><p class="who"><span class="av" aria-hidden="true">{r.name[0]}</span><span>{r.name}<small>Avis Google</small></span></p></li>
       ))}
     </ul>
+    <p class="revs-more"><a href={site.googleReviewUrl} rel="noopener">Voir tous les avis Google <Icon name="arrow-up-right" /></a></p>
   </div>
 </section>

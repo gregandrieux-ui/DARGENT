@@ -26,6 +26,10 @@ photos:
   - { src: "/images/realisations/climatisations-reversibles/dargent-thermique-027.jpg", alt: "Groupe extérieur de climatisation avec traitement acoustique", caption: "Groupe extérieur de climatisation avec traitement acoustique" }
   - { src: "/images/realisations/climatisations-reversibles/dargent-thermique-014.jpg", alt: "Console murale de climatisation réversible", caption: "Console murale de climatisation réversible" }
   - { src: "/images/realisations/climatisations-reversibles/dargent-thermique-032.jpg", alt: "Unité intérieure de climatisation tertiaire", caption: "Unité intérieure de climatisation tertiaire" }
+needs:
+  - { q: "J’ai trop chaud dans une ou deux pièces", title: "Climatisation réversible", text: "Du frais l’été, de la chaleur l’hiver, avec une unité par pièce.", href: "/climatisation/reversible/" }
+  - { q: "Je ne veux voir aucun appareil", title: "Climatisation gainable", text: "Un seul groupe caché en faux plafond, l’air soufflé par des grilles discrètes.", href: "/climatisation/gainable/" }
+  - { q: "J’équipe des bureaux ou un commerce", title: "Locaux professionnels", text: "Systèmes VRV et gestion centralisée pour le tertiaire.", href: "/professionnels/" }
 links:
   - { href: "/climatisation/reversible/", label: "Climatisation réversible : du frais l’été, de la chaleur l’hiver" }
   - { href: "/climatisation/gainable/", label: "Climatisation gainable, discrète et intégrée" }

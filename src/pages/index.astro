@@ -1,9 +1,10 @@
 ---
-import '@fontsource-variable/bricolage-grotesque';
 import Base from '../layouts/Base.astro';
 import Icon from '../components/Icon.astro';
 import Photo from '../components/Photo.astro';
 import ToConfirm from '../components/ToConfirm.astro';
+import Testimonials from '../components/Testimonials.astro';
+import CtaBand from '../components/CtaBand.astro';
 import { site } from '../data/site';
 import { byCat } from '../data/realisations';
 import { breadcrumb } from '../lib/schema';
@@ -79,92 +80,22 @@ const steps = [
       <Photo src={hero.src} alt={hero.caption} class="how-photo" />
     </div></section>
 
-    <section class="section reviews" aria-labelledby="avis-title"><div class="container">
-      <h2 id="avis-title">Ils nous ont confié leur maison</h2>
-      <ul class="revs">
-        {site.reviews.map((r) => (
-          <li><blockquote>« {r.text} »</blockquote><p class="who"><span class="av" aria-hidden="true">{r.name[0]}</span><span>{r.name}<small>Avis Google</small></span></p></li>
-        ))}
-      </ul>
-      <p class="more"><a href={site.googleReviewUrl} rel="noopener">Voir tous les avis Google <Icon name="arrow-up-right" /></a></p>
-    </div></section>
+    <Testimonials title="Ils nous ont confié leur maison" />
 
-    <section class="closing"><div class="container">
-      <div class="big-cta">
-        <div><h2>Parlons de votre projet</h2><p>Visite technique, étude, puis devis gratuit et sans engagement.</p></div>
-        <div class="acts">
-          <a class="pill" href="/devis/">Demander un devis <Icon name="arrow-right" /></a>
-          <a class="tel" href={site.phoneHref}><Icon name="phone" /> {site.phone}</a>
-        </div>
-      </div>
+    <CtaBand>
       <p class="zones"><Icon name="map-pin" /> Depuis <a href="/zones-intervention/saint-jean-de-braye/">notre siège de Saint-Jean-de-Braye</a>, nous intervenons à <a href="/zones-intervention/">Orléans et dans toute l’agglomération</a>.</p>
       <ToConfirm items={['Effectif actuel', 'Horaires d’ouverture', 'Nom du groupe propriétaire depuis 2018', 'Zone réellement couverte en installation et en dépannage', 'Validité des certificats Qualibat']} />
-    </div></section>
+    </CtaBand>
   </div>
 
   <style>
-    /* Direction C « service direct », scoped to the homepage only (DESIGN.md) */
-    .home-c { --display: 'Bricolage Grotesque Variable', var(--font); --round: 26px; }
-    .home-c h1, .home-c h2, .home-c h3 { font-family: var(--display); font-stretch: normal; color: var(--navy-900); letter-spacing: -0.02em; text-wrap: balance; }
-    .home-c h1 { font-size: clamp(2.125rem, 1.3rem + 3vw, 3.5rem); line-height: 1.04; font-weight: 800; max-width: 22ch; margin: 0; }
-    .home-c h2 { font-weight: 800; line-height: 1.08; }
-
+    /* Direction C : motifs partagés dans global.css ; ici, seulement la mise en page propre à l'accueil. */
+    .home-c h1 { margin: 0; }
     .intro { padding: var(--s-7) 0 var(--s-6); }
     .intro-top { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: var(--s-4) var(--s-6); margin-bottom: var(--s-6); }
     .intro-top p { color: var(--ink-600); max-width: 34ch; margin: 0; }
-
-    .tiles { display: grid; gap: var(--s-4); }
-    @media (min-width: 900px) { .tiles { grid-template-columns: 1.25fr 1fr 1fr; } }
-    .tile { border-radius: var(--round); padding: var(--s-6); color: #fff; display: flex; flex-direction: column; gap: var(--s-3); min-height: 300px; }
-    .tile h2 { color: #fff; font-size: clamp(1.625rem, 1.3rem + 1.2vw, 2.25rem); margin: 0; max-width: 14ch; }
-    .tile p { margin: 0; max-width: 30ch; }
-    .tile .q { font-size: var(--text-label); font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; opacity: 0.9; }
-    .tile-install { background: var(--navy); }
-    .tile-maintain { background: var(--cyan-700); }
-    .tile-alert { background: var(--alert); }
-    .chips { list-style: none; padding: 0; margin: auto 0 0; display: flex; flex-wrap: wrap; gap: var(--s-2); }
-    .chips a { display: inline-flex; align-items: center; min-height: 44px; padding: 0 var(--s-4); border-radius: var(--pill); background: rgba(255, 255, 255, 0.16); border: 1px solid rgba(255, 255, 255, 0.4); color: #fff; font-weight: 600; text-decoration: none; transition: background var(--dur) var(--ease); }
-    .chips a:hover { background: rgba(255, 255, 255, 0.28); }
-    .chips a.hot { background: #fff; color: var(--navy-900); border-color: #fff; }
-    .tile-alert .num { margin-top: auto; display: inline-flex; align-items: center; gap: var(--s-2); font-family: var(--display); font-weight: 800; font-size: clamp(1.625rem, 1.3rem + 1vw, 2rem); color: #fff; text-decoration: none; min-height: 48px; white-space: nowrap; }
-    .tile-alert .small { color: #fff; font-size: var(--text-small); }
-
-    .proofs { list-style: none; padding: 0; margin: var(--s-4) 0 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); background: var(--tint); border-radius: 22px; }
-    @media (min-width: 900px) { .proofs { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
-    .proofs li { display: flex; align-items: center; gap: var(--s-3); padding: var(--s-4); font-size: var(--text-small); line-height: 1.3; }
-    .proofs strong { display: block; font-family: var(--display); font-size: 1.25rem; color: var(--navy-900); }
-    .proofs .dot { width: 42px; height: 42px; flex: none; border-radius: 50%; background: var(--surface); display: grid; place-items: center; color: var(--navy); }
-
-    .how { display: grid; gap: var(--s-6); align-items: center; }
-    @media (min-width: 900px) { .how { grid-template-columns: 1fr 1fr; gap: var(--s-7); } }
-    .nums { list-style: none; padding: 0; margin: var(--s-5) 0 0; display: grid; gap: var(--s-3); }
-    .nums li { display: grid; grid-template-columns: 52px minmax(0, 1fr); gap: var(--s-4); align-items: start; background: var(--tint); border-radius: 18px; padding: var(--s-4); max-width: none; }
-    .nums .k { width: 52px; height: 52px; border-radius: 50%; background: var(--navy-900); color: #fff; display: grid; place-items: center; font-family: var(--display); font-weight: 800; font-size: 1.3rem; }
-    .nums h3 { margin: 0 0 var(--s-1); }
-    .nums p { margin: 0; color: var(--ink-600); }
-    .how :global(.how-photo img) { border-radius: var(--round); aspect-ratio: 5 / 4; object-fit: cover; width: 100%; }
-
-    .reviews { padding-top: 0; }
-    .revs { list-style: none; padding: 0; margin: var(--s-5) 0 0; display: grid; gap: var(--s-4); }
-    @media (min-width: 900px) { .revs { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
-    .revs li { border: 2px solid var(--tint); border-radius: 22px; padding: var(--s-5); display: flex; flex-direction: column; gap: var(--s-4); max-width: none; }
-    .revs blockquote { margin: 0; }
-    .who { margin: auto 0 0; display: flex; gap: var(--s-3); align-items: center; font-weight: 700; }
-    .who small { display: block; font-weight: 500; color: var(--ink-600); }
-    .av { width: 40px; height: 40px; border-radius: 50%; background: var(--cyan); color: var(--navy-900); display: grid; place-items: center; font-weight: 800; }
-    .reviews .more { margin-top: var(--s-5); }
-    .reviews .more a { display: inline-flex; align-items: center; gap: var(--s-2); min-height: 44px; font-weight: 600; }
-
-    .closing { padding-bottom: var(--s-8); }
-    .big-cta { background: var(--navy-900); border-radius: 30px; padding: var(--s-6); display: grid; gap: var(--s-5); align-items: center; margin-bottom: var(--s-5); }
-    @media (min-width: 900px) { .big-cta { grid-template-columns: 1fr auto; padding: var(--s-7); } }
-    .big-cta h2 { color: #fff; margin: 0; }
-    .big-cta p { color: var(--cyan-200); margin: var(--s-2) 0 0; }
-    .big-cta .acts { display: flex; flex-wrap: wrap; gap: var(--s-3) var(--s-5); align-items: center; }
-    .big-cta .pill { display: inline-flex; align-items: center; gap: var(--s-2); min-height: 50px; padding: 0 var(--s-5); border-radius: var(--pill); background: #fff; color: var(--navy-900); font-weight: 700; text-decoration: none; }
-    .big-cta .pill:hover { background: var(--navy-50); }
-    .big-cta .tel { color: #fff; }
-    .zones { color: var(--ink-600); margin: 0 0 var(--s-5); max-width: none; }
+    .home-c > :global(.section + .section) { padding-top: 0; }
+    .zones { color: var(--ink-600); margin: var(--s-5) 0; max-width: none; }
     .zones :global(.icon) { color: var(--cyan-700); vertical-align: -0.15em; }
   </style>
 </Base>

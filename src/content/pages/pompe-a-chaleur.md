@@ -28,6 +28,10 @@ faq:
 howto: []
 photos:
   - { src: "/images/illustrations/pac-air-eau.svg", alt: "Pompe à chaleur air/eau : unité extérieure raccordée au logement", caption: "Pompe à chaleur air/eau : unité extérieure raccordée au logement" }
+needs:
+  - { q: "Je chauffe la maison et l’eau chaude", title: "Pompe à chaleur air/eau", text: "Chauffage, eau chaude et rafraîchissement sur votre réseau d’eau.", href: "/pompe-a-chaleur/air-eau/" }
+  - { q: "Je remplace une vieille chaudière", title: "PAC haute température", text: "Elle garde vos radiateurs existants, sans refaire les émetteurs.", href: "/pompe-a-chaleur/haute-temperature/" }
+  - { q: "Je veux garder le gaz en appoint", title: "PAC hybride gaz", text: "La pompe à chaleur et la chaudière se relaient selon la température.", href: "/pompe-a-chaleur/hybride/" }
 links:
   - { href: "/pompe-a-chaleur/air-eau/", label: "Pompe à chaleur air/eau : chauffage, eau chaude et rafraîchissement" }
   - { href: "/pompe-a-chaleur/haute-temperature/", label: "Pompe à chaleur haute température pour remplacer une chaudière" }
