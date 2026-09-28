@@ -47,6 +47,8 @@ const jsonld = JSON.stringify(graph(organization(), website(), ...schema));
     <link rel="preload" href={archivoUrl} as="font" type="font/woff2" crossorigin />
     <link rel="sitemap" href="/sitemap-index.xml" />
     <script type="application/ld+json" set:html={jsonld} />
+    <!-- Prérendu des pages internes au survol : navigation instantanée, sans JS exécuté. -->
+    <script is:inline type="speculationrules">{"prerender":[{"where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":"/documents/*"}},{"not":{"selector_matches":"[download], [target=_blank]"}}]},"eagerness":"moderate"}]}</script>
   </head>
   <body class={bodyClass}>
     <a class="skip-link" href="#contenu">Aller au contenu</a>
