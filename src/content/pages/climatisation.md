@@ -8,7 +8,6 @@ promise: "Un dimensionnement complet avant la pose : calcul des besoins, choix e
 template: pilier
 schema: Service
 cta: { href: "/devis/", label: "Demander un devis climatisation" }
-cta2: { href: "/realisations/", label: "Voir nos réalisations" }
 facts:
   - { label: "Qualification", value: "Qualibat 5423, climatiseurs à détente directe (technicité supérieure)" }
   - { label: "Fluides frigorigènes", value: "Attestation de capacité n° 111363-R1 (Bureau Veritas)" }
@@ -36,7 +35,6 @@ links:
   - { href: "/climatisation/installation/", label: "Comment nous installons votre climatisation" }
   - { href: "/climatisation/entretien/", label: "Entretien et maintenance de votre climatisation" }
   - { href: "/climatisation/depannage/", label: "Dépannage de climatisation" }
-  - { href: "/realisations/", label: "Nos réalisations en images" }
   - { href: "/professionnels/", label: "Nos solutions pour les professionnels et les collectivités" }
   - { href: "/devis/", label: "Demander un devis climatisation" }
 toConfirm:
@@ -109,7 +107,7 @@ Les pannes courantes et notre façon d’intervenir sont décrites sur la page [
 
 ## Nos réalisations
 
-Les photos de cette page viennent de nos chantiers : groupe extérieur avec traitement acoustique, console murale, unité intérieure en tertiaire. L’ensemble de nos chantiers de climatisation, avec les groupes VRV et la gestion centralisée, est réuni sur une page dédiée : [Voir nos réalisations](/realisations/).
+Les photos de cette page viennent de nos chantiers : groupe extérieur avec traitement acoustique, console murale, unité intérieure en tertiaire.
 
 Patrick Blain a laissé un avis Google après la pose d’une climatisation Daikin composée de 2 groupes extérieurs et 6 unités intérieures. Cet avis est consultable sur notre fiche Google.
 

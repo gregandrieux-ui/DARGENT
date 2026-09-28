@@ -25,7 +25,6 @@ photos:
 links:
   - { href: "/pompe-a-chaleur/air-eau/", label: "la pompe à chaleur air/eau" }
   - { href: "/chauffage/", label: "nos solutions de chauffage" }
-  - { href: "/realisations/", label: "nos réalisations en images" }
   - { href: "/devis/", label: "Demander une étude gratuite" }
   - { href: "/chauffage/regulation-connectee/", label: "Régulation connectée pour votre plancher chauffant" }
 toConfirm:
@@ -77,7 +76,7 @@ Le même réseau de tubes noyés dans la dalle peut, selon le système posé, fa
 
 Deux brochures techniques détaillent la mise en œuvre des systèmes que nous posons : l’une porte sur la régulation multizone, l’autre sur le plancher chauffant rafraîchissant [À CONFIRMER : droits de diffusion des brochures]. Nous pouvons vous les transmettre lors de l’étude de votre projet.
 
-Des photos de chantiers avec isolation projetée existent et seront ajoutées à cette page ; en attendant, retrouvez d’autres chantiers de chauffage dans [nos réalisations en images](/realisations/).
+Des photos de chantiers avec isolation projetée existent et seront ajoutées à cette page.
 
 ## Demander une étude
 

@@ -31,7 +31,6 @@ links:
   - { href: "/climatisation/gainable/", label: "Climatisation gainable : l’unité dissimulée dans le plafond" }
   - { href: "/climatisation/installation/", label: "Comment nous installons votre climatisation, étape par étape" }
   - { href: "/climatisation/entretien/", label: "Entretien et maintenance de votre climatisation réversible" }
-  - { href: "/realisations/", label: "Nos réalisations en images : climatisations réversibles posées" }
   - { href: "/devis/", label: "Demander un devis gratuit" }
 toConfirm:
   - "Marques installées"
@@ -114,4 +113,4 @@ Les photos de cette page viennent de nos chantiers, sans mise en scène. On y vo
 
 Patrick Blain nous a confié une climatisation Daikin, deux groupes et six unités. Son avis Google retient l’étude menée avant la pose, le respect des délais annoncés et la propreté du chantier.
 
-D’autres chantiers, en climatisation comme en pompe à chaleur ou en chauffage, sont réunis sur la page [nos réalisations en images : climatisations réversibles posées](/realisations/). Pour une clim réversible dans votre maison du Loiret, appelez le 02 38 86 46 46 ou passez par le formulaire : [Demander un devis gratuit](/devis/). Nous venons chez vous avant de chiffrer.
+Pour une clim réversible dans votre maison du Loiret, appelez le 02 38 86 46 46 ou passez par le formulaire : [Demander un devis gratuit](/devis/). Nous venons chez vous avant de chiffrer.

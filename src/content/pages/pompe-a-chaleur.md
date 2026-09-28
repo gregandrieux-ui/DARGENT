@@ -8,7 +8,6 @@ promise: "Une solution de chauffage dimensionnée pour votre logement, posée pa
 template: pilier
 schema: Service
 cta: { href: "/devis/", label: "Demander une étude gratuite" }
-cta2: { href: "/realisations/", label: "Voir nos réalisations PAC" }
 facts:
   - { label: "Qualification", value: "Qualibat 8321, pompes à chaleur aérothermiques, mention RGE" }
   - { label: "QUALIPAC", value: "Qualification dédiée aux pompes à chaleur" }
@@ -41,7 +40,6 @@ links:
   - { href: "/pompe-a-chaleur/depannage/", label: "Dépannage de pompe à chaleur à Orléans et dans le Loiret" }
   - { href: "/aides-financieres-pompe-a-chaleur/", label: "Les aides financières mobilisables pour une pompe à chaleur" }
   - { href: "/chauffage/plancher-chauffant/", label: "Plancher chauffant : l’émetteur adapté à la PAC basse température" }
-  - { href: "/realisations/", label: "Nos réalisations en images : PAC, climatisation et chauffage" }
   - { href: "/devis/", label: "Demander une étude gratuite" }
 toConfirm:
   - "Marques de PAC réellement installées aujourd’hui"
@@ -117,4 +115,4 @@ En cas de panne, nous posons un diagnostic puis établissons un devis avant tout
 
 Nos photos de chantiers montrent des climatisations réversibles, des chaudières à condensation, des ballons thermodynamiques et des planchers chauffants. Les photos de PAC air/eau posées par nos équipes sont en cours de collecte auprès de nos clients, avec leur accord.
 
-Deux avis Google concernent nos pompes à chaleur. Sylvain Aguenier évoque la pose d’une PAC air/air et l’accompagnement sur les aides. Geoffrey Thomas décrit le dépannage du thermostat de sa PAC. L’ensemble de nos chantiers est visible sur la page [Nos réalisations en images : PAC, climatisation et chauffage](/realisations/).
+Deux avis Google concernent nos pompes à chaleur. Sylvain Aguenier évoque la pose d’une PAC air/air et l’accompagnement sur les aides. Geoffrey Thomas décrit le dépannage du thermostat de sa PAC.

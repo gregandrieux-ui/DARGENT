@@ -31,7 +31,6 @@ links:
   - { href: "/pompe-a-chaleur/installation/", label: "Le déroulé de l’installation de votre pompe à chaleur" }
   - { href: "/pompe-a-chaleur/entretien/", label: "Entretien de votre pompe à chaleur" }
   - { href: "/aides-financieres-pompe-a-chaleur/", label: "Aides financières pour le remplacement de votre chaudière par une PAC" }
-  - { href: "/realisations/", label: "Nos réalisations en images" }
   - { href: "/devis/", label: "Demander une étude gratuite" }
   - { href: "/pompe-a-chaleur/hybride/", label: "Comparer avec la PAC hybride gaz" }
 toConfirm:
@@ -113,7 +112,7 @@ Vous chauffez une maison ancienne au fioul ou au gaz et vous voulez garder vos r
 
 Notre bureau d’études dimensionne ensuite la machine et vous remet un devis détaillé. Si la haute température n’est pas la bonne réponse pour votre maison, nous vous le disons et nous vous proposons une autre voie.
 
-Les photos de chantiers de remplacement de chaudière par une PAC haute température sont en cours de collecte auprès de nos clients, avec leur accord. Vous pouvez déjà consulter [nos réalisations en images](/realisations/).
+Les photos de chantiers de remplacement de chaudière par une PAC haute température sont en cours de collecte auprès de nos clients, avec leur accord.
 
 Nous intervenons à Orléans et dans les communes de l’agglomération depuis notre siège de Saint-Jean-de-Braye, avenue Ampère, occupé depuis 1969. Trois générations de chauffagistes se sont succédé depuis 1936.
 

@@ -25,7 +25,6 @@ export async function GET() {
     '',
     `- [Demander un devis](${site.url}/devis/): formulaire court ; rappel pour organiser une visite technique, devis gratuit et sans engagement.`,
     `- [Contact](${site.url}/contact/): téléphone, adresse et plan d’accès.`,
-    `- [Nos réalisations](${site.url}/realisations/): photos de chantiers classées par type d’installation.`,
   ].join('\n');
   return new Response(body + '\n', { headers: { 'Content-Type': 'text/plain; charset=utf-8' } });
 }

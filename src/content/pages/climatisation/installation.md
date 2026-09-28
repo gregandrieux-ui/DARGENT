@@ -33,7 +33,6 @@ photos:
 links:
   - { href: "/climatisation/", label: "Toute notre offre de climatisation à Orléans : installation, entretien et dépannage" }
   - { href: "/climatisation/entretien/", label: "Entretien et maintenance de votre climatisation après la pose" }
-  - { href: "/realisations/", label: "Nos réalisations en images, dont les groupes avec traitement acoustique" }
   - { href: "/entreprise/qualifications/", label: "Nos qualifications et certifications : Qualibat 5423, RGE, fluides frigorigènes" }
   - { href: "/devis/", label: "Demander une visite technique" }
   - { href: "/climatisation/gainable/", label: "Climatisation gainable : discrète et intégrée" }
@@ -106,7 +105,7 @@ Le groupe extérieur est la seule partie audible d’une climatisation. Nous le 
 
 Trois leviers se combinent : un modèle doté d’un mode silencieux, un emplacement réfléchi et des plots antivibratiles. Ces plots coupent la transmission des vibrations à la structure. Quand cela ne suffit pas, nous posons un capotage acoustique. Ce caisson ventilé à baffles entoure le groupe sans gêner le passage de l’air.
 
-Ce traitement est visible sur plusieurs de nos chantiers, en maison comme en tertiaire, dans [nos réalisations en images](/realisations/). Patrick Blain, client pour une climatisation Daikin à deux groupes et six unités, a laissé un avis Google sur son installation.
+Ce traitement est appliqué sur nos chantiers, en maison comme en tertiaire. Patrick Blain, client pour une climatisation Daikin à deux groupes et six unités, a laissé un avis Google sur son installation.
 
 ## Ce que comprend le devis
 

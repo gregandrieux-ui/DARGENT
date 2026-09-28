@@ -10,7 +10,6 @@ schema: Service
 faq: []
 howto: []
 cta: { href: "/devis/", label: "Demander une étude" }
-cta2: { href: "/realisations/", label: "Voir nos réalisations" }
 facts:
   - { label: "Qualification", value: "Qualibat 5312 (installations thermiques)" }
   - { label: "Bureau d’études", value: "Interne, depuis 1993" }
@@ -27,7 +26,6 @@ links:
   - { href: "/chauffage/", label: "Nos solutions de chauffage à Orléans" }
   - { href: "/chauffage/ballon-thermodynamique/", label: "Ballon thermodynamique, pour l’eau chaude sanitaire" }
   - { href: "/pompe-a-chaleur/", label: "Pompe à chaleur à Orléans et dans l’agglomération" }
-  - { href: "/realisations/", label: "Nos réalisations en images" }
   - { href: "/professionnels/", label: "Nos solutions pour les professionnels et les collectivités" }
   - { href: "/devis/", label: "Demander un devis gratuit" }
 toConfirm:
@@ -79,7 +77,7 @@ Nous installons aussi des systèmes de ventilation en dehors du logement individ
 
 Ces chantiers s’appuient sur les mêmes principes que la ventilation résidentielle, extraction, soufflage, récupération de chaleur, mais avec des débits et une réglementation propres aux établissements recevant du public [À CONFIRMER : ventilation proposée aux particuliers ou uniquement en tertiaire]. Les photos de ces réalisations sont en cours de collecte, sous réserve de l’accord des établissements concernés [À CONFIRMER : accord des établissements photographiés].
 
-Retrouvez d’autres chantiers sur la page [nos réalisations en images](/realisations/), et le détail de notre offre dédiée sur [nos solutions pour les professionnels et les collectivités](/professionnels/).
+Retrouvez le détail de notre offre dédiée sur [nos solutions pour les professionnels et les collectivités](/professionnels/).
 
 ## Entretien
 

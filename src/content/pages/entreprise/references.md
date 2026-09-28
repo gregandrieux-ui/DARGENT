@@ -8,7 +8,6 @@ promise: "Des références vérifiables, dans des secteurs exigeants."
 template: reassurance
 schema: CollectionPage
 cta: { href: "/devis/", label: "Nous consulter pour un projet" }
-cta2: { href: "/realisations/", label: "Voir nos réalisations" }
 facts:
   - { label: "Activité depuis", value: "1936, à Beaugency puis Orléans" }
   - { label: "Bureau d’études interne", value: "Depuis 1993" }
@@ -25,8 +24,8 @@ photos:
   - { missing: "Logos et visuels des références clients, sous réserve d’autorisation écrite", caption: "Photo à collecter" }
 links:
   - { href: "/professionnels/", label: "Nos prestations de climatisation et chauffage pour les professionnels" }
-  - { href: "/realisations/", label: "Nos photos de réalisations de chantiers" }
   - { href: "/contact/", label: "Nos coordonnées, horaires et plan d’accès" }
+  - { href: "/zones-intervention/", label: "Nos zones d’intervention dans le Loiret" }
 toConfirm:
   - "Autorisation d'affichage de chaque logo"
   - "relations commerciales toujours actives"
@@ -76,6 +75,6 @@ Ces avis nominatifs, comme les autres références citées sur cette page, ne re
 
 Les organisations citées sur cette page ne sont affichées qu’avec leur accord écrit ; les logos et les noms encore en attente d’autorisation ne figurent pas ici [À CONFIRMER : autorisation d’affichage de chaque logo]. Certaines relations commerciales mentionnées datent de plusieurs années : nous ne pouvons pas garantir qu’elles sont toutes toujours actives à ce jour [À CONFIRMER : relations commerciales toujours actives].
 
-Pour un projet en tant qu’entreprise ou collectivité, consultez notre offre dédiée aux [prestations de climatisation et chauffage pour les professionnels](/professionnels/), ou parcourez nos [photos de réalisations de chantiers](/realisations/) pour voir des exemples d’installations livrées. Vous pouvez aussi retrouver nos [coordonnées, horaires et plan d’accès](/contact/) pour organiser une visite.
+Pour un projet en tant qu’entreprise ou collectivité, consultez notre offre dédiée aux [prestations de climatisation et chauffage pour les professionnels](/professionnels/). Vous pouvez aussi retrouver nos [coordonnées, horaires et plan d’accès](/contact/) pour organiser une visite.
 
 Pour engager un échange sur votre projet, vous pouvez [Nous consulter pour un projet](/devis/) ou nous appeler au 02 38 86 46 46.
