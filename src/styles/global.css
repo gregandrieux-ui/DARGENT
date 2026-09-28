@@ -291,7 +291,7 @@ th { color: var(--navy-900); font-weight: 600; background: var(--tint); border-b
 /* Cartes empilées (pages enfants PAC) : une section `##` par carte, découpée au build (astro.config.mjs).
    Sticky à --pin (script de [...slug].astro : négatif pour une carte plus haute que l'écran, qui défile puis s'épingle par le bas).
    La carte N recule quand la N+1 monte : scale + brightness sur la view-timeline de la suivante. Sans support : pile sticky statique. */
-.stack { display: grid; gap: var(--s-6); margin: var(--s-6) 0 var(--s-8); }
+.stack { display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--s-6); margin: var(--s-6) 0 var(--s-8); }
 .stack-card {
   position: sticky; top: var(--pin, calc(var(--header-h) + var(--s-5) + var(--i, 0) * 12px)); /* décalage de 12 px par carte : la pile reste visible */
   background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-lg); box-shadow: var(--shadow-2);
