@@ -172,7 +172,12 @@ Chosen by the client from three directions. It was applied first to the homepage
 - The shared patterns live in `global.css`. `index.astro` keeps only its own intro layout.
 
 ## Do / Don't
-- **Do** keep transitions at 200ms (`--dur`) on hover and active only, and respect `prefers-reduced-motion` (zeroed site-wide).
+- **Do** keep transitions at 200ms (`--dur`) on hover and active, and respect `prefers-reduced-motion` (zeroed site-wide). Beyond hover, only four motions are allowed, all in CSS with no JS:
+  1. A cross-page crossfade (`@view-transition`, 300ms). The header stays fixed.
+  2. Animated flows in the schémas: dashes move in the arrow direction on a 1.2s loop, via a `<style>` inside each SVG.
+  3. Cards, tiles, `.nums` and reviews rise on scroll (`animation-timeline: view()`). Without support, they just show.
+  4. The FAQ opens smoothly (`::details-content`).
+- **Don't** add motion to the dépannage hero or the CTAs, or any loop other than the schéma flows.
 - **Do** keep touch targets at 44px or more (nav, chips, footer links, exits).
 - **Do** use one primary CTA per view. The phone link sits next to it as a text link.
 - **Don't** add new shadow values, gradients beyond the hero tint fade, or new accent hues.

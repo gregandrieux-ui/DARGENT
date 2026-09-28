@@ -57,6 +57,17 @@
 /* --- Base ------------------------------------------------------------ */
 *, *::before, *::after { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; scroll-padding-top: calc(var(--header-h) + 16px); }
+/* --- Motion : 4 mouvements autorisés (DESIGN.md) ---------------------- */
+@view-transition { navigation: auto; }
+::view-transition-group(root) { animation-duration: 300ms; }
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    /* ponytail: longhands séparés — le minifieur fusionnait timeline dans le raccourci `animation`, que Chrome rejette. */
+    .card, .tile, .nums li, .revs > li { animation-name: rise; animation-fill-mode: both; animation-timing-function: linear; }
+    :is(.card, .tile, .nums li, .revs > li) { animation-timeline: view(); animation-range: entry 0% entry 40%; }
+  }
+}
+@keyframes rise { from { opacity: 0; translate: 0 24px; } } /* translate, pas transform : le survol des cartes garde sa transition */
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { transition-duration: 0ms !important; animation: none !important; } }
 body {
   margin: 0;
@@ -129,7 +140,7 @@ th { color: var(--navy-900); font-weight: 600; background: var(--tint); border-b
 .topbar a:hover { text-decoration: underline; }
 @media (max-width: 600px) { .topbar .addr { display: none; } .topbar .container { justify-content: center; } }
 
-.site-header { position: sticky; top: 0; z-index: 50; background: rgba(255, 255, 255, 0.92); backdrop-filter: saturate(1.4) blur(10px); -webkit-backdrop-filter: saturate(1.4) blur(10px); border-bottom: 1px solid var(--line); }
+.site-header { view-transition-name: site-header; position: sticky; top: 0; z-index: 50; background: rgba(255, 255, 255, 0.92); backdrop-filter: saturate(1.4) blur(10px); -webkit-backdrop-filter: saturate(1.4) blur(10px); border-bottom: 1px solid var(--line); }
 .site-header .container { display: flex; align-items: center; gap: var(--s-5); min-height: var(--header-h); }
 .brand { display: inline-flex; align-items: center; flex: none; }
 .brand img { height: 40px; width: auto; }
@@ -267,6 +278,12 @@ th { color: var(--navy-900); font-weight: 600; background: var(--tint); border-b
 .faq summary::after { content: '+'; flex: none; display: grid; place-items: center; width: 28px; height: 28px; border-radius: 50%; background: var(--navy-900); color: #fff; font-weight: 700; }
 .faq details[open] summary::after { content: '\2212'; }
 .faq details > div { padding: 0 var(--s-4) var(--s-2); }
+.faq summary::after { transition: transform var(--dur) var(--ease); }
+.faq details[open] summary::after { transform: rotate(180deg); }
+/* Ouverture fluide (Chromium 131+) ; ailleurs : ouverture instantanée. */
+:root { interpolate-size: allow-keywords; }
+.faq details::details-content { height: 0; overflow: clip; transition: height var(--dur) var(--ease), content-visibility var(--dur) allow-discrete; }
+.faq details[open]::details-content { height: auto; }
 
 .grid-2 { display: grid; gap: var(--s-5); }
 .grid-3 { display: grid; gap: var(--s-5); }
