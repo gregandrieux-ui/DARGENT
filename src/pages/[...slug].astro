@@ -121,3 +121,29 @@ const osm = `https://www.openstreetmap.org/export/embed.html?bbox=${site.geo.lng
   {isService && <Reassurance aides={d.aides} cta={d.cta} />}
   {!simple && <CtaBand alert={d.alert} cta={d.alert ? `Appeler le ${site.phone}` : d.cta.label} href={d.cta.href} title={d.alert ? 'Une panne ? Un diagnostic, puis un devis avant toute réparation.' : undefined} text={d.alert ? 'Intervention sur rendez-vous par un technicien habilité fluides frigorigènes.' : undefined} />}
 </Base>
+
+<script>
+  // Cartes empilées : une carte plus haute que l'écran s'épingle par le bas (top négatif) pour rester lisible en entier.
+  const cards = document.querySelectorAll<HTMLElement>('.stack-card');
+  if (cards.length) {
+    const pin = () => {
+      const top = parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--header-h')) + 24;
+      const bottom = innerHeight - (document.querySelector<HTMLElement>('.stickycall')?.offsetHeight ?? 0) - 16; // barre d'appel mobile
+      const ends = [...cards].map((c, i) => {
+        const slot = top + i * 12;
+        const pin = Math.min(slot, bottom - c.offsetHeight);
+        c.style.setProperty('--pin', `${pin}px`);
+        c.style.setProperty('--lift', `${slot - pin}px`); // carte haute : redescend à son cran quand la suivante la recouvre
+        return pin + c.offsetHeight;
+      });
+      // Une carte sticky se décroche quand son bas touche la fin de .stack : on aligne tous les bas épinglés,
+      // sinon la plus haute remonte seule en fin de pile au lieu de partir avec les autres.
+      const end = Math.max(...ends);
+      cards.forEach((c, i) => (c.style.marginBottom = `${end - ends[i]}px`));
+    };
+    pin();
+    const ro = new ResizeObserver(pin);
+    cards.forEach((c) => ro.observe(c));
+    addEventListener('resize', pin);
+  }
+</script>

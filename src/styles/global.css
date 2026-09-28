@@ -293,6 +293,26 @@ th { color: var(--navy-900); font-weight: 600; background: var(--tint); border-b
 .todo strong { color: var(--warn-ink); }
 .todo ul { margin: var(--s-1) 0 0; padding-left: 1.2em; }
 
+/* Cartes empilées (pages enfants PAC) : une section `##` par carte, découpée au build (astro.config.mjs).
+   Sticky à --pin (script de [...slug].astro : négatif pour une carte plus haute que l'écran, qui défile puis s'épingle par le bas).
+   La carte N recule quand la N+1 monte : scale + brightness sur la view-timeline de la suivante. Sans support : pile sticky statique. */
+.stack { display: grid; gap: var(--s-6); margin: var(--s-6) 0 var(--s-8); }
+.stack-card {
+  position: sticky; top: var(--pin, calc(var(--header-h) + var(--s-5) + var(--i, 0) * 12px)); /* décalage de 12 px par carte : la pile reste visible */
+  background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-lg); box-shadow: var(--shadow-2);
+  padding: var(--s-6) var(--s-5); transform-origin: 50% 0;
+}
+.stack-card::before { content: attr(data-n); display: block; margin-bottom: var(--s-2); font-family: var(--display); font-weight: 800; font-size: var(--text-label); color: var(--cyan-700); letter-spacing: 0.04em; }
+.stack-card > :last-child { margin-bottom: 0; }
+@media (min-width: 768px) { .stack-card { padding: var(--s-7) var(--s-8); } }
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    /* ponytail: longhands, même raison que .card plus haut ; la timeline est posée en style inline par le plugin. */
+    .stack-card:not(:last-child) { animation-name: card-recede; animation-fill-mode: both; animation-timing-function: linear; animation-range: cover 0px cover calc(100vh - var(--header-h) - var(--s-5) - (var(--i, 0) + 1) * 12px); }
+  }
+}
+@keyframes card-recede { to { scale: 0.92; filter: brightness(0.8); translate: 0 var(--lift, 0px); } }
+
 .steps { counter-reset: step; list-style: none; padding: 0; margin: 0 0 var(--s-6); }
 .steps > li { counter-increment: step; position: relative; padding: 0 0 var(--s-5) 60px; max-width: 68ch; }
 .steps > li::after { content: ''; position: absolute; left: 19px; top: 44px; bottom: 4px; width: 2px; background: var(--line); }
