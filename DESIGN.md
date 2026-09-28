@@ -181,7 +181,7 @@ Chosen by the client from three directions. It was applied first to the homepage
   2. Animated flows in the schémas: dashes move in the arrow direction on a 1.2s loop, via a `<style>` inside each SVG.
   3. Cards, tiles, `.nums` and reviews rise on scroll (`animation-timeline: view()`). Without support, they just show.
   4. The FAQ opens smoothly (`::details-content`).
-  5. Surfaces that appear (desktop sub-menu, mobile menu panel, cookie banner) fade in over 180ms with `@starting-style`.
+  5. Surfaces that appear (desktop sub-menu, mobile menu panel, cookie banner) fade in over 180ms with `@starting-style` (entry only; hiding is instant so two sub-menus never overlap).
 - Internal links are prerendered on hover with Speculation Rules (`Base.astro`, moderate eagerness, `/documents/` excluded), so the crossfade lands on a page that is already loaded.
 - **Don't** add motion to the dépannage hero or the CTAs, or any loop other than the schéma flows.
 - **Do** keep touch targets at 44px or more (nav, chips, footer links, exits).

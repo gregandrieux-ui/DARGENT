@@ -90,9 +90,10 @@ html { -webkit-text-size-adjust: 100%; hanging-punctuation: first allow-end; scr
     :is(.card, .tile, .nums li, .revs > li) { animation-timeline: view(); animation-range: entry 0% entry 40%; }
   }
 }
-/* Entrée des surfaces qui passent de display:none à visible (sous-menu, panneau mobile, bandeau cookies). */
+/* Entrée des surfaces qui passent de display:none à visible (sous-menu, panneau mobile, bandeau cookies).
+   Entrée seulement : la transition ne vit que dans l'état affiché, la sortie est instantanée (sinon deux sous-menus se superposent au survol). */
 @media (prefers-reduced-motion: no-preference) {
-  .nav .sub, .menu .panel, .consent { transition: opacity 180ms var(--ease), translate 180ms var(--ease), display 180ms allow-discrete; }
+  .nav > ul > li:is(:hover, :focus-within) .sub, .menu[open] .panel, .consent { transition: opacity 180ms var(--ease), translate 180ms var(--ease); }
   @starting-style { .nav .sub, .menu .panel, .consent { opacity: 0; translate: 0 -6px; } }
 }
 @keyframes rise { from { opacity: 0; translate: 0 24px; } } /* translate, pas transform : le survol des cartes garde sa transition */
