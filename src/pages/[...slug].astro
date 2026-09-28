@@ -140,6 +140,14 @@ const osm = `https://www.openstreetmap.org/export/embed.html?bbox=${site.geo.lng
       // sinon la plus haute remonte seule en fin de pile au lieu de partir avec les autres.
       const end = Math.max(...ends);
       cards.forEach((c, i) => (c.style.marginBottom = `${end - ends[i]}px`));
+      // Carte recouverte : rognée par le bas pendant son recul (clip avant scale 0.92) pour finir 12 px au-dessus
+      // du bas épinglé le plus haut des cartes suivantes, sinon son bas dépasse sous la carte active.
+      let lowest = Infinity;
+      for (let i = cards.length - 1; i >= 0; i--) {
+        const keep = (lowest - 12 - (top + i * 12)) / 0.92;
+        cards[i].style.setProperty('--clip', `${Math.max(0, cards[i].offsetHeight - keep)}px`);
+        lowest = Math.min(lowest, ends[i]);
+      }
     };
     pin();
     const ro = new ResizeObserver(pin);

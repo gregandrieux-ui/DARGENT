@@ -311,7 +311,11 @@ th { color: var(--navy-900); font-weight: 600; background: var(--tint); border-b
     .stack-card:not(:last-child) { animation-name: card-recede; animation-fill-mode: both; animation-timing-function: linear; animation-range: cover 0px cover calc(100vh - var(--header-h) - var(--s-5) - (var(--i, 0) + 1) * 12px); }
   }
 }
-@keyframes card-recede { to { scale: 0.92; filter: brightness(0.8); translate: 0 var(--lift, 0px); } }
+/* clip élargi de 48 px : l'ombre reste ; seul le bas se rogne (--clip), caché derrière la carte suivante. */
+@keyframes card-recede {
+  from { clip-path: inset(-48px); }
+  to { scale: 0.92; filter: brightness(0.8); translate: 0 var(--lift, 0px); clip-path: inset(-48px -48px var(--clip, 0px) -48px); }
+}
 
 .steps { counter-reset: step; list-style: none; padding: 0; margin: 0 0 var(--s-6); }
 .steps > li { counter-increment: step; position: relative; padding: 0 0 var(--s-5) 60px; max-width: 68ch; }
