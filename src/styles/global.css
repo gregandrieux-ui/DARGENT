@@ -164,11 +164,6 @@ th { color: var(--navy-900); font-weight: 600; background: var(--tint); border-b
 .tel:hover { text-decoration: underline; }
 
 /* --- Barre haute et en-tête ------------------------------------------ */
-.topbar { background: var(--tint); color: var(--ink-600); font-size: var(--text-label); border-bottom: 1px solid var(--line); }
-.topbar .container { display: flex; justify-content: space-between; gap: var(--s-4); min-height: 36px; align-items: center; }
-.topbar a { color: var(--navy); text-decoration: none; font-weight: 600; min-height: 36px; }
-.topbar a:hover { text-decoration: underline; }
-@media (max-width: 600px) { .topbar .addr { display: none; } .topbar .container { justify-content: center; } }
 
 .site-header { view-transition-name: site-header; position: sticky; top: 0; z-index: 50; background: var(--glass); backdrop-filter: saturate(1.4) blur(10px); -webkit-backdrop-filter: saturate(1.4) blur(10px); border-bottom: 1px solid var(--line); }
 .site-header .container { display: flex; align-items: center; gap: var(--s-5); min-height: var(--header-h); }
