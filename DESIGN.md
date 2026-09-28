@@ -121,6 +121,10 @@ The editorial rules don't change (PRODUCT.md): proof before promise, no invented
 - **Alert `#d93641`**: dépannage phone buttons and the dépannage icon tile only.
 - **Warn**: the "À confirmer" callout only.
 - **Line `#e1e8ee` / Rule `#c9d5df`**: card borders, then stronger borders (outline buttons, inputs).
+- **Brand fills `--brand`, `--brand-700`, `--brand-900`, `--brand-cyan-700`**: fixed copies of navy / navy-700 / navy-900 / cyan-700 for filled surfaces that carry white text (buttons, tiles, step discs, `.big-cta`, `.hero-alert`). Use them for any new fill; the `--navy*` / `--cyan-700` tokens are text inks and change in dark mode.
+
+### Dark mode (28/09/2026)
+Follows `prefers-color-scheme`, no toggle. Only the text and surface tokens are redefined in `global.css` (paper `#0b1621`, surface `#111f2c`, tint `#152534`, headings `#e7eff6`, links `#72b4ee`, ink `#d3dde6`). Brand fills and the red stay the same. The logo PNG is brightened with a CSS filter rather than duplicated. Illustrations keep their light backdrop and read as framed cards. Client logos (`.marks`) stay on white.
 
 ## Typography
 - Display (home H1 only), then H1, H2, H3 as in the frontmatter. Body is 17–18px, line-height 1.65, max 68ch.
@@ -177,6 +181,8 @@ Chosen by the client from three directions. It was applied first to the homepage
   2. Animated flows in the schémas: dashes move in the arrow direction on a 1.2s loop, via a `<style>` inside each SVG.
   3. Cards, tiles, `.nums` and reviews rise on scroll (`animation-timeline: view()`). Without support, they just show.
   4. The FAQ opens smoothly (`::details-content`).
+  5. Surfaces that appear (desktop sub-menu, mobile menu panel, cookie banner) fade in over 180ms with `@starting-style`.
+- Internal links are prerendered on hover with Speculation Rules (`Base.astro`, moderate eagerness, `/documents/` excluded), so the crossfade lands on a page that is already loaded.
 - **Don't** add motion to the dépannage hero or the CTAs, or any loop other than the schéma flows.
 - **Do** keep touch targets at 44px or more (nav, chips, footer links, exits).
 - **Do** use one primary CTA per view. The phone link sits next to it as a text link.
