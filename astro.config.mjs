@@ -2,7 +2,7 @@ import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 import { satteri } from '@astrojs/markdown-satteri';
 
-// Pages enfants PAC, rubriques Climatisation, Chauffage, Entretien-dépannage, Entreprise et leurs enfants : chaque section `##` devient une carte empilée au scroll (.stack-card, cf. global.css).
+// Pages enfants PAC : chaque section `##` devient une carte empilée au scroll (.stack-card, cf. global.css).
 // La carte N recule sur la view-timeline de la carte N+1 ; timeline-scope sur .stack rend les noms visibles aux sœurs.
 const stackCards = {
   name: 'stack-cards',
@@ -33,7 +33,7 @@ export default defineConfig({
   site: 'https://dargent-thermique.fr',
   trailingSlash: 'always',
   build: { format: 'directory' },
-  markdown: { processor: satteri({ hastPlugins: [({ fileURL }) => /\/pages\/(pompe-a-chaleur\/|climatisation|chauffage|entretien-depannage|entreprise)/.test(fileURL?.pathname ?? '') && stackCards] }) },
+  markdown: { processor: satteri({ hastPlugins: [({ fileURL }) => fileURL?.pathname.includes('/pompe-a-chaleur/') && stackCards] }) },
   integrations: [
     sitemap({
       // ponytail: draft pages are also marked noindex by <Seo>; this keeps them out of the XML sitemap
