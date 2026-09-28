@@ -23,6 +23,7 @@ checks:
 faq: []
 howto: []
 photos:
+  - { src: "/images/illustrations/chaudiere-condensation.svg", alt: "Schéma d’une chaudière gaz à condensation : la ventouse amène l’air neuf et évacue les fumées, la chaleur de la vapeur d’eau des fumées est récupérée, l’eau part vers les radiateurs et revient plus froide", caption: "Principe d’une chaudière à condensation avec ventouse" }
   - { src: "/images/realisations/chaudieres-condensation-basses-temperatures/dargent-thermique-022.jpg", alt: "Chaudières à condensation installées en cascade", caption: "Chaudières à condensation en cascade" }
   - { src: "/images/realisations/chaudieres-condensation-basses-temperatures/dargent-thermique-024.jpg", alt: "Chaudière au sol à condensation", caption: "Chaudière au sol à condensation" }
   - { src: "/images/realisations/chaudieres-condensation-basses-temperatures/dargent-thermique-025.jpg", alt: "Chaudière murale à condensation raccordée à un plancher chauffant", caption: "Chaudière murale à condensation avec plancher chauffant" }

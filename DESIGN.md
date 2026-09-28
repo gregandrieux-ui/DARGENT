@@ -159,6 +159,7 @@ Follows `prefers-color-scheme`, no toggle. Only the text and surface tokens are 
 - Both are 800×600, `role="img"` with an `aria-label`, with no red, and no figures that the page text doesn't state.
 - In the hero they use `object-fit: contain` so labels are never cropped.
 - Set (27/09/2026): schémas `pac-air-eau`, `pac-hybride`, `pac-haute-temperature`, `clim-reversible`, `gainable-combles`, `gainable-plafond`, `ventilation-double-flux`, `ballon-thermodynamique`, `plancher-chauffant`, `vrv-tertiaire`; infographies `entretien-pac`, `pac-installation`, `aides-parcours`, `qualifications-qualibat`, `histoire-frise`, `recrutement-metiers`.
+- Added (28/09/2026), so no service page keeps a photo in its hero: schémas `chaudiere-condensation` (also the Chauffage pilier; the Climatisation pilier reuses `clim-reversible`), `regulation-chauffage`; infographies `clim-installation`, `entretien-clim`, `depannage-clim`, `depannage-pac`, `entretien-chaudiere`, `formules-entretien`, `engagements`, `site-avenue-ampere`. Their connectors between cards carry `marker-end="url(#an)"`, so they get the same animated flow as the schémas.
 - A visual goes in as `photos[0]` (hero). Real photos and « à collecter » slots stay after it, so real chantier photos keep being collected. **They are not chantier photos.** `Photo.astro` detects the folder, forces the caption label "Illustration", and uses 800×600 dimensions. They are never used in réalisations or as the OG image. Replace them with real photos (with client consent) as they come in.
 
 ## Direction C « service direct » (site-wide, 27/09/2026)
@@ -179,12 +180,12 @@ Chosen by the client from three directions. It was applied first to the homepage
 ## Do / Don't
 - **Do** keep transitions at 200ms (`--dur`) on hover and active, and respect `prefers-reduced-motion` (zeroed site-wide). Beyond hover, only four motions are allowed, all in CSS with no JS:
   1. A cross-page crossfade (`@view-transition`, 300ms). The header stays fixed.
-  2. Animated flows in the schémas: dashes move in the arrow direction on a 1.2s loop, via a `<style>` inside each SVG.
+  2. Animated flows in the schémas and in the infographies added on 28/09/2026: dashes move in the arrow direction on a 1.2s loop, via a `<style>` inside each SVG (it animates any path with `marker-end` `#an` or `#ac`).
   3. Cards, tiles, `.nums` and reviews rise on scroll (`animation-timeline: view()`). Without support, they just show.
   4. The FAQ opens smoothly (`::details-content`).
   5. Surfaces that appear (desktop sub-menu, mobile menu panel, cookie banner) fade in over 180ms with `@starting-style` (entry only; hiding is instant so two sub-menus never overlap).
 - Internal links are prerendered on hover with Speculation Rules (`Base.astro`, moderate eagerness, `/documents/` excluded), so the crossfade lands on a page that is already loaded.
-- **Don't** add motion to the dépannage hero or the CTAs, or any loop other than the schéma flows.
+- **Don't** add motion to the CTAs, or any loop other than the illustration flows. The dépannage hero illustration keeps its flows (client choice, 28/09/2026); nothing else in that hero moves.
 - **Do** keep touch targets at 44px or more (nav, chips, footer links, exits).
 - **Do** use one primary CTA per view. The phone link sits next to it as a text link.
 - **Don't** add new shadow values, gradients beyond the hero tint fade, or new accent hues.

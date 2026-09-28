@@ -27,6 +27,7 @@ checks:
   - { label: "Avis Google de Patrick Blain", detail: "climatisation Daikin, deux groupes et six unités" }
   - { label: "Devis établi après la visite technique", detail: "jamais au téléphone" }
 photos:
+  - { src: "/images/illustrations/clim-installation.svg", alt: "Les quatre étapes de l’installation d’une climatisation : relevé sur place, étude et devis, pose, mise en service et prise en main", caption: "Les quatre étapes de votre installation" }
   - { src: "/images/realisations/climatisations-reversibles/dargent-thermique-027.jpg", alt: "Groupe extérieur de climatisation avec traitement acoustique", caption: "Groupe extérieur de climatisation avec traitement acoustique" }
   - { src: "/images/realisations/climatisations-reversibles/dargent-thermique-014.jpg", alt: "Console murale de climatisation réversible", caption: "Console murale de climatisation réversible" }
   - { src: "/images/realisations/climatisations-reversibles/dargent-thermique-032.jpg", alt: "Unité intérieure de climatisation tertiaire", caption: "Unité intérieure de climatisation tertiaire" }

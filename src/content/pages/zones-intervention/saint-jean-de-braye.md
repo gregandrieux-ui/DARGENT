@@ -23,6 +23,7 @@ checks:
 faq: []
 howto: []
 photos:
+  - { src: "/images/illustrations/site-avenue-ampere.svg", alt: "Notre site de l’avenue Ampère à Saint-Jean-de-Braye depuis 1969 : bureau d’études, magasin de pièces, salle d’exposition ; départ des techniciens chaque matin", caption: "Notre site de l’avenue Ampère et ce qu’il regroupe" }
   - { src: "/images/produits/ruche-01.jpg", alt: "Ruches installées sur le site de Dargent Thermique", caption: "Quatre ruches installées sur notre site depuis mai 2014" }
 links:
   - { href: "/contact/", label: "Nos coordonnées, horaires et plan d’accès" }

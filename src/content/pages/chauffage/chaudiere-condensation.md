@@ -23,6 +23,7 @@ checks:
   - { label: "Photos de chaudières au sol et en cascade", detail: "chantiers réels, voir la galerie ci-dessous" }
   - { label: "Visite technique avant tout devis", detail: "jamais de chiffrage au téléphone" }
 photos:
+  - { src: "/images/illustrations/chaudiere-condensation.svg", alt: "Schéma d’une chaudière gaz à condensation : la ventouse amène l’air neuf et évacue les fumées, la chaleur de la vapeur d’eau des fumées est récupérée, l’eau part vers les radiateurs et revient plus froide", caption: "Principe d’une chaudière à condensation avec ventouse" }
   - { src: "/images/realisations/chaudieres-condensation-basses-temperatures/dargent-thermique-024.jpg", alt: "Chaudière au sol à condensation installée par Dargent Thermique", caption: "Chaudière au sol à condensation" }
   - { src: "/images/realisations/chaudieres-condensation-basses-temperatures/dargent-thermique-025.jpg", alt: "Chaudière murale à condensation raccordée à un plancher chauffant", caption: "Chaudière murale à condensation avec plancher chauffant" }
   - { src: "/images/realisations/chaudieres-condensation-basses-temperatures/dargent-thermique-022.jpg", alt: "Chaudières à condensation montées en cascade", caption: "Chaudières à condensation en cascade" }
