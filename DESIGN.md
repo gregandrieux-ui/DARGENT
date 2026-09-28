@@ -106,7 +106,7 @@ A light, airy local-trade site: white paper, very light blue tints for alternati
 The editorial rules don't change (PRODUCT.md): proof before promise, no invented figures, PAC first, one CTA wording per intent.
 
 **Key characteristics**
-- Light everywhere: top bar, footer and CTA band are light tints. The only dark block is `.hero-alert` (dépannage pages), and it's dark on purpose as the urgency signal.
+- Light everywhere: footer and CTA band are light tints. The only dark block is `.hero-alert` (dépannage pages), and it's dark on purpose as the urgency signal.
 - Three inks keep their meaning: navy = action, cyan = accent (icons, focus, tags), red = urgent phone action only.
 - One typeface (Archivo Variable), slightly condensed for headings (88–90%), normal for body.
 - Two shadow levels only (`--shadow-1` resting, `--shadow-2` hover or floating). No other shadows.
@@ -116,7 +116,7 @@ The editorial rules don't change (PRODUCT.md): proof before promise, no invented
 - **Navy `#005ca9`**: buttons, links. Hover goes to `#004a8a`.
 - **Navy 900 `#0b2a4a`**: headings, the dépannage hero background.
 - **Navy 50 `#eaf3fa`**: CTA card, icon tiles, active nav pill, illustration backdrop.
-- **Tint `#f4f8fb`**: alternating sections, top bar, footer, hero gradient start.
+- **Tint `#f4f8fb`**: alternating sections, footer, hero gradient start.
 - **Cyan `#2db8c5`**: focus ring, quote marks, illustration accents. **Cyan 700 `#117a85`** is for cyan-colored text and icons on light backgrounds (AA).
 - **Alert `#d93641`**: dépannage phone buttons and the dépannage icon tile only.
 - **Warn**: the "À confirmer" callout only.
