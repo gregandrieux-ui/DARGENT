@@ -152,6 +152,8 @@ th { color: var(--navy-900); font-weight: 600; background: var(--tint); border-b
   transition: background var(--dur) var(--ease), border-color var(--dur) var(--ease), box-shadow var(--dur) var(--ease), transform var(--dur) var(--ease);
   cursor: pointer;
 }
+/* Dans le contenu, un libellé long passe à la ligne au lieu d'élargir la page sur mobile ; l'en-tête garde nowrap (le flex le comprimerait). */
+main .btn { white-space: normal; text-align: center; }
 .btn:hover { background: var(--brand-700); border-color: var(--brand-700); color: #fff; box-shadow: 0 6px 16px rgba(0, 92, 169, 0.22); }
 .btn:active { transform: scale(0.98); }
 .btn-outline { background: var(--surface); color: var(--navy); border-color: var(--rule); }
