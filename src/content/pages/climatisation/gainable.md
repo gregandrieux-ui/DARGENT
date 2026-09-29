@@ -23,13 +23,12 @@ checks:
   - { label: "Bureau d’études interne depuis 1993", detail: "chaque gainable est dimensionné sur relevé, jamais sur plan seul" }
   - { label: "Chantiers de climatisation tertiaire", detail: "unités intérieures posées dans des locaux professionnels, visibles sur nos réalisations" }
 photos:
-  - { missing: "unité gainable posée dans des combles ou un faux plafond", caption: "Photo à collecter" }
-  - { missing: "grille de soufflage intégrée au plafond d’une pièce équipée", caption: "Photo à collecter" }
+  - { src: "/images/illustrations/gainable-combles.svg", alt: "Schéma d’une climatisation gainable : unité cachée dans les combles, gaines isolées vers chaque pièce, grilles de soufflage au plafond", caption: "Unité gainable dans les combles, gaines isolées et grilles au plafond" }
+  - { src: "/images/illustrations/gainable-plafond.svg", alt: "Coupe d’un faux plafond : la gaine isolée arrive dans un plénum qui souffle l’air par une grille linéaire", caption: "Dans le faux plafond : gaine, plénum et grille linéaire" }
 links:
   - { href: "/climatisation/", label: "Toute la climatisation à Orléans : installation, entretien et dépannage" }
   - { href: "/climatisation/reversible/", label: "Climatisation réversible : mural, console ou cassette selon la pièce" }
   - { href: "/climatisation/installation/", label: "Le déroulé de notre installation de climatisation" }
-  - { href: "/realisations/", label: "Nos réalisations en images, dont nos chantiers tertiaires" }
   - { href: "/devis/", label: "Demander une étude de faisabilité" }
 toConfirm:
   - "Gainable réellement proposé en résidentiel"
@@ -102,6 +101,6 @@ Notre équipe maintenance assure ces visites. Quand une réparation n’est plus
 
 Nous ne publions pas de photo qui ne vienne pas de nos chantiers. À ce jour, aucune photo de gainable posé n’est disponible sur cette page : les emplacements sont réservés et seront remplis dès qu’un chantier aura été photographié avec l’accord du client [À CONFIRMER : réalisations photographiables.].
 
-Nos chantiers de climatisation tertiaire, bureaux et commerces, montrent des unités intérieures encastrées et des groupes extérieurs traités contre le bruit. Ils sont visibles sur la page [nos réalisations en images](/realisations/). Notre offre complète, du mural au gainable, est présentée sur la page [climatisation à Orléans : installation, entretien et dépannage](/climatisation/).
+Nos chantiers de climatisation tertiaire, bureaux et commerces, montrent des unités intérieures encastrées et des groupes extérieurs traités contre le bruit. Notre offre complète, du mural au gainable, est présentée sur la page [climatisation à Orléans : installation, entretien et dépannage](/climatisation/).
 
 Pour savoir si votre maison ou votre projet neuf se prête au gainable, appelez le 02 38 86 46 46 ou passez par le formulaire : [Demander une étude de faisabilité](/devis/). Nous venons sur place avant de répondre.

@@ -58,6 +58,7 @@ Un installateur qui étudie le projet avant de le chiffrer : visite technique, d
 - 7 logos partenaires (Daikin, Atlantic Fujitsu, Mitsubishi Electric, Vaillant, Frisquet, Chappée, GRDF), ~55 logos clients en 9 catégories : autorisations d'usage à confirmer.
 - Photos du site : fourgon, ruches (4), engagements ; 3 vidéos des ruches ; attestation de capacité PDF ; 5 brochures fabricants (droits à confirmer).
 - Absences à ne pas fabriquer : aucune photo de PAC air/eau posée, aucune photo de gainable, aucun chantier localisé à Orléans, Olivet, Fleury-les-Aubrais ou Saint-Jean-de-la-Ruelle, aucun chiffre de volume de recherche, aucun montant d'aide vérifié, aucune photo d'équipe.
+- Illustrations vectorielles (`public/images/illustrations/`, 23/09/2026) : dessins d'équipements en attendant les vraies photos, toujours légendés « Illustration », jamais présentés comme chantier ni utilisés en réalisations.
 
 ## Product Principles
 

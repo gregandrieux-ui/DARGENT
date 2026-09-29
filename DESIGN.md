@@ -1,54 +1,63 @@
 ---
 name: Dargent Thermique
-description: Le carnet d'entretien — chaque page est une fiche pré-imprimée, chaque preuve une case cochée, la signature un cachet.
+description: Clair et net — fond blanc, cartes arrondies à ombre légère, bleu du logo pour l'action, preuves avant promesses.
 colors:
-  paper: "#fbfcfd"
+  paper: "#ffffff"
+  tint: "#f4f8fb"
+  navy-50: "#eaf3fa"
   navy-900: "#0b2a4a"
   navy: "#005ca9"
   navy-700: "#004a8a"
   cyan: "#2db8c5"
   cyan-100: "#e3f6f8"
   cyan-200: "#96dce2"
+  cyan-700: "#117a85"
   ink: "#21313e"
   ink-600: "#4a5a68"
-  line: "#d9e0e6"
-  bg-alt: "#f3f4f5"
-  alert: "#ea444e"
+  line: "#e1e8ee"
+  rule: "#c9d5df"
+  alert: "#d93641"
+  alert-50: "#fdeced"
   warn: "#f5b800"
 typography:
   display:
     fontFamily: "Archivo Variable, system-ui, -apple-system, Segoe UI, sans-serif"
-    fontSize: "clamp(2rem, 1.2rem + 2.4vw, 3.25rem)"
+    fontSize: "clamp(2.125rem, 1.2rem + 3vw, 3.5rem)"
     fontWeight: 700
-    fontVariation: "font-stretch: 78%"
+    fontVariation: "font-stretch: 88%"
     lineHeight: 1.15
-    letterSpacing: "-0.02em"
+    letterSpacing: "-0.025em"
   h1:
     fontFamily: "Archivo Variable, system-ui, -apple-system, Segoe UI, sans-serif"
-    fontSize: "clamp(2rem, 1.3rem + 2.4vw, 2.75rem)"
+    fontSize: "clamp(2rem, 1.3rem + 2.4vw, 2.875rem)"
     fontWeight: 700
-    fontVariation: "font-stretch: 82%"
+    fontVariation: "font-stretch: 90%"
     lineHeight: 1.15
     letterSpacing: "-0.02em"
   h2:
     fontFamily: "Archivo Variable, system-ui, -apple-system, Segoe UI, sans-serif"
-    fontSize: "clamp(1.625rem, 1.3rem + 1vw, 2rem)"
+    fontSize: "clamp(1.625rem, 1.3rem + 1vw, 2.125rem)"
     fontWeight: 700
-    fontVariation: "font-stretch: 82%"
+    fontVariation: "font-stretch: 90%"
     lineHeight: 1.15
     letterSpacing: "-0.015em"
   body:
     fontFamily: "Archivo Variable, system-ui, -apple-system, Segoe UI, sans-serif"
     fontSize: "clamp(1.0625rem, 1rem + 0.2vw, 1.125rem)"
     fontWeight: 400
-    lineHeight: 1.6
+    lineHeight: 1.65
   label:
     fontFamily: "Archivo Variable, system-ui, -apple-system, Segoe UI, sans-serif"
-    fontSize: "0.8125rem"
+    fontSize: "0.875rem"
     fontWeight: 400
 rounded:
-  none: "0px"
+  sm: "8px"
+  md: "12px"
+  lg: "20px"
   pill: "999px"
+shadows:
+  shadow-1: "0 1px 2px rgba(11,42,74,.04), 0 2px 8px rgba(11,42,74,.05)"
+  shadow-2: "0 2px 4px rgba(11,42,74,.05), 0 12px 28px rgba(11,42,74,.09)"
 spacing:
   s1: "4px"
   s2: "8px"
@@ -65,22 +74,24 @@ components:
     textColor: "#ffffff"
     rounded: "{rounded.pill}"
     padding: "12px 24px"
-  button-primary-hover:
-    backgroundColor: "{colors.navy-700}"
   button-outline:
-    backgroundColor: "transparent"
+    backgroundColor: "#ffffff"
     textColor: "{colors.navy}"
+    borderColor: "{colors.rule}"
     rounded: "{rounded.pill}"
-    padding: "12px 24px"
   button-alert:
     backgroundColor: "{colors.alert}"
     textColor: "#ffffff"
     rounded: "{rounded.pill}"
-    padding: "12px 24px"
+  card:
+    backgroundColor: "#ffffff"
+    borderColor: "{colors.line}"
+    rounded: "{rounded.md}"
+    shadow: "{shadows.shadow-1}"
   input-field:
     backgroundColor: "#ffffff"
-    textColor: "{colors.ink}"
-    rounded: "{rounded.none}"
+    borderColor: "{colors.rule}"
+    rounded: "{rounded.sm}"
     padding: "12px"
 ---
 
@@ -88,123 +99,95 @@ components:
 
 ## Overview
 
-**Creative North Star: "Le carnet d'entretien"**
+**Direction : « clair et net »** (branch `visuals`, 23/09/2026, replaces the earlier "carnet d'entretien" direction).
 
-The site is the maintenance logbook Dargent Thermique leaves after every visit: each page is a pre-printed sheet, each proof a checked box, the signature is the company's stamp. It deliberately refuses the category template — no smiling technician photo, no centered hero H1, no three equal cards, no bordered badge-bandeau of partner logos.
+A light, airy local-trade site: white paper, very light blue tints for alternating sections, rounded white cards with a barely-there shadow, and the logo's blue for every action. The page must feel calm and easy to scan for a 40–75 audience, often on a phone, often in a hurry (breakdown).
 
-The build ships this literally, not decoratively: ruled definition-list tables (`<dl class="ruled">`) stand in for form fields, checkmarks are real proof items (never promises), photos are captioned "Observations :" like a technician's notes, and the `.cachet` stamp is rotated -1.5° and physically overlaps the content beneath it, as a real rubber stamp would. Depth comes only from this overlap and from ruled hairlines — there is no shadow anywhere in the stylesheet. Content density is intentionally high (600–1200 words of real prose per page): this is a regulated-industry SEO site, and the "carnet" aesthetic's usual airiness is a deliberate trade against that requirement, not an oversight.
+The editorial rules don't change (PRODUCT.md): proof before promise, no invented figures, PAC first, one CTA wording per intent.
 
-**Key Characteristics:**
-- Three inks only: navy (ink/action), cyan (single accent, reserved), red (urgent-only)
-- One typeface (Archivo Variable), condensed via `font-stretch` for display, normal for body
-- No shadows; depth by overlap and hairline rules only
-- Numbered "sorties" (exit links) close every page, like footnotes on a form
-- Checked-box proof rows, never marketing kickers or claims
+**Key characteristics**
+- Light everywhere: footer and CTA band are light tints. The only dark block is `.hero-alert` (dépannage pages), and it's dark on purpose as the urgency signal.
+- Three inks keep their meaning: navy = action, cyan = accent (icons, focus, tags), red = urgent phone action only.
+- One typeface (Archivo Variable), slightly condensed for headings (88–90%), normal for body.
+- Two shadow levels only (`--shadow-1` resting, `--shadow-2` hover or floating). No other shadows.
+- Radius scale: 8 (inputs, small rows), 12 (cards, photos), 20 (CTA card), pill (buttons, chips).
 
 ## Colors
+- **Navy `#005ca9`**: buttons, links. Hover goes to `#004a8a`.
+- **Navy 900 `#0b2a4a`**: headings, the dépannage hero background.
+- **Navy 50 `#eaf3fa`**: CTA card, icon tiles, active nav pill, illustration backdrop.
+- **Tint `#f4f8fb`**: alternating sections, footer, hero gradient start.
+- **Cyan `#2db8c5`**: focus ring, quote marks, illustration accents. **Cyan 700 `#117a85`** is for cyan-colored text and icons on light backgrounds (AA).
+- **Alert `#d93641`**: dépannage phone buttons and the dépannage icon tile only.
+- **Warn**: the "À confirmer" callout only.
+- **Line `#e1e8ee` / Rule `#c9d5df`**: card borders, then stronger borders (outline buttons, inputs).
+- **Brand fills `--brand`, `--brand-700`, `--brand-900`, `--brand-cyan-700`**: fixed copies of navy / navy-700 / navy-900 / cyan-700 for filled surfaces that carry white text (buttons, tiles, step discs, `.big-cta`, `.hero-alert`). Use them for any new fill; the `--navy*` / `--cyan-700` tokens are text inks and change in dark mode.
 
-A fixed three-ink system on a near-white form paper, inherited from the existing logo and prior site — no palette invention.
-
-### Primary
-- **Navy** (`#005ca9`): buttons, links, primary interactive ink. Hover deepens to Navy 700 (`#004a8a`).
-- **Navy 900** (`#0b2a4a`): headings, load-bearing rules (table tops, `<hr>`), the top bar and footer background, the stamp/table ink.
-
-### Secondary
-- **Cyan** (`#2db8c5`): the single reserved accent — the cachet's ruled cartouche accent, checkbox checkmarks, active nav underline, focus rings, and the `btn-cyan` CTA variant. Cyan 100 (`#e3f6f8`) is its hover/tint background (checked-row hover, active filter pill); Cyan 200 (`#96dce2`) is used as light-on-navy text (footer, alert-hero promise text) and as the text-selection background.
-
-### Tertiary
-- **Alert red** (`#ea444e`): reserved exclusively for urgent/dépannage phone CTAs (`btn-alert`, `.hero-alert .tel-big .icon`, sticky-bar alert tile). Never a second decorative accent.
-
-### Neutral
-- **Paper** (`#fbfcfd`): page background, the "form paper" the whole system sits on.
-- **Ink** (`#21313e`): body text.
-- **Ink 600** (`#4a5a68`): muted/secondary text, field labels, captions.
-- **Line** (`#d9e0e6`): secondary hairlines (table row dividers, card/input borders).
-- **Bg-alt** (`#f3f4f5`): alternating section background, missing-photo placeholder fill.
-- **Warn** (`#f5b800` on `#fff6d6`): the disclosed-data callout only (`.todo` / "À confirmer"), not a design accent.
-
-### Named Rules
-**The Three-Ink Rule.** Only navy, cyan, and alert-red carry meaning. Cyan is rarity-gated to the cachet, checks, active states, and focus; red never appears except on a dépannage/urgent phone action. No other hue is introduced for decoration.
+### Dark mode (28/09/2026)
+Follows `prefers-color-scheme`, no toggle. Only the text and surface tokens are redefined in `global.css` (paper `#0b1621`, surface `#111f2c`, tint `#152534`, headings `#e7eff6`, links `#72b4ee`, ink `#d3dde6`). Brand fills and the red stay the same. The logo PNG is brightened with a CSS filter rather than duplicated. Illustrations keep their light backdrop and read as framed cards. Client logos (`.marks`) stay on white.
 
 ## Typography
-
-**Display/Heading Font:** Archivo Variable (with system-ui, -apple-system, Segoe UI fallback)
-**Body Font:** Archivo Variable (same family, normal stretch)
-
-**Character:** One variable font doing two jobs — condensed and bold (`font-stretch` 78–82%, weight 700) for pre-printed-form headings, normal stretch and weight 400/600 for body and values. Numerals are tabular throughout (`font-variant-numeric: tabular-nums`), reinforcing the ledger/form register.
-
-### Hierarchy
-- **Display** (700, `clamp(2rem, 1.2rem + 2.4vw, 3.25rem)`, 1.15, stretch 78%): the home hero H1 only (`.hero .display`).
-- **H1** (700, `clamp(2rem, 1.3rem + 2.4vw, 2.75rem)`, 1.15, stretch 82%, -0.02em): page headings on content templates.
-- **H2** (700, `clamp(1.625rem, 1.3rem + 1vw, 2rem)`, 1.15, stretch 82%, -0.015em): section headings.
-- **H3** (700, `clamp(1.25rem, 1.15rem + 0.4vw, 1.5rem)`, 1.15): sub-section/card headings.
-- **Body** (400, `clamp(1.0625rem, 1rem + 0.2vw, 1.125rem)`, 1.6, max 68ch): running prose; 17–18px minimum floor is a deliberate accessibility commitment (audience is 40–75, frequently mobile).
-- **Label** (400, `0.8125rem`): field labels in `.ruled` tables, photo caption labels, footer legal line. Small and regular, never uppercase, never a decorative kicker.
-
-### Named Rules
-**The Pre-Printed Label Rule.** Labels (`dt`, caption `.lbl`) stay small, regular-weight, sentence case, and sit beside a bold value on its own line (`dd`) — a form field, not a marketing eyebrow. This is the one place a small caps-like label could have crept in as a kicker; the build never uppercases or bolds the label itself.
+- Display (home H1 only), then H1, H2, H3 as in the frontmatter. Body is 17–18px, line-height 1.65, max 68ch.
+- `.eyebrow` (small cyan-700 label with an icon) is allowed once per hero for location context. Never uppercase.
+- `.section-head` = H2 plus a one-line muted intro, max 720px.
 
 ## Layout
-
-12-column intent expressed via a `1200px` container (`--container`) with responsive gutter (16px mobile, 32px ≥768px). The signature two-part split is `.entry` (5fr/7fr ≥900px, stacked below), used for hero and most content sections; `.entry-rev`/`.entry-even` reverse the column order. Spacing runs on a strict 4px-rooted scale (4/8/12/16/24/32/48/64/96px) — `--s-1` through `--s-9` — used consistently for gaps, padding, and margins; no ad hoc pixel values. Section vertical rhythm scales with viewport: 48px → 64px (≥768px) → 96px (≥1200px) padding-block. Mobile adds a fixed sticky call bar (56px tall, two-tile grid) below 768px; desktop drops it in favor of the header's persistent phone number and quote CTA.
-
-## Elevation & Depth
-
-Flat by design: no `box-shadow` exists anywhere in the stylesheet. Depth is conveyed by two devices only — physical overlap (the cachet stamp overlapping the ruled table or photo beneath it via negative margin + `z-index: 1`) and hairline rule weight (a 1px `--line` hairline for minor dividers, a 1px `--rule`/navy-900 hairline for load-bearing tops of tables, `<hr>`, and section-opening rules). This is a deliberate world constraint (OWN-WORLD: "aucune ombre nulle part ; profondeur par chevauchement seulement"), not an omission.
-
-### Named Rules
-**The Overlap-Not-Float Rule.** The `.cachet` stamp must always visually bite into an adjacent element — never sit free on white space. Implementation pattern: wrap the stamp and the element it overlaps in a shared container, give the stamp `position: relative; z-index: 1;` and a negative bottom margin (e.g. `margin-bottom: -14px` in the home `.stamp-row`) so it overlaps the ruled content that follows. Reuse this exact technique (negative margin + z-index, not absolute positioning) wherever the cachet appears.
-
-## Shapes
-
-Two silhouettes only, sharply divided by role: the **pill** (`border-radius: 999px`, via `--pill`) for every clickable action — buttons, the mobile menu summary, filter-chip labels — and **the square** (`border-radius: 0`) for everything that represents paper or data — cards, photos, inputs, the cachet cartouche, tables. Photos are "stapled": zero corner radius, sometimes overhanging the container margin (`.hero-photo` at ≥900px: `margin-right: calc(-1 * var(--gutter))`). Borders are hairline (1–1.5px) throughout; the cachet uses a double-ruled look via a 1px border plus a 1px outline offset by 3px.
+- 1200px container, 16px gutter (32px from 768px).
+- Sections: 64px padding (96px from 768px), white or `--tint`, alternating.
+- `.entry` two-column split (5/7, 7/5 or 6/6 from 900px).
+- Mobile: a sticky bottom bar with two pill buttons (Appeler, Demander un devis) that respects the iOS safe area.
 
 ## Components
+- **Buttons**: pill, 48px minimum height. The primary gets a soft blue glow on hover, and `:active` scales to 0.98. The outline button is white with a `--rule` border and a navy-50 hover. `btn-alert` is for urgent calls only.
+- **Card** (`.card`): white, 12px radius, `--line` border, `--shadow-1`. Put `a.stretched` on the title link to make the whole card clickable (it lifts 2px with `--shadow-2`). Content goes in `.card-body`, with an optional `.card-icon` (44px navy-50 tile) and `.tag` chip.
+- **Stacking cards** (`.stack` > `.stack-card`): the Pompe à chaleur, Climatisation, Chauffage, Entretien-dépannage and Entreprise sections, parent pages and children. `npm run build` runs `astro build --force`: Astro caches rendered Markdown (also in Netlify's cached `node_modules`), so a plugin or filter change would otherwise skip unchanged pages. A Sätteri hast plugin (`astro.config.mjs`) wraps each `##` section of the Markdown body in a sticky numbered card, each pinned 12px lower than the previous so the stack stays visible (`--surface`, `--radius-lg`, `--shadow-2`). As the next card rises, the previous one scales to 0.92 and dims to `brightness(0.8)`, scrubbed on the next card's view-timeline. A script in `[...slug].astro` sets `--pin` so a card taller than the viewport scrolls fully, then pins by its bottom (above the mobile call bar); `--lift` slides it back down to its 12px slot while the next card covers it, and `--clip` trims a covered card to the shortest card above it so its bottom never shows below the active one. Without `animation-timeline` or with reduced motion, the stack stays sticky and static.
+- **Exits** (`.exits`): stacked link rows, 52px tall, with a chevron. Used for "Pour continuer" and link lists.
+- **Ruled** (`.ruled`): the key-facts list, inside a white rounded card with row dividers. On the dépannage hero it becomes translucent.
+- **Checks / Quals**: an icon plus a bold label and muted detail. Quals are small bordered rows.
+- **Cachet** (`Cachet.astro`): now a plain contact card (logo, name, address, phone, SIRET), with no rotation.
+- **Marks**: qualification logos in full color on small white bordered tiles.
+- **FAQ**: separated rounded `<details>` with a round +/− badge.
+- **Steps**: numbered navy-50 discs joined by a line. Vertical by default, horizontal (`.steps-row`) on the home page from 768px.
+- **CTA band**: a rounded navy-50 card inside the container (`.cta-card`), red-tinted `is-alert` variant.
+- **Header**: white, translucent with blur, sticky. The full nav shows from 1100px (it needs ≈1070px). Below that: burger + devis button. Nav items are pills (tint on hover, navy-50 when active). The dropdown is a rounded shadowed panel.
+- **Footer**: `--tint`, contact card, four link columns, legal line.
 
-### Buttons
-- **Shape:** full pill (999px), 1.5px border, min-height 48px.
-- **Primary:** navy fill (`#005ca9`) / white text, `12px 24px` padding scaled by `--s-3 --s-5`.
-- **Hover / Focus:** background deepens to navy-700 on hover (150ms ease); `:active` scales to 0.98. Focus uses a 3px cyan outline with 3px offset site-wide (`:focus-visible`), not a button-specific treatment.
-- **Outline / Cyan / Alert variants:** `btn-outline` (transparent, navy text, cyan-100 hover fill); `btn-cyan` (cyan fill, navy-900 text — used for the primary CTA band action); `btn-alert` (red fill — dépannage/urgent phone actions only).
+## Illustrations
+`public/images/illustrations/*.svg` stand in for weak or missing site photos. There are two styles, chosen by page type:
+- **Schéma** (product pages): cutaway/section views, no scenery. Navy-50 background, navy-900 outlines 4–6px, white equipment. Flows: supply/warm = navy solid with an arrowhead, return/cold = cyan dashed. Numbered navy-900 discs, with at most 3–4 labels of 26px or more in `system-ui` (webfonts don't load inside `<img>` SVG). Examples: `pac-air-eau.svg`, `clim-reversible.svg`.
+- **Infographie** (service/info pages): white 22px-radius cards on navy-50, a numbered disc, a simple line icon, a bold label plus a muted detail. Example: `entretien-pac.svg`.
+- Both are 800×600, `role="img"` with an `aria-label`, with no red, and no figures that the page text doesn't state.
+- In the hero they use `object-fit: contain` so labels are never cropped.
+- Set (27/09/2026): schémas `pac-air-eau`, `pac-hybride`, `pac-haute-temperature`, `clim-reversible`, `gainable-combles`, `gainable-plafond`, `ventilation-double-flux`, `ballon-thermodynamique`, `plancher-chauffant`, `vrv-tertiaire`; infographies `entretien-pac`, `pac-installation`, `aides-parcours`, `qualifications-qualibat`, `histoire-frise`, `recrutement-metiers`.
+- Added (28/09/2026), so no service page keeps a photo in its hero: schémas `chaudiere-condensation` (also the Chauffage pilier; the Climatisation pilier reuses `clim-reversible`), `regulation-chauffage`; infographies `clim-installation`, `entretien-clim`, `depannage-clim`, `depannage-pac`, `entretien-chaudiere`, `formules-entretien`, `engagements`, `site-avenue-ampere`. Their connectors between cards carry `marker-end="url(#an)"`, so they get the same animated flow as the schémas.
+- A visual goes in as `photos[0]` (hero). Real photos and « à collecter » slots stay after it, so real chantier photos keep being collected. **They are not chantier photos.** `Photo.astro` detects the folder, forces the caption label "Illustration", and uses 800×600 dimensions. They are never used in réalisations or as the OG image. Replace them with real photos (with client consent) as they come in.
 
-### Cards / Containers
-- **Corner Style:** square (0 radius).
-- **Background:** white on `.card`, else transparent over paper or `bg-alt`.
-- **Shadow Strategy:** none — see Elevation & Depth. Separation is a 1px `--rule`-colored border.
-- **Border:** 1px solid `--rule` on cards and the OSM map iframe.
-- **Internal Padding:** `--s-4` (16px).
+## Direction C « service direct » (site-wide, 27/09/2026)
+Chosen by the client from three directions. It was applied first to the homepage and then to every page.
+- **Headings** use Bricolage Grotesque Variable, weight 800. It is imported once in `Base.astro`, through the `--display` token. The body stays Archivo.
+- **Colour tiles** (`.tiles`, `.tile`, radius `--round` 26px) mean the same thing everywhere:
+  - navy = install
+  - cyan-700 = maintain
+  - navy-900 = neutral third choice
+  - red = breakdown only
+- The homepage uses the tiles as an intent chooser. The pilier pages (PAC, climatisation, chauffage) show them as « Votre besoin, notre réponse », fed by the `needs` frontmatter field.
+- **Tint bands**: `.proofs` on the homepage, and `.facts` for the frontmatter `facts` under each hero. FAQ, exits and `.ruled` use tint rounded cards, radius 18–22px, with no borders.
+- **Visit first**: `.nums` numbered steps. They appear on the homepage and in `Reassurance` at the end of every service page.
+- **Reviews**: `.revs` cards with an initial avatar (`Testimonials`).
+- **Closing CTA**: a `.big-cta` navy-900 block with a white pill and the phone number (`CtaBand`). On breakdown pages the pill is red.
+- The shared patterns live in `global.css`. `index.astro` keeps only its own intro layout.
 
-### Inputs / Fields
-- **Style:** square corners, 1px `--rule` border, white background, 48px min-height, `--s-3` padding.
-- **Focus:** 3px cyan outline (2px offset) plus border shifts to navy.
-- **Error:** `:user-invalid` border shifts to alert red; no red background fill.
-
-### Navigation
-- Desktop (≥1024px): tab-like top nav, each link padded top/bottom to sit flush with the 72px header, active/hover state is a 3px cyan underline plus navy text color — never a background pill.
-- Mobile (<1024px): native `<details>`/`<summary>` full-panel menu (no JS), pill-shaped "Menu" summary that inverts to navy fill when open.
-- Dropdown sub-menus: square white panel, 1px `--rule` border, cyan-100 hover row.
-
-### The Cachet (signature component)
-Logo (existing PNG, `337×94`, kept as-is) plus name/address/phone set in small label lines, rotated -1.5°, inside a double-ruled square cartouche (1px border + 1px outline at 3px offset). Always overlaps an adjacent element per the Overlap-Not-Float Rule above; appears in the home hero (compact variant, no address/SIRET) and in the footer and content-template hero fallback (full variant). Never appears un-rotated or free-floating.
-
-### The Marks Row (qualification/partner logos)
-`.marks`: a flex row of grayscale, 75%-opacity logos (44px tall) under a single top hairline (`--rule`), full color on hover. This replaced an earlier bordered badge-grid pattern that was explicitly rejected during build for reading as the generic HVAC-vendor "bandeau de badges" template. Do not reintroduce individually bordered/boxed logo tiles; `.marks` is the correct, canonical pattern for this content.
-
-### Checks (proof list)
-Square-check icon in cyan, label bold + muted detail inline. Hover tints the row cyan-100 and thickens the checkmark stroke (2 → 2.5) over 150ms — the one authored micro-interaction beyond default hover/active transitions. Each item is a disclosed, real proof (attestation, registry, visit-first policy), never a marketing claim.
-
-## Do's and Don'ts
-
-### Do:
-- **Do** keep motion to `150ms` CSS transitions on `:hover`/`:active` only; the checks-row cyan tint + stroke-thickening is the one authored moment, not a precedent for adding more.
-- **Do** reuse the negative-margin + `z-index` overlap technique for the cachet (see Elevation & Depth) rather than absolute positioning or drop shadows to fake depth.
-- **Do** use `.marks` (grayscale row under a hairline) for any future qualification/partner-logo listing.
-- **Do** keep cyan rare: cachet, checks, active nav/filter state, focus rings, and the single `btn-cyan` CTA variant — not a general-purpose accent.
-- **Do** respect `prefers-reduced-motion` (already zeroed site-wide) and the 17–18px body-text floor for this 40–75 audience.
-
-### Don't:
-- **Don't** add a `box-shadow` anywhere; this world's depth model is overlap and hairlines only.
-- **Don't** reintroduce a bordered/boxed logo grid ("bandeau de badges") — it was explicitly rejected as the generic HVAC-template look; `.marks` is the replacement and the only sanctioned pattern.
-- **Don't** add kickers, eyebrows, or uppercase micro-labels above headings. No eyebrow class exists in the build and none should be added; small labels stay sentence-case and sit beside their value (see The Pre-Printed Label Rule).
-- **Don't** use red (`#ea444e`) for anything except urgent/dépannage phone CTAs; it is not a second accent.
-- **Don't** round the corners of cards, photos, inputs, or the cachet — square is the "paper/data" shape; pill is reserved for clickable actions only.
+## Do / Don't
+- **Do** keep transitions at 200ms (`--dur`) on hover and active, and respect `prefers-reduced-motion` (zeroed site-wide). Beyond hover, only four motions are allowed, all in CSS with no JS:
+  1. A cross-page crossfade (`@view-transition`, 300ms). The header stays fixed.
+  2. Animated flows in the schémas and in the infographies added on 28/09/2026: dashes move in the arrow direction on a 1.2s loop, via a `<style>` inside each SVG (it animates any path with `marker-end` `#an` or `#ac`).
+  3. Cards, tiles, `.nums` and reviews rise on scroll (`animation-timeline: view()`). Without support, they just show.
+  4. The FAQ opens smoothly (`::details-content`).
+  5. Surfaces that appear (desktop sub-menu, mobile menu panel, cookie banner) fade in over 180ms with `@starting-style` (entry only; hiding is instant so two sub-menus never overlap).
+- Internal links are prerendered on hover with Speculation Rules (`Base.astro`, moderate eagerness, `/documents/` excluded), so the crossfade lands on a page that is already loaded.
+- **Don't** add motion to the CTAs, or any loop other than the illustration flows. The dépannage hero illustration keeps its flows (client choice, 28/09/2026); nothing else in that hero moves.
+- **Do** keep touch targets at 44px or more (nav, chips, footer links, exits).
+- **Do** use one primary CTA per view. The phone link sits next to it as a text link.
+- **Don't** add new shadow values, gradients beyond the hero tint fade, or new accent hues.
+- **Don't** use red for anything but urgent calls.
+- **Don't** present an illustration as a real installation.

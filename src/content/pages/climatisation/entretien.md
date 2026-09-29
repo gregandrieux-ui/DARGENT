@@ -31,6 +31,7 @@ faq:
     a: "Une entreprise titulaire d’une attestation de capacité et des techniciens habilités. Dargent Thermique détient l’attestation n° 111363-R1, délivrée par Bureau Veritas Certification [À CONFIRMER : validité de l’attestation de capacité]."
 howto: []
 photos:
+  - { src: "/images/illustrations/entretien-clim.svg", alt: "Déroulé d’une visite d’entretien de climatisation : filtres et unités intérieures, unité extérieure, circuit frigorifique, rapport et attestation remis", caption: "Une visite d’entretien en quatre temps, documents remis à la fin" }
   - { src: "/images/realisations/maintenance/dargent-thermique-033.jpg", alt: "Maintenance d’une unité extérieure de climatisation par un technicien Dargent Thermique", caption: "Maintenance d’une unité extérieure de climatisation par un technicien Dargent Thermique" }
   - { src: "/images/realisations/maintenance/dargent-thermique-034.jpg", alt: "Maintenance de climatisation, contrôle de l’unité extérieure", caption: "Maintenance de climatisation, contrôle de l’unité extérieure" }
   - { src: "/images/realisations/maintenance/dargent-thermique-008.jpg", alt: "Maintenance d’une installation de chauffage", caption: "Maintenance d’une installation de chauffage" }

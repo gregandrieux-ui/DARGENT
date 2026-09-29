@@ -22,7 +22,7 @@ checks:
   - { label: "Dimensionnement par notre bureau d’études", detail: "calcul des déperditions pièce par pièce" }
   - { label: "Attestation de capacité fluides frigorigènes", detail: "n° 111363-R1, Bureau Veritas" }
 photos:
-  - { missing: "pompe à chaleur air/eau, unité extérieure et module hydraulique", caption: "Photo à collecter" }
+  - { src: "/images/illustrations/pac-air-eau.svg", alt: "Schéma d’une pompe à chaleur air/eau : l’unité extérieure capte la chaleur de l’air, le module hydraulique la transmet aux radiateurs, au plancher chauffant et au ballon d’eau chaude", caption: "Principe de fonctionnement d’une pompe à chaleur air/eau" }
 links:
   - { href: "/pompe-a-chaleur/installation/", label: "Comment nous installons votre pompe à chaleur" }
   - { href: "/pompe-a-chaleur/entretien/", label: "Entretien de votre pompe à chaleur" }
@@ -31,7 +31,6 @@ links:
   - { href: "/chauffage/plancher-chauffant/", label: "Plancher chauffant et isolation des sols" }
   - { href: "/chauffage/ballon-thermodynamique/", label: "Ballon thermodynamique : bien le choisir" }
   - { href: "/aides-financieres-pompe-a-chaleur/", label: "Les aides financières pour votre pompe à chaleur" }
-  - { href: "/realisations/", label: "Nos réalisations en images" }
   - { href: "/devis/", label: "Demander une étude gratuite" }
 toConfirm:
   - "Marques et gammes air/eau installées"
@@ -112,7 +111,7 @@ En cas de panne, la même équipe intervient sur les PAC air/eau, dans la limite
 
 ## Nos réalisations
 
-Les photos de PAC air/eau posées sont en cours de collecte auprès de nos clients, avec leur accord. Vous pouvez déjà consulter [nos réalisations en images](/realisations/) : planchers chauffants, ballons thermodynamiques, chaudières à condensation et climatisations.
+Les photos de PAC air/eau posées sont en cours de collecte auprès de nos clients, avec leur accord.
 
 Deux avis Google concernent nos pompes à chaleur. Sylvain Aguenier évoque une PAC air/air et l’accompagnement sur les aides. Geoffrey Thomas évoque le dépannage d’un thermostat de PAC.
 

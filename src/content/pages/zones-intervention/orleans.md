@@ -28,7 +28,6 @@ links:
   - { href: "/pompe-a-chaleur/", label: "Pompe à chaleur à Orléans : nos solutions air/eau, haute température et hybride" }
   - { href: "/climatisation/", label: "Climatisation à Orléans : installation, entretien et dépannage" }
   - { href: "/entretien-depannage/", label: "Entretien et dépannage de vos équipements de chauffage et de climatisation" }
-  - { href: "/realisations/", label: "Nos réalisations en images dans l’agglomération orléanaise" }
   - { href: "/devis/", label: "Demander un devis à Orléans" }
 toConfirm:
   - "Chantiers orléanais citables (accord client)"
@@ -45,7 +44,7 @@ crumbs:
 
 Dargent Thermique intervient à Orléans depuis 1947. Notre siège est à Saint-Jean-de-Braye, avenue Ampère, à quelques minutes du centre-ville par la tangentielle. Nos techniciens se déplacent dans les quartiers d’Orléans pour poser, entretenir ou dépanner des pompes à chaleur, des climatisations et des chaudières.
 
-Cette page rassemblera les chantiers que nous avons réalisés dans la ville, avec photos et description : [À CONFIRMER : chantiers orléanais citables (accord client)]. Nous ne publions aucune photo ni aucun avis sans l’accord écrit du client. En attendant, vous pouvez consulter nos réalisations en images dans l’agglomération orléanaise sur la page [réalisations](/realisations/).
+Cette page rassemblera les chantiers que nous avons réalisés dans la ville, avec photos et description : [À CONFIRMER : chantiers orléanais citables (accord client)]. Nous ne publions aucune photo ni aucun avis sans l’accord écrit du client.
 
 Trois avis Google publics mentionnent nos interventions : Patrick Blain (climatisation Daikin, deux groupes et six unités), Sylvain Aguenier (pompe à chaleur air/air et accompagnement sur les aides) et Geoffrey Thomas (dépannage d’un thermostat de PAC). Leur rattachement à une adresse orléanaise reste à vérifier : [À CONFIRMER : localisation des avis].
 

@@ -8,7 +8,6 @@ promise: "Une solution de chauffage dimensionnée pour votre logement, posée pa
 template: pilier
 schema: Service
 cta: { href: "/devis/", label: "Demander une étude gratuite" }
-cta2: { href: "/realisations/", label: "Voir nos réalisations PAC" }
 facts:
   - { label: "Qualification", value: "Qualibat 8321, pompes à chaleur aérothermiques, mention RGE" }
   - { label: "QUALIPAC", value: "Qualification dédiée aux pompes à chaleur" }
@@ -27,7 +26,11 @@ faq:
   - { q: "Combien coûte une pompe à chaleur à Orléans ?", a: "Le prix dépend de la famille de PAC, de la puissance, des émetteurs et de la production d’eau chaude. Nous ne donnons pas de prix au téléphone : le devis est établi après la visite technique et l’étude, gratuites." }
 howto: []
 photos:
-  - { missing: "pompe à chaleur air/eau posée par nos équipes", caption: "Photo à collecter" }
+  - { src: "/images/illustrations/pac-air-eau.svg", alt: "Schéma d’une pompe à chaleur air/eau : l’unité extérieure capte la chaleur de l’air, le module hydraulique la transmet aux radiateurs, au plancher chauffant et au ballon d’eau chaude", caption: "Principe de fonctionnement d’une pompe à chaleur air/eau" }
+needs:
+  - { q: "Je chauffe la maison et l’eau chaude", title: "Pompe à chaleur air/eau", text: "Chauffage, eau chaude et rafraîchissement sur votre réseau d’eau.", href: "/pompe-a-chaleur/air-eau/" }
+  - { q: "Je remplace une vieille chaudière", title: "PAC haute température", text: "Elle garde vos radiateurs existants, sans refaire les émetteurs.", href: "/pompe-a-chaleur/haute-temperature/" }
+  - { q: "Je veux garder le gaz en appoint", title: "PAC hybride gaz", text: "La pompe à chaleur et la chaudière se relaient selon la température.", href: "/pompe-a-chaleur/hybride/" }
 links:
   - { href: "/pompe-a-chaleur/air-eau/", label: "Pompe à chaleur air/eau : chauffage, eau chaude et rafraîchissement" }
   - { href: "/pompe-a-chaleur/haute-temperature/", label: "Pompe à chaleur haute température pour remplacer une chaudière" }
@@ -37,7 +40,6 @@ links:
   - { href: "/pompe-a-chaleur/depannage/", label: "Dépannage de pompe à chaleur à Orléans et dans le Loiret" }
   - { href: "/aides-financieres-pompe-a-chaleur/", label: "Les aides financières mobilisables pour une pompe à chaleur" }
   - { href: "/chauffage/plancher-chauffant/", label: "Plancher chauffant : l’émetteur adapté à la PAC basse température" }
-  - { href: "/realisations/", label: "Nos réalisations en images : PAC, climatisation et chauffage" }
   - { href: "/devis/", label: "Demander une étude gratuite" }
 toConfirm:
   - "Marques de PAC réellement installées aujourd’hui"
@@ -113,4 +115,4 @@ En cas de panne, nous posons un diagnostic puis établissons un devis avant tout
 
 Nos photos de chantiers montrent des climatisations réversibles, des chaudières à condensation, des ballons thermodynamiques et des planchers chauffants. Les photos de PAC air/eau posées par nos équipes sont en cours de collecte auprès de nos clients, avec leur accord.
 
-Deux avis Google concernent nos pompes à chaleur. Sylvain Aguenier évoque la pose d’une PAC air/air et l’accompagnement sur les aides. Geoffrey Thomas décrit le dépannage du thermostat de sa PAC. L’ensemble de nos chantiers est visible sur la page [Nos réalisations en images : PAC, climatisation et chauffage](/realisations/).
+Deux avis Google concernent nos pompes à chaleur. Sylvain Aguenier évoque la pose d’une PAC air/air et l’accompagnement sur les aides. Geoffrey Thomas décrit le dépannage du thermostat de sa PAC.

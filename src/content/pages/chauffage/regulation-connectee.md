@@ -20,6 +20,7 @@ checks:
   - { label: "Devis établi après visite", detail: "aucun chiffrage au téléphone" }
   - { label: "Bureau d’études interne", detail: "dimensionnement et réglage de la régulation" }
 photos:
+  - { src: "/images/illustrations/regulation-chauffage.svg", alt: "Schéma de la régulation du chauffage : une sonde extérieure et un thermostat d’ambiance informent la chaudière ou la pompe à chaleur, un robinet thermostatique règle chaque radiateur", caption: "Sonde extérieure, thermostat d’ambiance et robinets thermostatiques" }
   - { src: "/images/produits/robinet-thermostatique.jpg", alt: "Robinet thermostatique de régulation du chauffage", caption: "Robinet thermostatique, pièce par pièce" }
 links:
   - { href: "/chauffage/", label: "Nos solutions de chauffage" }

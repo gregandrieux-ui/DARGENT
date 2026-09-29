@@ -21,6 +21,7 @@ checks:
   - { label: "Ventilation double flux en établissement scolaire", detail: "réalisation documentée" }
   - { label: "Bureau d’études interne", detail: "dimensionnement avant devis, sur chaque projet" }
 photos:
+  - { src: "/images/illustrations/vrv-tertiaire.svg", alt: "Schéma d’une installation VRV tertiaire : groupes extérieurs communs, une unité intérieure par zone, gestion centralisée", caption: "Principe d’une installation VRV avec gestion centralisée" }
   - { missing: "Installation VRV en environnement tertiaire", caption: "Photo à collecter" }
   - { missing: "Poste de gestion centralisée", caption: "Photo à collecter" }
   - { missing: "Traitement acoustique d’une installation tertiaire", caption: "Photo à collecter" }

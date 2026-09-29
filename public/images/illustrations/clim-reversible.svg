@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Schéma d'une climatisation réversible : en été elle sort la chaleur de la maison, en hiver elle capte la chaleur de l'air extérieur pour chauffer"><style>@media (prefers-reduced-motion: no-preference){path[marker-end="url(#an)"]{stroke-dasharray:22 8;animation:flow 1.2s linear infinite}path[marker-end="url(#ac)"]{stroke-dasharray:14 10;animation:flow 1.2s linear infinite}path[marker-end="url(#ac)"]{animation-name:flowc}@keyframes flow{to{stroke-dashoffset:-30}}@keyframes flowc{to{stroke-dashoffset:-24}}}</style>
+<defs>
+<marker id="an" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0 0L10 5L0 10z" fill="#005ca9"/></marker>
+<marker id="ac" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0 0L10 5L0 10z" fill="#2db8c5"/></marker>
+<g id="kit">
+  <rect width="370" height="520" rx="22" fill="#fff"/>
+  <path d="M20 140H232V500H20" fill="#f4f8fb"/>
+  <path d="M232 130V500" stroke="#0b2a4a" stroke-width="8"/>
+  <path d="M20 500H350" stroke="#0b2a4a" stroke-width="5"/>
+  <rect x="40" y="168" width="164" height="54" rx="14" fill="#fff" stroke="#0b2a4a" stroke-width="5"/>
+  <path d="M58 208h128" stroke="#c9d5df" stroke-width="4"/>
+  <path d="M204 186H306V380" fill="none" stroke="#0b2a4a" stroke-width="4"/>
+  <path d="M204 200H292V380" fill="none" stroke="#0b2a4a" stroke-width="4" stroke-dasharray="8 7"/>
+  <rect x="252" y="380" width="104" height="112" rx="12" fill="#fff" stroke="#0b2a4a" stroke-width="5"/>
+  <circle cx="304" cy="436" r="34" fill="#f4f8fb" stroke="#0b2a4a" stroke-width="5"/>
+  <path d="M304 436v-26M304 436l23 13M304 436l-23 13" stroke="#0b2a4a" stroke-width="5"/>
+  <circle cx="304" cy="436" r="7" fill="#fff" stroke="#0b2a4a" stroke-width="4"/>
+</g>
+</defs>
+<rect width="800" height="600" fill="#eaf3fa"/>
+<g font-family="system-ui,-apple-system,Segoe UI,sans-serif" stroke-linecap="round" stroke-linejoin="round">
+<!-- ÉTÉ -->
+<g transform="translate(20 40)">
+  <use href="#kit"/>
+  <text x="30" y="72" font-size="32" font-weight="800" fill="#0b2a4a">Été</text>
+  <text x="30" y="108" font-size="24" fill="#4a5a68">la chaleur sort</text>
+  <path d="M80 236q-10 24 0 48t0 40" fill="none" stroke="#2db8c5" stroke-width="5" marker-end="url(#ac)"/>
+  <path d="M122 236q-10 24 0 48t0 40" fill="none" stroke="#2db8c5" stroke-width="5" marker-end="url(#ac)"/>
+  <path d="M164 236q-10 24 0 48t0 40" fill="none" stroke="#2db8c5" stroke-width="5" marker-end="url(#ac)"/>
+  <path d="M278 364q-10-18 0-36t0-34" fill="none" stroke="#005ca9" stroke-width="5" marker-end="url(#an)"/>
+  <path d="M330 364q-10-18 0-36t0-34" fill="none" stroke="#005ca9" stroke-width="5" marker-end="url(#an)"/>
+  <text x="126" y="462" font-size="28" font-weight="700" fill="#117a85" text-anchor="middle">Rafraîchit</text>
+</g>
+<!-- HIVER -->
+<g transform="translate(410 40)">
+  <use href="#kit"/>
+  <text x="30" y="72" font-size="32" font-weight="800" fill="#0b2a4a">Hiver</text>
+  <text x="30" y="108" font-size="24" fill="#4a5a68">la chaleur entre</text>
+  <path d="M80 236q-10 24 0 48t0 40" fill="none" stroke="#005ca9" stroke-width="5" marker-end="url(#an)"/>
+  <path d="M122 236q-10 24 0 48t0 40" fill="none" stroke="#005ca9" stroke-width="5" marker-end="url(#an)"/>
+  <path d="M164 236q-10 24 0 48t0 40" fill="none" stroke="#005ca9" stroke-width="5" marker-end="url(#an)"/>
+  <path d="M278 290q-10 18 0 36t0 34" fill="none" stroke="#2db8c5" stroke-width="5" marker-end="url(#ac)"/>
+  <path d="M330 290q-10 18 0 36t0 34" fill="none" stroke="#2db8c5" stroke-width="5" marker-end="url(#ac)"/>
+  <text x="126" y="462" font-size="28" font-weight="700" fill="#005ca9" text-anchor="middle">Chauffe</text>
+</g>
+</g>
+</svg>

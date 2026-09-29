@@ -27,13 +27,13 @@ checks:
   - { label: "Avis Google de Patrick Blain", detail: "climatisation Daikin, deux groupes et six unités" }
   - { label: "Devis établi après la visite technique", detail: "jamais au téléphone" }
 photos:
+  - { src: "/images/illustrations/clim-installation.svg", alt: "Les quatre étapes de l’installation d’une climatisation : relevé sur place, étude et devis, pose, mise en service et prise en main", caption: "Les quatre étapes de votre installation" }
   - { src: "/images/realisations/climatisations-reversibles/dargent-thermique-027.jpg", alt: "Groupe extérieur de climatisation avec traitement acoustique", caption: "Groupe extérieur de climatisation avec traitement acoustique" }
   - { src: "/images/realisations/climatisations-reversibles/dargent-thermique-014.jpg", alt: "Console murale de climatisation réversible", caption: "Console murale de climatisation réversible" }
   - { src: "/images/realisations/climatisations-reversibles/dargent-thermique-032.jpg", alt: "Unité intérieure de climatisation tertiaire", caption: "Unité intérieure de climatisation tertiaire" }
 links:
   - { href: "/climatisation/", label: "Toute notre offre de climatisation à Orléans : installation, entretien et dépannage" }
   - { href: "/climatisation/entretien/", label: "Entretien et maintenance de votre climatisation après la pose" }
-  - { href: "/realisations/", label: "Nos réalisations en images, dont les groupes avec traitement acoustique" }
   - { href: "/entreprise/qualifications/", label: "Nos qualifications et certifications : Qualibat 5423, RGE, fluides frigorigènes" }
   - { href: "/devis/", label: "Demander une visite technique" }
   - { href: "/climatisation/gainable/", label: "Climatisation gainable : discrète et intégrée" }
@@ -106,7 +106,7 @@ Le groupe extérieur est la seule partie audible d’une climatisation. Nous le 
 
 Trois leviers se combinent : un modèle doté d’un mode silencieux, un emplacement réfléchi et des plots antivibratiles. Ces plots coupent la transmission des vibrations à la structure. Quand cela ne suffit pas, nous posons un capotage acoustique. Ce caisson ventilé à baffles entoure le groupe sans gêner le passage de l’air.
 
-Ce traitement est visible sur plusieurs de nos chantiers, en maison comme en tertiaire, dans [nos réalisations en images](/realisations/). Patrick Blain, client pour une climatisation Daikin à deux groupes et six unités, a laissé un avis Google sur son installation.
+Ce traitement est appliqué sur nos chantiers, en maison comme en tertiaire. Patrick Blain, client pour une climatisation Daikin à deux groupes et six unités, a laissé un avis Google sur son installation.
 
 ## Ce que comprend le devis
 

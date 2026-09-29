@@ -6,5 +6,20 @@
       "maxFindings": 5,
       "maxChars": 8000
     }
+  },
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "layout-transition",
+        "value": "*",
+        "files": [
+          "src/styles/global.css"
+        ],
+        "createdAt": "2026-09-28T14:57:11.692Z",
+        "reason": "Claude: FAQ ::details-content height transition (interpolate-size); only way to animate native <details>, 200ms, user-triggered, one element"
+      }
+    ]
   }
 }

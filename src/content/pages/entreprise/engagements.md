@@ -22,6 +22,7 @@ checks:
   - { label: "Zones de tri différenciées", detail: "carton, plastique, polystyrène, métal, déchets électroniques, piles" }
   - { label: "Devis écrit avant toute réparation au-delà d’un seuil", detail: "[À CONFIRMER : seuil de devis obligatoire]" }
 photos:
+  - { src: "/images/illustrations/engagements.svg", alt: "Les déchets et appareils déposés sur les chantiers reviennent avenue Ampère, où ils sont triés par filière ou confiés à Ecologic depuis juin 2012 ; quatre ruches y sont installées depuis mai 2014", caption: "Du chantier à notre site : tri des déchets, recyclage Ecologic, ruches" }
   - { src: "/images/produits/nos-engagements.jpg", alt: "Les engagements environnementaux de Dargent Thermique", caption: "Nos engagements, sur notre site de Saint-Jean-de-Braye" }
   - { src: "/images/produits/ruche-01.jpg", alt: "Une des quatre ruches installées sur le site de Dargent Thermique", caption: "Une des quatre ruches installées depuis mai 2014" }
   - { src: "/images/produits/ruche-02.jpg", alt: "Ruche sur le site de Dargent Thermique à Saint-Jean-de-Braye", caption: "Ruche sur le site de Saint-Jean-de-Braye" }

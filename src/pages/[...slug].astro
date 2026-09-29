@@ -47,7 +47,6 @@ const osm = `https://www.openstreetmap.org/export/embed.html?bbox=${site.geo.lng
         <div>
           <h1>{d.h1}</h1>
           <p class="promise">{d.promise}</p>
-          {d.facts.length > 0 && <dl class="ruled">{d.facts.map((f) => <><dt>{f.label}</dt><dd>{f.value}</dd></>)}</dl>}
           {d.checks.length > 0 && <Checks items={d.checks} />}
           {!simple && (
             <div class="actions">
@@ -66,8 +65,27 @@ const osm = `https://www.openstreetmap.org/export/embed.html?bbox=${site.geo.lng
           <div class="hero-photo"><Cachet /></div>
         ))}
       </div>
+      {d.facts.length > 0 && <dl class="facts">{d.facts.map((f) => <div><dt>{f.label}</dt><dd>{f.value}</dd></div>)}</dl>}
     </div>
   </section>
+
+  {d.needs.length > 0 && (
+    <section class="section needs" aria-labelledby="needs-title">
+      <div class="container">
+        <h2 id="needs-title">Votre besoin, notre réponse</h2>
+        <div class="tiles tiles-3">
+          {d.needs.map((n, i) => (
+            <div class={`tile ${['tile-install', 'tile-maintain', 'tile-dark'][i % 3]}`}>
+              <p class="q">{n.q}</p>
+              <h3>{n.title}</h3>
+              <p>{n.text}</p>
+              <a class="go" href={n.href}>Découvrir <Icon name="arrow-right" /></a>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
 
   <section class="section" style="padding-top: 0">
     <div class="container">
@@ -103,3 +121,37 @@ const osm = `https://www.openstreetmap.org/export/embed.html?bbox=${site.geo.lng
   {isService && <Reassurance aides={d.aides} cta={d.cta} />}
   {!simple && <CtaBand alert={d.alert} cta={d.alert ? `Appeler le ${site.phone}` : d.cta.label} href={d.cta.href} title={d.alert ? 'Une panne ? Un diagnostic, puis un devis avant toute réparation.' : undefined} text={d.alert ? 'Intervention sur rendez-vous par un technicien habilité fluides frigorigènes.' : undefined} />}
 </Base>
+
+<script>
+  // Cartes empilées : une carte plus haute que l'écran s'épingle par le bas (top négatif) pour rester lisible en entier.
+  const cards = document.querySelectorAll<HTMLElement>('.stack-card');
+  if (cards.length) {
+    const pin = () => {
+      const top = parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--header-h')) + 24;
+      const bottom = innerHeight - (document.querySelector<HTMLElement>('.stickycall')?.offsetHeight ?? 0) - 16; // barre d'appel mobile
+      const ends = [...cards].map((c, i) => {
+        const slot = top + i * 12;
+        const pin = Math.min(slot, bottom - c.offsetHeight);
+        c.style.setProperty('--pin', `${pin}px`);
+        c.style.setProperty('--lift', `${slot - pin}px`); // carte haute : redescend à son cran quand la suivante la recouvre
+        return pin + c.offsetHeight;
+      });
+      // Une carte sticky se décroche quand son bas touche la fin de .stack : on aligne tous les bas épinglés,
+      // sinon la plus haute remonte seule en fin de pile au lieu de partir avec les autres.
+      const end = Math.max(...ends);
+      cards.forEach((c, i) => (c.style.marginBottom = `${end - ends[i]}px`));
+      // Carte recouverte : rognée par le bas pendant son recul (clip avant scale 0.92) pour finir 12 px au-dessus
+      // du bas épinglé le plus haut des cartes suivantes, sinon son bas dépasse sous la carte active.
+      let lowest = Infinity;
+      for (let i = cards.length - 1; i >= 0; i--) {
+        const keep = (lowest - 12 - (top + i * 12)) / 0.92;
+        cards[i].style.setProperty('--clip', `${Math.max(0, cards[i].offsetHeight - keep)}px`);
+        lowest = Math.min(lowest, ends[i]);
+      }
+    };
+    pin();
+    const ro = new ResizeObserver(pin);
+    cards.forEach((c) => ro.observe(c));
+    addEventListener('resize', pin);
+  }
+</script>

@@ -23,6 +23,7 @@ checks:
   - { label: "Qualibat 5423", detail: "climatiseurs à détente directe" }
   - { label: "Registre des fluides frigorigènes", detail: "attestation de capacité n° 111363-R1, Bureau Veritas" }
 photos:
+  - { src: "/images/illustrations/clim-reversible.svg", alt: "Schéma d’une climatisation réversible : en été elle sort la chaleur de la maison, en hiver elle capte la chaleur de l’air extérieur pour chauffer", caption: "Le même appareil dans les deux sens : en été il sort la chaleur, en hiver il la fait entrer" }
   - { src: "/images/realisations/climatisations-reversibles/dargent-thermique-027.jpg", alt: "Groupe extérieur de climatisation avec traitement acoustique", caption: "Groupe extérieur de climatisation avec traitement acoustique" }
   - { src: "/images/realisations/climatisations-reversibles/dargent-thermique-014.jpg", alt: "Console murale de climatisation réversible", caption: "Console murale de climatisation réversible" }
   - { src: "/images/realisations/climatisations-reversibles/dargent-thermique-032.jpg", alt: "Unité intérieure de climatisation tertiaire", caption: "Unité intérieure de climatisation tertiaire" }
@@ -30,7 +31,6 @@ links:
   - { href: "/climatisation/gainable/", label: "Climatisation gainable : l’unité dissimulée dans le plafond" }
   - { href: "/climatisation/installation/", label: "Comment nous installons votre climatisation, étape par étape" }
   - { href: "/climatisation/entretien/", label: "Entretien et maintenance de votre climatisation réversible" }
-  - { href: "/realisations/", label: "Nos réalisations en images : climatisations réversibles posées" }
   - { href: "/devis/", label: "Demander un devis gratuit" }
 toConfirm:
   - "Marques installées"
@@ -113,4 +113,4 @@ Les photos de cette page viennent de nos chantiers, sans mise en scène. On y vo
 
 Patrick Blain nous a confié une climatisation Daikin, deux groupes et six unités. Son avis Google retient l’étude menée avant la pose, le respect des délais annoncés et la propreté du chantier.
 
-D’autres chantiers, en climatisation comme en pompe à chaleur ou en chauffage, sont réunis sur la page [nos réalisations en images : climatisations réversibles posées](/realisations/). Pour une clim réversible dans votre maison du Loiret, appelez le 02 38 86 46 46 ou passez par le formulaire : [Demander un devis gratuit](/devis/). Nous venons chez vous avant de chiffrer.
+Pour une clim réversible dans votre maison du Loiret, appelez le 02 38 86 46 46 ou passez par le formulaire : [Demander un devis gratuit](/devis/). Nous venons chez vous avant de chiffrer.

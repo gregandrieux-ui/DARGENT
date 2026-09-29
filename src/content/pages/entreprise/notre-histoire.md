@@ -22,6 +22,7 @@ checks:
 faq: []
 howto: []
 photos:
+  - { src: "/images/illustrations/histoire-frise.svg", alt: "Frise de l’entreprise : fondation à Beaugency en 1936, avenue Ampère à Saint-Jean-de-Braye en 1969, création de Dargent Thermique en 1982, bureau d’études et climatisation en 1993", caption: "Quatre dates de notre histoire" }
   - { missing: "Photos d’archives de l’entreprise", caption: "Photo à collecter" }
 links:
   - { href: "/entreprise/", label: "L’entreprise Dargent Thermique" }

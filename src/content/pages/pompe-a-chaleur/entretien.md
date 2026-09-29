@@ -33,6 +33,7 @@ checks:
   - { label: "Registre des fluides vérifié lors d’audits périodiques" }
   - { label: "Devis établi avant toute réparation au-delà du seuil", detail: "[À CONFIRMER : seuil de devis obligatoire]" }
 photos:
+  - { src: "/images/illustrations/entretien-pac.svg", alt: "Déroulé d’une visite d’entretien de pompe à chaleur : étanchéité du circuit, nettoyage de l’unité extérieure, réglage de la régulation, documents remis", caption: "Une visite d’entretien en quatre temps, documents remis à la fin" }
   - { src: "/images/realisations/maintenance/dargent-thermique-033.jpg", alt: "Maintenance d’une unité extérieure de climatisation par un technicien Dargent Thermique", caption: "Maintenance d’une unité extérieure de climatisation par un technicien Dargent Thermique" }
   - { src: "/images/realisations/maintenance/dargent-thermique-034.jpg", alt: "Maintenance de climatisation, contrôle de l’unité extérieure", caption: "Maintenance de climatisation, contrôle de l’unité extérieure" }
   - { src: "/images/realisations/maintenance/dargent-thermique-008.jpg", alt: "Maintenance d’une installation de chauffage", caption: "Maintenance d’une installation de chauffage" }

@@ -26,7 +26,6 @@ export const mainNav = [
     { label: 'Ventilation', href: '/ventilation/' },
   ]},
   { label: 'Entretien et dépannage', href: '/entretien-depannage/' },
-  { label: 'Réalisations', href: '/realisations/' },
   { label: 'Entreprise', href: '/entreprise/', children: [
     { label: 'Nos qualifications', href: '/entreprise/qualifications/' },
     { label: 'Notre histoire', href: '/entreprise/notre-histoire/' },
@@ -53,7 +52,6 @@ export const footerNav = {
     { label: 'Notre histoire', href: '/entreprise/notre-histoire/' },
     { label: 'Engagements', href: '/entreprise/engagements/' },
     { label: 'Références', href: '/entreprise/references/' },
-    { label: 'Réalisations', href: '/realisations/' },
     { label: 'Zones d’intervention', href: '/zones-intervention/' },
     { label: 'Recrutement', href: '/recrutement/' },
   ],

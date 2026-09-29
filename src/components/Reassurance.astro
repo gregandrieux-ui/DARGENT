@@ -1,15 +1,15 @@
 ---
-// Bloc systématique de fin de page service (feuille Maillage) : qualification, aides si pertinent, conversion.
+// Bloc systématique de fin de page service (feuille Maillage) : visite d'abord, qualification, aides si pertinent, conversion.
 interface Props { aides?: boolean; cta: { href: string; label: string } }
 const { aides = false, cta } = Astro.props;
 ---
-<section class="section section-alt" aria-labelledby="reassurance-title">
+<section class="section" aria-labelledby="reassurance-title">
   <div class="container">
-    <h2 id="reassurance-title">Avant de nous confier votre projet</h2>
-    <dl class="ruled ruled-wide">
-      <dt>Qualifications</dt><dd>Qualibat RGE 8321, 5423, 5312, 5112 ; QUALIPAC ; Professionnel du gaz ; attestation fluides n° 111363-R1. <a href="/entreprise/qualifications/">Voir nos qualifications</a></dd>
-      {aides && <><dt>Aides financières</dt><dd>Les dispositifs en vigueur, leurs conditions et les montants sont tenus à jour sur une seule page. <a href="/aides-financieres-pompe-a-chaleur/">Voir les aides pour une pompe à chaleur</a></dd></>}
-      <dt>Devis</dt><dd>Visite technique, étude, puis devis gratuit et sans engagement. <a href={cta.href}>{cta.label}</a></dd>
-    </dl>
+    <h2 id="reassurance-title">Pas de prix au téléphone. Une visite d’abord.</h2>
+    <ol class="nums nums-3">
+      <li><span class="k">1</span><div><h3>Visite technique</h3><p>Un technicien vient voir votre logement et l’emplacement des équipements.</p></div></li>
+      <li><span class="k">2</span><div><h3>Étude par des installateurs qualifiés</h3><p>Qualibat RGE 8321, 5423, 5312, 5112 ; QUALIPAC ; Professionnel du gaz ; attestation fluides n° 111363-R1. <a href="/entreprise/qualifications/">Voir nos qualifications</a></p>{aides && <p>Les aides en vigueur et leurs conditions sont tenues à jour sur une seule page. <a href="/aides-financieres-pompe-a-chaleur/">Voir les aides pour une pompe à chaleur</a></p>}</div></li>
+      <li><span class="k">3</span><div><h3>Devis gratuit</h3><p>Il arrive après la visite, sans engagement. <a href={cta.href}>{cta.label}</a></p></div></li>
+    </ol>
   </div>
 </section>

@@ -28,12 +28,12 @@ checks:
   - { label: "Avis Google de Sylvain Aguenier", detail: "délai respecté, accompagnement pour les aides" }
   - { label: "Trois générations de chauffagistes depuis 1936" }
 photos:
+  - { src: "/images/illustrations/pac-installation.svg", alt: "Les cinq étapes de l’installation d’une pompe à chaleur : visite technique, étude et devis, préparation, pose, mise en service", caption: "Les cinq étapes de votre chantier" }
   - { missing: "chantier d’installation de PAC, étape par étape", caption: "Photo à collecter" }
 links:
   - { href: "/pompe-a-chaleur/", label: "Pompe à chaleur à Orléans et dans l’agglomération : quel modèle pour votre maison" }
   - { href: "/aides-financieres-pompe-a-chaleur/", label: "Les aides financières pour votre pompe à chaleur, avec leurs sources officielles" }
   - { href: "/entreprise/qualifications/", label: "Nos qualifications et certifications : Qualibat 8321, RGE, QUALIPAC, fluides" }
-  - { href: "/realisations/", label: "Nos réalisations en images : chantiers de chauffage et de climatisation" }
   - { href: "/pompe-a-chaleur/entretien/", label: "Entretien de votre pompe à chaleur après l’installation" }
   - { href: "/devis/", label: "Demander une visite technique" }
 toConfirm:
@@ -93,7 +93,7 @@ La pose suit un ordre précis :
 4. raccordement électrique et pose des protections ;
 5. évacuation des condensats.
 
-Les opérations sur le circuit frigorifique relèvent de notre attestation de capacité fluides frigorigènes n° 111363-R1, délivrée par Bureau Veritas. Cette habilitation est une obligation réglementaire, pas une option. Nos [réalisations en images](/realisations/) montrent le soin apporté à nos chantiers de chauffage et de climatisation.
+Les opérations sur le circuit frigorifique relèvent de notre attestation de capacité fluides frigorigènes n° 111363-R1, délivrée par Bureau Veritas. Cette habilitation est une obligation réglementaire, pas une option.
 
 ## Étape 5 : la mise en service et la prise en main
 

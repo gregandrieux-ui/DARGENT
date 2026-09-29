@@ -8,7 +8,6 @@ promise: "Un dimensionnement complet avant la pose : calcul des besoins, choix e
 template: pilier
 schema: Service
 cta: { href: "/devis/", label: "Demander un devis climatisation" }
-cta2: { href: "/realisations/", label: "Voir nos réalisations" }
 facts:
   - { label: "Qualification", value: "Qualibat 5423, climatiseurs à détente directe (technicité supérieure)" }
   - { label: "Fluides frigorigènes", value: "Attestation de capacité n° 111363-R1 (Bureau Veritas)" }
@@ -23,16 +22,20 @@ checks:
 faq: []
 howto: []
 photos:
+  - { src: "/images/illustrations/clim-reversible.svg", alt: "Schéma d’une climatisation réversible : en été elle sort la chaleur de la maison, en hiver elle capte la chaleur de l’air extérieur pour chauffer", caption: "Le même appareil dans les deux sens : en été il sort la chaleur, en hiver il la fait entrer" }
   - { src: "/images/realisations/climatisations-reversibles/dargent-thermique-027.jpg", alt: "Groupe extérieur de climatisation avec traitement acoustique", caption: "Groupe extérieur de climatisation avec traitement acoustique" }
   - { src: "/images/realisations/climatisations-reversibles/dargent-thermique-014.jpg", alt: "Console murale de climatisation réversible", caption: "Console murale de climatisation réversible" }
   - { src: "/images/realisations/climatisations-reversibles/dargent-thermique-032.jpg", alt: "Unité intérieure de climatisation tertiaire", caption: "Unité intérieure de climatisation tertiaire" }
+needs:
+  - { q: "J’ai trop chaud dans une ou deux pièces", title: "Climatisation réversible", text: "Du frais l’été, de la chaleur l’hiver, avec une unité par pièce.", href: "/climatisation/reversible/" }
+  - { q: "Je ne veux voir aucun appareil", title: "Climatisation gainable", text: "Un seul groupe caché en faux plafond, l’air soufflé par des grilles discrètes.", href: "/climatisation/gainable/" }
+  - { q: "J’équipe des bureaux ou un commerce", title: "Locaux professionnels", text: "Systèmes VRV et gestion centralisée pour le tertiaire.", href: "/professionnels/" }
 links:
   - { href: "/climatisation/reversible/", label: "Climatisation réversible : du frais l’été, de la chaleur l’hiver" }
   - { href: "/climatisation/gainable/", label: "Climatisation gainable, discrète et intégrée" }
   - { href: "/climatisation/installation/", label: "Comment nous installons votre climatisation" }
   - { href: "/climatisation/entretien/", label: "Entretien et maintenance de votre climatisation" }
   - { href: "/climatisation/depannage/", label: "Dépannage de climatisation" }
-  - { href: "/realisations/", label: "Nos réalisations en images" }
   - { href: "/professionnels/", label: "Nos solutions pour les professionnels et les collectivités" }
   - { href: "/devis/", label: "Demander un devis climatisation" }
 toConfirm:
@@ -105,7 +108,7 @@ Les pannes courantes et notre façon d’intervenir sont décrites sur la page [
 
 ## Nos réalisations
 
-Les photos de cette page viennent de nos chantiers : groupe extérieur avec traitement acoustique, console murale, unité intérieure en tertiaire. L’ensemble de nos chantiers de climatisation, avec les groupes VRV et la gestion centralisée, est réuni sur une page dédiée : [Voir nos réalisations](/realisations/).
+Les photos de cette page viennent de nos chantiers : groupe extérieur avec traitement acoustique, console murale, unité intérieure en tertiaire.
 
 Patrick Blain a laissé un avis Google après la pose d’une climatisation Daikin composée de 2 groupes extérieurs et 6 unités intérieures. Cet avis est consultable sur notre fiche Google.
 
