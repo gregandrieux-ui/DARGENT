@@ -6,7 +6,7 @@ const groups: [string, (id: string) => boolean][] = [
   ['Pompe à chaleur', (id) => id.startsWith('pompe-a-chaleur')],
   ['Climatisation', (id) => id.startsWith('climatisation')],
   ['Chauffage', (id) => id.startsWith('chauffage')],
-  ['Entretien, dépannage et aides', (id) => /^(entretien-depannage|aides-|ventilation|professionnels|marques-)/.test(id)],
+  ['Entretien, dépannage et aides', (id) => /^(entretien|depannage|aides-|ventilation|professionnels|marques-)/.test(id)],
   ['Entreprise et zones', (id) => /^(entreprise|zones-intervention|recrutement)/.test(id)],
 ];
 

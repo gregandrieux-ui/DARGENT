@@ -36,6 +36,7 @@ links:
   - { href: "/chauffage/plancher-chauffant/", label: "Plancher chauffant et isolation des sols" }
   - { href: "/chauffage/ballon-thermodynamique/", label: "Ballon thermodynamique pour votre eau chaude" }
   - { href: "/chauffage/entretien-chaudiere/", label: "Entretien de votre chaudière" }
+  - { href: "/chauffage/depannage-chaudiere/", label: "Dépannage de votre chaudière" }
   - { href: "/chauffage/regulation-connectee/", label: "Régulation et pilotage de votre chauffage" }
   - { href: "/pompe-a-chaleur/", label: "Pompe à chaleur à Orléans et dans l’agglomération" }
   - { href: "/devis/", label: "Demander un devis chauffage" }
@@ -100,4 +101,4 @@ L’entretien annuel d’une chaudière gaz est une obligation réglementaire po
 
 Nos techniciens entretiennent les chaudières que nous avons posées comme celles installées par d’autres entreprises. En cas de panne, un devis est établi avant toute réparation [À CONFIRMER : seuil de devis obligatoire]. Certaines interventions ne sont pas possibles, notamment un appareil trop ancien ou des pièces qui ne sont plus fabriquées : nous vous le disons avant de déplacer un technicien.
 
-Le contenu d’une visite d’entretien et les contrats proposés sont détaillés sur la page [entretien de votre chaudière](/chauffage/entretien-chaudiere/). Pour préparer votre projet, vous pouvez [demander un devis chauffage](/devis/) ou nous appeler au 02 38 86 46 46.
+Le contenu d’une visite d’entretien et les contrats proposés sont détaillés sur la page [entretien de votre chaudière](/chauffage/entretien-chaudiere/) ; en cas de panne, voir [dépannage de chaudière](/chauffage/depannage-chaudiere/). Pour préparer votre projet, vous pouvez [demander un devis chauffage](/devis/) ou nous appeler au 02 38 86 46 46.

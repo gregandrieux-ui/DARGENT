@@ -36,7 +36,7 @@ photos:
   - { src: "/images/realisations/maintenance/dargent-thermique-034.jpg", alt: "Maintenance de climatisation, contrôle de l’unité extérieure", caption: "Maintenance de climatisation, contrôle de l’unité extérieure" }
   - { src: "/images/realisations/maintenance/dargent-thermique-008.jpg", alt: "Maintenance d’une installation de chauffage", caption: "Maintenance d’une installation de chauffage" }
 links:
-  - { href: "/entretien-depannage/", label: "Entretien et dépannage de vos équipements : le cadre commun à toutes nos interventions" }
+  - { href: "/entretien/", label: "Entretien de vos équipements : le cadre commun à toutes nos interventions" }
   - { href: "/climatisation/depannage/", label: "Dépannage de climatisation : diagnostic, puis devis avant réparation" }
   - { href: "/entreprise/qualifications/", label: "Nos qualifications et certifications, dont l’attestation fluides frigorigènes" }
   - { href: "/pompe-a-chaleur/entretien/", label: "Entretien de votre pompe à chaleur air/eau ou air/air" }
@@ -110,7 +110,7 @@ L’ensemble de nos qualifications (Qualibat 8321, 5423, 5312 et 5112, RGE, QUAL
 
 ## Nos engagements de service
 
-Ces engagements valent pour l’entretien comme pour le dépannage. Ils sont détaillés sur la page [entretien et dépannage de vos équipements](/entretien-depannage/).
+Ces engagements valent pour l’entretien comme pour le dépannage. Ils sont détaillés sur les pages [entretien](/entretien/) et [dépannage](/depannage/) de vos équipements.
 
 ### L’information
 

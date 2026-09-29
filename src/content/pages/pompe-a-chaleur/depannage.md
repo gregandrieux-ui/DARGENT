@@ -29,7 +29,7 @@ photos:
   - { src: "/images/realisations/maintenance/dargent-thermique-008.jpg", alt: "Maintenance d’une installation de chauffage", caption: "Maintenance d’une installation de chauffage" }
 links:
   - { href: "/pompe-a-chaleur/entretien/", label: "Entretien de votre pompe à chaleur : forfait ou contrat" }
-  - { href: "/entretien-depannage/", label: "Entretien et dépannage : nos engagements de service" }
+  - { href: "/depannage/", label: "Dépannage : nos engagements de service" }
   - { href: "/contact/", label: "Nous contacter : coordonnées, horaires et accès" }
   - { href: "/entreprise/qualifications/", label: "Nos qualifications : RGE, Qualibat, QUALIPAC, fluides" }
 toConfirm:
@@ -80,7 +80,7 @@ Le devis vous donne un montant écrit, que vous pouvez comparer avec un remplace
 
 Cette règle s’accompagne d’un devoir de prévention. Nous vous signalons toute installation non conforme aux prescriptions du constructeur, aux règles de sécurité ou à la réglementation en vigueur. De même quand la vétusté ou l’état de l’équipement laisse craindre une nouvelle panne. Dans ces cas, l’intervention peut se limiter à une mise en sécurité.
 
-Ces engagements (information sur les tarifs, devis, prévention, moyens, résultat) valent pour toutes nos prestations. Ils sont détaillés sur la page [entretien et dépannage de vos équipements](/entretien-depannage/).
+Ces engagements (information sur les tarifs, devis, prévention, moyens, résultat) valent pour toutes nos prestations. Ils sont détaillés sur la page [dépannage de vos équipements](/depannage/).
 
 ## Pièces détachées et limites d’intervention
 

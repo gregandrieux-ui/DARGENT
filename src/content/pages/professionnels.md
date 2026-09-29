@@ -29,7 +29,8 @@ photos:
 links:
   - { href: "/climatisation/", label: "Installation, entretien et dépannage de climatisation à Orléans" }
   - { href: "/ventilation/", label: "Ventilation simple flux et double flux pour vos locaux" }
-  - { href: "/entretien-depannage/", label: "Entretien et dépannage de vos équipements tertiaires" }
+  - { href: "/entretien/", label: "Entretien de vos équipements tertiaires" }
+  - { href: "/depannage/", label: "Dépannage de vos équipements tertiaires" }
   - { href: "/entreprise/references/", label: "Nos références auprès des professionnels et collectivités" }
   - { href: "/contact/", label: "Nos coordonnées pour nous consulter" }
 toConfirm:
@@ -74,7 +75,7 @@ Un équipement tertiaire en fonctionnement continu ou quasi continu s’entretie
 
 L’entretien régulier limite les pannes et prolonge la durée de vie des équipements ; il reste néanmoins soumis à l’usure normale des pièces et à leur disponibilité chez les fabricants. Un appareil ancien, au fluide frigorigène R22 par exemple, ou dont une pièce n’est plus produite, ne peut pas toujours être remis en état : nous vous le disons lors du diagnostic, avant toute intervention facturée.
 
-Nos techniciens interviennent avec un registre de suivi des fluides frigorigènes, tenu conformément à notre attestation de capacité n° 111363-R1 délivrée par Bureau Veritas. Le détail de nos engagements d’entretien et de dépannage, pour un site unique ou plusieurs sites, figure sur la page [entretien et dépannage de vos équipements tertiaires](/entretien-depannage/).
+Nos techniciens interviennent avec un registre de suivi des fluides frigorigènes, tenu conformément à notre attestation de capacité n° 111363-R1 délivrée par Bureau Veritas. Le détail de nos engagements d’entretien et de dépannage, pour un site unique ou plusieurs sites, figure sur les pages [entretien](/entretien/) et [dépannage](/depannage/) de vos équipements.
 
 ## Nos références
 

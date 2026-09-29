@@ -27,7 +27,8 @@ photos:
   - { src: "/images/realisations/maintenance/dargent-thermique-037.jpg", alt: "Contrôle d’une chaudière gaz par un technicien Dargent Thermique", caption: "Contrôle d’une chaudière gaz" }
   - { src: "/images/realisations/maintenance/dargent-thermique-038.jpg", alt: "Entretien d’une installation de chauffage au gaz", caption: "Entretien d’une installation de chauffage au gaz" }
 links:
-  - { href: "/entretien-depannage/", label: "Nos engagements de service pour l’entretien et le dépannage de vos équipements" }
+  - { href: "/entretien/", label: "Entretien : nos engagements de service" }
+  - { href: "/chauffage/depannage-chaudiere/", label: "Dépannage de chaudière : pannes courantes et intervention" }
   - { href: "/chauffage/chaudiere-condensation/", label: "Chaudière à condensation : pose et conseils" }
   - { href: "/contact/", label: "Nous contacter" }
 toConfirm:
@@ -90,9 +91,9 @@ Conservez cette attestation : elle peut vous être demandée par votre assureur
 
 L’entretien annuel prévient une partie des pannes, mais pas toutes. Si votre chaudière ne fonctionne plus, appelez directement le 02 38 86 46 46 : décrivez le symptôme, la marque et l’année de l’appareil, un technicien vous rappelle pour convenir d’un passage.
 
-Nous n’établissons jamais de chiffrage au téléphone. Le technicien constate la panne sur place, puis établit un devis si la réparation atteint le seuil [À CONFIRMER : seuil de devis obligatoire] ; il n’intervient qu’après votre accord. Une chaudière très ancienne, un modèle au R22 ou dont les pièces ne sont plus disponibles ne peut pas toujours être réparée durablement : nous vous le disons avant de chiffrer et proposons, si nécessaire, un remplacement.
+Nous n’établissons jamais de chiffrage au téléphone. Le technicien constate la panne sur place, puis établit un devis si la réparation atteint le seuil [À CONFIRMER : seuil de devis obligatoire] ; il n’intervient qu’après votre accord. Une chaudière très ancienne ou dont les pièces ne sont plus disponibles ne peut pas toujours être réparée durablement : nous vous le disons avant de chiffrer et proposons, si nécessaire, un remplacement.
 
-Ces règles sont communes à l’entretien et au dépannage de tous vos équipements : elles sont détaillées sur la page [nos engagements de service pour l’entretien et le dépannage de vos équipements](/entretien-depannage/).
+Ces règles sont communes à l’entretien et au dépannage de tous vos équipements : elles sont détaillées sur les pages [entretien](/entretien/) et [dépannage](/depannage/) de vos équipements. Pannes courantes et déroulé : voir [dépannage de chaudière](/chauffage/depannage-chaudiere/).
 
 ## Souscrire
 

@@ -38,7 +38,7 @@ photos:
   - { src: "/images/realisations/maintenance/dargent-thermique-034.jpg", alt: "Maintenance de climatisation, contrôle de l’unité extérieure", caption: "Maintenance de climatisation, contrôle de l’unité extérieure" }
   - { src: "/images/realisations/maintenance/dargent-thermique-008.jpg", alt: "Maintenance d’une installation de chauffage", caption: "Maintenance d’une installation de chauffage" }
 links:
-  - { href: "/entretien-depannage/", label: "Nos engagements de service pour l’entretien et le dépannage de vos équipements" }
+  - { href: "/entretien/", label: "Entretien : nos engagements de service" }
   - { href: "/pompe-a-chaleur/depannage/", label: "Dépannage de pompe à chaleur : que faire en cas de panne" }
   - { href: "/entreprise/qualifications/", label: "Nos qualifications et certifications, dont l’attestation fluides frigorigènes" }
   - { href: "/contact/", label: "Nous contacter pour planifier votre visite d’entretien" }
@@ -112,7 +112,7 @@ Textes de référence à consulter sur [Légifrance](https://www.legifrance.gouv
 
 ## Nos engagements de service
 
-Ces engagements valent pour l’entretien comme pour le [dépannage de votre pompe à chaleur](/pompe-a-chaleur/depannage/). Ils sont communs à tous nos équipements et détaillés sur la page [entretien et dépannage de vos équipements](/entretien-depannage/).
+Ces engagements valent pour l’entretien comme pour le [dépannage de votre pompe à chaleur](/pompe-a-chaleur/depannage/). Ils sont communs à tous nos équipements et détaillés sur la page [entretien de vos équipements](/entretien/).
 
 - **L’information.** Le tarif applicable vous est communiqué avant l’intervention. La facture détaille la prestation, le tarif appliqué et le prix des pièces remplacées.
 - **Le devis.** Lorsqu’une réparation atteint le seuil [À CONFIRMER : seuil de devis obligatoire], le technicien établit un devis et attend votre accord avant d’intervenir.

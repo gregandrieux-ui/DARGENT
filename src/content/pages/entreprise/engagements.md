@@ -29,7 +29,8 @@ photos:
   - { src: "/images/produits/video-ruches.png", alt: "Vidéo de présentation des ruches de Dargent Thermique", caption: "Vidéo de présentation des ruches" }
 links:
   - { href: "/entreprise/", label: "L’entreprise Dargent Thermique" }
-  - { href: "/entretien-depannage/", label: "Entretien et dépannage de vos équipements" }
+  - { href: "/entretien/", label: "Entretien de vos équipements" }
+  - { href: "/depannage/", label: "Dépannage de vos équipements" }
   - { href: "/entreprise/qualifications/", label: "Nos qualifications et certifications" }
 toConfirm:
   - "Ruches toujours présentes"
@@ -71,7 +72,7 @@ Au-delà de l’environnement, nous avons des règles écrites sur la manière d
 
 **Devis.** Pour une installation, le devis suit une visite du bureau d’études, créé en 1993, qui dimensionne l’équipement à votre logement. Pour une réparation, un devis écrit précède toute intervention au-delà d’un certain montant [À CONFIRMER : seuil de devis obligatoire]. En dessous, l’intervention peut être réalisée directement, sur votre accord.
 
-**Prévention.** L’entretien régulier de votre pompe à chaleur, de votre climatisation ou de votre chaudière limite les pannes et prolonge la durée de vie de l’équipement. Le détail des formules figure sur la page [entretien et dépannage de vos équipements](/entretien-depannage/).
+**Prévention.** L’entretien régulier de votre pompe à chaleur, de votre climatisation ou de votre chaudière limite les pannes et prolonge la durée de vie de l’équipement. Le détail des formules figure sur la page [entretien de vos équipements](/entretien/).
 
 **Moyens.** Nos techniciens partent chaque matin avec des véhicules équipés et un accès direct au magasin de pièces détachées du site, pour limiter les délais liés à une pièce manquante.
 
