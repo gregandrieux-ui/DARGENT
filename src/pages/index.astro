@@ -3,14 +3,15 @@ import Base from '../layouts/Base.astro';
 import Icon from '../components/Icon.astro';
 import Photo from '../components/Photo.astro';
 import ToConfirm from '../components/ToConfirm.astro';
-import Testimonials from '../components/Testimonials.astro';
 import CtaBand from '../components/CtaBand.astro';
 import { site } from '../data/site';
 import { byCat } from '../data/realisations';
 import { breadcrumb } from '../lib/schema';
+import { getCollection } from 'astro:content';
 
 const title = 'Chauffage, climatisation et PAC à Orléans | Dargent';
 const description = 'Installateur RGE de pompes à chaleur, climatisation et chauffage à Orléans depuis 1936. Étude personnalisée et devis gratuit. Appelez le 02 38 86 46 46.';
+const zones = (await getCollection('pages', (p) => p.id.startsWith('zones-intervention/') && !p.data.draft)).sort((a, b) => a.data.h1.localeCompare(b.data.h1));
 const hero = byCat('maintenance').find((x) => x.n === '033')!;
 const install = [
   { href: '/pompe-a-chaleur/', label: 'Pompe à chaleur', hot: true },
@@ -80,10 +81,16 @@ const steps = [
       <Photo src={hero.src} alt={hero.caption} class="how-photo" />
     </div></section>
 
-    <Testimonials title="Ils nous ont confié leur maison" />
+    <section class="section" aria-labelledby="zone-title"><div class="container">
+      <h2 id="zone-title">Zone d’intervention</h2>
+      <p class="zones"><Icon name="map-pin" /> Depuis notre siège de Saint-Jean-de-Braye, nous intervenons à Orléans et dans toute l’agglomération, en installation comme en dépannage.</p>
+      <ul class="chips">
+        {zones.map((z) => <li><a href={`/${z.id}/`}>{z.data.h1}</a></li>)}
+        <li><a href="/zones-intervention/" class="hot">Toutes les zones</a></li>
+      </ul>
+    </div></section>
 
     <CtaBand>
-      <p class="zones"><Icon name="map-pin" /> Depuis <a href="/zones-intervention/saint-jean-de-braye/">notre siège de Saint-Jean-de-Braye</a>, nous intervenons à <a href="/zones-intervention/">Orléans et dans toute l’agglomération</a>.</p>
       <ToConfirm items={['Effectif actuel', 'Horaires d’ouverture', 'Nom du groupe propriétaire depuis 2018', 'Zone réellement couverte en installation et en dépannage', 'Validité des certificats Qualibat']} />
     </CtaBand>
   </div>
