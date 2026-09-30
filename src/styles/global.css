@@ -507,6 +507,21 @@ a.stretched::after { content: ''; position: absolute; inset: 0; z-index: 1; }
 .hero-alert .tel-big .icon { color: #ff7a82; }
 .hero-alert .photo figcaption { color: var(--cyan-200); }
 
+/* Carrousel latéral (« Ils nous font confiance ») : scroll-snap natif, une entrée par slide. */
+.carousel { display: flex; align-items: flex-start; gap: var(--s-4); overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: thin; padding-bottom: var(--s-3); margin-top: var(--s-5); }
+.slide { flex: 0 0 100%; scroll-snap-align: start; border: 1px solid var(--line); border-radius: var(--radius-lg); padding: var(--s-5); }
+.carousel-wrap { position: relative; }
+.carousel-btn {
+  position: absolute; top: 50%; z-index: 1; width: 40px; height: 40px; translate: 0 -50%; border-radius: 50%; padding: 0 0 3px;
+  display: grid; place-items: center; font-size: 1.5rem; line-height: 1; cursor: pointer;
+  background: var(--surface); color: var(--navy-900); border: 1px solid var(--line); box-shadow: var(--shadow-2);
+}
+.carousel-btn[data-dir="-1"] { left: -20px; }
+.carousel-btn[data-dir="1"] { right: -20px; }
+.carousel-btn:disabled { opacity: 0.3; cursor: default; }
+@media (max-width: 767px) { .carousel-btn[data-dir="-1"] { left: -8px; } .carousel-btn[data-dir="1"] { right: -8px; } }
+.slide > :last-child { margin-bottom: 0; }
+.slide h3 { margin-top: 0; }
 .compare { overflow-x: auto; border: 1px solid var(--line); border-radius: 22px; }
 .compare table { min-width: 560px; }
 .compare tr:last-child td { border-bottom: 0; }

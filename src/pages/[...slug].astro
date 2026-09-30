@@ -176,4 +176,25 @@ const osm = `https://www.openstreetmap.org/export/embed.html?bbox=${site.geo.lng
     addEventListener('popstate', () => toCard(location.hash));
     addEventListener('load', () => toCard(location.hash));
   }
+  // Carrousel : flèches = une entrée de plus ; grisées aux extrémités.
+  document.querySelectorAll<HTMLElement>('.carousel-wrap').forEach((w) => {
+    const track = w.querySelector<HTMLElement>('.carousel')!;
+    const [prev, next] = w.querySelectorAll<HTMLButtonElement>('.carousel-btn');
+    const slides = [...track.querySelectorAll<HTMLElement>('.slide')];
+    const sync = () => {
+      // Piste à la hauteur de la vignette visible : pas de vide sous les courtes.
+      const cs = getComputedStyle(track);
+      const chrome = track.offsetHeight - track.clientHeight + parseFloat(cs.paddingBottom); // barre de défilement + padding
+      track.style.height = `${(slides[Math.round(track.scrollLeft / track.clientWidth)]?.offsetHeight ?? 0) + chrome}px`;
+      prev.disabled = track.scrollLeft < 4;
+      next.disabled = track.scrollLeft > track.scrollWidth - track.clientWidth - 4;
+    };
+    w.addEventListener('click', (e) => {
+      const b = (e.target as Element).closest<HTMLButtonElement>('.carousel-btn');
+      if (b) track.scrollBy({ left: Number(b.dataset.dir) * track.clientWidth, behavior: 'smooth' });
+    });
+    track.addEventListener('scroll', sync, { passive: true });
+    addEventListener('resize', sync);
+    sync();
+  });
 </script>

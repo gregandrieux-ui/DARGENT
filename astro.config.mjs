@@ -16,6 +16,22 @@ const stackCards = {
       else (cards.at(-1) ?? before).push(node);
     }
     if (!cards.length) return;
+    // « Nos qualifications », « Nos valeurs », « Ils nous font confiance » : chaque ### devient une slide d'un carrousel à défilement latéral (intro avant le 1er ### hors carrousel).
+    const text = (n) => (n.value ?? n.children?.map(text).join('') ?? '');
+    for (const card of cards) {
+      const title = text(card[0]).trim();
+      if (!['Nos qualifications', 'Nos valeurs', 'Ils nous font confiance'].includes(title)) continue;
+      const first = card.findIndex((c) => c.tagName === 'h3');
+      if (first < 0) continue;
+      const slides = [];
+      for (const c of card.slice(first)) {
+        if (c.tagName === 'h3') slides.push({ type: 'element', tagName: 'div', properties: { className: ['slide'] }, children: [c] });
+        else slides.at(-1).children.push(c);
+      }
+      const btn = (dir, label, glyph) => ({ type: 'element', tagName: 'button', properties: { type: 'button', className: ['carousel-btn'], dataDir: dir, ariaLabel: label }, children: [{ type: 'text', value: glyph }] });
+      const track = { type: 'element', tagName: 'div', properties: { className: ['carousel'], tabindex: 0, role: 'region', ariaLabel: title }, children: slides };
+      card.splice(first, card.length, { type: 'element', tagName: 'div', properties: { className: ['carousel-wrap'] }, children: [btn('-1', 'Entrée précédente', '‹'), track, btn('1', 'Entrée suivante', '›')] });
+    }
     const n = cards.length;
     const sections = cards.map((children, i) => ({
       type: 'element', tagName: 'section',
