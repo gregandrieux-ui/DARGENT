@@ -19,6 +19,11 @@ facts:
 checks:
   - { label: "Devis établi après visite", detail: "aucun chiffrage au téléphone" }
   - { label: "Bureau d’études interne", detail: "dimensionnement et réglage de la régulation" }
+stats:
+  - { value: "15 %", label: "d’économies sur la facture de chauffage*" }
+  - { value: "7 %", label: "d’économies par degré de consigne en moins*" }
+  - { value: "2027", label: "échéance légale de régulation pour les logements existants" }
+  - { value: "24 h/24", label: "d’anticipation des variations météo" }
 photos:
   - { src: "/images/illustrations/regulation-chauffage.svg", alt: "Schéma de la régulation du chauffage : une sonde extérieure et un thermostat d’ambiance informent la chaudière ou la pompe à chaleur, un robinet thermostatique règle chaque radiateur", caption: "Sonde extérieure, thermostat d’ambiance et robinets thermostatiques" }
   - { src: "/images/produits/robinet-thermostatique.jpg", alt: "Robinet thermostatique de régulation du chauffage", caption: "Robinet thermostatique, pièce par pièce" }
@@ -28,6 +33,7 @@ links:
   - { href: "/pompe-a-chaleur/", label: "Pompe à chaleur à Orléans et dans l’agglomération" }
   - { href: "/devis/", label: "Demander conseil" }
 toConfirm:
+  - "Chiffres hero : valider sources ADEME / fiches fabricant"
   - "Marques de régulation proposées aujourd’hui"
   - "brochures encore valides"
   - "prestation vendue séparément ?"

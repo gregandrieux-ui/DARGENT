@@ -46,8 +46,17 @@ const osm = `https://www.openstreetmap.org/export/embed.html?bbox=${site.geo.lng
       <div class={simple ? '' : 'entry'}>
         <div>
           <h1>{d.h1}</h1>
-          <p class="promise">{d.promise}</p>
-          {d.checks.length > 0 && <Checks items={d.checks} />}
+          {d.stats.length > 0 ? (
+            <>
+              <ul class="stats">{d.stats.map((s) => <li><strong>{s.value}</strong> {s.label}</li>)}</ul>
+              <p class="stats-note">* Ordres de grandeur ADEME et fabricants, selon logement, usage et éligibilité. Chiffrage réel après visite technique.</p>
+            </>
+          ) : (
+            <>
+              <p class="promise">{d.promise}</p>
+              {d.checks.length > 0 && <Checks items={d.checks} />}
+            </>
+          )}
           {!simple && (
             <div class="actions">
               {d.alert ? (

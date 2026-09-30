@@ -19,6 +19,11 @@ checks:
   - { label: "Visite technique avant tout devis", detail: "jamais de chiffrage au téléphone" }
   - { label: "Dimensionnement par notre bureau d’études", detail: "adapté au bâti et aux pièces du logement" }
   - { label: "Interventions en groupe scolaire et en tertiaire", detail: "centrales de traitement d’air" }
+stats:
+  - { value: "100 %", label: "d’air renouvelé en continu" }
+  - { value: "90 %", label: "de la chaleur récupérée sur l’air extrait (double flux)*" }
+  - { value: "Hygro B", label: "débit ajusté à l’humidité de chaque pièce" }
+  - { value: "0", label: "fenêtre à ouvrir en hiver pour aérer" }
 photos:
   - { src: "/images/illustrations/ventilation-double-flux.svg", alt: "Schéma d’une ventilation double flux : l’air neuf est préchauffé dans l’échangeur par l’air repris avant d’être soufflé dans les pièces de vie", caption: "Ventilation double flux : air neuf, air soufflé, air repris, air rejeté" }
   - { missing: "centrale de traitement d’air en local technique", caption: "Photo à collecter" }
@@ -29,6 +34,7 @@ links:
   - { href: "/professionnels/", label: "Nos solutions pour les professionnels et les collectivités" }
   - { href: "/devis/", label: "Demander un devis gratuit" }
 toConfirm:
+  - "Chiffres hero : valider sources ADEME / fiches fabricant"
   - "Ventilation proposée aux particuliers ou uniquement en tertiaire"
   - "accord des établissements photographiés."
 aides: false

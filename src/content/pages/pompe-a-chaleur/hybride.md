@@ -21,6 +21,11 @@ checks:
   - { label: "Visite technique avant tout devis", detail: "jamais de chiffrage au téléphone" }
   - { label: "Partie gaz réalisée par nos propres équipes", detail: "qualification Professionnel du gaz" }
   - { label: "Fluides frigorigènes manipulés sous attestation de capacité", detail: "n° 111363-R1, Bureau Veritas" }
+stats:
+  - { value: "40 %", label: "d’économies de gaz possibles*" }
+  - { value: "2 énergies", label: "bascule automatique vers le gaz par grand froid" }
+  - { value: "3 à 4 ×", label: "plus de chaleur produite que d’électricité consommée" }
+  - { value: "0", label: "radiateur à changer : réseau existant conservé" }
 photos:
   - { src: "/images/illustrations/pac-hybride.svg", alt: "Schéma d’une pompe à chaleur hybride : la PAC chauffe en mi-saison, la chaudière gaz prend le relais par grand froid, la régulation bascule automatiquement", caption: "Principe d’une pompe à chaleur hybride gaz" }
 links:
@@ -32,6 +37,8 @@ links:
   - { href: "/chauffage/entretien-chaudiere/", label: "Entretien de votre chaudière gaz" }
   - { href: "/devis/", label: "Demander une étude gratuite" }
 toConfirm:
+  - "Chiffres hero : valider sources ADEME / fiches fabricant"
+  - "Éligibilité MaPrimeRénov’ PAC hybride en 2026"
   - "Marques hybrides proposées"
   - "partenariat GRDF actif"
   - "éligibilité aides à re-vérifier."

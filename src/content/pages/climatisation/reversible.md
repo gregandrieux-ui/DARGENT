@@ -22,6 +22,11 @@ checks:
   - { label: "Photos de nos chantiers de climatisation réversible", detail: "groupe extérieur avec traitement acoustique, console murale, unité tertiaire" }
   - { label: "Qualibat 5423", detail: "climatiseurs à détente directe" }
   - { label: "Registre des fluides frigorigènes", detail: "attestation de capacité n° 111363-R1, Bureau Veritas" }
+stats:
+  - { value: "2-en-1", label: "fraîcheur l’été, chauffage l’hiver" }
+  - { value: "75 %", label: "d’électricité en moins face à des radiateurs électriques (SCOP > 4)*" }
+  - { value: "19 dB(A)", label: "dès le mode silence, unité intérieure" }
+  - { value: "1 prime", label: "CEE mobilisable*" }
 photos:
   - { src: "/images/illustrations/clim-reversible.svg", alt: "Schéma d’une climatisation réversible : en été elle sort la chaleur de la maison, en hiver elle capte la chaleur de l’air extérieur pour chauffer", caption: "Le même appareil dans les deux sens : en été il sort la chaleur, en hiver il la fait entrer" }
   - { src: "/images/realisations/climatisations-reversibles/dargent-thermique-027.jpg", alt: "Groupe extérieur de climatisation avec traitement acoustique", caption: "Groupe extérieur de climatisation avec traitement acoustique" }
@@ -33,6 +38,7 @@ links:
   - { href: "/climatisation/entretien/", label: "Entretien et maintenance de votre climatisation réversible" }
   - { href: "/devis/", label: "Demander un devis gratuit" }
 toConfirm:
+  - "Chiffres hero : valider sources ADEME / fiches fabricant"
   - "Marques installées"
   - "proposition de pilotage connecté toujours d’actualité"
   - "pose en copropriété (contraintes)."

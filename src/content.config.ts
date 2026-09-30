@@ -19,6 +19,7 @@ const pages = defineCollection({
     cta: link,                             // CTA principal (xlsx), un seul libellé par page
     cta2: link.optional(),
     facts: z.array(z.object({ label: z.string(), value: z.string() })).default([]),   // table à filets du hero
+    stats: z.array(z.object({ value: z.string(), label: z.string() })).max(4).default([]), // chiffres-clés du hero (remplacent promise + checks)
     checks: z.array(z.object({ label: z.string(), detail: z.string().optional() })).default([]), // preuves cochées
     photos: z.array(z.object({ src: z.string().optional(), alt: z.string().default(''), caption: z.string().optional(), missing: z.string().optional() })).default([]),
     links: z.array(link).default([]),      // Liens sortants (xlsx) → sorties numérotées

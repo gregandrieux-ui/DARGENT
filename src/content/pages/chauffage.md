@@ -22,6 +22,11 @@ checks:
   - { label: "Trois générations de chauffagistes", detail: "entreprise fondée en 1936, avenue Ampère depuis 1969" }
 faq: []
 howto: []
+stats:
+  - { value: "1936", label: "chauffagistes depuis trois générations" }
+  - { value: "1993", label: "bureau d’études interne" }
+  - { value: "0", label: "chiffrage au téléphone, visite technique d’abord" }
+  - { value: "15 %", label: "d’économies avec une régulation adaptée*" }
 photos:
   - { src: "/images/illustrations/chaudiere-condensation.svg", alt: "Schéma d’une chaudière gaz à condensation : la ventouse amène l’air neuf et évacue les fumées, la chaleur de la vapeur d’eau des fumées est récupérée, l’eau part vers les radiateurs et revient plus froide", caption: "Principe d’une chaudière à condensation avec ventouse" }
   - { src: "/images/realisations/chaudieres-condensation-basses-temperatures/dargent-thermique-022.jpg", alt: "Chaudières à condensation installées en cascade", caption: "Chaudières à condensation en cascade" }
@@ -42,6 +47,7 @@ links:
   - { href: "/devis/", label: "Demander un devis chauffage" }
   - { href: "/marques-partenaires/", label: "Les marques de chauffage que nous installons" }
 toConfirm:
+  - "Chiffres hero : valider sources ADEME / fiches fabricant"
   - "Énergies réellement couvertes aujourd'hui (gaz, fioul, électricité, bois ?)."
 aides: false
 alert: false

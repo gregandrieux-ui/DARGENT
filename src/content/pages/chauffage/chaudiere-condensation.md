@@ -22,6 +22,11 @@ checks:
   - { label: "Qualibat 5312", detail: "certificat à validité annuelle" }
   - { label: "Photos de chaudières au sol et en cascade", detail: "chantiers réels, voir la galerie ci-dessous" }
   - { label: "Visite technique avant tout devis", detail: "jamais de chiffrage au téléphone" }
+stats:
+  - { value: "20 %", label: "de gaz économisé face à une chaudière ancienne*" }
+  - { value: "A", label: "classe énergétique chauffage (ErP)" }
+  - { value: "< 0,5 m²", label: "au mur, se loge dans un placard" }
+  - { value: "2-en-1", label: "chauffage et eau chaude (modèle mixte)" }
 photos:
   - { src: "/images/illustrations/chaudiere-condensation.svg", alt: "Schéma d’une chaudière gaz à condensation : la ventouse amène l’air neuf et évacue les fumées, la chaleur de la vapeur d’eau des fumées est récupérée, l’eau part vers les radiateurs et revient plus froide", caption: "Principe d’une chaudière à condensation avec ventouse" }
   - { src: "/images/realisations/chaudieres-condensation-basses-temperatures/dargent-thermique-024.jpg", alt: "Chaudière au sol à condensation installée par Dargent Thermique", caption: "Chaudière au sol à condensation" }
@@ -37,6 +42,7 @@ links:
   - { href: "/devis/", label: "Demander un devis" }
   - { href: "/chauffage/regulation-connectee/", label: "Régulation connectée pour votre chauffage" }
 toConfirm:
+  - "Chiffres hero : valider sources ADEME / fiches fabricant"
   - "Chaudières fioul et biofioul toujours commercialisées ?"
   - "marques distribuées"
   - "position commerciale gaz vs PAC."
