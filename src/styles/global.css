@@ -519,7 +519,13 @@ a.stretched::after { content: ''; position: absolute; inset: 0; z-index: 1; }
 .carousel-btn[data-dir="-1"] { left: -20px; }
 .carousel-btn[data-dir="1"] { right: -20px; }
 .carousel-btn:disabled { opacity: 0.3; cursor: default; }
-@media (max-width: 767px) { .carousel-btn[data-dir="-1"] { left: -8px; } .carousel-btn[data-dir="1"] { right: -8px; } }
+/* Mobile : la carte n'a pas assez de marge latérale, les flèches passent sous la vignette. */
+@media (max-width: 767px) {
+  .carousel-wrap { padding-bottom: 52px; }
+  .carousel-btn { top: auto; bottom: 0; translate: none; }
+  .carousel-btn[data-dir="-1"] { left: 0; }
+  .carousel-btn[data-dir="1"] { right: 0; }
+}
 .slide > :last-child { margin-bottom: 0; }
 .slide h3 { margin-top: 0; }
 .compare { overflow-x: auto; border: 1px solid var(--line); border-radius: 22px; }
