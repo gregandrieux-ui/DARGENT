@@ -27,7 +27,7 @@ photos:
   - { src: "/images/produits/ruche-01.jpg", alt: "Ruches installées sur le site de Dargent Thermique", caption: "Quatre ruches installées sur notre site depuis mai 2014" }
 links:
   - { href: "/contact/", label: "Nos coordonnées, horaires et plan d’accès" }
-  - { href: "/entreprise/#nos-engagements", label: "Nos engagements : tri des déchets, ruches" }
+  - { href: "/entreprise/#nos-valeurs", label: "Nos engagements : tri des déchets, ruches" }
   - { href: "/entreprise/#notre-histoire", label: "Notre histoire depuis 1936" }
   - { href: "/pompe-a-chaleur/", label: "Pompe à chaleur à Orléans et dans l’agglomération" }
   - { href: "/climatisation/", label: "Climatisation à Orléans : installation, entretien et dépannage" }
@@ -77,7 +77,7 @@ Le site de l’avenue Ampère est aussi l’endroit où nous appliquons nos enga
 
 Depuis mai 2014, quatre ruches sont installées sur le terrain. Elles font l’objet de photos et de trois vidéos que vous pouvez consulter sur le site [À CONFIRMER : ruches toujours en place]. Ce n’est pas un argument technique, mais cela dit quelque chose de la façon dont nous occupons l’espace de la zone industrielle.
 
-Le détail de ces actions, avec les photos des ruches, figure sur la page [nos engagements : tri des déchets, ruches](/entreprise/#nos-engagements).
+Le détail de ces actions, avec les photos des ruches, figure sur la page [nos engagements : tri des déchets, ruches](/entreprise/#nos-valeurs).
 
 ## Nos chantiers alentour
 

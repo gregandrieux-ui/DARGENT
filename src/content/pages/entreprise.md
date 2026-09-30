@@ -2,7 +2,7 @@
 id: ENTR-00
 priority: P2
 title: "Dargent Thermique : notre entreprise à Orléans depuis 1936"
-description: "Chauffagiste à Orléans depuis 1936 : notre histoire, nos qualifications RGE Qualibat et QUALIPAC, nos engagements et nos références clients, sur une seule page."
+description: "Chauffagiste à Orléans depuis 1936 : notre histoire, nos qualifications RGE Qualibat et QUALIPAC, nos valeurs et nos références clients, sur une seule page."
 h1: "L’entreprise Dargent Thermique"
 promise: "Une entreprise locale ancienne, dont les qualifications et les engagements sont publics."
 template: about
@@ -65,37 +65,35 @@ crumbs: []
 
 ## Qui sommes-nous
 
-Dargent Thermique installe et entretient des pompes à chaleur, des climatisations et des chaudières dans l’agglomération orléanaise. L’entreprise est née en 1936 à Beaugency ; trois générations de chauffagistes se sont succédé à sa tête depuis. Nos techniciens interviennent depuis le [siège de Saint-Jean-de-Braye](/zones-intervention/saint-jean-de-braye/), qui réunit les bureaux, le bureau d’études, le magasin de pièces et une salle d’exposition.
+Dargent Thermique installe et entretient des pompes à chaleur, des climatisations et des chaudières dans l’agglomération orléanaise. Nos techniciens interviennent depuis le [siège de Saint-Jean-de-Braye](/zones-intervention/saint-jean-de-braye/), qui réunit les bureaux, le bureau d’études, le magasin de pièces et une salle d’exposition.
 
-Un bureau d’études interne, créé en 1993, dimensionne chaque projet avant qu’un devis ne soit établi : nous ne chiffrons jamais une installation au téléphone. En 2018, l’entreprise a été reprise par un groupe industriel français de l’énergie et des services [À CONFIRMER : nom du groupe propriétaire] ; elle reste dirigée localement.
+L’effectif actuel et le nombre de clients accompagnés ne sont pas des chiffres que nous publions sans les avoir vérifiés [À CONFIRMER : effectif] [À CONFIRMER : nombre de clients]. Ce que nous pouvons montrer sans ambiguïté, ce sont notre histoire, nos qualifications, nos valeurs et nos références, détaillés ci-dessous.
 
-L’effectif actuel et le nombre de clients accompagnés ne sont pas des chiffres que nous publions sans les avoir vérifiés [À CONFIRMER : effectif] [À CONFIRMER : nombre de clients]. Ce que nous pouvons montrer sans ambiguïté, ce sont notre histoire, nos qualifications, nos engagements et nos références, détaillés ci-dessous.
+### Notre histoire
 
-## Notre histoire
+#### 1936-1947 : les débuts à Beaugency puis Orléans
 
-### 1936-1947 : les débuts à Beaugency puis Orléans
+René Dargent fonde l’entreprise en 1936 à Beaugency. Elle installe et répare alors des appareils de chauffage au bois et au charbon, les seules énergies domestiques disponibles à cette époque. En 1947, l’activité rejoint Orléans, où la clientèle et les chantiers sont plus nombreux. Trois générations de chauffagistes se sont succédé à sa tête : un métier transmis plutôt qu’un rachat commercial.
 
-René Dargent fonde l’entreprise en 1936 à Beaugency. Elle installe et répare alors des appareils de chauffage au bois et au charbon, les seules énergies domestiques disponibles à cette époque. En 1947, l’activité rejoint Orléans, où la clientèle et les chantiers sont plus nombreux. Ces débuts fixent déjà ce qui distingue l’entreprise aujourd’hui : un métier transmis de génération en génération plutôt qu’un rachat commercial.
-
-### 1960 : du charbon au fioul
+#### 1960 : du charbon au fioul
 
 À partir de 1960, le fioul domestique remplace progressivement le charbon dans les maisons orléanaises. L’entreprise suit ce changement et adapte ses interventions aux nouvelles chaudières fioul. Ce basculement est le premier d’une longue série : bois, charbon, fioul, puis gaz, climatisation et pompes à chaleur. À chaque fois, l’activité s’est reformée autour de l’énergie que les foyers choisissaient, sans abandonner l’entretien des équipements plus anciens tant qu’ils restaient réparables. C’est pourquoi nous entretenons encore des installations au gaz et au fioul, en parallèle des pompes à chaleur que nous installons.
 
-### 1969 : l’installation à Saint-Jean-de-Braye
+#### 1969 : l’installation à Saint-Jean-de-Braye
 
 En 1969, l’entreprise s’installe avenue Ampère, dans la zone industrielle de Saint-Jean-de-Braye, à l’est de l’agglomération orléanaise. Ce site réunit pour la première fois les bureaux, un atelier et un stock de pièces au même endroit. Ce choix d’implantation n’a jamais changé : c’est toujours de cette adresse que partent les techniciens chaque matin.
 
-### 1982 : la création de Dargent Thermique
+#### 1982 : la création de Dargent Thermique
 
 En 1982, l’activité prend la forme juridique et le nom qu’elle porte encore : Dargent Thermique est immatriculée au RCS d’Orléans sous le numéro 323 765 404 (création au 1er février 1982). Cette structuration accompagne l’essor du gaz naturel comme énergie de chauffage, en parallèle du fioul déjà installé chez de nombreux clients de la région.
 
-### 1993 : la climatisation et le bureau d’études
+#### 1993 : la climatisation et le bureau d’études
 
-En 1993, l’entreprise ouvre un bureau d’études interne et ajoute la climatisation à son métier de chauffagiste. Cette double évolution prépare l’arrivée de la pompe à chaleur, qui combine les deux savoir-faire : le chauffage et le froid. Un dimensionnement mal fait se traduit par un appareil trop petit ou trop gros pour le logement : c’est ce que le bureau d’études cherche à éviter, dès la visite technique.
+En 1993, l’entreprise ouvre un bureau d’études interne et ajoute la climatisation à son métier de chauffagiste. Cette double évolution prépare l’arrivée de la pompe à chaleur, qui combine les deux savoir-faire : le chauffage et le froid. Le bureau d’études dimensionne chaque projet avant qu’un devis ne soit établi, dès la visite technique : nous ne chiffrons jamais une installation au téléphone, car un appareil mal dimensionné est trop petit ou trop gros pour le logement.
 
-### 2007-2023 : aujourd’hui
+#### 2018 : aujourd’hui
 
-En 2018, l’entreprise est rachetée par un groupe industriel français de l’énergie et des services [À CONFIRMER : nom du groupe repreneur communicable]. L’équipe et l’adresse avenue Ampère restent inchangées. Depuis, l’activité s’oriente vers la pompe à chaleur, qui prolonge la trajectoire engagée en 1960 : accompagner les particuliers de l’agglomération orléanaise dans les transitions successives d’énergie de chauffage, avec la même exigence de dimensionner avant d’installer.
+En 2018, l’entreprise est reprise par un groupe industriel français de l’énergie et des services [À CONFIRMER : nom du groupe repreneur communicable]. Elle reste dirigée localement, et l’équipe comme l’adresse avenue Ampère restent inchangées. Depuis, l’activité s’oriente vers la pompe à chaleur, qui prolonge la trajectoire engagée en 1960 : accompagner les particuliers de l’agglomération orléanaise dans les transitions successives d’énergie de chauffage.
 
 ## Nos qualifications
 
@@ -132,7 +130,7 @@ Toute intervention sur un circuit frigorifique, climatisation ou pompe à chaleu
 
 La plupart des aides à la rénovation énergétique sont réservées aux travaux réalisés par une entreprise RGE. Nos qualifications Qualibat 8321 et QUALIPAC en sont la preuve pour une pompe à chaleur ; le code 5312 et la mention Professionnel du gaz jouent le même rôle pour une chaudière gaz. Elles ne garantissent pas à elles seules l’obtention d’une aide : chaque dispositif a ses propres conditions, liées à vos revenus, à votre logement et à l’équipement posé. Le détail figure sur [les aides financières pour votre pompe à chaleur](/aides-financieres-pompe-a-chaleur/).
 
-## Nos engagements
+## Nos valeurs
 
 Nos engagements portent sur ce que nous maîtrisons directement. Ils ne remplacent pas une promesse chiffrée d’économie d’énergie, que nous ne formulons pas.
 
