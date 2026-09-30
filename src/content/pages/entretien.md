@@ -32,7 +32,7 @@ links:
   - { href: "/climatisation/entretien/", label: "Entretien et maintenance de votre climatisation" }
   - { href: "/chauffage/entretien-chaudiere/", label: "Entretien de votre chaudière : forfait ou contrat" }
   - { href: "/depannage/", label: "Dépannage : diagnostic et devis avant réparation" }
-  - { href: "/entreprise/qualifications/", label: "Nos qualifications et l’attestation de capacité fluides frigorigènes" }
+  - { href: "/entreprise/#nos-qualifications", label: "Nos qualifications et l’attestation de capacité fluides frigorigènes" }
 toConfirm:
   - "fréquence des visites du contrat"
   - "composition de l'équipe"
@@ -81,6 +81,6 @@ Chaque équipement a ses points de contrôle propres. Le détail de chaque forfa
 - [Entretien et maintenance de votre climatisation](/climatisation/entretien/) ;
 - [Entretien de votre chaudière](/chauffage/entretien-chaudiere/).
 
-Ces prestations s’appuient sur nos certifications Qualibat 8321, 5423, 5312 et 5112, sur la mention RGE, la qualification QUALIPAC et le statut de Professionnel du gaz, présentées en détail sur la page [nos qualifications et l’attestation de capacité fluides frigorigènes](/entreprise/qualifications/).
+Ces prestations s’appuient sur nos certifications Qualibat 8321, 5423, 5312 et 5112, sur la mention RGE, la qualification QUALIPAC et le statut de Professionnel du gaz, présentées en détail sur la page [nos qualifications et l’attestation de capacité fluides frigorigènes](/entreprise/#nos-qualifications).
 
 Pour souscrire un contrat d’entretien, utilisez notre formulaire : [Souscrire un contrat d’entretien](/devis/), ou appelez le [02 38 86 46 46](tel:+33238864646).

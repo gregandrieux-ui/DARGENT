@@ -27,8 +27,8 @@ photos:
   - { src: "/images/produits/ruche-01.jpg", alt: "Ruches installées sur le site de Dargent Thermique", caption: "Quatre ruches installées sur notre site depuis mai 2014" }
 links:
   - { href: "/contact/", label: "Nos coordonnées, horaires et plan d’accès" }
-  - { href: "/entreprise/engagements/", label: "Nos engagements : tri des déchets, ruches" }
-  - { href: "/entreprise/notre-histoire/", label: "Notre histoire depuis 1936" }
+  - { href: "/entreprise/#nos-engagements", label: "Nos engagements : tri des déchets, ruches" }
+  - { href: "/entreprise/#notre-histoire", label: "Notre histoire depuis 1936" }
   - { href: "/pompe-a-chaleur/", label: "Pompe à chaleur à Orléans et dans l’agglomération" }
   - { href: "/climatisation/", label: "Climatisation à Orléans : installation, entretien et dépannage" }
 toConfirm:
@@ -44,7 +44,7 @@ crumbs:
 
 ## Notre site avenue Ampère
 
-Dargent Thermique est installée au 1 avenue André-Marie Ampère, dans la zone industrielle de Saint-Jean-de-Braye, depuis 1969. L’entreprise est née à Beaugency en 1936, s’est établie à Orléans en 1947, puis a rejoint l’avenue Ampère pour disposer d’un atelier et d’un stock. Trois générations de chauffagistes s’y sont succédé. Vous pouvez lire ce parcours dans [notre histoire depuis 1936](/entreprise/notre-histoire/).
+Dargent Thermique est installée au 1 avenue André-Marie Ampère, dans la zone industrielle de Saint-Jean-de-Braye, depuis 1969. L’entreprise est née à Beaugency en 1936, s’est établie à Orléans en 1947, puis a rejoint l’avenue Ampère pour disposer d’un atelier et d’un stock. Trois générations de chauffagistes s’y sont succédé. Vous pouvez lire ce parcours dans [notre histoire depuis 1936](/entreprise/#notre-histoire).
 
 Le site regroupe tout ce qui sert à un chantier ou à un dépannage : les bureaux, le bureau d’études créé en 1993, le magasin de pièces détachées et la salle d’exposition. Les techniciens y chargent leurs véhicules le matin avant de partir sur la commune et dans l’agglomération. Une pièce manquante se récupère au magasin sans attendre une livraison.
 
@@ -77,7 +77,7 @@ Le site de l’avenue Ampère est aussi l’endroit où nous appliquons nos enga
 
 Depuis mai 2014, quatre ruches sont installées sur le terrain. Elles font l’objet de photos et de trois vidéos que vous pouvez consulter sur le site [À CONFIRMER : ruches toujours en place]. Ce n’est pas un argument technique, mais cela dit quelque chose de la façon dont nous occupons l’espace de la zone industrielle.
 
-Le détail de ces actions, avec les photos des ruches, figure sur la page [nos engagements : tri des déchets, ruches](/entreprise/engagements/).
+Le détail de ces actions, avec les photos des ruches, figure sur la page [nos engagements : tri des déchets, ruches](/entreprise/#nos-engagements).
 
 ## Nos chantiers alentour
 

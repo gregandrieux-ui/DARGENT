@@ -29,7 +29,7 @@ photos:
   - { missing: "Photo d’un dossier ou d’un rendez-vous de conseil", caption: "Photo à collecter" }
 links:
   - { href: "/pompe-a-chaleur/", label: "Pompe à chaleur à Orléans et dans l’agglomération" }
-  - { href: "/entreprise/qualifications/", label: "Nos qualifications RGE, Qualibat et QUALIPAC" }
+  - { href: "/entreprise/#nos-qualifications", label: "Nos qualifications RGE, Qualibat et QUALIPAC" }
   - { href: "/devis/", label: "Faire le point sur mon projet" }
   - { href: "https://www.maprimerenov.gouv.fr/", label: "Site officiel de MaPrimeRénov’" }
   - { href: "https://www.ecologie.gouv.fr/", label: "Site du ministère chargé de l’Écologie" }
@@ -67,7 +67,7 @@ Sous réserve d’éligibilité et d’évolution des dispositifs.
 
 La quasi-totalité de ces aides impose que les travaux soient réalisés par une entreprise certifiée RGE (Reconnu Garant de l’Environnement). Sans cette certification, un dossier peut être refusé quel que soit le matériel posé.
 
-Dargent Thermique est certifiée Qualibat (8321, 5423, 5312, 5112) et QUALIPAC pour les pompes à chaleur aérothermiques. Ces certifications font l’objet d’un contrôle annuel [À CONFIRMER : validation bureau d’études]. Elles ne garantissent pas l’obtention d’une aide, seulement la conformité de l’entreprise vis-à-vis de cette condition. Le détail figure sur la page [nos qualifications RGE, Qualibat et QUALIPAC](/entreprise/qualifications/).
+Dargent Thermique est certifiée Qualibat (8321, 5423, 5312, 5112) et QUALIPAC pour les pompes à chaleur aérothermiques. Ces certifications font l’objet d’un contrôle annuel [À CONFIRMER : validation bureau d’études]. Elles ne garantissent pas l’obtention d’une aide, seulement la conformité de l’entreprise vis-à-vis de cette condition. Le détail figure sur la page [nos qualifications RGE, Qualibat et QUALIPAC](/entreprise/#nos-qualifications).
 
 La certification seule ne suffit pas : votre éligibilité dépend aussi de votre logement, de vos ressources et du type d’équipement posé, comme le rappelle [MaPrimeRénov’](https://www.maprimerenov.gouv.fr/).
 

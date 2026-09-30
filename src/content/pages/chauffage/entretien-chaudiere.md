@@ -48,7 +48,7 @@ Une chaudière gaz fait l’objet d’une obligation d’entretien annuel par un
 
 Cette obligation existe pour une raison concrète : une chaudière mal réglée consomme davantage de gaz et présente un risque de dégagement de monoxyde de carbone si la combustion ou l’évacuation des fumées se dégrade. Le contrôle annuel permet de détecter ces dérives avant qu’elles ne deviennent dangereuses.
 
-Nous intervenons en tant qu’entreprise qualifiée Professionnel du gaz, ce qui nous autorise à installer, raccorder et entretenir les appareils fonctionnant au gaz naturel. Nos autres qualifications, dont Qualibat 5312 pour les installations thermiques, sont détaillées sur la page [nos qualifications et certifications](/entreprise/qualifications/).
+Nous intervenons en tant qu’entreprise qualifiée Professionnel du gaz, ce qui nous autorise à installer, raccorder et entretenir les appareils fonctionnant au gaz naturel. Nos autres qualifications, dont Qualibat 5312 pour les installations thermiques, sont détaillées sur la page [nos qualifications et certifications](/entreprise/#nos-qualifications).
 
 Textes de référence à consulter sur [Légifrance](https://www.legifrance.gouv.fr/) et [service-public.fr](https://www.service-public.fr/). Source consultée le [À CONFIRMER : date de consultation]. Sous réserve d’évolution de la réglementation.
 

@@ -153,5 +153,27 @@ const osm = `https://www.openstreetmap.org/export/embed.html?bbox=${site.geo.lng
     const ro = new ResizeObserver(pin);
     cards.forEach((c) => ro.observe(c));
     addEventListener('resize', pin);
+    // Ancre (#id) dans une carte : le navigateur mesure la carte sticky à sa position épinglée et tombe à côté.
+    // On recalcule sa position dans le flux (haut de .stack + cartes précédentes) et on l'amène à son cran.
+    const toCard = (hash: string) => {
+      const card = hash.length > 1 ? document.getElementById(decodeURIComponent(hash.slice(1)))?.closest<HTMLElement>('.stack-card') : null;
+      if (!card) return false;
+      const stack = card.parentElement!;
+      const gap = parseFloat(getComputedStyle(stack).rowGap) || 0;
+      const i = [...cards].indexOf(card);
+      let y = stack.getBoundingClientRect().top + scrollY;
+      for (let k = 0; k < i; k++) y += cards[k].offsetHeight + parseFloat(cards[k].style.marginBottom || '0') + gap;
+      const top = parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--header-h')) + 24;
+      scrollTo({ top: y - top - i * 12, behavior: 'instant' });
+      return true;
+    };
+    addEventListener('click', (e) => {
+      const a = (e.target as Element).closest<HTMLAnchorElement>('a[href*="#"]');
+      if (!a || a.pathname !== location.pathname || !toCard(a.hash)) return;
+      e.preventDefault();
+      history.pushState(null, '', a.hash);
+    });
+    addEventListener('popstate', () => toCard(location.hash));
+    addEventListener('load', () => toCard(location.hash));
   }
 </script>

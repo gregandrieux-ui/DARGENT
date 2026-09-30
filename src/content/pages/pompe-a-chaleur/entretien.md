@@ -40,7 +40,7 @@ photos:
 links:
   - { href: "/entretien/", label: "Entretien : nos engagements de service" }
   - { href: "/pompe-a-chaleur/depannage/", label: "Dépannage de pompe à chaleur : que faire en cas de panne" }
-  - { href: "/entreprise/qualifications/", label: "Nos qualifications et certifications, dont l’attestation fluides frigorigènes" }
+  - { href: "/entreprise/#nos-qualifications", label: "Nos qualifications et certifications, dont l’attestation fluides frigorigènes" }
   - { href: "/contact/", label: "Nous contacter pour planifier votre visite d’entretien" }
 toConfirm:
   - "Contenu exact des forfaits et contrats PAC"
@@ -106,7 +106,7 @@ Le premier impose un entretien périodique des systèmes thermodynamiques au-del
 
 Le second concerne les fluides frigorigènes. Le code de l’environnement (article R. 543-99) réserve leur manipulation aux entreprises titulaires d’une attestation de capacité et aux techniciens habilités. Au-delà d’une charge de fluide fixée par la réglementation, un contrôle d’étanchéité périodique est obligatoire et consigné [À CONFIRMER : seuils à re-sourcer sur Légifrance].
 
-Dargent Thermique détient l’attestation de capacité n° 111363-R1, délivrée par Bureau Veritas Certification. Vous pouvez la consulter : [attestation de capacité fluides frigorigènes (PDF)](/documents/attestation-de-capacite.pdf). Les techniciens qui interviennent sur le circuit frigorifique détiennent tous l’habilitation exigée, et notre registre des fluides est vérifié lors d’audits périodiques. Nos autres qualifications, dont QUALIPAC et Qualibat, sont détaillées sur la page [nos qualifications et certifications](/entreprise/qualifications/).
+Dargent Thermique détient l’attestation de capacité n° 111363-R1, délivrée par Bureau Veritas Certification. Vous pouvez la consulter : [attestation de capacité fluides frigorigènes (PDF)](/documents/attestation-de-capacite.pdf). Les techniciens qui interviennent sur le circuit frigorifique détiennent tous l’habilitation exigée, et notre registre des fluides est vérifié lors d’audits périodiques. Nos autres qualifications, dont QUALIPAC et Qualibat, sont détaillées sur la page [nos qualifications et certifications](/entreprise/#nos-qualifications).
 
 Textes de référence à consulter sur [Légifrance](https://www.legifrance.gouv.fr/) et [service-public.fr](https://www.service-public.fr/). Source consultée le [À CONFIRMER : date de consultation]. Sous réserve d’évolution de la réglementation.
 
