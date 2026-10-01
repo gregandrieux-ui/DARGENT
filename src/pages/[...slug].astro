@@ -74,7 +74,7 @@ const osm = `https://www.openstreetmap.org/export/embed.html?bbox=${site.geo.lng
           <div class="hero-photo"><Cachet /></div>
         ))}
       </div>
-      {d.facts.length > 0 && <dl class="facts">{d.facts.map((f) => <div><dt>{f.label}</dt><dd>{f.value}</dd></div>)}</dl>}
+      {d.facts.length > 0 && <dl class={isService || d.template === 'hub' ? 'facts facts-hidden' : 'facts'}>{d.facts.map((f) => <div><dt>{f.label}</dt><dd>{f.value}</dd></div>)}</dl>}
     </div>
   </section>
 
