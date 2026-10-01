@@ -25,7 +25,7 @@ checks:
 stats:
   - { value: "2-en-1", label: "fraîcheur l’été, chauffage l’hiver" }
   - { value: "75 %", label: "d’électricité en moins face à des radiateurs électriques (SCOP > 4)*" }
-  - { value: "19 dB(A)", label: "dès le mode silence, unité intérieure" }
+  - { value: "En moyenne 19 dB(A)", label: "de fonctionnement ultra-silencieux" }
   - { value: "1 prime", label: "CEE mobilisable*" }
 photos:
   - { src: "/images/illustrations/clim-reversible.svg", alt: "Schéma d’une climatisation réversible : en été elle sort la chaleur de la maison, en hiver elle capte la chaleur de l’air extérieur pour chauffer", caption: "Le même appareil dans les deux sens : en été il sort la chaleur, en hiver il la fait entrer" }

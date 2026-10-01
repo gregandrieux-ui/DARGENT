@@ -22,7 +22,7 @@ checks:
   - { label: "Dimensionnement par notre bureau d’études", detail: "calcul des déperditions pièce par pièce" }
   - { label: "Attestation de capacité fluides frigorigènes", detail: "n° 111363-R1, Bureau Veritas" }
 stats:
-  - { value: "65 %", label: "d’économies d’énergie possibles*" }
+  - { value: "Jusqu’à 65 %", label: "d’économies d’énergie*" }
   - { value: "2-en-1", label: "chauffage doux et eau chaude sanitaire" }
   - { value: "100 %", label: "sur mesure : dimensionnement par notre bureau d’études RGE" }
   - { value: "2 aides", label: "cumulables : MaPrimeRénov’ et primes CEE*" }
