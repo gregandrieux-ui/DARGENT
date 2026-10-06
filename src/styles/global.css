@@ -200,8 +200,14 @@ main .btn { white-space: normal; text-align: center; }
 .nav > ul > li:hover .sub, .nav > ul > li:focus-within .sub { display: flex; }
 .nav .sub a { display: block; padding: 10px var(--s-3); border-radius: var(--radius-sm); color: var(--ink); text-decoration: none; font-size: var(--text-small); }
 .nav .sub a:hover, .nav .sub a[aria-current] { background: var(--tint); color: var(--navy); }
-.header-actions { display: none; align-items: center; gap: var(--s-4); margin-left: auto; }
-.menu { margin-left: auto; }
+.header-actions { display: flex; align-items: center; gap: var(--s-3); margin-left: auto; }
+/* Mobile : seul le bouton téléphone (rond, icône seule) ; « Nous contacter » est dans le panneau du menu. */
+.header-actions .btn:not(.btn-tel) { display: none; }
+.btn-tel { min-height: 44px; width: 44px; padding: 0; background: transparent; border-color: rgba(255, 255, 255, 0.35); color: #fff; font-variant-numeric: tabular-nums; }
+.btn-tel:hover { background: var(--cyan); border-color: var(--cyan); color: var(--brand-900); }
+.btn-tel .num { display: none; }
+.header-actions + .menu { margin-left: 0; }
+@media (max-width: 599px) { .site-header .container { gap: var(--s-3); } }
 .menu > summary { list-style: none; display: inline-flex; align-items: center; gap: var(--s-2); min-height: 44px; cursor: pointer; padding: var(--s-2) var(--s-4); border: 2px solid rgba(255, 255, 255, 0.35); border-radius: var(--pill); font-weight: 600; color: #fff; background: transparent; }
 .menu > summary::-webkit-details-marker { display: none; }
 .menu[open] > summary { background: var(--cyan); border-color: var(--cyan); color: var(--brand-900); }
@@ -224,9 +230,13 @@ main .btn { white-space: normal; text-align: center; }
 .menu .panel .sub a:hover { background: var(--tint); }
 .menu .panel .btn { margin-top: var(--s-5); width: 100%; }
 @media (min-width: 600px) {
-  .header-actions { display: flex; }
-  .header-actions + .menu { margin-left: 0; }
+  .header-actions .btn:not(.btn-tel) { display: inline-flex; }
   .menu .panel .btn { display: none; }
+}
+/* Entre 600 et 1099 (burger) : icône + numéro. Avec la nav complète (≥1100) le numéro ne tient pas dans les 1200px du conteneur : icône seule. */
+@media (min-width: 600px) and (max-width: 1099px) {
+  .btn-tel { width: auto; padding: 0 var(--s-4); }
+  .btn-tel .num { display: inline; }
 }
 /* 1100 : sous ce seuil la nav complète (≈1070px) déborde → burger. */
 @media (min-width: 1100px) {
