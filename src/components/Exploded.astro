@@ -7,7 +7,7 @@ const { unit } = Astro.props;
 const shown: UnitName[] = unit === 'random' ? ['pac', 'clim'] : [unit];
 ---
 <div class="ex-pick">
-  {unit === 'random' && <script is:inline>document.currentScript.parentElement.dataset.unit = Math.random() < 0.5 ? 'pac' : 'clim';</script>}
+  {unit === 'random' && <script is:inline data-astro-rerun>document.currentScript.parentElement.dataset.unit = Math.random() < 0.5 ? 'pac' : 'clim';</script>}
   {shown.map((name) => {
     const u = units[name];
     return (

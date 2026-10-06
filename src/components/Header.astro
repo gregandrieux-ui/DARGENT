@@ -66,14 +66,16 @@ const overview: Record<string, string> = {
 </header>
 <script>
   // Ferme le menu : Échap (focus rendu au bouton), clic sur un lien, clic hors du menu.
-  const menu = document.querySelector<HTMLDetailsElement>('.site-header .menu');
-  if (menu) {
-    const close = () => { menu.open = false; };
-    document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && menu.open) { close(); menu.querySelector('summary')?.focus(); } });
-    document.addEventListener('click', (e) => {
-      if (!menu.open) return;
-      const t = e.target as Element;
-      if (!menu.contains(t) || t.closest('.panel a')) close();
-    });
-  }
+  // Menu relu à chaque événement : le routeur remplace le header à chaque page, ce module ne s'exécute qu'une fois.
+  const menu = () => document.querySelector<HTMLDetailsElement>('.site-header .menu');
+  document.addEventListener('keydown', (e) => {
+    const m = menu();
+    if (e.key === 'Escape' && m?.open) { m.open = false; m.querySelector('summary')?.focus(); }
+  });
+  document.addEventListener('click', (e) => {
+    const m = menu();
+    if (!m?.open) return;
+    const t = e.target as Element;
+    if (!m.contains(t) || t.closest('.panel a')) m.open = false;
+  });
 </script>

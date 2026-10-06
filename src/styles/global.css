@@ -69,8 +69,18 @@
 *, *::before, *::after { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; hanging-punctuation: first allow-end; scroll-behavior: smooth; scroll-padding-top: calc(var(--header-h) + 16px); }
 /* --- Motion : 4 mouvements autorisés (DESIGN.md) ---------------------- */
-@view-transition { navigation: auto; }
-::view-transition-group(root) { animation-duration: 300ms; }
+/* Transition entre pages calquée sur AirHero (Framer) : la nouvelle page balaie de droite à gauche
+   (masque à bord doux de 50 %) en fondant, 1,2 s ; l'ancienne reste immobile dessous. Header et barre d'appel restent fixes.
+   Déclenchée par <ClientRouter /> (Base.astro), dans le même document : pas de @view-transition, qui montrait l'ancienne page en blanc. */
+@property --wipe { syntax: '<number>'; initial-value: 0; inherits: false; }
+::view-transition { pointer-events: none; } /* les clics passent à la page pendant les 1,2 s */
+::view-transition-old(root) { animation: none; }
+::view-transition-old(root), ::view-transition-new(root) { mix-blend-mode: normal; } /* sinon plus-lighter éclaircit le fondu */
+::view-transition-new(root) {
+  animation: page-wipe 1.2s cubic-bezier(0.27, 0, 0.51, 1) both;
+  mask-image: linear-gradient(270deg, #000 calc(150% * var(--wipe) - 50%), transparent calc(150% * var(--wipe)));
+}
+@keyframes page-wipe { from { opacity: 0; --wipe: 0; } to { opacity: 1; --wipe: 1; } }
 @supports (animation-timeline: view()) {
   @media (prefers-reduced-motion: no-preference) {
     /* ponytail: longhands séparés — le minifieur fusionnait timeline dans le raccourci `animation`, que Chrome rejette. */
@@ -85,7 +95,7 @@ html { -webkit-text-size-adjust: 100%; hanging-punctuation: first allow-end; scr
   @starting-style { .nav .sub, .menu .panel, .consent { opacity: 0; translate: 0 -6px; } }
 }
 @keyframes rise { from { opacity: 0; translate: 0 24px; } } /* translate, pas transform : le survol des cartes garde sa transition */
-@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { transition-duration: 0ms !important; animation: none !important; } }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after, ::view-transition-group(*), ::view-transition-old(*), ::view-transition-new(*) { transition-duration: 0ms !important; animation: none !important; } }
 body {
   margin: 0;
   font-family: var(--font);

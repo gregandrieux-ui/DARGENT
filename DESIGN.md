@@ -180,15 +180,15 @@ Chosen by the client from three directions; its patterns stay under Direction D,
 - The shared patterns live in `global.css`. `index.astro` keeps only its own intro layout.
 
 ## Do / Don't
-- **Do** keep transitions at 200ms (`--dur`) on hover and active, and respect `prefers-reduced-motion` (zeroed site-wide). Beyond hover, only these motions are allowed, all in CSS with no JS:
-  1. A cross-page crossfade (`@view-transition`, 300ms). The header stays fixed.
+- **Do** keep transitions at 200ms (`--dur`) on hover and active, and respect `prefers-reduced-motion` (zeroed site-wide). Beyond hover, only these motions are allowed, all in CSS with no JS (except the page transition's router):
+  1. A cross-page wipe copied from AirHero: the new page sweeps in right→left behind a 50% soft-edged mask while fading in, 1.2s `cubic-bezier(0.27, 0, 0.51, 1)`; the old page stays still underneath. Header and mobile call bar stay fixed. Off under reduced motion. It runs as a same-document view transition through Astro's `<ClientRouter />` (`Base.astro`), like Framer; the cross-document `@view-transition` showed the old page as a white screen in Chromium. Page scripts must re-init on `astro:page-load` (see `[...slug].astro`); Netlify forms keep a native submit (`data-astro-reload`).
   2. Animated flows in the schémas and in the infographies added on 28/09/2026: dashes move in the arrow direction on a 1.2s loop, via a `<style>` inside each SVG (it animates any path with `marker-end` `#an` or `#ac`).
   3. Cards, tiles, `.nums` and reviews rise on scroll (`animation-timeline: view()`). Without support, they just show.
   4. The FAQ opens smoothly (`::details-content`).
   5. Surfaces that appear (desktop sub-menu, mobile menu panel, cookie banner) fade in over 180ms with `@starting-style` (entry only; hiding is instant so two sub-menus never overlap).
   6. The top strip cross-fade (4s per message, paused on hover/focus).
   7. The exploded view, scrubbed by scroll.
-- Internal links are prerendered on hover with Speculation Rules (`Base.astro`, moderate eagerness, `/documents/` excluded), so the crossfade lands on a page that is already loaded.
+- The router prefetches internal links on hover (Astro prefetch, `prefetchAll`), so the wipe lands on a page that is already loaded.
 - **Don't** add motion to the CTAs beyond the 2px hover lift, or any loop other than the illustration flows and the top strip. The dépannage hero illustration keeps its flows (client choice, 28/09/2026); nothing else in that hero moves.
 - **Do** keep touch targets at 44px or more (nav, chips, footer links, exits).
 - **Do** use one primary CTA per view. The phone link sits next to it as a text link.
