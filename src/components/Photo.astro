@@ -10,7 +10,7 @@ const rasters = import.meta.glob<ImageMetadata>('../../public/images/**/*.{jpg,j
 const asset = (src: string) => rasters[`../../public${src}`];
 import { showTodo } from '../data/site';
 interface Props { src?: string; alt?: string; caption?: string; label?: string; missing?: string; priority?: boolean; class?: string; sizes?: string }
-const { src, alt = '', caption, label = 'Observations', missing, priority = false, class: cls = '', sizes = '(min-width: 1200px) 600px, (min-width: 768px) 50vw, 100vw' } = Astro.props;
+const { src, alt = '', caption, label = 'Observations', missing, priority = false, class: cls = '', sizes = '(min-width: 1600px) 760px, (min-width: 768px) 50vw, 100vw' } = Astro.props;
 const meta = src ? asset(src) : undefined;
 const illustration = src?.startsWith('/images/illustrations/') ?? false;
 const dim = illustration ? { w: 800, h: 600 } : src ? (images as Record<string, { w: number; h: number }>)[src] : undefined;

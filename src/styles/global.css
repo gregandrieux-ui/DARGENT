@@ -43,7 +43,7 @@
   --round: 32px;
 
   --s-1: 4px; --s-2: 8px; --s-3: 12px; --s-4: 16px; --s-5: 24px; --s-6: 32px; --s-7: 48px; --s-8: 64px; --s-9: 96px; --s-10: 128px;
-  --container: 1200px;
+  --container: 1600px;
   --gutter: 16px;
   --header-h: 72px;
   --pill: 999px;
@@ -58,9 +58,9 @@
   --text-body: clamp(1.0625rem, 1rem + 0.2vw, 1.125rem);
   --text-small: 0.9375rem;
   --text-label: 0.875rem;
-  --text-h1: clamp(2.25rem, 1.4rem + 3vw, 3.75rem);
+  --text-h1: clamp(2.25rem, 1.4rem + 3vw, 4.5rem);
   --text-display: clamp(2.75rem, 1.6rem + 4.2vw, 5rem);
-  --text-h2: clamp(1.875rem, 1.3rem + 2vw, 3rem);
+  --text-h2: clamp(1.875rem, 1.3rem + 2vw, 3.5rem);
   --text-h3: clamp(1.25rem, 1.1rem + 0.6vw, 1.625rem);
 }
 @media (min-width: 768px) { :root { --gutter: 32px; } }
@@ -233,8 +233,8 @@ main .btn { white-space: normal; text-align: center; }
   .header-actions .btn:not(.btn-tel) { display: inline-flex; }
   .menu .panel .btn { display: none; }
 }
-/* Entre 600 et 1099 (burger) : icône + numéro. Avec la nav complète (≥1100) le numéro ne tient pas dans les 1200px du conteneur : icône seule. */
-@media (min-width: 600px) and (max-width: 1099px) {
+/* Icône + numéro entre 600 et 1099 (burger) et dès 1360 (conteneur assez large) ; entre les deux, nav complète : icône seule. */
+@media (min-width: 600px) and (max-width: 1099px), (min-width: 1360px) {
   .btn-tel { width: auto; padding: 0 var(--s-4); }
   .btn-tel .num { display: inline; }
 }

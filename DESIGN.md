@@ -126,11 +126,11 @@ The editorial rules don't change (PRODUCT.md): proof before promise, no invented
 ## Typography
 - **Clash Display** (Fontshare, ITF Free Font License, self-hosted `public/fonts/ClashDisplay-Variable.woff2`, weights 200–700, French glyphs checked): H1–H3, metrics (`.proofs`, `.stats`), step numbers. Weight 600, tracking −0.02 to −0.03em, line-height 1.02–1.08.
 - **Plus Jakarta Sans Variable** (`@fontsource-variable/plus-jakarta-sans`): body 17–18px (deliberately larger than AirHero's 15–16px for the audience), labels and buttons 600–700.
-- Scale: H1 up to 60px (long SEO H1s), H2 up to 48px, H3 up to 26px.
+- Scale: H1 up to 72px (long SEO H1s), H2 up to 56px, H3 up to 26px; caps reached on wide screens only (≈60/48px at 1250px).
 - `.eyebrow` = small pill label (cyan-100 on light, translucent white on navy). Never uppercase.
 
 ## Layout
-- 1200px container, 16px gutter (32px from 768px). Breakpoints unchanged (600 / 768 / 900 / 1100); the full nav still fits at 1100px with Jakarta.
+- Fluid container capped at 1600px, 16px gutter (32px from 768px). Breakpoints 600 / 768 / 900 / 1100; the full nav still fits at 1100px with Jakarta. From 1360px the header phone button shows its number again.
 - Sections: 64px padding (96px from 768px), white or `--tint`.
 - `.entry` two-column split from 900px.
 - Mobile: sticky bottom bar (Appeler outline, Demander un devis cyan), iOS safe area respected.
