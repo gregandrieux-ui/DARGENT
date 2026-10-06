@@ -7,6 +7,7 @@ h1: "Pompe à chaleur à Orléans et dans l’agglomération"
 promise: "Une solution de chauffage dimensionnée pour votre logement, posée par une équipe qualifiée RGE."
 template: pilier
 schema: Service
+unit: pac
 cta: { href: "/devis/", label: "Demander une étude gratuite" }
 facts:
   - { label: "Qualification", value: "Qualibat 8321, pompes à chaleur aérothermiques, mention RGE" }

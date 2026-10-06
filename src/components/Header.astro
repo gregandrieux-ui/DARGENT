@@ -14,6 +14,13 @@ const overview: Record<string, string> = {
   '/entreprise/': 'Tout sur l’entreprise',
 };
 ---
+<!-- Bandeau d'annonce : deux messages en alternance (global.css .strip). Non collant : ne mange pas la hauteur d'écran mobile. -->
+<aside class="strip" aria-label="À savoir">
+  <div class="container">
+    <p class="msg"><Icon name="phone" /> Une panne&nbsp;? <a href={site.phoneHref}><span class="long">Appelez le&nbsp;</span>{site.phone}</a></p>
+    <p class="msg"><a href="/aides-financieres-pompe-a-chaleur/">Pompe à chaleur&nbsp;: les aides en vigueur <Icon name="arrow-right" /></a></p>
+  </div>
+</aside>
 <header class="site-header">
   <div class="container">
     <a class="brand" href="/" aria-label="Dargent Thermique, accueil"><img src="/logo.png" alt="Dargent Thermique" width="337" height="94" /></a>

@@ -1,6 +1,5 @@
 ---
-import '@fontsource-variable/archivo/wdth.css';
-import '@fontsource-variable/bricolage-grotesque';
+import '@fontsource-variable/plus-jakarta-sans';
 import '../styles/global.css';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
@@ -9,7 +8,7 @@ import Icon from '../components/Icon.astro';
 import { site } from '../data/site';
 import { graph, organization, website } from '../lib/schema';
 import { ogPath } from '../lib/og';
-import archivoUrl from '@fontsource-variable/archivo/files/archivo-latin-wdth-normal.woff2?url';
+import jakartaUrl from '@fontsource-variable/plus-jakarta-sans/files/plus-jakarta-sans-latin-wght-normal.woff2?url';
 
 interface Props {
   title: string;
@@ -44,12 +43,12 @@ const jsonld = JSON.stringify(graph(organization(), website(), ...schema));
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="color-scheme" content="light dark" />
-    <meta name="theme-color" content="#0b2a4a" media="(prefers-color-scheme: light)" />
-    <meta name="theme-color" content="#0b1621" media="(prefers-color-scheme: dark)" />
+    <meta name="color-scheme" content="light" />
+    <meta name="theme-color" content="#0b2a4a" />
     <link rel="icon" href="/favicon.ico" sizes="32x32" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-    <link rel="preload" href={archivoUrl} as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href={jakartaUrl} as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/ClashDisplay-Variable.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="sitemap" href="/sitemap-index.xml" />
     <script type="application/ld+json" set:html={jsonld} />
     <!-- Prérendu des pages internes au survol : navigation instantanée, sans JS exécuté. -->

@@ -1,0 +1,24 @@
+---
+// Vue éclatée vectorielle (src/lib/exploded.ts) : s'éclate puis se remonte au défilement (CSS, global.css « Vue éclatée »).
+// « random » (accueil) : PAC ou clim tiré avant l'affichage ; sans JS, la PAC (priorité commerciale).
+import { units, type UnitName } from '../lib/exploded';
+interface Props { unit: UnitName | 'random' }
+const { unit } = Astro.props;
+const shown: UnitName[] = unit === 'random' ? ['pac', 'clim'] : [unit];
+---
+<div class="ex-pick">
+  {unit === 'random' && <script is:inline>document.currentScript.parentElement.dataset.unit = Math.random() < 0.5 ? 'pac' : 'clim';</script>}
+  {shown.map((name) => {
+    const u = units[name];
+    return (
+      <figure class={`ex ex-${name}`} role="img" aria-label={u.label}>
+        <svg viewBox="0 0 800 600" aria-hidden="true">
+          <g transform={`scale(${u.at[2]}) translate(${u.at[0]} ${u.at[1]})`}>
+            {u.parts.map((p) => <g class="ex-part" style={`--ex:${p.ex[0]}px;--ey:${p.ex[1]}px`} set:html={p.svg} />)}
+          </g>
+        </svg>
+        <span class="ex-lbl" aria-hidden="true">Illustration</span>
+      </figure>
+    );
+  })}
+</div>

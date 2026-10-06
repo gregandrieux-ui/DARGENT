@@ -26,6 +26,7 @@ const pages = defineCollection({
     toConfirm: z.array(z.string()).default([]),
     aides: z.boolean().default(false),     // bloc réassurance : lien vers la page aides si pertinent
     alert: z.boolean().default(false),     // hero dépannage : téléphone en rouge
+    unit: z.enum(['pac']).optional(),      // hero : vue éclatée animée (Exploded.astro) ; photos[0] passe en galerie
     draft: z.boolean().default(false),     // noindex + hors sitemap + non listé
     crumbs: z.array(link).default([]),
     needs: z.array(z.object({ q: z.string(), title: z.string(), text: z.string(), href: z.string() })).default([]), // tuiles « Votre besoin, notre réponse » (piliers)     // fil d'Ariane intermédiaire (sans Accueil ni page courante)

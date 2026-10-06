@@ -10,6 +10,7 @@ import ToConfirm from '../components/ToConfirm.astro';
 import Reassurance from '../components/Reassurance.astro';
 import CtaBand from '../components/CtaBand.astro';
 import Cachet from '../components/Cachet.astro';
+import Exploded from '../components/Exploded.astro';
 import { site } from '../data/site';
 import { breadcrumb, faqPage, howTo, localBusiness, service, webPage } from '../lib/schema';
 
@@ -32,13 +33,14 @@ if (d.howto.length) schema.push(howTo(d.h1, d.howto));
 
 const isService = d.template === 'service' || d.template === 'pilier';
 const heroPhoto = d.photos[0];
-const morePhotos = d.photos.slice(1);
+const morePhotos = d.unit ? d.photos : d.photos.slice(1); // vue éclatée en hero : le schéma reste en galerie
 const simple = d.template === 'legal';
 const isLocal = d.template === 'local';
 const osm = `https://www.openstreetmap.org/export/embed.html?bbox=${site.geo.lng - 0.012},${site.geo.lat - 0.007},${site.geo.lng + 0.012},${site.geo.lat + 0.007}&layer=mapnik&marker=${site.geo.lat},${site.geo.lng}`;
 ---
 <Base title={d.title} description={d.description} path={path} noindex={d.draft} schema={schema} alert={d.alert} ogImage={heroPhoto?.src}>
-  <section class={`hero ${d.alert ? 'hero-alert' : ''}`}>
+  <section class:list={['hero', { 'hero-alert': d.alert, 'hero-x': d.unit }]}>
+    <div class:list={{ 'hero-x-pin': d.unit }}>
     <div class="container">
       <nav class="breadcrumb" aria-label="Fil d’Ariane">
         <ol>{crumbs.map((c, i) => <li>{i < crumbs.length - 1 ? <a href={c.path}>{c.name}</a> : <span aria-current="page">{c.name}</span>}</li>)}</ol>
@@ -68,13 +70,16 @@ const osm = `https://www.openstreetmap.org/export/embed.html?bbox=${site.geo.lng
             </div>
           )}
         </div>
-        {!simple && (heroPhoto ? (
+        {!simple && (d.unit ? (
+          <Exploded unit={d.unit} />
+        ) : heroPhoto ? (
           <Photo src={heroPhoto.src} alt={heroPhoto.alt} caption={heroPhoto.caption} missing={heroPhoto.missing} priority class="hero-photo" />
         ) : (
           <div class="hero-photo"><Cachet /></div>
         ))}
       </div>
       {d.facts.length > 0 && <dl class={isService || d.template === 'hub' ? 'facts facts-hidden' : 'facts'}>{d.facts.map((f) => <div><dt>{f.label}</dt><dd>{f.value}</dd></div>)}</dl>}
+    </div>
     </div>
   </section>
 
