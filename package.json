@@ -10,13 +10,13 @@
     "check": "astro check",
     "spec": "python3 scripts/spec-to-json.py",
     "assets": "bash scripts/fetch-old-assets.sh",
-    "test": "node scripts/check-site.mjs dist"
+    "test": "node scripts/check-site.mjs dist",
+    "verify": "node scripts/find-to-confirm.mjs"
   },
   "dependencies": {
     "@astrojs/markdown-satteri": "^0.4.1",
     "@astrojs/sitemap": "^3.7.4",
-    "@fontsource-variable/archivo": "latest",
-    "@fontsource-variable/bricolage-grotesque": "^5.3.0",
+    "@fontsource-variable/plus-jakarta-sans": "^5.3.0",
     "astro": "^7.3.3",
     "sharp": "^0.35.4"
   },

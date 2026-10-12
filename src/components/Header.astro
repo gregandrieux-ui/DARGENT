@@ -14,6 +14,13 @@ const overview: Record<string, string> = {
   '/entreprise/': 'Tout sur l’entreprise',
 };
 ---
+<!-- Bandeau d'annonce : deux messages en alternance (global.css .strip). Non collant : ne mange pas la hauteur d'écran mobile. -->
+<aside class="strip" aria-label="À savoir">
+  <div class="container">
+    <p class="msg"><Icon name="phone" /> Une panne&nbsp;? <a href={site.phoneHref}><span class="long">Appelez le&nbsp;</span>{site.phone}</a></p>
+    <p class="msg"><a href="/aides-financieres-pompe-a-chaleur/">Pompe à chaleur&nbsp;: les aides en vigueur <Icon name="arrow-right" /></a></p>
+  </div>
+</aside>
 <header class="site-header">
   <div class="container">
     <a class="brand" href="/" aria-label="Dargent Thermique, accueil"><img src="/logo.png" alt="Dargent Thermique" width="337" height="94" /></a>
@@ -30,6 +37,7 @@ const overview: Record<string, string> = {
       </ul>
     </nav>
     <div class="header-actions">
+      <a class="btn btn-tel" href={site.phoneHref} aria-label={`Appeler le ${site.phone}`}><Icon name="phone" /><span class="num">{site.phone}</span></a>
       <a class="btn" href="/contact/">Nous contacter</a>
     </div>
     <details class="menu">
@@ -58,14 +66,16 @@ const overview: Record<string, string> = {
 </header>
 <script>
   // Ferme le menu : Échap (focus rendu au bouton), clic sur un lien, clic hors du menu.
-  const menu = document.querySelector<HTMLDetailsElement>('.site-header .menu');
-  if (menu) {
-    const close = () => { menu.open = false; };
-    document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && menu.open) { close(); menu.querySelector('summary')?.focus(); } });
-    document.addEventListener('click', (e) => {
-      if (!menu.open) return;
-      const t = e.target as Element;
-      if (!menu.contains(t) || t.closest('.panel a')) close();
-    });
-  }
+  // Menu relu à chaque événement : le routeur remplace le header à chaque page, ce module ne s'exécute qu'une fois.
+  const menu = () => document.querySelector<HTMLDetailsElement>('.site-header .menu');
+  document.addEventListener('keydown', (e) => {
+    const m = menu();
+    if (e.key === 'Escape' && m?.open) { m.open = false; m.querySelector('summary')?.focus(); }
+  });
+  document.addEventListener('click', (e) => {
+    const m = menu();
+    if (!m?.open) return;
+    const t = e.target as Element;
+    if (!m.contains(t) || t.closest('.panel a')) m.open = false;
+  });
 </script>

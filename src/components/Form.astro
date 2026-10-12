@@ -3,7 +3,7 @@
 interface Props { kind: 'devis' | 'contact' | 'candidature'; submit: string }
 const { kind, submit } = Astro.props;
 ---
-<form class="form" name={kind} method="POST" action="/merci/" data-netlify="true" netlify-honeypot="site-web" enctype={kind === 'candidature' ? 'multipart/form-data' : undefined}>
+<form class="form" name={kind} method="POST" action="/merci/" data-astro-reload data-netlify="true" netlify-honeypot="site-web" enctype={kind === 'candidature' ? 'multipart/form-data' : undefined}>
   <input type="hidden" name="form-name" value={kind} />
   <p class="hp"><label>Ne pas remplir <input name="site-web" tabindex="-1" autocomplete="off" /></label></p>
   {kind === 'devis' && (

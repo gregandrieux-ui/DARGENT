@@ -4,7 +4,7 @@ import { ga4Id } from '../data/site';
 ---
 {ga4Id && (
   <>
-    <div id="consent" class="consent" hidden>
+    <div id="consent" class="consent" hidden transition:persist>
       <div class="container">
         <p>Ce site peut mesurer son audience avec Google Analytics. Aucune donnée n’est collectée sans votre accord. <a href="/cookies/">En savoir plus</a></p>
         <div class="actions"><button type="button" class="btn btn-outline" data-consent="denied">Refuser</button><button type="button" class="btn" data-consent="granted">Accepter</button></div>
@@ -21,7 +21,8 @@ import { ga4Id } from '../data/site';
           gtag('consent', 'default', { ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied', analytics_storage: 'granted' });
           var s = document.createElement('script'); s.async = true; s.src = 'https://www.googletagmanager.com/gtag/js?id=' + ga4Id; document.head.appendChild(s);
           gtag('js', new Date()); gtag('config', ga4Id, { anonymize_ip: true });
-          document.querySelectorAll('a[href^="tel:"]').forEach(function (a) { a.addEventListener('click', function () { gtag('event', 'click_tel'); }); });
+          // Délégation : ce script ne s'exécute qu'une fois, le routeur remplace les liens à chaque page.
+          document.addEventListener('click', function (e) { if (e.target.closest && e.target.closest('a[href^="tel:"]')) gtag('event', 'click_tel'); });
         }
         var choice = null;
         try { choice = localStorage.getItem(KEY); } catch (e) {}
