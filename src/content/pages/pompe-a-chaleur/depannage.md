@@ -29,9 +29,9 @@ photos:
   - { src: "/images/realisations/maintenance/dargent-thermique-008.jpg", alt: "Maintenance d’une installation de chauffage", caption: "Maintenance d’une installation de chauffage" }
 links:
   - { href: "/pompe-a-chaleur/entretien/", label: "Entretien de votre pompe à chaleur : forfait ou contrat" }
-  - { href: "/entretien-depannage/", label: "Entretien et dépannage : nos engagements de service" }
+  - { href: "/depannage/", label: "Dépannage : nos engagements de service" }
   - { href: "/contact/", label: "Nous contacter : coordonnées, horaires et accès" }
-  - { href: "/entreprise/qualifications/", label: "Nos qualifications : RGE, Qualibat, QUALIPAC, fluides" }
+  - { href: "/entreprise/#nos-qualifications", label: "Nos qualifications : RGE, Qualibat, QUALIPAC, fluides" }
 toConfirm:
   - "Existence et périmètre d’une astreinte"
   - "délai d’intervention réellement tenable"
@@ -80,7 +80,7 @@ Le devis vous donne un montant écrit, que vous pouvez comparer avec un remplace
 
 Cette règle s’accompagne d’un devoir de prévention. Nous vous signalons toute installation non conforme aux prescriptions du constructeur, aux règles de sécurité ou à la réglementation en vigueur. De même quand la vétusté ou l’état de l’équipement laisse craindre une nouvelle panne. Dans ces cas, l’intervention peut se limiter à une mise en sécurité.
 
-Ces engagements (information sur les tarifs, devis, prévention, moyens, résultat) valent pour toutes nos prestations. Ils sont détaillés sur la page [entretien et dépannage de vos équipements](/entretien-depannage/).
+Ces engagements (information sur les tarifs, devis, prévention, moyens, résultat) valent pour toutes nos prestations. Ils sont détaillés sur la page [dépannage de vos équipements](/depannage/).
 
 ## Pièces détachées et limites d’intervention
 
@@ -96,7 +96,7 @@ Nous respectons l’obligation légale de résultat qui s’attache à une répa
 
 Ces limites vous évitent des frais engagés sur un appareil qui ne pourra pas être réparé durablement. Quand la réparation n’est pas possible, nous vous proposons une étude de remplacement, avec visite technique et devis établi après visite, jamais au téléphone. Le dimensionnement est assuré par notre bureau d’études interne, créé en 1993.
 
-Les opérations sur le circuit frigorifique sont encadrées par le code de l’environnement. Dargent Thermique détient l’attestation de capacité n° 111363-R1, délivrée par Bureau Veritas Certification, et chaque technicien concerné dispose de son habilitation individuelle. L’entreprise fait l’objet d’audits périodiques, au cours desquels le registre des fluides et les procédures sont contrôlés. Vous pouvez consulter [nos qualifications et certifications](/entreprise/qualifications/) et l’[attestation de capacité au format PDF](/documents/attestation-de-capacite.pdf).
+Les opérations sur le circuit frigorifique sont encadrées par le code de l’environnement. Dargent Thermique détient l’attestation de capacité n° 111363-R1, délivrée par Bureau Veritas Certification, et chaque technicien concerné dispose de son habilitation individuelle. L’entreprise fait l’objet d’audits périodiques, au cours desquels le registre des fluides et les procédures sont contrôlés. Vous pouvez consulter [nos qualifications et certifications](/entreprise/#nos-qualifications) et l’[attestation de capacité au format PDF](/documents/attestation-de-capacite.pdf).
 
 ## Nous appeler
 

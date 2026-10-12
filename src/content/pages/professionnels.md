@@ -10,7 +10,7 @@ schema: Service
 faq: []
 howto: []
 cta: { href: "/contact/", label: "Nous consulter pour un projet" }
-cta2: { href: "/entreprise/references/", label: "Voir nos références" }
+cta2: { href: "/entreprise/#ils-nous-font-confiance", label: "Voir nos références" }
 facts:
   - { label: "Qualification technicité supérieure", value: "Qualibat 5423" }
   - { label: "Bureau d’études", value: "Interne, créé en 1993" }
@@ -29,8 +29,9 @@ photos:
 links:
   - { href: "/climatisation/", label: "Installation, entretien et dépannage de climatisation à Orléans" }
   - { href: "/ventilation/", label: "Ventilation simple flux et double flux pour vos locaux" }
-  - { href: "/entretien-depannage/", label: "Entretien et dépannage de vos équipements tertiaires" }
-  - { href: "/entreprise/references/", label: "Nos références auprès des professionnels et collectivités" }
+  - { href: "/entretien/", label: "Entretien de vos équipements tertiaires" }
+  - { href: "/depannage/", label: "Dépannage de vos équipements tertiaires" }
+  - { href: "/entreprise/#ils-nous-font-confiance", label: "Nos références auprès des professionnels et collectivités" }
   - { href: "/contact/", label: "Nos coordonnées pour nous consulter" }
 toConfirm:
   - "Volonté commerciale de conserver et d'afficher l'offre B2B"
@@ -74,13 +75,13 @@ Un équipement tertiaire en fonctionnement continu ou quasi continu s’entretie
 
 L’entretien régulier limite les pannes et prolonge la durée de vie des équipements ; il reste néanmoins soumis à l’usure normale des pièces et à leur disponibilité chez les fabricants. Un appareil ancien, au fluide frigorigène R22 par exemple, ou dont une pièce n’est plus produite, ne peut pas toujours être remis en état : nous vous le disons lors du diagnostic, avant toute intervention facturée.
 
-Nos techniciens interviennent avec un registre de suivi des fluides frigorigènes, tenu conformément à notre attestation de capacité n° 111363-R1 délivrée par Bureau Veritas. Le détail de nos engagements d’entretien et de dépannage, pour un site unique ou plusieurs sites, figure sur la page [entretien et dépannage de vos équipements tertiaires](/entretien-depannage/).
+Nos techniciens interviennent avec un registre de suivi des fluides frigorigènes, tenu conformément à notre attestation de capacité n° 111363-R1 délivrée par Bureau Veritas. Le détail de nos engagements d’entretien et de dépannage, pour un site unique ou plusieurs sites, figure sur les pages [entretien](/entretien/) et [dépannage](/depannage/) de vos équipements.
 
 ## Nos références
 
 Nous travaillons depuis plusieurs années avec des banques, des enseignes, des sites industriels et des collectivités de l’agglomération orléanaise et du Loiret. Ces références s’appuient sur des installations réellement livrées : systèmes VRV, ventilation double flux, gestion centralisée.
 
-Les photographies de ces chantiers ne sont publiées qu’avec l’accord des clients concernés, de même que tout logo. La page [nos références auprès des professionnels et collectivités](/entreprise/references/) présente les projets pour lesquels cet accord a été obtenu.
+Les photographies de ces chantiers ne sont publiées qu’avec l’accord des clients concernés, de même que tout logo. La page [nos références auprès des professionnels et collectivités](/entreprise/#ils-nous-font-confiance) présente les projets pour lesquels cet accord a été obtenu.
 
 Nos qualifications Qualibat 5423 (climatiseurs à détente directe, technicité supérieure), 5312 (installations thermiques) et 5112 (plomberie sanitaire), notre statut de Professionnel du gaz et notre attestation de capacité fluides frigorigènes s’appliquent à ces chantiers comme aux chantiers résidentiels.
 

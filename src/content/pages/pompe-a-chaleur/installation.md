@@ -33,7 +33,7 @@ photos:
 links:
   - { href: "/pompe-a-chaleur/", label: "Pompe à chaleur à Orléans et dans l’agglomération : quel modèle pour votre maison" }
   - { href: "/aides-financieres-pompe-a-chaleur/", label: "Les aides financières pour votre pompe à chaleur, avec leurs sources officielles" }
-  - { href: "/entreprise/qualifications/", label: "Nos qualifications et certifications : Qualibat 8321, RGE, QUALIPAC, fluides" }
+  - { href: "/entreprise/#nos-qualifications", label: "Nos qualifications et certifications : Qualibat 8321, RGE, QUALIPAC, fluides" }
   - { href: "/pompe-a-chaleur/entretien/", label: "Entretien de votre pompe à chaleur après l’installation" }
   - { href: "/devis/", label: "Demander une visite technique" }
 toConfirm:
@@ -120,7 +120,7 @@ Le devis remis après la visite technique est écrit et détaillé. Il comprend�
 - la mise en service et la prise en main ;
 - les travaux annexes éventuels (socle, tableau électrique), ou la mention qu’ils restent à votre charge [À CONFIRMER : sous-traitance éventuelle (électricité, maçonnerie)].
 
-Aucun montant n’est publié sur ce site : chaque installation est chiffrée après visite, jamais avant. Ces travaux sont réalisés sous notre qualification Qualibat 8321 et nos mentions RGE et QUALIPAC, présentées sur la page [nos qualifications et certifications](/entreprise/qualifications/). Vous pouvez aussi nous appeler au 02 38 86 46 46.
+Aucun montant n’est publié sur ce site : chaque installation est chiffrée après visite, jamais avant. Ces travaux sont réalisés sous notre qualification Qualibat 8321 et nos mentions RGE et QUALIPAC, présentées sur la page [nos qualifications et certifications](/entreprise/#nos-qualifications). Vous pouvez aussi nous appeler au 02 38 86 46 46.
 
 ## Aides financières
 

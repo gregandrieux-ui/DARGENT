@@ -5,7 +5,7 @@ export const categories = [
   { id: 'planchers-chauffants', label: 'Planchers chauffants', page: '/chauffage/plancher-chauffant/' },
   { id: 'ballons-thermodynamiques', label: 'Ballons thermodynamiques', page: '/chauffage/ballon-thermodynamique/' },
   { id: 'ventilations', label: 'Ventilation', page: '/ventilation/' },
-  { id: 'maintenance', label: 'Entretien et maintenance', page: '/entretien-depannage/' },
+  { id: 'maintenance', label: 'Entretien et maintenance', page: '/entretien/' },
 ] as const;
 
 type Cat = (typeof categories)[number]['id'];

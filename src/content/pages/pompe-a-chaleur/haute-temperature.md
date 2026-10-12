@@ -21,6 +21,11 @@ checks:
   - { label: "Visite technique avant tout devis", detail: "relevé des radiateurs pièce par pièce" }
   - { label: "Dimensionnement par notre bureau d’études", detail: "calcul des déperditions de la maison" }
   - { label: "Attestation de capacité fluides frigorigènes", detail: "n° 111363-R1, Bureau Veritas" }
+stats:
+  - { value: "0", label: "radiateur à changer dans la plupart des cas, après étude" }
+  - { value: "75 °C", label: "de chaleur constante, même par grand froid" }
+  - { value: "70 %", label: "d’émissions de CO₂ en moins par rapport au fioul*" }
+  - { value: "2 aides", label: "cumulables : MaPrimeRénov’ et Coup de Pouce CEE*" }
 photos:
   - { src: "/images/illustrations/pac-haute-temperature.svg", alt: "Schéma d’une pompe à chaleur haute température qui remplace la chaudière : groupe extérieur, module hydraulique, bouteille de découplage, radiateurs conservés", caption: "La PAC haute température prend la place de la chaudière, vos radiateurs restent" }
   - { src: "/images/produits/pac-ht.jpg", alt: "Pompe à chaleur haute température : groupe extérieur et module hydraulique", caption: "Groupe extérieur et module hydraulique d’une PAC haute température (illustration fabricant)" }
@@ -34,6 +39,7 @@ links:
   - { href: "/devis/", label: "Demander une étude gratuite" }
   - { href: "/pompe-a-chaleur/hybride/", label: "Comparer avec la PAC hybride gaz" }
 toConfirm:
+  - "Chiffres hero : valider sources ADEME / fiches fabricant"
   - "Marques/gammes HT installées"
   - "température de départ réellement atteinte selon les gammes"
   - "bouteille de découplage toujours systématique."

@@ -20,6 +20,11 @@ checks:
   - { label: "Mise en œuvre conforme au DTU 52.10" }
   - { label: "Photos de chantiers avec isolation projetée", detail: "plancher chauffant sous mousse projetée" }
   - { label: "Brochures techniques disponibles", detail: "régulation multizone et plancher rafraîchissant" }
+stats:
+  - { value: "0", label: "sensation de sol froid, chaleur homogène" }
+  - { value: "35 °C", label: "d’eau suffisent, contre 55 °C pour des radiateurs" }
+  - { value: "10 %", label: "de pertes de chaleur par le sol supprimées*" }
+  - { value: "100 %", label: "des murs libres, sans radiateur" }
 photos:
   - { src: "/images/illustrations/plancher-chauffant.svg", alt: "Coupe d’un plancher chauffant : support, isolant en plaque ou projeté, chape avec les tubes d’eau chaude, revêtement", caption: "Les couches d’un plancher chauffant, du support au revêtement" }
 links:
@@ -28,6 +33,7 @@ links:
   - { href: "/devis/", label: "Demander une étude gratuite" }
   - { href: "/chauffage/regulation-connectee/", label: "Régulation connectée pour votre plancher chauffant" }
 toConfirm:
+  - "Chiffres hero : valider sources ADEME / fiches fabricant"
   - "Marques de systèmes posées aujourd'hui"
   - "prestation réalisée en interne ou sous-traitée"
   - "droits de diffusion des brochures."

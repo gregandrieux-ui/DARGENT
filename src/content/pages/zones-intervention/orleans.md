@@ -27,7 +27,8 @@ photos:
 links:
   - { href: "/pompe-a-chaleur/", label: "Pompe à chaleur à Orléans : nos solutions air/eau, haute température et hybride" }
   - { href: "/climatisation/", label: "Climatisation à Orléans : installation, entretien et dépannage" }
-  - { href: "/entretien-depannage/", label: "Entretien et dépannage de vos équipements de chauffage et de climatisation" }
+  - { href: "/entretien/", label: "Entretien de vos équipements de chauffage et de climatisation" }
+  - { href: "/depannage/", label: "Dépannage de vos équipements de chauffage et de climatisation" }
   - { href: "/devis/", label: "Demander un devis à Orléans" }
 toConfirm:
   - "Chantiers orléanais citables (accord client)"
@@ -88,7 +89,7 @@ Pour un dépannage, appelez le 02 38 86 46 46 en décrivant la panne et le m
 
 Certaines limites s’appliquent, et nous préférons vous les annoncer : un équipement trop vétuste ou chargé en fluide R22 ne peut plus être réparé dans les règles ; des pièces indisponibles chez le fabricant peuvent bloquer une remise en service. Dans ces cas, nous vous proposons un remplacement chiffré après visite.
 
-Les contrats d’entretien, les obligations réglementaires et notre organisation de maintenance sont présentés sur la page [entretien et dépannage de vos équipements](/entretien-depannage/).
+Les contrats d’entretien, les obligations réglementaires et notre organisation de maintenance sont présentés sur la page [entretien de vos équipements](/entretien/).
 
 ## Nous rendre visite
 

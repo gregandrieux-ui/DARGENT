@@ -25,6 +25,11 @@ faq:
   - { q: "Que se passe-t-il quand il fait très froid ?", a: "Le rendement d’une pompe à chaleur baisse avec la température extérieure. Le dimensionnement tient compte du climat de l’Orléanais et prévoit un appoint pour les jours les plus froids. Les performances par température figurent sur la fiche du constructeur, présentée lors de l’étude." }
   - { q: "Combien coûte une pompe à chaleur à Orléans ?", a: "Le prix dépend de la famille de PAC, de la puissance, des émetteurs et de la production d’eau chaude. Nous ne donnons pas de prix au téléphone : le devis est établi après la visite technique et l’étude, gratuites." }
 howto: []
+stats:
+  - { value: "3 à 4 ×", label: "plus de chaleur produite que d’électricité consommée" }
+  - { value: "65 %", label: "d’économies d’énergie possibles*" }
+  - { value: "2 aides", label: "cumulables : MaPrimeRénov’ et CEE*" }
+  - { value: "1936", label: "chauffagistes depuis trois générations" }
 photos:
   - { src: "/images/illustrations/pac-air-eau.svg", alt: "Schéma d’une pompe à chaleur air/eau : l’unité extérieure capte la chaleur de l’air, le module hydraulique la transmet aux radiateurs, au plancher chauffant et au ballon d’eau chaude", caption: "Principe de fonctionnement d’une pompe à chaleur air/eau" }
 needs:
@@ -42,6 +47,7 @@ links:
   - { href: "/chauffage/plancher-chauffant/", label: "Plancher chauffant : l’émetteur adapté à la PAC basse température" }
   - { href: "/devis/", label: "Demander une étude gratuite" }
 toConfirm:
+  - "Chiffres hero : valider sources ADEME / fiches fabricant"
   - "Marques de PAC réellement installées aujourd’hui"
   - "puissances/gammes"
   - "existence d’une offre de financement."

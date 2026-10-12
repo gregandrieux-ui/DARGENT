@@ -24,6 +24,11 @@ checks:
   - { label: "Visite technique avant tout devis", detail: "jamais de chiffrage au téléphone" }
   - { label: "Dimensionnement par notre bureau d’études", detail: "capacité et emplacement étudiés ensemble" }
   - { label: "Attestation de capacité fluides frigorigènes", detail: "n° 111363-R1, Bureau Veritas" }
+stats:
+  - { value: "70 %", label: "d’électricité économisée face à un cumulus*" }
+  - { value: "3 kWh", label: "d’eau chaude pour 1 kWh consommé" }
+  - { value: "3 à 5 ans", label: "pour rentabiliser, aides déduites*" }
+  - { value: "5,5 %", label: "de TVA en logement de plus de 2 ans" }
 photos:
   - { src: "/images/illustrations/ballon-thermodynamique.svg", alt: "Schéma d’un ballon thermodynamique : la pompe à chaleur du dessus capte la chaleur de l’air et la transmet à l’eau, une résistance sert d’appoint", caption: "Principe d’un ballon thermodynamique" }
 links:
@@ -32,6 +37,7 @@ links:
   - { href: "/ventilation/", label: "Ventilation et raccordement à la VMC" }
   - { href: "/devis/", label: "Demander un devis" }
 toConfirm:
+  - "Chiffres hero : valider sources ADEME / fiches fabricant"
   - "Marques et capacités proposées"
   - "étude COSTIC citée (référence et date) ou suppression."
 aides: false

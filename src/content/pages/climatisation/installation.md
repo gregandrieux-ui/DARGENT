@@ -34,7 +34,7 @@ photos:
 links:
   - { href: "/climatisation/", label: "Toute notre offre de climatisation à Orléans : installation, entretien et dépannage" }
   - { href: "/climatisation/entretien/", label: "Entretien et maintenance de votre climatisation après la pose" }
-  - { href: "/entreprise/qualifications/", label: "Nos qualifications et certifications : Qualibat 5423, RGE, fluides frigorigènes" }
+  - { href: "/entreprise/#nos-qualifications", label: "Nos qualifications et certifications : Qualibat 5423, RGE, fluides frigorigènes" }
   - { href: "/devis/", label: "Demander une visite technique" }
   - { href: "/climatisation/gainable/", label: "Climatisation gainable : discrète et intégrée" }
 toConfirm:
@@ -121,6 +121,6 @@ Le devis reprend ce que vous avez vu pendant la visite et ce que l’étude a fi
 
 Les reprises de finition autour des percements (peinture, enduit) ne sont pas comprises par défaut. Ce point reste à valider [À CONFIRMER : prestations annexes facturées (percements, habillage, alimentation électrique)]. Le périmètre est annoncé avant les travaux, pas découvert à la facture. Aucun montant n’est publié sur ce site : chaque installation est chiffrée après visite.
 
-Ces travaux relèvent de notre qualification Qualibat 5423 (climatiseurs à détente directe) et de notre mention RGE. Les certificats sont présentés sur la page [nos qualifications et certifications](/entreprise/qualifications/).
+Ces travaux relèvent de notre qualification Qualibat 5423 (climatiseurs à détente directe) et de notre mention RGE. Les certificats sont présentés sur la page [nos qualifications et certifications](/entreprise/#nos-qualifications).
 
 Pour lancer votre projet : [Demander une visite technique](/devis/). Vous pouvez aussi appeler le 02 38 86 46 46.

@@ -22,6 +22,11 @@ checks:
   - { label: "Attestation de capacité fluides frigorigènes n° 111363-R1", detail: "délivrée par Bureau Veritas, registre des fluides tenu" }
   - { label: "Bureau d’études interne depuis 1993", detail: "chaque gainable est dimensionné sur relevé, jamais sur plan seul" }
   - { label: "Chantiers de climatisation tertiaire", detail: "unités intérieures posées dans des locaux professionnels, visibles sur nos réalisations" }
+stats:
+  - { value: "0", label: "appareil visible : seules des grilles discrètes" }
+  - { value: "1", label: "seul groupe pour tout le logement" }
+  - { value: "1", label: "consigne par pièce, avec registres motorisés" }
+  - { value: "2-en-1", label: "fraîcheur l’été, chaleur l’hiver" }
 photos:
   - { src: "/images/illustrations/gainable-combles.svg", alt: "Schéma d’une climatisation gainable : unité cachée dans les combles, gaines isolées vers chaque pièce, grilles de soufflage au plafond", caption: "Unité gainable dans les combles, gaines isolées et grilles au plafond" }
   - { src: "/images/illustrations/gainable-plafond.svg", alt: "Coupe d’un faux plafond : la gaine isolée arrive dans un plénum qui souffle l’air par une grille linéaire", caption: "Dans le faux plafond : gaine, plénum et grille linéaire" }
@@ -31,6 +36,7 @@ links:
   - { href: "/climatisation/installation/", label: "Le déroulé de notre installation de climatisation" }
   - { href: "/devis/", label: "Demander une étude de faisabilité" }
 toConfirm:
+  - "Chiffres hero : valider sources ADEME / fiches fabricant"
   - "Gainable réellement proposé en résidentiel"
   - "marques"
   - "réalisations photographiables."

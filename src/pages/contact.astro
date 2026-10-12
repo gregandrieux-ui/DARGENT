@@ -33,7 +33,7 @@ const osm = `https://www.openstreetmap.org/export/embed.html?bbox=${site.geo.lng
         <h2 style="font-size: var(--text-h3)">Quel interlocuteur pour quelle demande</h2>
         <dl class="ruled">
           <dt>Projet</dt><dd><a href="/devis/">Demander un devis</a> : nous vous rappelons pour organiser une visite technique.</dd>
-          <dt>Entretien</dt><dd>Contrats et forfaits : <a href="/entretien-depannage/">entretien et dépannage</a>.</dd>
+          <dt>Entretien</dt><dd>Contrats et forfaits : <a href="/entretien/">entretien</a>. Panne : <a href="/depannage/">dépannage</a>.</dd>
           <dt>Dépannage</dt><dd>Appelez le <a href={site.phoneHref}>{site.phone}</a> : diagnostic, puis devis avant réparation.</dd>
           <dt>Candidature</dt><dd><a href="/recrutement/">Nous rejoindre</a>.</dd>
         </dl>
@@ -46,7 +46,7 @@ const osm = `https://www.openstreetmap.org/export/embed.html?bbox=${site.geo.lng
         <Form kind="contact" submit="Envoyer" />
       </div>
     </div>
-    <Exits title="Voir aussi" links={[{ href: '/devis/', label: 'Demander un devis' }, { href: '/recrutement/', label: 'Rejoindre nos équipes' }, { href: '/entretien-depannage/', label: 'Entretien et dépannage de vos équipements' }, { href: '/zones-intervention/saint-jean-de-braye/', label: 'Dargent Thermique à Saint-Jean-de-Braye' }]} />
+    <Exits title="Voir aussi" links={[{ href: '/devis/', label: 'Demander un devis' }, { href: '/recrutement/', label: 'Rejoindre nos équipes' }, { href: '/entretien/', label: 'Entretien de vos équipements' }, { href: '/depannage/', label: 'Dépannage de vos équipements' }, { href: '/zones-intervention/saint-jean-de-braye/', label: 'Dargent Thermique à Saint-Jean-de-Braye' }]} />
   </div></section>
   <CtaBand />
 </Base>

@@ -26,7 +26,7 @@ photos:
   - { missing: "Photo de l'équipe technique", caption: "Photo à collecter" }
 links:
   - { href: "/entreprise/", label: "Découvrir l'entreprise Dargent Thermique" }
-  - { href: "/entreprise/notre-histoire/", label: "Notre histoire depuis 1936" }
+  - { href: "/entreprise/#notre-histoire", label: "Notre histoire depuis 1936" }
   - { href: "/contact/", label: "Nous contacter" }
 toConfirm:
   - "Postes ouverts"
@@ -57,7 +57,7 @@ Les équipes sont qualifiées Qualibat 8321, 5423, 5312 et 5112, RGE, QUALIPAC, 
 
 Les techniciens suivent des formations périodiques pour maintenir ces habilitations et pour suivre l'évolution des équipements installés. Chaque technicien dispose d'un véhicule équipé, approvisionné depuis le magasin de pièces du site avenue Ampère : une pièce manquante s'y récupère sans attendre une livraison. Le bureau d'études, créé en 1993, dimensionne chaque installation après une visite technique, ce qui structure le travail des monteurs et des techniciens en amont du chantier.
 
-Vous pouvez retracer ce parcours sur la page [notre histoire depuis 1936](/entreprise/notre-histoire/), qui détaille les étapes de l'entreprise depuis sa fondation, et sur la page qui présente [l'entreprise Dargent Thermique](/entreprise/) dans son ensemble.
+Vous pouvez retracer ce parcours sur la page [notre histoire depuis 1936](/entreprise/#notre-histoire), qui détaille les étapes de l'entreprise depuis sa fondation, et sur la page qui présente [l'entreprise Dargent Thermique](/entreprise/) dans son ensemble.
 
 ## Nos postes ouverts
 

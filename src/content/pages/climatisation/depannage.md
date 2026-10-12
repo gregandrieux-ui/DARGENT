@@ -29,9 +29,9 @@ photos:
   - { src: "/images/realisations/maintenance/dargent-thermique-008.jpg", alt: "Maintenance d’une installation de chauffage", caption: "Maintenance d’une installation de chauffage" }
 links:
   - { href: "/climatisation/entretien/", label: "Entretien et maintenance de votre climatisation après la réparation" }
-  - { href: "/entretien-depannage/", label: "Nos engagements de service pour l’entretien et le dépannage" }
+  - { href: "/depannage/", label: "Dépannage : nos engagements de service" }
   - { href: "/contact/", label: "Nous contacter : adresse, horaires et itinéraire" }
-  - { href: "/entreprise/qualifications/", label: "Qualifications et attestation fluides frigorigènes de Dargent Thermique" }
+  - { href: "/entreprise/#nos-qualifications", label: "Qualifications et attestation fluides frigorigènes de Dargent Thermique" }
   - { href: "/climatisation/", label: "Climatisation à Orléans : installation, entretien et dépannage" }
   - { href: "/climatisation/reversible/", label: "Climatisation réversible : le principe" }
 toConfirm:
@@ -79,7 +79,7 @@ Nos barèmes sont affichés dans notre salle d’exposition de Saint-Jean-de-Bra
 
 Lorsque le montant estimé de la réparation atteint ou dépasse [À CONFIRMER : seuil de devis obligatoire], le technicien établit un devis écrit avant d’intervenir. La réparation n’est engagée qu’après votre accord. Le devis détaille les pièces, la main-d’œuvre et le déplacement. Si vous le refusez, la réparation n’est pas faite [À CONFIRMER : facturation du déplacement et du diagnostic en cas de devis refusé].
 
-Le devis est aussi le moment de l’avis franc. Si le coût de la réparation n’est pas raisonnable au regard de l’âge de l’appareil, nous vous le disons. Nous vous proposons alors de comparer avec un remplacement. Ce choix vous appartient ; notre rôle est de vous donner les éléments pour le prendre. Les [engagements de service que nous publions](/entretien-depannage/) s’appliquent à chaque intervention : information sur les tarifs, prévention, moyens et résultat.
+Le devis est aussi le moment de l’avis franc. Si le coût de la réparation n’est pas raisonnable au regard de l’âge de l’appareil, nous vous le disons. Nous vous proposons alors de comparer avec un remplacement. Ce choix vous appartient ; notre rôle est de vous donner les éléments pour le prendre. Les [engagements de service que nous publions](/depannage/) s’appliquent à chaque intervention : information sur les tarifs, prévention, moyens et résultat.
 
 ## Les cas où la réparation n’est pas possible
 
@@ -93,7 +93,7 @@ Nous respectons l’obligation légale de résultat qui s’attache à une répa
 
 Ces limites ne sont pas un désengagement. Elles vous évitent des frais engagés sur un appareil qui ne pourra pas être remis en état durablement. Nous vous prévenons aussi quand une installation n’est pas conforme aux prescriptions du constructeur, aux règles de sécurité ou à la réglementation en vigueur. De même lorsque son état laisse craindre une nouvelle panne à court terme. L’intervention peut alors se limiter à une mise en sécurité.
 
-Quand la réparation n’est pas possible, nous vous orientons vers une [étude de remplacement de votre climatisation](/climatisation/). Elle passe par une visite technique et un devis établi après cette visite, jamais au téléphone. Le détail de nos [qualifications et de notre habilitation fluides](/entreprise/qualifications/) est consultable en ligne.
+Quand la réparation n’est pas possible, nous vous orientons vers une [étude de remplacement de votre climatisation](/climatisation/). Elle passe par une visite technique et un devis établi après cette visite, jamais au téléphone. Le détail de nos [qualifications et de notre habilitation fluides](/entreprise/#nos-qualifications) est consultable en ligne.
 
 ## Nous appeler
 

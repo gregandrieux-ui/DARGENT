@@ -38,9 +38,9 @@ photos:
   - { src: "/images/realisations/maintenance/dargent-thermique-034.jpg", alt: "Maintenance de climatisation, contrôle de l’unité extérieure", caption: "Maintenance de climatisation, contrôle de l’unité extérieure" }
   - { src: "/images/realisations/maintenance/dargent-thermique-008.jpg", alt: "Maintenance d’une installation de chauffage", caption: "Maintenance d’une installation de chauffage" }
 links:
-  - { href: "/entretien-depannage/", label: "Nos engagements de service pour l’entretien et le dépannage de vos équipements" }
+  - { href: "/entretien/", label: "Entretien : nos engagements de service" }
   - { href: "/pompe-a-chaleur/depannage/", label: "Dépannage de pompe à chaleur : que faire en cas de panne" }
-  - { href: "/entreprise/qualifications/", label: "Nos qualifications et certifications, dont l’attestation fluides frigorigènes" }
+  - { href: "/entreprise/#nos-qualifications", label: "Nos qualifications et certifications, dont l’attestation fluides frigorigènes" }
   - { href: "/contact/", label: "Nous contacter pour planifier votre visite d’entretien" }
 toConfirm:
   - "Contenu exact des forfaits et contrats PAC"
@@ -106,13 +106,13 @@ Le premier impose un entretien périodique des systèmes thermodynamiques au-del
 
 Le second concerne les fluides frigorigènes. Le code de l’environnement (article R. 543-99) réserve leur manipulation aux entreprises titulaires d’une attestation de capacité et aux techniciens habilités. Au-delà d’une charge de fluide fixée par la réglementation, un contrôle d’étanchéité périodique est obligatoire et consigné [À CONFIRMER : seuils à re-sourcer sur Légifrance].
 
-Dargent Thermique détient l’attestation de capacité n° 111363-R1, délivrée par Bureau Veritas Certification. Vous pouvez la consulter : [attestation de capacité fluides frigorigènes (PDF)](/documents/attestation-de-capacite.pdf). Les techniciens qui interviennent sur le circuit frigorifique détiennent tous l’habilitation exigée, et notre registre des fluides est vérifié lors d’audits périodiques. Nos autres qualifications, dont QUALIPAC et Qualibat, sont détaillées sur la page [nos qualifications et certifications](/entreprise/qualifications/).
+Dargent Thermique détient l’attestation de capacité n° 111363-R1, délivrée par Bureau Veritas Certification. Vous pouvez la consulter : [attestation de capacité fluides frigorigènes (PDF)](/documents/attestation-de-capacite.pdf). Les techniciens qui interviennent sur le circuit frigorifique détiennent tous l’habilitation exigée, et notre registre des fluides est vérifié lors d’audits périodiques. Nos autres qualifications, dont QUALIPAC et Qualibat, sont détaillées sur la page [nos qualifications et certifications](/entreprise/#nos-qualifications).
 
 Textes de référence à consulter sur [Légifrance](https://www.legifrance.gouv.fr/) et [service-public.fr](https://www.service-public.fr/). Source consultée le [À CONFIRMER : date de consultation]. Sous réserve d’évolution de la réglementation.
 
 ## Nos engagements de service
 
-Ces engagements valent pour l’entretien comme pour le [dépannage de votre pompe à chaleur](/pompe-a-chaleur/depannage/). Ils sont communs à tous nos équipements et détaillés sur la page [entretien et dépannage de vos équipements](/entretien-depannage/).
+Ces engagements valent pour l’entretien comme pour le [dépannage de votre pompe à chaleur](/pompe-a-chaleur/depannage/). Ils sont communs à tous nos équipements et détaillés sur la page [entretien de vos équipements](/entretien/).
 
 - **L’information.** Le tarif applicable vous est communiqué avant l’intervention. La facture détaille la prestation, le tarif appliqué et le prix des pièces remplacées.
 - **Le devis.** Lorsqu’une réparation atteint le seuil [À CONFIRMER : seuil de devis obligatoire], le technicien établit un devis et attend votre accord avant d’intervenir.
