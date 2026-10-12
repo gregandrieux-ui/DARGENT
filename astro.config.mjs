@@ -51,7 +51,7 @@ export default defineConfig({
   site: 'https://dargent-thermique.fr',
   trailingSlash: 'always',
   build: { format: 'directory' },
-  markdown: { processor: satteri({ hastPlugins: [({ fileURL }) => /\/pages\/(pompe-a-chaleur|climatisation|chauffage|entretien|depannage|entreprise)(\/|\.md$)/.test(fileURL?.pathname ?? '') && stackCards] }) },
+  markdown: { processor: satteri({ hastPlugins: [({ fileURL }) => /\/pages\/(pompe-a-chaleur|climatisation|chauffage|entretien|depannage|entreprise|aides-financieres-pompe-a-chaleur|professionnels|ventilation)(\/|\.md$)/.test(fileURL?.pathname ?? '') && stackCards] }) },
   integrations: [
     sitemap({
       // ponytail: draft pages are also marked noindex by <Seo>; this keeps them out of the XML sitemap

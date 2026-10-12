@@ -145,7 +145,8 @@ The editorial rules don't change (PRODUCT.md): proof before promise, no invented
 - **Exploded view** (`Exploded.astro` + `src/lib/exploded.ts`): see below.
 - **CTA band** (`.big-cta`): navy, 32px radius, cyan pill + white phone; red pill on breakdown pages.
 - **Footer**: navy, 32px top corners, white headings, blue-100 links (cyan on hover), Cachet stays a white card, 44px link targets.
-- **Stacking cards**, **Exits**, **Ruled**, **Checks**, **FAQ**, **Steps**, **Marks**: unchanged behaviour (see git history of this file), now 24px radius and Clash numbers.
+- **Stacking cards** (`.stack` > `.stack-card`): the Pompe à chaleur, Climatisation, Chauffage, Entretien, Dépannage and Entreprise sections, parent pages and children, plus the pages the menu files under them from top-level URLs: Aides financières, Professionnels, Ventilation. `npm run build` runs `astro build --force`: Astro caches rendered Markdown (also in Netlify's cached `node_modules`), so a plugin or filter change would otherwise skip unchanged pages.
+- **Exits**, **Ruled**, **Checks**, **FAQ**, **Steps**, **Marks**: unchanged behaviour (see git history of this file), now 24px radius and Clash numbers; stacking cards too.
 
 ## Exploded view (01/10/2026)
 Vector exploded views of a PAC outdoor unit and a wall-mounted clim indoor unit, in the schéma style (navy outlines 4px, white / `#dfeaf3` parts, cyan pipes and LED, navy-50 panel with a soft cyan halo). Drawn in `src/lib/exploded.ts` with an oblique projection (front face true size, depth up-right); each part is drawn assembled and carries its exploded screen offset `ex` (hand-tuned, keep parts inside the 800×600 viewBox).
