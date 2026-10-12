@@ -1,0 +1,103 @@
+---
+// Carte schématique du Loiret : SVG statique, sans tuiles ni requête tierce.
+// Projection équirectangulaire simple ; contour réel (simplifié), routes et fleuve tracés à main levée.
+import { site } from '../data/site';
+import { loiretContour } from '../data/loiret-contour';
+
+const K = 380; // px par degré de latitude
+const COS = Math.cos((48 * Math.PI) / 180);
+const p = (lat: number, lng: number): [number, number] => [100 + (lng - 1.513) * COS * K, 60 + (48.345 - lat) * K];
+const pts = (list: [number, number][]) => list.map(([a, b]) => p(a, b).map((n) => n.toFixed(1)).join(',')).join(' ');
+
+const loiret = pts(loiretContour);
+const a10 = pts([[48.4, 1.97], [48.19, 1.93], [48.08, 1.88], [47.96, 1.82], [47.88, 1.78], [47.78, 1.62], [47.65, 1.45], [47.586, 1.335]]);
+const a71 = pts([[47.96, 1.82], [47.85, 1.9], [47.72, 1.94], [47.55, 2.0], [47.4, 2.05]]);
+const loire = pts([[47.69, 1.46], [47.779, 1.631], [47.83, 1.72], [47.895, 1.9], [47.86, 2.11], [47.77, 2.37], [47.69, 2.63], [47.6, 2.82], [47.5, 2.92]]);
+const tangentielle = pts([[47.955, 1.88], [47.965, 1.98], [47.93, 2.04], [47.88, 2.03]]);
+
+const orleans = p(47.903, 1.909);
+const hq = p(site.geo.lat, site.geo.lng);
+// Villes du Loiret (point + libellé), puis repères hors département.
+const villes = [
+  { n: 'Pithiviers', c: p(48.172, 2.254), dx: 10, dy: 5 },
+  { n: 'Beaugency', c: p(47.779, 1.631), dx: -10, dy: 20, end: true },
+  { n: 'Montargis', c: p(47.999, 2.733), dx: 10, dy: 5 },
+  { n: 'Gien', c: p(47.69, 2.632), dx: 10, dy: 5 },
+];
+const chartres = p(48.447, 1.489);
+const blois = p(47.586, 1.335);
+const chateauroux = p(46.811, 1.694);
+---
+<figure class="zone-map">
+  <svg viewBox="0 0 580 470" role="img" aria-label="Carte du département du Loiret : siège à Saint-Jean-de-Braye, à l’est d’Orléans, à proximité de la tangentielle et des autoroutes A10 et A71. Intervention à Orléans, dans son agglomération et dans tout le Loiret, jusqu’à Chartres, Blois et Châteauroux.">
+    <defs><clipPath id="loiret-clip"><polygon points={loiret} /></clipPath></defs>
+    <polygon class="region" points={loiret} />
+    <g clip-path="url(#loiret-clip)">
+      <polyline class="loire" points={loire} />
+      <polyline class="road" points={a10} />
+      <polyline class="road" points={a71} />
+      <polyline class="road thin" points={tangentielle} />
+    </g>
+    <circle class="agglo" cx={orleans[0]} cy={orleans[1]} r="40" />
+    <text class="road-label" x={p(48.12, 1.89)[0] + 8} y={p(48.12, 1.89)[1]}>A10</text>
+    <text class="road-label" x={p(47.62, 2.0)[0] + 8} y={p(47.62, 2.0)[1]}>A71</text>
+    {villes.map((t) => (
+      <g>
+        <circle class="city" cx={t.c[0]} cy={t.c[1]} r="5" />
+        <text class="city-label" x={t.c[0] + t.dx} y={t.c[1] + t.dy} text-anchor={t.end ? 'end' : 'start'}>{t.n}</text>
+      </g>
+    ))}
+    <text class="city-label" x={orleans[0] - 46} y={orleans[1] + 6} text-anchor="end">Orléans</text>
+    <line class="leader" x1={hq[0] + 9} y1={hq[1] - 6} x2={hq[0] + 40} y2={hq[1] - 22} />
+    <circle class="halo" cx={hq[0]} cy={hq[1]} r="14" />
+    <circle class="hq" cx={hq[0]} cy={hq[1]} r="9" />
+    <text class="hq-label" x={hq[0] + 46} y={hq[1] - 26}>Siège</text>
+    <text class="hq-sub" x={hq[0] + 46} y={hq[1] - 8}>Saint-Jean-de-Braye</text>
+    <g class="ext">
+      <circle cx={chartres[0]} cy={chartres[1]} r="5" />
+      <text x={chartres[0] + 10} y={chartres[1] + 6}>Chartres</text>
+      <circle cx={blois[0]} cy={blois[1]} r="5" />
+      <text x={blois[0] + 10} y={blois[1] + 6}>Blois</text>
+      <path d="M146 402v26m0 0l-5-7m5 7l5-7" />
+      <text x="146" y="452" text-anchor="middle">Châteauroux</text>
+    </g>
+  </svg>
+  <figcaption>
+    <span><i class="sw hq"></i>Siège</span>
+    <span><i class="sw agglo"></i>Orléans et son agglomération</span>
+    <span><i class="sw region"></i>Département du Loiret</span>
+    <span><i class="sw ext"></i>Au-delà : Chartres, Blois, Châteauroux</span>
+  </figcaption>
+</figure>
+
+<style>
+  .zone-map { margin: 0; }
+  svg { display: block; width: 100%; height: auto; font-family: inherit; }
+  .region { fill: var(--cyan-100); stroke: var(--cyan-700); stroke-width: 2.5; stroke-linejoin: round; }
+  .agglo { fill: var(--cyan-200); fill-opacity: 0.7; stroke: var(--cyan-700); stroke-width: 2; }
+  .loire { fill: none; stroke: var(--blue-200); stroke-width: 6; stroke-linecap: round; stroke-linejoin: round; }
+  .road { fill: none; stroke: var(--navy); stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+  .road.thin { stroke-width: 2; }
+  .leader { stroke: var(--brand-900); stroke-width: 1.5; }
+  text { paint-order: stroke; stroke: #fff; stroke-width: 4px; stroke-linejoin: round; }
+  .road-label { fill: var(--navy); font-size: 17px; font-weight: 700; }
+  .city { fill: #fff; stroke: var(--navy-900); stroke-width: 2.5; }
+  .city-label { fill: var(--ink); font-size: 19px; font-weight: 600; }
+  .hq { fill: var(--brand-900); stroke: #fff; stroke-width: 3; }
+  .hq-label { fill: var(--brand-900); font-size: 22px; font-weight: 700; }
+  .hq-sub { fill: var(--ink-600); font-size: 17px; font-weight: 600; }
+  .ext circle { fill: #fff; stroke: var(--ink-600); stroke-width: 2; stroke-dasharray: 3 3; }
+  .ext path { fill: none; stroke: var(--ink-600); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+  .ext text { fill: var(--ink-600); font-size: 18px; font-weight: 600; font-style: italic; }
+  .halo { fill: var(--cyan); fill-opacity: 0.45; transform-box: fill-box; transform-origin: center; animation: pulse 2.4s ease-out infinite; }
+  @keyframes pulse { from { transform: scale(0.6); opacity: 1; } to { transform: scale(2.2); opacity: 0; } }
+  @media (prefers-reduced-motion: reduce) { .halo { animation: none; } }
+
+  figcaption { display: flex; flex-wrap: wrap; gap: var(--s-2) var(--s-4); margin-top: var(--s-3); color: var(--ink-600); font-size: var(--text-small); }
+  figcaption span { display: inline-flex; align-items: center; gap: var(--s-2); }
+  .sw { width: 14px; height: 14px; border-radius: 50%; flex: none; border: 2px solid var(--cyan-700); }
+  .sw.hq { background: var(--brand-900); border-color: var(--brand-900); }
+  .sw.agglo { background: var(--cyan-200); }
+  .sw.region { background: var(--cyan-100); border-radius: 4px; }
+  .sw.ext { background: #fff; border: 2px dashed var(--ink-600); }
+</style>

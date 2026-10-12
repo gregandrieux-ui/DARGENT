@@ -6,6 +6,7 @@ import type { ImageMetadata } from 'astro';
 import ToConfirm from '../components/ToConfirm.astro';
 import CtaBand from '../components/CtaBand.astro';
 import Exploded from '../components/Exploded.astro';
+import ZoneMap from '../components/ZoneMap.astro';
 import { site } from '../data/site';
 import { byCat } from '../data/realisations';
 import { breadcrumb } from '../lib/schema';
@@ -98,12 +99,17 @@ const steps = [
     </div></section>
 
     <section class="section" aria-labelledby="zone-title"><div class="container">
-      <h2 id="zone-title">Zone d’intervention</h2>
-      <p class="zones"><Icon name="map-pin" /> Depuis notre siège de Saint-Jean-de-Braye, nous intervenons à Orléans et dans toute l’agglomération, en installation comme en dépannage.</p>
-      <ul class="chips">
-        {zones.map((z) => <li><a href={`/${z.id}/`}>{z.data.h1}</a></li>)}
-        <li><a href="/zones-intervention/" class="hot">Toutes les zones</a></li>
-      </ul>
+      <div class="zone-grid">
+        <ZoneMap />
+        <div>
+          <h2 id="zone-title">Zone d’intervention</h2>
+          <p class="zones"><Icon name="map-pin" /> Depuis notre siège de Saint-Jean-de-Braye, nous intervenons à Orléans et dans toute l’agglomération, en installation comme en dépannage.</p>
+          <ul class="chips">
+            {zones.map((z) => <li><a href={`/${z.id}/`}>{z.data.h1}</a></li>)}
+            <li><a href="/zones-intervention/" class="hot">Toutes les zones</a></li>
+          </ul>
+        </div>
+      </div>
     </div></section>
 
     <CtaBand>
@@ -122,6 +128,12 @@ const steps = [
     .intro { padding: var(--s-7) 0 var(--s-6); }
     .intro-top { color: var(--ink-600); font-weight: 600; margin: 0 0 var(--s-5); }
     .home-c > :global(.section + .section) { padding-top: 0; }
+    .zone-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: var(--s-7); align-items: center; }
+    @media (max-width: 767px) { .zone-grid { grid-template-columns: minmax(0, 1fr); gap: var(--s-6); } }
+    /* Les .chips globaux sont blancs (cartes sombres) : variante lisible sur fond clair. */
+    .zone-grid .chips a { background: var(--blue-100); border-color: var(--rule); color: var(--brand-900); }
+    .zone-grid .chips a:hover { background: var(--blue-200); color: var(--brand-900); }
+    .zone-grid .chips a.hot { background: var(--brand-900); border-color: var(--brand-900); color: #fff; }
     .zones { color: var(--ink-600); margin: var(--s-5) 0; max-width: none; }
     .zones :global(.icon) { color: var(--cyan-700); vertical-align: -0.15em; }
 
