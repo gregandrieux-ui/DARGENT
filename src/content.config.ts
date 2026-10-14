@@ -29,7 +29,7 @@ const pages = defineCollection({
     unit: z.enum(['pac']).optional(),      // hero : vue éclatée animée (Exploded.astro) ; photos[0] passe en galerie
     draft: z.boolean().default(false),     // noindex + hors sitemap + non listé
     crumbs: z.array(link).default([]),
-    needs: z.array(z.object({ q: z.string(), title: z.string(), text: z.string(), href: z.string() })).default([]), // tuiles « Votre besoin, notre réponse » (piliers)     // fil d'Ariane intermédiaire (sans Accueil ni page courante)
+    needs: z.array(z.object({ q: z.string(), title: z.string(), text: z.string(), href: z.string() })).default([]), // tuiles « Votre besoin » (piliers)     // fil d'Ariane intermédiaire (sans Accueil ni page courante)
   }),
 });
 

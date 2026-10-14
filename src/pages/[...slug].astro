@@ -85,7 +85,7 @@ const osm = `https://www.openstreetmap.org/export/embed.html?bbox=${site.geo.lng
   {d.needs.length > 0 && (
     <section class="section needs" aria-labelledby="needs-title">
       <div class="container">
-        <h2 id="needs-title">Votre besoin, notre réponse</h2>
+        <h2 id="needs-title">Votre besoin</h2>
         <div class="tiles tiles-3">
           {d.needs.map((n, i) => (
             <div class={`tile ${['tile-install', 'tile-maintain', 'tile-dark'][i % 3]}`}>
