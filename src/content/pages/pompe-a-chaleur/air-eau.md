@@ -25,7 +25,7 @@ stats:
   - { value: "Jusqu’à 65 %", label: "d’économies d’énergie*" }
   - { value: "2-en-1", label: "chauffage doux et eau chaude sanitaire" }
   - { value: "100 %", label: "sur mesure : dimensionnement par notre bureau d’études RGE" }
-  - { value: "2 aides", label: "cumulables : MaPrimeRénov’ et primes CEE*" }
+  - { value: "2 aides cumulables", label: "MaPrimeRénov’ et primes CEE*" }
 photos:
   - { src: "/images/illustrations/pac-air-eau.svg", alt: "Schéma d’une pompe à chaleur air/eau : l’unité extérieure capte la chaleur de l’air, le module hydraulique la transmet aux radiateurs, au plancher chauffant et au ballon d’eau chaude", caption: "Principe de fonctionnement d’une pompe à chaleur air/eau" }
 links:

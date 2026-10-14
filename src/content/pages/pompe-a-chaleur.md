@@ -29,7 +29,7 @@ howto: []
 stats:
   - { value: "3 à 4 ×", label: "plus de chaleur produite que d’électricité consommée" }
   - { value: "Jusqu’à 65 %", label: "d’économies d’énergie possibles*" }
-  - { value: "2 aides", label: "cumulables : MaPrimeRénov’ et CEE*" }
+  - { value: "2 aides cumulables", label: "MaPrimeRénov’ et CEE*" }
   - { value: "1936", label: "chauffagistes depuis trois générations" }
 photos:
   - { src: "/images/illustrations/pac-air-eau.svg", alt: "Schéma d’une pompe à chaleur air/eau : l’unité extérieure capte la chaleur de l’air, le module hydraulique la transmet aux radiateurs, au plancher chauffant et au ballon d’eau chaude", caption: "Principe de fonctionnement d’une pompe à chaleur air/eau" }
