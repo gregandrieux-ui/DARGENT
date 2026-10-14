@@ -1,6 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
-import Cachet from '../../components/Cachet.astro';
+import ZoneMap from '../../components/ZoneMap.astro';
 import ToConfirm from '../../components/ToConfirm.astro';
 import Exits from '../../components/Exits.astro';
 import CtaBand from '../../components/CtaBand.astro';
@@ -26,7 +26,7 @@ const locals = (await getCollection('pages', (p) => p.id.startsWith('zones-inter
         <p>Les autres communes de l’agglomération (Olivet, Fleury-les-Aubrais, Saint-Jean-de-la-Ruelle, Saran, Saint-Jean-le-Blanc, Saint-Denis-en-Val, Chécy, Semoy…) sont couvertes ; une page détaillée est publiée dès que nous pouvons y montrer des chantiers réels.</p>
         <ToConfirm items={['Liste exacte des communes couvertes, en installation et en dépannage', 'Chantiers localisés à Orléans, Olivet, Fleury-les-Aubrais, Saint-Jean-de-la-Ruelle (pages locales en attente)']} />
       </div>
-      <div><Cachet /></div>
+      <div><ZoneMap /></div>
     </div>
     <Exits links={[{ href: '/contact/', label: 'Nous contacter ou venir nous voir' }, { href: '/pompe-a-chaleur/', label: 'Pompe à chaleur à Orléans' }, { href: '/entretien/', label: 'Entretien sur l’agglomération' }, { href: '/depannage/', label: 'Dépannage sur l’agglomération' }, { href: '/devis/', label: 'Demander un devis' }]} />
   </div></section>
