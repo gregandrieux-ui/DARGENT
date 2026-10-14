@@ -24,7 +24,7 @@ checks:
 stats:
   - { value: "Jusqu’à 40 %", label: "d’économies de gaz possibles*" }
   - { value: "2 énergies", label: "bascule automatique vers le gaz par grand froid" }
-  - { value: "3 à 4 ×", label: "plus de chaleur produite que d’électricité consommée" }
+  - { value: "3 à 4x plus de chaleur", label: "que d’électricité consommée" }
   - { value: "0", label: "radiateur à changer : réseau existant conservé" }
 photos:
   - { src: "/images/illustrations/pac-hybride.svg", alt: "Schéma d’une pompe à chaleur hybride : la PAC chauffe en mi-saison, la chaudière gaz prend le relais par grand froid, la régulation bascule automatiquement", caption: "Principe d’une pompe à chaleur hybride gaz" }
