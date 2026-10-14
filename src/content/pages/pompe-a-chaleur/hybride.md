@@ -23,7 +23,7 @@ checks:
   - { label: "Fluides frigorigènes manipulés sous attestation de capacité", detail: "n° 111363-R1, Bureau Veritas" }
 stats:
   - { value: "Jusqu’à 40 %", label: "d’économies de gaz possibles*" }
-  - { value: "2 énergies", label: "bascule automatique vers le gaz par grand froid" }
+  - { value: "2 énergies", label: "pour un confort optimal peu importe la température" }
   - { value: "3 à 4x plus de chaleur", label: "que d’électricité consommée" }
   - { value: "0", label: "radiateur à changer : réseau existant conservé" }
 photos:
