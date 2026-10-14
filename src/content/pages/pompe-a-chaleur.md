@@ -72,29 +72,13 @@ Le tableau distingue trois familles par l’usage, les émetteurs et le type de 
 
 Le choix dépend de l’isolation, de la surface, du réseau en place et de vos besoins en eau chaude. Notre bureau d’études, créé en 1993, calcule les déperditions du logement avant de retenir une famille, puis une puissance [À CONFIRMER : puissances/gammes]. Les marques proposées vous sont indiquées lors de l’étude [À CONFIRMER : Marques de PAC réellement installées aujourd’hui].
 
-## PAC air/eau
+## Les trois familles de PAC en détail
 
-C’est la pompe à chaleur la plus répandue en maison individuelle. Un groupe extérieur capte la chaleur de l’air, un module intérieur la transmet à l’eau du circuit de chauffage. Le même appareil peut produire l’eau chaude sanitaire et, selon le modèle, rafraîchir le logement l’été.
+**PAC air/eau.** C’est la pompe à chaleur la plus répandue en maison individuelle : chauffage, eau chaude et, selon le modèle, rafraîchissement l’été. Elle convient à la construction neuve et aux maisons rénovées, avec un [plancher chauffant](/chauffage/plancher-chauffant/) ou des radiateurs basse température. Fonctionnement et dimensionnement : [Pompe à chaleur air/eau : chauffage, eau chaude et rafraîchissement](/pompe-a-chaleur/air-eau/).
 
-Le modèle basse température est conçu pour des émetteurs qui fonctionnent avec une eau peu chaude. Il convient à la construction neuve et aux maisons rénovées. Nous posons aussi l’émetteur qui l’accompagne le plus souvent : [Plancher chauffant : l’émetteur adapté à la PAC basse température](/chauffage/plancher-chauffant/).
+**PAC haute température.** Conçue pour la rénovation, elle remplace une chaudière fioul ou gaz sans changer les radiateurs, en relève ou en remplacement complet. Cas d’usage et limites : [Pompe à chaleur haute température pour remplacer une chaudière](/pompe-a-chaleur/haute-temperature/).
 
-Le fonctionnement et le dimensionnement sont détaillés sur la page [Pompe à chaleur air/eau : chauffage, eau chaude et rafraîchissement](/pompe-a-chaleur/air-eau/).
-
-## PAC haute température
-
-La pompe à chaleur haute température est conçue pour la rénovation. Elle remplace une chaudière fioul ou gaz sans changer les radiateurs, en relève ou en remplacement complet. Les modèles que nous installons produisent une eau à 80 °C grâce à un double étage de compression [À CONFIRMER : validation bureau d’études].
-
-Une bouteille de découplage de 25 L est posée entre la PAC et le réseau [À CONFIRMER : validation bureau d’études]. Elle sépare production et distribution.
-
-Cette solution s’adresse aux maisons anciennes de l’agglomération, où reprendre tout le réseau serait trop lourd. Cas d’usage et limites sont décrits sur la page [Pompe à chaleur haute température pour remplacer une chaudière](/pompe-a-chaleur/haute-temperature/).
-
-## PAC hybride gaz
-
-La pompe à chaleur hybride associe une PAC air/eau et une chaudière gaz à condensation dans un même équipement, souvent mural. La régulation choisit à chaque instant la source la moins coûteuse. Elle compare le rendement de la PAC au prix de l’électricité, et celui de la chaudière au prix du gaz. Par grand froid, les deux peuvent fonctionner ensemble.
-
-En pratique, la PAC assure l’essentiel du chauffage en mi-saison. La chaudière prend le relais pour les pointes de puissance et l’eau chaude.
-
-Dargent Thermique est qualifiée Professionnel du gaz et réalise elle-même la partie gaz. Le principe est expliqué sur la page [Pompe à chaleur hybride gaz : le principe](/pompe-a-chaleur/hybride/).
+**PAC hybride gaz.** Elle associe une PAC air/eau et une chaudière gaz à condensation dans un même équipement. La régulation choisit à chaque instant la source la moins coûteuse. Dargent Thermique est qualifiée Professionnel du gaz et réalise elle-même la partie gaz. Le principe : [Pompe à chaleur hybride gaz : le principe](/pompe-a-chaleur/hybride/).
 
 ## Comment se déroule le projet
 
