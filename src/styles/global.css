@@ -167,24 +167,6 @@ main .btn { white-space: normal; text-align: center; }
 
 /* --- Barre haute et en-tête ------------------------------------------ */
 
-/* Bandeau d'annonce cyan : deux messages en fondu, 4 s chacun. Pause au survol et au focus ; le message focalisé reste affiché.
-   z-index animé : le message visible est au-dessus et reçoit les clics. Sans animation (mouvement réduit) : le premier seul. */
-.strip { background: var(--cyan); color: var(--brand-900); font-size: var(--text-label); font-weight: 600; --focus: var(--brand-900); }
-.strip .container { display: grid; place-items: center; min-height: 44px; }
-.strip .msg { grid-area: 1 / 1; position: relative; z-index: 1; display: inline-flex; align-items: center; gap: var(--s-2); margin: 0; max-width: none; text-align: center; }
-.strip .msg + .msg { opacity: 0; z-index: 0; }
-.strip a { display: inline-flex; align-items: center; gap: var(--s-1); min-height: 44px; color: inherit; font-weight: 700; white-space: nowrap; text-decoration: underline; text-underline-offset: 0.2em; }
-.strip a:hover { color: inherit; }
-@media (max-width: 399px) { .strip .long { display: none; } }
-@media (prefers-reduced-motion: no-preference) {
-  .strip .msg { animation: strip 8s infinite; }
-  .strip .msg + .msg { animation-delay: -4s; }
-  .strip:hover .msg { animation-play-state: paused; }
-}
-.strip:focus-within .msg { animation: none; opacity: 0; z-index: 0; }
-.strip .msg:focus-within { opacity: 1; z-index: 1; }
-@keyframes strip { 0%, 46%, 100% { opacity: 1; z-index: 1; } 50%, 96% { opacity: 0; z-index: 0; } }
-
 .site-header { view-transition-name: site-header; position: sticky; top: 0; z-index: 50; background: var(--brand-900); border-radius: 0 0 var(--radius-lg) var(--radius-lg); --focus: var(--cyan); }
 .site-header .container { display: flex; align-items: center; gap: var(--s-5); min-height: var(--header-h); }
 /* Logo PNG bleu illisible sur bleu nuit : posé sur une pastille blanche. */
