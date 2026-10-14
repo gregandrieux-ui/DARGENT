@@ -63,35 +63,15 @@ Trois autres éléments pèsent dans la décision : les émetteurs déjà en pl
 
 Notre bureau d’études, créé en 1993, se rend chez vous avant tout chiffrage : il relève les surfaces, les émetteurs et l’état de l’installation, puis calcule les besoins du logement. Le devis est établi après cette visite, jamais par téléphone.
 
-## Chaudière à condensation
+## Chaudière, plancher chauffant, ballon, régulation : les solutions en détail
 
-La chaudière à condensation récupère la chaleur contenue dans les fumées avant de les évacuer. À consommation égale, elle restitue davantage de chaleur qu’une chaudière classique, et c’est la solution courante pour remplacer une chaudière gaz ancienne en conservant les radiateurs existants.
+**Chaudière à condensation.** Elle récupère la chaleur des fumées et reste la solution courante pour remplacer une chaudière gaz ancienne en gardant les radiateurs. Nous posons des modèles muraux et au sol, y compris en cascade pour les immeubles collectifs, et réalisons le raccordement gaz au titre de notre qualification Professionnel du gaz. Modèles et déroulé : [chaudière à condensation : remplacement et pose](/chauffage/chaudiere-condensation/).
 
-Nous posons des chaudières murales, adaptées aux appartements et aux maisons de ville, et des chaudières au sol pour les logements plus grands ou les chaufferies, y compris en cascade pour les immeubles collectifs. Le raccordement gaz est réalisé par nos soins, au titre de notre qualification Professionnel du gaz.
+**Plancher chauffant.** Il diffuse une chaleur douce par le sol, à basse température, donc compatible avec une chaudière à condensation comme avec une pompe à chaleur air/eau. Il s’envisage en construction neuve ou en rénovation lourde, avec l’isolation des sols dans l’étude. Configurations et étapes du chantier : [plancher chauffant et isolation des sols](/chauffage/plancher-chauffant/).
 
-Le détail des modèles et du déroulé d’un remplacement se trouve sur la page [chaudière à condensation : remplacement et pose](/chauffage/chaudiere-condensation/).
+**Ballon thermodynamique.** Il produit l’eau chaude sanitaire avec une petite pompe à chaleur intégrée et remplace un cumulus électrique. Emplacement et volume se choisissent lors de la visite. Modèles proposés : [ballon thermodynamique pour votre eau chaude](/chauffage/ballon-thermodynamique/).
 
-## Plancher chauffant
-
-Le plancher chauffant diffuse une chaleur douce et homogène par le sol, sans radiateur dans les pièces. Il fonctionne à basse température, ce qui le rend compatible avec une chaudière à condensation comme avec une pompe à chaleur air/eau.
-
-Il s’envisage surtout en construction neuve ou lors d’une rénovation lourde, quand les sols sont refaits. Nos équipes réalisent la pose des tubes sur isolant, le raccordement au collecteur et la mise en eau. L’isolation des sols fait partie de l’étude : elle conditionne le rendement du système.
-
-Les configurations possibles et les étapes du chantier sont décrites sur la page [plancher chauffant et isolation des sols](/chauffage/plancher-chauffant/).
-
-## Ballon thermodynamique (eau chaude)
-
-Le ballon thermodynamique produit l’eau chaude sanitaire grâce à une petite pompe à chaleur intégrée, qui puise les calories dans l’air. Il remplace un cumulus électrique, avec la même fonction et un encombrement voisin.
-
-Il s’installe dans un local non chauffé et suffisamment volumineux, ou se raccorde à l’air extérieur par des gaines ; le choix de l’emplacement et du volume se fait lors de la visite.
-
-Pour connaître les modèles proposés, consultez la page [ballon thermodynamique pour votre eau chaude](/chauffage/ballon-thermodynamique/).
-
-## Régulation et pilotage
-
-Un bon générateur mal piloté chauffe trop, ou au mauvais moment. La régulation ajuste la température de départ selon la température extérieure, la consigne et la programmation horaire. Elle s’installe avec un équipement neuf ou s’ajoute sur une installation existante.
-
-Selon les cas, nous proposons un thermostat d’ambiance programmable, une sonde extérieure ou un pilotage depuis un téléphone, selon la compatibilité du générateur en place. Détails sur la page [régulation et pilotage de votre chauffage](/chauffage/regulation-connectee/).
+**Régulation et pilotage.** Un bon générateur mal piloté chauffe trop, ou au mauvais moment. Thermostat programmable, sonde extérieure ou pilotage depuis un téléphone, selon la compatibilité du générateur en place. Détails : [régulation et pilotage de votre chauffage](/chauffage/regulation-connectee/).
 
 ## Et la pompe à chaleur ?
 

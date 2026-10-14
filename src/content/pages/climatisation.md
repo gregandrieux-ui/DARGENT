@@ -64,21 +64,11 @@ Un groupe extérieur alimente une seule unité (mono-split) ou plusieurs (multi-
 
 Avant de proposer un matériel, notre bureau d’études, créé en 1993, calcule les besoins pièce par pièce : orientation, surfaces vitrées, isolation, usage des lieux. Ce calcul écarte l’appareil trop petit, qui tourne sans arrêt, comme l’appareil trop puissant, qui démarre et s’arrête sans cesse. Les marques retenues vous sont précisées lors de l’étude [À CONFIRMER : marques de climatisation réellement proposées].
 
-## Climatisation réversible
+## Réversible ou gainable : les deux solutions en détail
 
-Une climatisation réversible est une pompe à chaleur air/air. L’hiver, elle prélève les calories de l’air extérieur et les restitue dans le logement. L’été, le cycle s’inverse : la chaleur intérieure est rejetée dehors. Un seul appareil couvre les deux saisons.
+**Climatisation réversible.** C’est une pompe à chaleur air/air : elle rafraîchit l’été et chauffe l’hiver avec un seul appareil. Dans un pavillon chauffé par des convecteurs électriques, elle les remplace ou les complète pièce par pièce. Elle ne produit pas d’eau chaude sanitaire et ne se raccorde pas à des radiateurs à eau : avec un chauffage central, une pompe à chaleur air/eau est souvent plus adaptée. Mono-split et multi-split : [climatisation réversible : du frais l’été, de la chaleur l’hiver](/climatisation/reversible/).
 
-Dans un pavillon chauffé par des convecteurs électriques, elle les remplace ou les complète pièce par pièce. Dans un appartement, elle traite le plus souvent le séjour et une ou deux chambres. La plupart des modèles se pilotent depuis un smartphone, pratique pour lancer le rafraîchissement avant de rentrer.
-
-Une climatisation réversible ne produit pas d’eau chaude sanitaire et ne se raccorde pas à des radiateurs à eau. Si votre maison possède un chauffage central, une pompe à chaleur air/eau est souvent plus adaptée. Les configurations mono-split et multi-split sont détaillées sur la page [climatisation réversible : du frais l’été, de la chaleur l’hiver](/climatisation/reversible/).
-
-## Climatisation gainable
-
-Le gainable répond à une demande précise : ne voir ni unité murale ni console dans les pièces. L’unité intérieure est installée dans les combles, un faux plafond ou un placard technique. Un réseau de gaines isolées distribue l’air vers des bouches discrètes, et une grille de reprise assure le retour d’air.
-
-Ce système convient à une construction neuve ou à une rénovation lourde, quand les plafonds sont ouverts. En rénovation légère, l’accès aux combles et la hauteur disponible décident de la faisabilité. Un gainable s’accompagne souvent d’une régulation par zones : chaque pièce ou groupe de pièces reçoit sa propre consigne.
-
-Les conditions de pose et les points à vérifier avant de retenir ce système sont présentés sur la page [climatisation gainable, discrète et intégrée](/climatisation/gainable/).
+**Climatisation gainable.** Elle répond à une demande précise : ne voir ni unité murale ni console. L’unité intérieure est installée dans les combles ou un faux plafond, et des gaines distribuent l’air vers des bouches discrètes. Elle convient à une construction neuve ou à une rénovation lourde, quand les plafonds sont ouverts. Conditions de pose et points à vérifier : [climatisation gainable, discrète et intégrée](/climatisation/gainable/).
 
 ## Pour les locaux professionnels
 
