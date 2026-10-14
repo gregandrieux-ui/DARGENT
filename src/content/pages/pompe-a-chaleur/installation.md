@@ -71,7 +71,7 @@ Le relevé est transmis à notre bureau d’études, créé en 1993 au sein de l
 
 L’étude fixe ensuite les points techniques : température de départ compatible avec vos émetteurs, volume du ballon d’eau chaude, emplacement des unités, cheminement des liaisons, protections électriques.
 
-Vous recevez un devis écrit et détaillé, qui désigne le matériel par marque et modèle. Nous vous le présentons et répondons à vos questions ; son contenu est décrit plus bas. Pour lancer cette première étape : [Demander une visite technique](/devis/).
+Vous recevez un devis écrit et détaillé, qui désigne le matériel par marque et modèle. Nous vous le présentons et répondons à vos questions. Pour lancer cette première étape : [Demander une visite technique](/devis/).
 
 ## Étape 3 : la préparation du chantier
 
@@ -108,19 +108,6 @@ Avant de partir, il vous montre l’essentiel : lire l’écran de commande, mo
 Le matériel bénéficie de la garantie de son fabricant ; sa durée et ses conditions figurent dans la documentation remise à la mise en service. Nos travaux relèvent des garanties légales applicables. Les engagements propres à Dargent Thermique sont en cours de validation [À CONFIRMER : garanties réellement accordées]. Nous ne publions aucune garantie sans engagement écrit.
 
 Le suivi ne s’arrête pas à la mise en service. L’[entretien de votre pompe à chaleur](/pompe-a-chaleur/entretien/) est assuré par notre équipe de maintenance, avec un magasin de pièces courantes sur notre site de Saint-Jean-de-Braye. En cas de panne, le [dépannage de pompe à chaleur](/pompe-a-chaleur/depannage/) passe par un diagnostic, puis un devis avant toute réparation au-delà d’un seuil [À CONFIRMER : seuil de devis obligatoire].
-
-## Ce que comprend le devis
-
-Le devis remis après la visite technique est écrit et détaillé. Il comprend :
-
-- la visite technique et l’étude de dimensionnement ;
-- le matériel, avec marque, modèle et puissance de la pompe à chaleur, le ballon d’eau chaude et les accessoires hydrauliques ;
-- la dépose et l’évacuation de l’ancien générateur ;
-- la main-d’œuvre de pose, les liaisons, les raccordements hydrauliques et électriques ;
-- la mise en service et la prise en main ;
-- les travaux annexes éventuels (socle, tableau électrique), ou la mention qu’ils restent à votre charge [À CONFIRMER : sous-traitance éventuelle (électricité, maçonnerie)].
-
-Aucun montant n’est publié sur ce site : chaque installation est chiffrée après visite, jamais avant. Ces travaux sont réalisés sous notre qualification Qualibat 8321 et nos mentions RGE et QUALIPAC, présentées sur la page [nos qualifications et certifications](/entreprise/#nos-qualifications). Vous pouvez aussi nous appeler au 02 38 86 46 46.
 
 ## Aides financières
 

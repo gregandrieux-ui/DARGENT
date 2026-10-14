@@ -68,7 +68,7 @@ Un appareil trop puissant enchaîne les démarrages et s’use ; un appareil tr
 
 L’étude arrête aussi les points pratiques : nombre d’unités sur un même groupe, emplacements définitifs, longueur des liaisons, protection électrique. Si un traitement acoustique du groupe est utile, il est prévu dès ce stade, pas ajouté après une plainte.
 
-Vous recevez un devis écrit, établi après la visite. Il désigne le matériel par marque et modèle et détaille les travaux annexes. Son contenu est décrit en bas de page. Pour lancer cette première étape : [Demander une visite technique](/devis/).
+Vous recevez un devis écrit, établi après la visite. Il désigne le matériel par marque et modèle et détaille les travaux annexes. Pour lancer cette première étape : [Demander une visite technique](/devis/).
 
 ## Étape 3 : la pose
 
@@ -107,20 +107,3 @@ Le groupe extérieur est la seule partie audible d’une climatisation. Nous le 
 Trois leviers se combinent : un modèle doté d’un mode silencieux, un emplacement réfléchi et des plots antivibratiles. Ces plots coupent la transmission des vibrations à la structure. Quand cela ne suffit pas, nous posons un capotage acoustique. Ce caisson ventilé à baffles entoure le groupe sans gêner le passage de l’air.
 
 Ce traitement est appliqué sur nos chantiers, en maison comme en tertiaire. Patrick Blain, client pour une climatisation Daikin à deux groupes et six unités, a laissé un avis Google sur son installation.
-
-## Ce que comprend le devis
-
-Le devis reprend ce que vous avez vu pendant la visite et ce que l’étude a fixé :
-
-- le relevé et l’étude de dimensionnement ;
-- les unités intérieures et le groupe extérieur, désignés par marque et modèle ;
-- les supports, les plots antivibratiles et, si nécessaire, le capotage acoustique ;
-- les liaisons frigorifiques, leur habillage et l’évacuation des condensats ;
-- le raccordement électrique depuis le tableau ;
-- la mise en service, la prise en main et la fiche d’intervention.
-
-Les reprises de finition autour des percements (peinture, enduit) ne sont pas comprises par défaut. Ce point reste à valider [À CONFIRMER : prestations annexes facturées (percements, habillage, alimentation électrique)]. Le périmètre est annoncé avant les travaux, pas découvert à la facture. Aucun montant n’est publié sur ce site : chaque installation est chiffrée après visite.
-
-Ces travaux relèvent de notre qualification Qualibat 5423 (climatiseurs à détente directe) et de notre mention RGE. Les certificats sont présentés sur la page [nos qualifications et certifications](/entreprise/#nos-qualifications).
-
-Pour lancer votre projet : [Demander une visite technique](/devis/). Vous pouvez aussi appeler le 02 38 86 46 46.
