@@ -22,7 +22,7 @@ checks:
   - { label: "Partie gaz réalisée par nos propres équipes", detail: "qualification Professionnel du gaz" }
   - { label: "Fluides frigorigènes manipulés sous attestation de capacité", detail: "n° 111363-R1, Bureau Veritas" }
 stats:
-  - { value: "40 %", label: "d’économies de gaz possibles*" }
+  - { value: "Jusqu’à 40 %", label: "d’économies de gaz possibles*" }
   - { value: "2 énergies", label: "bascule automatique vers le gaz par grand froid" }
   - { value: "3 à 4 ×", label: "plus de chaleur produite que d’électricité consommée" }
   - { value: "0", label: "radiateur à changer : réseau existant conservé" }

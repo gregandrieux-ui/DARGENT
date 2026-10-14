@@ -102,11 +102,3 @@ Un gainable s’entretient comme toute climatisation, avec une particularité :
 L’entretien comprend le nettoyage ou le remplacement des filtres à la reprise, le contrôle de l’échangeur et du bac de condensats, la vérification des registres de zone et des connexions électriques, puis le contrôle de la charge en fluide. La réglementation impose un entretien périodique des systèmes thermodynamiques à partir d’une certaine puissance et un contrôle d’étanchéité des circuits les plus chargés en fluide [À CONFIRMER : seuils à re-sourcer sur Légifrance]. Sous réserve d’évolution de la réglementation.
 
 Notre équipe maintenance assure ces visites. Quand une réparation n’est plus raisonnable, appareil ancien, fluide R22, pièces indisponibles, nous vous le disons avant d’intervenir. Toute réparation au-delà d’un certain montant fait l’objet d’un devis préalable [À CONFIRMER : seuil de devis obligatoire].
-
-## Nos réalisations
-
-Nous ne publions pas de photo qui ne vienne pas de nos chantiers. À ce jour, aucune photo de gainable posé n’est disponible sur cette page : les emplacements sont réservés et seront remplis dès qu’un chantier aura été photographié avec l’accord du client [À CONFIRMER : réalisations photographiables.].
-
-Nos chantiers de climatisation tertiaire, bureaux et commerces, montrent des unités intérieures encastrées et des groupes extérieurs traités contre le bruit. Notre offre complète, du mural au gainable, est présentée sur la page [climatisation à Orléans : installation, entretien et dépannage](/climatisation/).
-
-Pour savoir si votre maison ou votre projet neuf se prête au gainable, appelez le 02 38 86 46 46 ou passez par le formulaire : [Demander une étude de faisabilité](/devis/). Nous venons sur place avant de répondre.

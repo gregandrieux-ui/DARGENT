@@ -24,7 +24,7 @@ checks:
   - { label: "Registre des fluides frigorigènes", detail: "attestation de capacité n° 111363-R1, Bureau Veritas" }
 stats:
   - { value: "2-en-1", label: "fraîcheur l’été, chauffage l’hiver" }
-  - { value: "75 %", label: "d’électricité en moins face à des radiateurs électriques (SCOP > 4)*" }
+  - { value: "Jusqu’à 75 %", label: "d’électricité en moins face à des radiateurs électriques (SCOP > 4)*" }
   - { value: "En moyenne 19 dB(A)", label: "de fonctionnement ultra-silencieux" }
   - { value: "1 prime", label: "CEE mobilisable*" }
 photos:
@@ -112,11 +112,3 @@ Une climatisation réversible contient un fluide frigorigène et brasse l’air 
 Au-delà de l’obligation, l’entretien conserve le débit d’air et le rendement. Il comprend le nettoyage des filtres et des échangeurs, le contrôle de la charge en fluide, la vérification des condensats et des connexions électriques. Des filtres encrassés consomment davantage et soufflent un air moins sain.
 
 Notre équipe maintenance assure ces visites, en forfait ou en contrat : voir [l’entretien et la maintenance de votre climatisation réversible](/climatisation/entretien/). Nous vous disons aussi quand une réparation n’est plus raisonnable : appareil trop ancien, fluide R22 interdit, pièces que le fabricant ne fournit plus. Toute réparation au-delà d’un certain montant fait l’objet d’un devis préalable [À CONFIRMER : seuil de devis obligatoire].
-
-## Nos réalisations
-
-Les photos de cette page viennent de nos chantiers, sans mise en scène. On y voit un groupe extérieur équipé d’un traitement acoustique, une console murale chez un particulier et une unité intérieure posée dans des locaux tertiaires.
-
-Patrick Blain nous a confié une climatisation Daikin, deux groupes et six unités. Son avis Google retient l’étude menée avant la pose, le respect des délais annoncés et la propreté du chantier.
-
-Pour une clim réversible dans votre maison du Loiret, appelez le 02 38 86 46 46 ou passez par le formulaire : [Demander un devis gratuit](/devis/). Nous venons chez vous avant de chiffrer.

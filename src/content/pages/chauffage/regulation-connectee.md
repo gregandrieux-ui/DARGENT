@@ -20,8 +20,8 @@ checks:
   - { label: "Devis établi après visite", detail: "aucun chiffrage au téléphone" }
   - { label: "Bureau d’études interne", detail: "dimensionnement et réglage de la régulation" }
 stats:
-  - { value: "15 %", label: "d’économies sur la facture de chauffage*" }
-  - { value: "7 %", label: "d’économies par degré de consigne en moins*" }
+  - { value: "Jusqu’à 15 %", label: "d’économies sur la facture de chauffage*" }
+  - { value: "Jusqu’à 7 %", label: "d’économies par degré de consigne en moins*" }
   - { value: "2027", label: "échéance légale de régulation pour les logements existants" }
   - { value: "24 h/24", label: "d’anticipation des variations météo" }
 photos:

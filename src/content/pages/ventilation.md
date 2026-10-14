@@ -21,7 +21,7 @@ checks:
   - { label: "Interventions en groupe scolaire et en tertiaire", detail: "centrales de traitement d’air" }
 stats:
   - { value: "100 %", label: "d’air renouvelé en continu" }
-  - { value: "90 %", label: "de la chaleur récupérée sur l’air extrait (double flux)*" }
+  - { value: "Jusqu’à 90 %", label: "de la chaleur récupérée sur l’air extrait (double flux)*" }
   - { value: "Hygro B", label: "débit ajusté à l’humidité de chaque pièce" }
   - { value: "0", label: "fenêtre à ouvrir en hiver pour aérer" }
 photos:
@@ -76,14 +76,6 @@ Une ventilation double flux et une pompe à chaleur répondent à deux besoins d
 Associer les deux a du sens dans un logement neuf ou rénové avec une bonne isolation, où les déperditions par ventilation pèsent proportionnellement plus dans le bilan thermique. Notre bureau d’études étudie les deux postes ensemble lors d’un projet de rénovation énergétique, pour dimensionner chacun correctement plutôt que de les traiter séparément.
 
 Si votre projet porte d’abord sur le chauffage, consultez nos solutions de [pompe à chaleur à Orléans et dans l’agglomération](/pompe-a-chaleur/) ou, pour l’eau chaude sanitaire seule, le [ballon thermodynamique](/chauffage/ballon-thermodynamique/).
-
-## Nos réalisations (écoles, tertiaire)
-
-Nous installons aussi des systèmes de ventilation en dehors du logement individuel : groupes scolaires et locaux professionnels ou de collectivités, avec des centrales de traitement d’air dimensionnées pour des volumes et des occupations plus importants.
-
-Ces chantiers s’appuient sur les mêmes principes que la ventilation résidentielle, extraction, soufflage, récupération de chaleur, mais avec des débits et une réglementation propres aux établissements recevant du public [À CONFIRMER : ventilation proposée aux particuliers ou uniquement en tertiaire]. Les photos de ces réalisations sont en cours de collecte, sous réserve de l’accord des établissements concernés [À CONFIRMER : accord des établissements photographiés].
-
-Retrouvez le détail de notre offre dédiée sur [nos solutions pour les professionnels et les collectivités](/professionnels/).
 
 ## Entretien
 

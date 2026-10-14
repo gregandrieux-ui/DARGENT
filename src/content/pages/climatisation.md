@@ -23,7 +23,7 @@ faq: []
 howto: []
 stats:
   - { value: "2-en-1", label: "fraîcheur l’été, chaleur l’hiver" }
-  - { value: "75 %", label: "d’électricité en moins face à des radiateurs électriques*" }
+  - { value: "Jusqu’à 75 %", label: "d’électricité en moins face à des radiateurs électriques*" }
   - { value: "19 dB(A)", label: "dès le mode silence" }
   - { value: "1993", label: "bureau d’études interne pour le dimensionnement" }
 photos:
@@ -111,11 +111,3 @@ Votre climatisation ne refroidit plus, coule, se met en sécurité ou fait un br
 Le diagnostic précède toute réparation. Au-delà d’un certain montant, un devis écrit vous est soumis avant intervention [À CONFIRMER : seuil de devis obligatoire]. Nous dépannons aussi les installations que nous n’avons pas posées, avec des limites que nous préférons annoncer. Les appareils au R22, fluide dont la recharge n’est plus autorisée, ne se réparent plus sur le circuit frigorifique. Certaines pièces de modèles anciens ne sont plus fournies. Sur une installation vétuste, nous pouvons conseiller le remplacement plutôt qu’une réparation.
 
 Les pannes courantes et notre façon d’intervenir sont décrites sur la page [dépannage de climatisation](/climatisation/depannage/).
-
-## Nos réalisations
-
-Les photos de cette page viennent de nos chantiers : groupe extérieur avec traitement acoustique, console murale, unité intérieure en tertiaire.
-
-Patrick Blain a laissé un avis Google après la pose d’une climatisation Daikin composée de 2 groupes extérieurs et 6 unités intérieures. Cet avis est consultable sur notre fiche Google.
-
-Pour un projet de climatisation dans l’agglomération orléanaise ou le Loiret : [Demander un devis climatisation](/devis/). Vous pouvez aussi passer nous voir avenue Ampère à Saint-Jean-de-Braye, où nous sommes installés depuis 1969.

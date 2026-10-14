@@ -25,7 +25,7 @@ checks:
   - { label: "Dimensionnement par notre bureau d’études", detail: "capacité et emplacement étudiés ensemble" }
   - { label: "Attestation de capacité fluides frigorigènes", detail: "n° 111363-R1, Bureau Veritas" }
 stats:
-  - { value: "70 %", label: "d’électricité économisée face à un cumulus*" }
+  - { value: "Jusqu’à 70 %", label: "d’électricité économisée face à un cumulus*" }
   - { value: "3 kWh", label: "d’eau chaude pour 1 kWh consommé" }
   - { value: "3 à 5 ans", label: "pour rentabiliser, aides déduites*" }
   - { value: "5,5 %", label: "de TVA en logement de plus de 2 ans" }

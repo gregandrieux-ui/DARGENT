@@ -313,7 +313,6 @@ main .btn { white-space: normal; text-align: center; }
   background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-lg); box-shadow: var(--shadow-2);
   padding: var(--s-6) var(--s-5); transform-origin: 50% 0;
 }
-.stack-card::before { content: attr(data-n); display: block; margin-bottom: var(--s-2); font-family: var(--display); font-weight: 600; font-size: var(--text-label); color: var(--cyan-700); letter-spacing: 0.04em; }
 .stack-card > :last-child { margin-bottom: 0; }
 @media (min-width: 768px) { .stack-card { padding: var(--s-7) var(--s-8); } }
 @supports (animation-timeline: view()) {
@@ -564,7 +563,7 @@ a.stretched::after { content: ''; position: absolute; inset: 0; z-index: 1; }
 .stats { list-style: none; padding: 0; margin: var(--s-4) 0 var(--s-2); display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--s-4) var(--s-5); }
 .stats li { color: var(--ink-600); font-size: var(--text-small); line-height: 1.35; max-width: none; }
 .stats strong { display: block; font-family: var(--display); font-weight: 600; font-size: clamp(1.75rem, 1.3rem + 1.5vw, 2.25rem); line-height: 1.1; letter-spacing: -0.02em; color: var(--navy-900); margin-bottom: var(--s-1); }
-.stats-note { font-size: var(--text-label); color: var(--ink-600); margin: 0; }
+.stats-note { font-size: 0.75rem; color: var(--ink-600); margin: 0; }
 @media (max-width: 339px) { .stats { grid-template-columns: 1fr; } }
 
 /* Faits clés du hero : bandeau teinté, libellé discret, valeur en gras. */

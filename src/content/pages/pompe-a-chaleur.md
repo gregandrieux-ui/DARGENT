@@ -28,7 +28,7 @@ faq:
 howto: []
 stats:
   - { value: "3 à 4 ×", label: "plus de chaleur produite que d’électricité consommée" }
-  - { value: "65 %", label: "d’économies d’énergie possibles*" }
+  - { value: "Jusqu’à 65 %", label: "d’économies d’énergie possibles*" }
   - { value: "2 aides", label: "cumulables : MaPrimeRénov’ et CEE*" }
   - { value: "1936", label: "chauffagistes depuis trois générations" }
 photos:
@@ -117,9 +117,3 @@ Une pompe à chaleur contient un fluide frigorigène et demande un entretien pé
 Nos techniciens interviennent sous couvert de l’attestation de capacité fluides frigorigènes n° 111363-R1 (Bureau Veritas). Chaque manipulation de fluide est consignée dans notre registre. Forfait ponctuel ou contrat annuel : [Entretien de votre pompe à chaleur : forfait ou contrat](/pompe-a-chaleur/entretien/).
 
 En cas de panne, nous posons un diagnostic puis établissons un devis avant toute réparation. Nous vous prévenons quand réparer n’est pas raisonnable, par exemple sur un appareil trop ancien ou sans pièces disponibles. Voir la page [Dépannage de pompe à chaleur à Orléans et dans le Loiret](/pompe-a-chaleur/depannage/).
-
-## Nos réalisations
-
-Nos photos de chantiers montrent des climatisations réversibles, des chaudières à condensation, des ballons thermodynamiques et des planchers chauffants. Les photos de PAC air/eau posées par nos équipes sont en cours de collecte auprès de nos clients, avec leur accord.
-
-Deux avis Google concernent nos pompes à chaleur. Sylvain Aguenier évoque la pose d’une PAC air/air et l’accompagnement sur les aides. Geoffrey Thomas décrit le dépannage du thermostat de sa PAC.

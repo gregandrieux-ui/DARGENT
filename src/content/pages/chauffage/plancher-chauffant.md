@@ -23,7 +23,7 @@ checks:
 stats:
   - { value: "0", label: "sensation de sol froid, chaleur homogène" }
   - { value: "35 °C", label: "d’eau suffisent, contre 55 °C pour des radiateurs" }
-  - { value: "10 %", label: "de pertes de chaleur par le sol supprimées*" }
+  - { value: "Jusqu’à 10 %", label: "de pertes de chaleur par le sol supprimées*" }
   - { value: "100 %", label: "des murs libres, sans radiateur" }
 photos:
   - { src: "/images/illustrations/plancher-chauffant.svg", alt: "Coupe d’un plancher chauffant : support, isolant en plaque ou projeté, chape avec les tubes d’eau chaude, revêtement", caption: "Les couches d’un plancher chauffant, du support au revêtement" }

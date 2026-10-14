@@ -7,7 +7,6 @@ import Checks from '../components/Checks.astro';
 import Exits from '../components/Exits.astro';
 import Faq from '../components/Faq.astro';
 import ToConfirm from '../components/ToConfirm.astro';
-import Reassurance from '../components/Reassurance.astro';
 import CtaBand from '../components/CtaBand.astro';
 import Cachet from '../components/Cachet.astro';
 import Exploded from '../components/Exploded.astro';
@@ -51,7 +50,6 @@ const osm = `https://www.openstreetmap.org/export/embed.html?bbox=${site.geo.lng
           {d.stats.length > 0 ? (
             <>
               <ul class="stats">{d.stats.map((s) => <li><strong>{s.value}</strong> {s.label}</li>)}</ul>
-              <p class="stats-note">* Ordres de grandeur ADEME et fabricants, selon logement, usage et éligibilité. Chiffrage réel après visite technique.</p>
             </>
           ) : (
             <>
@@ -69,6 +67,7 @@ const osm = `https://www.openstreetmap.org/export/embed.html?bbox=${site.geo.lng
               {d.alert ? <a class="btn btn-cyan" href={d.cta.href}>{d.cta.label}</a> : <a class="tel" href={site.phoneHref}><Icon name="phone" /> {site.phone}</a>}
             </div>
           )}
+          {d.stats.length > 0 && <p class="stats-note">* Ordres de grandeur ADEME et fabricants, selon logement, usage et éligibilité. Chiffrage réel après visite technique.</p>}
         </div>
         {!simple && (d.unit ? (
           <Exploded unit={d.unit} />
@@ -132,7 +131,6 @@ const osm = `https://www.openstreetmap.org/export/embed.html?bbox=${site.geo.lng
     </div>
   </section>
 
-  {isService && <Reassurance aides={d.aides} cta={d.cta} />}
   {!simple && <CtaBand alert={d.alert} cta={d.alert ? `Appeler le ${site.phone}` : d.cta.label} href={d.cta.href} title={d.alert ? 'Une panne ? Un diagnostic, puis un devis avant toute réparation.' : undefined} text={d.alert ? 'Intervention sur rendez-vous par un technicien habilité fluides frigorigènes.' : undefined} />}
 </Base>
 

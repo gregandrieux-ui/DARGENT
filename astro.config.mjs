@@ -37,7 +37,6 @@ const stackCards = {
       type: 'element', tagName: 'section',
       properties: {
         className: ['stack-card'],
-        dataN: String(i + 1).padStart(2, '0'),
         style: `--i:${i};view-timeline-name:--card-${i + 1}` + (i < n - 1 ? `;animation-timeline:--card-${i + 2}` : ''),
       },
       children,

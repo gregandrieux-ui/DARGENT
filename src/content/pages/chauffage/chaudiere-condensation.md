@@ -23,7 +23,7 @@ checks:
   - { label: "Photos de chaudières au sol et en cascade", detail: "chantiers réels, voir la galerie ci-dessous" }
   - { label: "Visite technique avant tout devis", detail: "jamais de chiffrage au téléphone" }
 stats:
-  - { value: "20 %", label: "de gaz économisé face à une chaudière ancienne*" }
+  - { value: "Jusqu’à 20 %", label: "de gaz économisé face à une chaudière ancienne*" }
   - { value: "A", label: "classe énergétique chauffage (ErP)" }
   - { value: "< 0,5 m²", label: "au mur, se loge dans un placard" }
   - { value: "2-en-1", label: "chauffage et eau chaude (modèle mixte)" }

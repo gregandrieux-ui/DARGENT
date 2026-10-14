@@ -114,15 +114,3 @@ Une pompe à chaleur contient un fluide frigorigène. Selon la charge de fluide 
 L’entretien comprend le contrôle d’étanchéité du circuit frigorifique et le nettoyage de l’échangeur extérieur. Notre équipe de maintenance le réalise et tient le registre des fluides. Nos formules sont décrites sur la page [entretien de votre pompe à chaleur](/pompe-a-chaleur/entretien/).
 
 En cas de panne, la même équipe intervient sur les PAC air/eau, dans la limite de la vétusté de l’appareil et de la disponibilité des pièces. Le [dépannage de pompe à chaleur](/pompe-a-chaleur/depannage/) commence par un diagnostic. Un devis vous est remis avant toute réparation au-delà d’un seuil [À CONFIRMER : seuil de devis obligatoire]. Contact : 02 38 86 46 46.
-
-## Nos réalisations
-
-Les photos de PAC air/eau posées sont en cours de collecte auprès de nos clients, avec leur accord.
-
-Deux avis Google concernent nos pompes à chaleur. Sylvain Aguenier évoque une PAC air/air et l’accompagnement sur les aides. Geoffrey Thomas évoque le dépannage d’un thermostat de PAC.
-
-Nous intervenons à Orléans et dans les communes de l’agglomération depuis notre siège de Saint-Jean-de-Braye, avenue Ampère, occupé depuis 1969. Trois générations de chauffagistes se sont succédé depuis 1936.
-
-Pour savoir ce que votre maison permet, appelez le 02 38 86 46 46.
-
-[Demander une étude gratuite](/devis/)

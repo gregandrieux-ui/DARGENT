@@ -24,7 +24,7 @@ checks:
 stats:
   - { value: "0", label: "radiateur à changer dans la plupart des cas, après étude" }
   - { value: "75 °C", label: "de chaleur constante, même par grand froid" }
-  - { value: "70 %", label: "d’émissions de CO₂ en moins par rapport au fioul*" }
+  - { value: "Jusqu’à 70 %", label: "d’émissions de CO₂ en moins par rapport au fioul*" }
   - { value: "2 aides", label: "cumulables : MaPrimeRénov’ et Coup de Pouce CEE*" }
 photos:
   - { src: "/images/illustrations/pac-haute-temperature.svg", alt: "Schéma d’une pompe à chaleur haute température qui remplace la chaudière : groupe extérieur, module hydraulique, bouteille de découplage, radiateurs conservés", caption: "La PAC haute température prend la place de la chaudière, vos radiateurs restent" }
