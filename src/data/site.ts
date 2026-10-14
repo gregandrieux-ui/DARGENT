@@ -33,7 +33,7 @@ export const site = {
     { name: 'Sylvain Aguenier', text: 'Délai respecté et technicien compétent pour l’installation de notre PAC air/air. Commercial à l’écoute, qui nous a accompagnés pour obtenir les aides financières.' },
     { name: 'Geoffrey Thomas', text: 'Venus réparer le thermostat de notre pompe à chaleur en panne, remis en route grâce à eux. Je recommande.' },
   ],
-  hours: '[À CONFIRMER : horaires d’ouverture]',
+  hours: '8h - 18h',
 };
 export const showTodo = (import.meta.env.PUBLIC_SHOW_TODO ?? 'true') !== 'false';
 export const ga4Id = import.meta.env.PUBLIC_GA4_ID ?? '';

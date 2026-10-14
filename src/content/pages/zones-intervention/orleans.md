@@ -103,4 +103,4 @@ Notre présence dans l’Orléanais ne date pas d’hier : entreprise fondée e
 
 Pour un projet de pompe à chaleur, de climatisation ou de chauffage dans un logement d’Orléans, décrivez-nous votre situation : type de logement, quartier, équipement actuel et attentes. Nous convenons ensuite d’une visite technique, puis notre bureau d’études établit le devis.
 
-[Demander un devis à Orléans](/devis/) ou appelez le 02 38 86 46 46 du lundi au vendredi : [À CONFIRMER : horaires d’accueil téléphonique]. Le devis est gratuit et sans engagement de votre part.
+[Demander un devis à Orléans](/devis/) ou appelez le 02 38 86 46 46 du lundi au vendredi, de 8h à 18h. Le devis est gratuit et sans engagement de votre part.

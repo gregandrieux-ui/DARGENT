@@ -100,7 +100,7 @@ Les opérations sur le circuit frigorifique sont encadrées par le code de l’e
 
 ## Nous appeler
 
-Pour un dépannage de pompe à chaleur dans l’agglomération orléanaise, un seul numéro : [02 38 86 46 46](tel:+33238864646) [À CONFIRMER : horaires d’accueil téléphonique]. Nous partons de l’avenue Ampère à Saint-Jean-de-Braye, où nous sommes installés depuis 1969.
+Pour un dépannage de pompe à chaleur dans l’agglomération orléanaise, un seul numéro : [02 38 86 46 46](tel:+33238864646) de 8h à 18h. Nous partons de l’avenue Ampère à Saint-Jean-de-Braye, où nous sommes installés depuis 1969.
 
 Pour gagner du temps au téléphone, ayez sous la main :
 

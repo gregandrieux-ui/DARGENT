@@ -97,7 +97,7 @@ Quand la réparation n’est pas possible, nous vous orientons vers une [étude 
 
 ## Nous appeler
 
-Pour une panne de climatisation dans l’agglomération orléanaise et le Loiret, appelez le [02 38 86 46 46](tel:+33238864646) [À CONFIRMER : horaires d’accueil téléphonique]. Nous intervenons depuis notre siège de l’avenue Ampère à Saint-Jean-de-Braye, où l’entreprise est installée depuis 1969.
+Pour une panne de climatisation dans l’agglomération orléanaise et le Loiret, appelez le [02 38 86 46 46](tel:+33238864646) de 8h à 18h. Nous intervenons depuis notre siège de l’avenue Ampère à Saint-Jean-de-Braye, où l’entreprise est installée depuis 1969.
 
 Pour gagner du temps au téléphone, ayez sous la main :
 
