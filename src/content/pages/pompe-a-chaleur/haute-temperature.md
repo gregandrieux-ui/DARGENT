@@ -60,8 +60,6 @@ Pour y parvenir, la machine enchaîne deux compressions au lieu d’une. Un prem
 
 L’ensemble se compose d’un groupe extérieur et d’un module hydraulique posé dans un local technique, un garage ou une chaufferie. Le module se raccorde au réseau d’eau existant, à la place de la chaudière.
 
-Les marques et gammes proposées sont retenues selon votre projet [À CONFIRMER : marques/gammes HT installées]. La température de départ réellement atteinte varie d’une gamme à l’autre [À CONFIRMER : température de départ réellement atteinte selon les gammes].
-
 ## Pour quels logements
 
 La PAC haute température est conçue pour la rénovation. Elle vise la maison ancienne équipée de radiateurs, souvent en fonte ou en acier, chauffée jusqu’ici par une chaudière fioul ou gaz. Ces radiateurs ont été dimensionnés pour une eau très chaude. Une PAC classique ne les alimenterait pas assez.
