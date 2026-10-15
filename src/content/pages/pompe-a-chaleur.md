@@ -3,7 +3,7 @@ id: PAC-00
 priority: P1
 title: "Pompe à chaleur à Orléans : installateur RGE Qualibat"
 description: "Installation de pompe à chaleur air/eau, haute température ou hybride à Orléans par une entreprise RGE. Étude à domicile et devis gratuit : 02 38 86 46 46."
-h1: "Pompe à chaleur à Orléans et dans l’agglomération"
+h1: "Pompe à chaleur à Orléans"
 promise: "Une solution de chauffage dimensionnée pour votre logement, posée par une équipe qualifiée RGE."
 template: pilier
 schema: Service
