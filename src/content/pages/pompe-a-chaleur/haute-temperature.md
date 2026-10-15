@@ -38,11 +38,6 @@ links:
   - { href: "/aides-financieres-pompe-a-chaleur/", label: "Aides financières pour le remplacement de votre chaudière par une PAC" }
   - { href: "/devis/", label: "Demander une étude gratuite" }
   - { href: "/pompe-a-chaleur/hybride/", label: "Comparer avec la PAC hybride gaz" }
-toConfirm:
-  - "Chiffres hero : valider sources ADEME / fiches fabricant"
-  - "Marques/gammes HT installées"
-  - "température de départ réellement atteinte selon les gammes"
-  - "bouteille de découplage toujours systématique."
 aides: true
 alert: false
 draft: false

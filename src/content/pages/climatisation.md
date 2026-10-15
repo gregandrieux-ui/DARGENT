@@ -25,7 +25,7 @@ stats:
   - { value: "2-en-1", label: "fraîcheur l’été, chaleur l’hiver" }
   - { value: "Jusqu’à 75 %", label: "d’électricité en moins face à des radiateurs électriques*" }
   - { value: "19 dB(A)", label: "dès le mode silence" }
-  - { value: "1993", label: "bureau d’études interne pour le dimensionnement" }
+  - { value: "° Constant", label: "Température régulée toute l’année" }
 photos:
   - { src: "/images/illustrations/clim-reversible.svg", alt: "Schéma d’une climatisation réversible : en été elle sort la chaleur de la maison, en hiver elle capte la chaleur de l’air extérieur pour chauffer", caption: "Le même appareil dans les deux sens : en été il sort la chaleur, en hiver il la fait entrer" }
   - { src: "/images/realisations/climatisations-reversibles/dargent-thermique-027.jpg", alt: "Groupe extérieur de climatisation avec traitement acoustique", caption: "Groupe extérieur de climatisation avec traitement acoustique" }
@@ -43,11 +43,6 @@ links:
   - { href: "/climatisation/depannage/", label: "Dépannage de climatisation" }
   - { href: "/professionnels/", label: "Nos solutions pour les professionnels et les collectivités" }
   - { href: "/devis/", label: "Demander un devis climatisation" }
-toConfirm:
-  - "Chiffres hero : valider sources ADEME / fiches fabricant"
-  - "Marques de climatisation réellement proposées"
-  - "offre professionnelle maintenue ?"
-  - "traitement acoustique proposé en standard ?"
 aides: false
 alert: false
 draft: false

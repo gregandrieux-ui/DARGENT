@@ -33,10 +33,6 @@ links:
   - { href: "/chauffage/entretien-chaudiere/", label: "Entretien de votre chaudière : forfait ou contrat" }
   - { href: "/depannage/", label: "Dépannage : diagnostic et devis avant réparation" }
   - { href: "/entreprise/#nos-qualifications", label: "Nos qualifications et l’attestation de capacité fluides frigorigènes" }
-toConfirm:
-  - "fréquence des visites du contrat"
-  - "composition de l'équipe"
-  - "contenu des formules."
 aides: false
 alert: false
 draft: false

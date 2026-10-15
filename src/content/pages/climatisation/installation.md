@@ -37,10 +37,6 @@ links:
   - { href: "/entreprise/#nos-qualifications", label: "Nos qualifications et certifications : Qualibat 5423, RGE, fluides frigorigènes" }
   - { href: "/devis/", label: "Demander une visite technique" }
   - { href: "/climatisation/gainable/", label: "Climatisation gainable : discrète et intégrée" }
-toConfirm:
-  - "Délais de pose"
-  - "gestion des démarches en copropriété"
-  - "prestations annexes facturées (percements, habillage, alimentation électrique)."
 aides: false
 alert: false
 draft: false

@@ -38,7 +38,7 @@ npm run assets     # re-télécharge photos, logos, PDF, vidéos de l'ancien sit
 
 | Variable | Valeur | Effet |
 |---|---|---|
-| `PUBLIC_SHOW_TODO` | `true` (défaut) / `false` | Affiche ou masque les encarts jaunes « À confirmer » et les slots « Photo de chantier à collecter ». Passer à `false` seulement quand les données sont validées. |
+| `PUBLIC_SHOW_TODO` | `true` (défaut) / `false` | Affiche ou masque les slots « Photo de chantier à collecter ». Passer à `false` seulement quand les données sont validées. |
 | `PUBLIC_GA4_ID` | `G-XXXXXXXXXX` | Active Google Analytics 4 avec bandeau de consentement (Consent Mode v2, refus effectif). Sans valeur : aucun script, aucun cookie, aucun bandeau. |
 
 ## Déploiement Netlify
@@ -56,7 +56,7 @@ La propriété GA4 existante appartient à Dargent Thermique ; l'accès est à r
 
 ## Décisions à prendre avant la bascule
 
-Voir la liste complète dans l'onglet « A confirmer » du xlsx. Sur le site, chaque donnée non vérifiée est visible dans un encart jaune « À confirmer » ou écrite `[À CONFIRMER : …]` dans le texte. Pour les retrouver :
+Voir la liste complète dans l'onglet « A confirmer » du xlsx. Sur le site, chaque donnée non vérifiée est écrite `[À CONFIRMER : …]` dans le texte (les anciens encarts jaunes sont listés dans `Verification.md`). Pour les retrouver :
 
 ```bash
 grep -rn "À CONFIRMER" src/content src/pages src/data | wc -l

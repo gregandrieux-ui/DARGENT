@@ -35,10 +35,6 @@ links:
   - { href: "https://www.ecologie.gouv.fr/", label: "Site du ministère chargé de l’Écologie" }
   - { href: "https://www.service-public.fr/", label: "Service-public.fr" }
   - { href: "https://www.economie.gouv.fr/", label: "Site du ministère de l’Économie" }
-toConfirm:
-  - "Dispositifs et montants en vigueur à la date de publication"
-  - "prestations d’accompagnement réellement assurées"
-  - "mandat administratif éventuel."
 aides: false
 alert: false
 draft: false

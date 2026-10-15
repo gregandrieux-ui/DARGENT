@@ -35,11 +35,6 @@ links:
   - { href: "/climatisation/reversible/", label: "Climatisation réversible : mural, console ou cassette selon la pièce" }
   - { href: "/climatisation/installation/", label: "Le déroulé de notre installation de climatisation" }
   - { href: "/devis/", label: "Demander une étude de faisabilité" }
-toConfirm:
-  - "Chiffres hero : valider sources ADEME / fiches fabricant"
-  - "Gainable réellement proposé en résidentiel"
-  - "marques"
-  - "réalisations photographiables."
 aides: false
 alert: false
 draft: false

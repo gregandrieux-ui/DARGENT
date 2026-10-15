@@ -28,10 +28,6 @@ links:
   - { href: "/climatisation/", label: "Climatisation à Orléans : installation, entretien et dépannage" }
   - { href: "/chauffage/chaudiere-condensation/", label: "Chaudière à condensation" }
   - { href: "/devis/", label: "Demander un devis" }
-toConfirm:
-  - "Partenariats en cours"
-  - "droit d'usage des logos"
-  - "statuts 'Expert Confort Habitat Daikin' et 'Station Technique Viessmann' (vus sur un site satellite uniquement)."
 aides: false
 alert: false
 draft: false

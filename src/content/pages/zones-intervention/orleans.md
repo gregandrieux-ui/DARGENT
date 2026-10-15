@@ -30,10 +30,6 @@ links:
   - { href: "/entretien/", label: "Entretien de vos équipements de chauffage et de climatisation" }
   - { href: "/depannage/", label: "Dépannage de vos équipements de chauffage et de climatisation" }
   - { href: "/devis/", label: "Demander un devis à Orléans" }
-toConfirm:
-  - "Chantiers orléanais citables (accord client)"
-  - "prestations réellement proposées intra-muros"
-  - "contraintes d’accès et de stationnement."
 aides: false
 alert: false
 draft: true

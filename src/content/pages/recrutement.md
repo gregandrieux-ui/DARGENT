@@ -28,11 +28,6 @@ links:
   - { href: "/entreprise/", label: "Découvrir l'entreprise Dargent Thermique" }
   - { href: "/entreprise/#notre-histoire", label: "Notre histoire depuis 1936" }
   - { href: "/contact/", label: "Nous contacter" }
-toConfirm:
-  - "Postes ouverts"
-  - "avantages communicables"
-  - "process de recrutement"
-  - "contact RH."
 aides: false
 alert: false
 draft: false

@@ -24,8 +24,6 @@ links:
   - { href: "/protection-donnees/", label: "Protection de vos données personnelles" }
   - { href: "/politique-confidentialite/", label: "Politique de confidentialité" }
   - { href: "/contact/", label: "Nous contacter" }
-toConfirm:
-  - "Texte validé par le conseil juridique."
 aides: false
 alert: false
 draft: false

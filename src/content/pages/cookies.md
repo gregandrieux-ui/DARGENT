@@ -26,9 +26,6 @@ links:
   - { href: "/protection-donnees/", label: "Protection de vos données personnelles" }
   - { href: "/politique-confidentialite/", label: "Politique de confidentialité" }
   - { href: "/contact/", label: "Nous contacter" }
-toConfirm:
-  - "Liste des traceurs"
-  - "solution de consentement retenue."
 aides: false
 alert: false
 draft: false

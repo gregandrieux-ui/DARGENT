@@ -32,11 +32,6 @@ links:
   - { href: "/chauffage/chaudiere-condensation/", label: "Chaudière à condensation" }
   - { href: "/pompe-a-chaleur/", label: "Pompe à chaleur à Orléans et dans l’agglomération" }
   - { href: "/devis/", label: "Demander conseil" }
-toConfirm:
-  - "Chiffres hero : valider sources ADEME / fiches fabricant"
-  - "Marques de régulation proposées aujourd’hui"
-  - "brochures encore valides"
-  - "prestation vendue séparément ?"
 aides: false
 alert: false
 draft: false

@@ -25,11 +25,6 @@ links:
   - { href: "/mentions-legales/", label: "Mentions légales et informations sur l’éditeur" }
   - { href: "/protection-donnees/", label: "Protection de vos données personnelles" }
   - { href: "/contact/", label: "Nous contacter" }
-toConfirm:
-  - "Bases légales"
-  - "durées de conservation"
-  - "destinataires"
-  - "DPO ou référent."
 aides: false
 alert: false
 draft: false

@@ -42,11 +42,6 @@ links:
   - { href: "/pompe-a-chaleur/depannage/", label: "Dépannage de pompe à chaleur : que faire en cas de panne" }
   - { href: "/entreprise/#nos-qualifications", label: "Nos qualifications et certifications, dont l’attestation fluides frigorigènes" }
   - { href: "/contact/", label: "Nous contacter pour planifier votre visite d’entretien" }
-toConfirm:
-  - "Contenu exact des forfaits et contrats PAC"
-  - "fréquence"
-  - "périmètre géographique du contrat"
-  - "tarifs communicables ou non."
 aides: false
 alert: false
 draft: false

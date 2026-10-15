@@ -46,9 +46,6 @@ links:
   - { href: "/pompe-a-chaleur/", label: "Pompe à chaleur à Orléans et dans l’agglomération" }
   - { href: "/devis/", label: "Demander un devis chauffage" }
   - { href: "/marques-partenaires/", label: "Les marques de chauffage que nous installons" }
-toConfirm:
-  - "Chiffres hero : valider sources ADEME / fiches fabricant"
-  - "Énergies réellement couvertes aujourd'hui (gaz, fioul, électricité, bois ?)."
 aides: false
 alert: false
 draft: false

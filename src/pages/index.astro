@@ -3,7 +3,6 @@ import Base from '../layouts/Base.astro';
 import Icon from '../components/Icon.astro';
 import { Image } from 'astro:assets';
 import type { ImageMetadata } from 'astro';
-import ToConfirm from '../components/ToConfirm.astro';
 import CtaBand from '../components/CtaBand.astro';
 import Exploded from '../components/Exploded.astro';
 import ZoneMap from '../components/ZoneMap.astro';
@@ -109,9 +108,7 @@ const steps = [
       </div>
     </div></section>
 
-    <CtaBand>
-      <ToConfirm items={['Effectif actuel','Nom du groupe propriétaire depuis 2018', 'Zone réellement couverte en installation et en dépannage', 'Validité des certificats Qualibat']} />
-    </CtaBand>
+    <CtaBand />
   </div>
 
   <style>

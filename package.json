@@ -10,8 +10,7 @@
     "check": "astro check",
     "spec": "python3 scripts/spec-to-json.py",
     "assets": "bash scripts/fetch-old-assets.sh",
-    "test": "node scripts/check-site.mjs dist",
-    "verify": "node scripts/find-to-confirm.mjs"
+    "test": "node scripts/check-site.mjs dist"
   },
   "dependencies": {
     "@astrojs/markdown-satteri": "^0.4.1",

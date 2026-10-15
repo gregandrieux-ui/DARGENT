@@ -1,4 +1,4 @@
-// Faits vérifiés sur l'ancien site et dans la spécification. Tout ce qui est incertain est dans toConfirm.
+// Faits vérifiés sur l'ancien site et dans la spécification. Tout ce qui est incertain est marqué « À CONFIRMER » dans le texte ou listé dans Verification.md.
 export const site = {
   name: 'Dargent Thermique',
   legalName: 'Dargent Thermique SAS',

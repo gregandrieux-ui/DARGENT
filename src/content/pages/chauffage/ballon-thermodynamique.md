@@ -36,10 +36,6 @@ links:
   - { href: "/pompe-a-chaleur/air-eau/", label: "Pompe à chaleur air/eau : chauffage, eau chaude et rafraîchissement" }
   - { href: "/ventilation/", label: "Ventilation et raccordement à la VMC" }
   - { href: "/devis/", label: "Demander un devis" }
-toConfirm:
-  - "Chiffres hero : valider sources ADEME / fiches fabricant"
-  - "Marques et capacités proposées"
-  - "étude COSTIC citée (référence et date) ou suppression."
 aides: false
 alert: false
 draft: false

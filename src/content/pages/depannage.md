@@ -33,11 +33,6 @@ links:
   - { href: "/chauffage/depannage-chaudiere/", label: "Dépannage de chaudière : pannes courantes et intervention" }
   - { href: "/entretien/", label: "Entretien : forfait ou contrat pour prévenir les pannes" }
   - { href: "/contact/", label: "Nous contacter : coordonnées, horaires et accès" }
-toConfirm:
-  - "Seuil de devis obligatoire au-delà d’un certain montant, toujours appliqué"
-  - "délai d’intervention réellement tenable"
-  - "existence d’une astreinte"
-  - "composition de l'équipe."
 aides: false
 alert: true
 draft: false

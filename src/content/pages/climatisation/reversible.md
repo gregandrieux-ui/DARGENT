@@ -37,11 +37,6 @@ links:
   - { href: "/climatisation/installation/", label: "Comment nous installons votre climatisation, étape par étape" }
   - { href: "/climatisation/entretien/", label: "Entretien et maintenance de votre climatisation réversible" }
   - { href: "/devis/", label: "Demander un devis gratuit" }
-toConfirm:
-  - "Chiffres hero : valider sources ADEME / fiches fabricant"
-  - "Marques installées"
-  - "proposition de pilotage connecté toujours d’actualité"
-  - "pose en copropriété (contraintes)."
 aides: false
 alert: false
 draft: false

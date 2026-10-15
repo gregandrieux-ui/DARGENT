@@ -37,11 +37,6 @@ links:
   - { href: "/chauffage/ballon-thermodynamique/", label: "Ballon thermodynamique : bien le choisir" }
   - { href: "/aides-financieres-pompe-a-chaleur/", label: "Les aides financières pour votre pompe à chaleur" }
   - { href: "/devis/", label: "Demander une étude gratuite" }
-toConfirm:
-  - "Chiffres hero : valider sources ADEME / fiches fabricant"
-  - "Marques et gammes air/eau installées"
-  - "PAC air/eau avec rafraîchissement toujours proposée ?"
-  - "délais moyens d’installation."
 aides: true
 alert: false
 draft: false

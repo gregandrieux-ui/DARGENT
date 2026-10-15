@@ -45,18 +45,6 @@ links:
   - { href: "/professionnels/", label: "Nos prestations pour les professionnels et collectivités" }
   - { href: "/marques-partenaires/", label: "Les marques que nous installons" }
   - { href: "/recrutement/", label: "Nos offres et candidatures spontanées" }
-toConfirm:
-  - "Effectif"
-  - "nombre de clients (8 000 ?)"
-  - "nom du groupe propriétaire (2018) communicable"
-  - "chiffres communicables"
-  - "tonnage 1964 et autres chiffres historiques, photos d’archives"
-  - "validité en cours de chaque qualification et date d’échéance"
-  - "adhésion Ecologic toujours active"
-  - "ruches toujours présentes"
-  - "seuil de devis obligatoire"
-  - "autorisation d’affichage de chaque logo, relations commerciales toujours actives"
-  - "mentions Daikin/Viessmann/Climaticiens de France (vues uniquement sur un site satellite)."
 aides: true
 alert: false
 draft: false

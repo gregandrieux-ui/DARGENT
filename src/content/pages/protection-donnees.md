@@ -25,9 +25,6 @@ links:
   - { href: "/mentions-legales/", label: "Mentions légales et informations sur l’éditeur" }
   - { href: "/politique-confidentialite/", label: "Politique de confidentialité" }
   - { href: "/contact/", label: "Nous contacter" }
-toConfirm:
-  - "Fusion ou maintien de deux pages"
-  - "contact dédié aux demandes RGPD."
 aides: false
 alert: false
 draft: false

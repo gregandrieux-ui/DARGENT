@@ -23,7 +23,6 @@ const pages = defineCollection({
     checks: z.array(z.object({ label: z.string(), detail: z.string().optional() })).default([]), // preuves cochées
     photos: z.array(z.object({ src: z.string().optional(), alt: z.string().default(''), caption: z.string().optional(), missing: z.string().optional() })).default([]),
     links: z.array(link).default([]),      // Liens sortants (xlsx) → sorties numérotées
-    toConfirm: z.array(z.string()).default([]),
     aides: z.boolean().default(false),     // bloc réassurance : lien vers la page aides si pertinent
     alert: z.boolean().default(false),     // hero dépannage : téléphone en rouge
     unit: z.enum(['pac']).optional(),      // hero : vue éclatée animée (Exploded.astro) ; photos[0] passe en galerie

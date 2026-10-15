@@ -31,11 +31,6 @@ links:
   - { href: "/depannage/", label: "Dépannage : nos engagements de service" }
   - { href: "/chauffage/chaudiere-condensation/", label: "Chaudière à condensation : pose et conseils" }
   - { href: "/contact/", label: "Nous contacter : coordonnées, horaires et accès" }
-toConfirm:
-  - "Prestation de dépannage chaudière effectivement commercialisée auprès des particuliers"
-  - "énergies et marques couvertes"
-  - "délai d’intervention réellement tenable"
-  - "intervention sur matériel non installé par l’entreprise."
 aides: false
 alert: true
 draft: false

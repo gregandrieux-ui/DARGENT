@@ -41,10 +41,6 @@ links:
   - { href: "/entreprise/#nos-qualifications", label: "Nos qualifications et certifications, dont l’attestation fluides frigorigènes" }
   - { href: "/pompe-a-chaleur/entretien/", label: "Entretien de votre pompe à chaleur air/eau ou air/air" }
   - { href: "/contact/", label: "Nous contacter pour fixer un rendez-vous d’entretien" }
-toConfirm:
-  - "Composition actuelle de l’équipe maintenance (le site annonce 1 assistante, 6 techniciens, 1 référent)"
-  - "contenu des forfaits"
-  - "validité de l’attestation de capacité."
 aides: false
 alert: false
 draft: false

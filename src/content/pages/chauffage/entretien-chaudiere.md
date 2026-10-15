@@ -31,10 +31,6 @@ links:
   - { href: "/chauffage/depannage-chaudiere/", label: "Dépannage de chaudière : pannes courantes et intervention" }
   - { href: "/chauffage/chaudiere-condensation/", label: "Chaudière à condensation : pose et conseils" }
   - { href: "/contact/", label: "Nous contacter" }
-toConfirm:
-  - "Prestation d'entretien chaudière effectivement commercialisée auprès des particuliers"
-  - "énergies couvertes"
-  - "périmètre géographique."
 aides: false
 alert: false
 draft: false

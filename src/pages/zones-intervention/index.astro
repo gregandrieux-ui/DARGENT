@@ -1,7 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
 import ZoneMap from '../../components/ZoneMap.astro';
-import ToConfirm from '../../components/ToConfirm.astro';
 import Exits from '../../components/Exits.astro';
 import CtaBand from '../../components/CtaBand.astro';
 import { getCollection } from 'astro:content';
@@ -24,7 +23,6 @@ const locals = (await getCollection('pages', (p) => p.id.startsWith('zones-inter
           {locals.map((l) => <><dt>{l.data.h1.includes('Saint-Jean-de-Braye') ? 'Siège' : 'Commune'}</dt><dd><a href={`/${l.id}/`}>{l.data.h1}</a></dd></>)}
         </dl>
         <p>Les autres communes de l’agglomération (Olivet, Fleury-les-Aubrais, Saint-Jean-de-la-Ruelle, Saran, Saint-Jean-le-Blanc, Saint-Denis-en-Val, Chécy, Semoy…) sont couvertes ; une page détaillée est publiée dès que nous pouvons y montrer des chantiers réels.</p>
-        <ToConfirm items={['Liste exacte des communes couvertes, en installation et en dépannage', 'Chantiers localisés à Orléans, Olivet, Fleury-les-Aubrais, Saint-Jean-de-la-Ruelle (pages locales en attente)']} />
       </div>
       <div><ZoneMap /></div>
     </div>

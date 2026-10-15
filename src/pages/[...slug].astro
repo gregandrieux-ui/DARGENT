@@ -6,7 +6,6 @@ import Photo from '../components/Photo.astro';
 import Checks from '../components/Checks.astro';
 import Exits from '../components/Exits.astro';
 import Faq from '../components/Faq.astro';
-import ToConfirm from '../components/ToConfirm.astro';
 import CtaBand from '../components/CtaBand.astro';
 import Cachet from '../components/Cachet.astro';
 import Exploded from '../components/Exploded.astro';
@@ -102,7 +101,6 @@ const osm = `https://www.openstreetmap.org/export/embed.html?bbox=${site.geo.lng
 
   <section class="section" style="padding-top: 0">
     <div class="container">
-      <ToConfirm items={d.toConfirm} />
       <div class="prose">
         <Content />
       </div>

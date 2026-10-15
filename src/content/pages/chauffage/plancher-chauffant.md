@@ -32,11 +32,6 @@ links:
   - { href: "/chauffage/", label: "nos solutions de chauffage" }
   - { href: "/devis/", label: "Demander une étude gratuite" }
   - { href: "/chauffage/regulation-connectee/", label: "Régulation connectée pour votre plancher chauffant" }
-toConfirm:
-  - "Chiffres hero : valider sources ADEME / fiches fabricant"
-  - "Marques de systèmes posées aujourd'hui"
-  - "prestation réalisée en interne ou sous-traitée"
-  - "droits de diffusion des brochures."
 aides: false
 alert: false
 draft: false

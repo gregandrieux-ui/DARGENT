@@ -27,9 +27,6 @@
   --alert: #d93641;
   --alert-50: #fdeced;
   --warn: #f5b800;
-  --warn-bg: #fff8e1;
-  --warn-ink: #633806;
-  --warn-line: #f1d98a;
   /* Encres de marque : fonds pleins sous texte blanc (héritées du mode sombre, retiré le 01/10/2026). */
   --brand: #005ca9;
   --brand-700: #004a8a;
@@ -298,11 +295,6 @@ main .btn { white-space: normal; text-align: center; }
 .exits a::after { content: ''; flex: none; width: 8px; height: 8px; border-top: 2px solid currentColor; border-right: 2px solid currentColor; transform: rotate(45deg); margin-right: 4px; transition: transform var(--dur) var(--ease); }
 .exits a:hover { border-color: var(--navy); background: var(--navy-50); }
 .exits a:hover::after { transform: translateX(3px) rotate(45deg); }
-
-.todo { display: flex; gap: var(--s-3); align-items: flex-start; border: 1px solid var(--warn-line); border-radius: var(--radius-sm); background: var(--warn-bg); color: var(--warn-ink); padding: var(--s-3) var(--s-4); margin: var(--s-5) 0; font-size: var(--text-small); }
-.todo .icon { flex: none; margin-top: 0.15em; }
-.todo strong { color: var(--warn-ink); }
-.todo ul { margin: var(--s-1) 0 0; padding-left: 1.2em; }
 
 /* Cartes empilées (pages enfants PAC) : une section `##` par carte, découpée au build (astro.config.mjs).
    Sticky à --pin (script de [...slug].astro : négatif pour une carte plus haute que l'écran, qui défile puis s'épingle par le bas).

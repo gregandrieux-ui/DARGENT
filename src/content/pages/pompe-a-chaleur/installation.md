@@ -36,11 +36,6 @@ links:
   - { href: "/entreprise/#nos-qualifications", label: "Nos qualifications et certifications : Qualibat 8321, RGE, QUALIPAC, fluides" }
   - { href: "/pompe-a-chaleur/entretien/", label: "Entretien de votre pompe à chaleur après l’installation" }
   - { href: "/devis/", label: "Demander une visite technique" }
-toConfirm:
-  - "Durée moyenne d'un chantier"
-  - "garanties réellement accordées"
-  - "sous-traitance éventuelle (électricité, maçonnerie)"
-  - "prise en charge des démarches d'aides."
 aides: true
 alert: false
 draft: false

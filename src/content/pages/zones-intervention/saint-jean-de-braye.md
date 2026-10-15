@@ -31,10 +31,6 @@ links:
   - { href: "/entreprise/#notre-histoire", label: "Notre histoire depuis 1936" }
   - { href: "/pompe-a-chaleur/", label: "Pompe à chaleur à Orléans et dans l’agglomération" }
   - { href: "/climatisation/", label: "Climatisation à Orléans : installation, entretien et dépannage" }
-toConfirm:
-  - "Salle d'exposition ouverte au public et horaires"
-  - "accueil sans rendez-vous"
-  - "ruches toujours en place."
 aides: false
 alert: false
 draft: false

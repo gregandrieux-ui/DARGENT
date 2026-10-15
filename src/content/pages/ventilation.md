@@ -33,10 +33,6 @@ links:
   - { href: "/pompe-a-chaleur/", label: "Pompe à chaleur à Orléans et dans l’agglomération" }
   - { href: "/professionnels/", label: "Nos solutions pour les professionnels et les collectivités" }
   - { href: "/devis/", label: "Demander un devis gratuit" }
-toConfirm:
-  - "Chiffres hero : valider sources ADEME / fiches fabricant"
-  - "Ventilation proposée aux particuliers ou uniquement en tertiaire"
-  - "accord des établissements photographiés."
 aides: false
 alert: false
 draft: false

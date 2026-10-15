@@ -47,11 +47,6 @@ links:
   - { href: "/aides-financieres-pompe-a-chaleur/", label: "Les aides financières mobilisables pour une pompe à chaleur" }
   - { href: "/chauffage/plancher-chauffant/", label: "Plancher chauffant : l’émetteur adapté à la PAC basse température" }
   - { href: "/devis/", label: "Demander une étude gratuite" }
-toConfirm:
-  - "Chiffres hero : valider sources ADEME / fiches fabricant"
-  - "Marques de PAC réellement installées aujourd’hui"
-  - "puissances/gammes"
-  - "existence d’une offre de financement."
 aides: true
 alert: false
 draft: false

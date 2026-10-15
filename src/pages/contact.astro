@@ -3,7 +3,6 @@ import Base from '../layouts/Base.astro';
 import Form from '../components/Form.astro';
 import Cachet from '../components/Cachet.astro';
 import Icon from '../components/Icon.astro';
-import ToConfirm from '../components/ToConfirm.astro';
 import Exits from '../components/Exits.astro';
 import CtaBand from '../components/CtaBand.astro';
 import { site } from '../data/site';
@@ -37,7 +36,6 @@ const osm = `https://www.openstreetmap.org/export/embed.html?bbox=${site.geo.lng
           <dt>Dépannage</dt><dd>Appelez le <a href={site.phoneHref}>{site.phone}</a> : diagnostic, puis devis avant réparation.</dd>
           <dt>Candidature</dt><dd><a href="/recrutement/">Nous rejoindre</a>.</dd>
         </dl>
-        <ToConfirm items={['Accueil physique et salle d’exposition ouverte au public', 'Adresses e-mail par service', 'Numéro dédié SAV']} />
       </div>
       <div>
         <Cachet />

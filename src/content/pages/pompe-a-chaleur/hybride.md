@@ -36,12 +36,6 @@ links:
   - { href: "/pompe-a-chaleur/entretien/", label: "Entretien de votre pompe à chaleur" }
   - { href: "/chauffage/entretien-chaudiere/", label: "Entretien de votre chaudière gaz" }
   - { href: "/devis/", label: "Demander une étude gratuite" }
-toConfirm:
-  - "Chiffres hero : valider sources ADEME / fiches fabricant"
-  - "Éligibilité MaPrimeRénov’ PAC hybride en 2026"
-  - "Marques hybrides proposées"
-  - "partenariat GRDF actif"
-  - "éligibilité aides à re-vérifier."
 aides: true
 alert: false
 draft: false

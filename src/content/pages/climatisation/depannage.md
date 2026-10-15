@@ -34,10 +34,6 @@ links:
   - { href: "/entreprise/#nos-qualifications", label: "Qualifications et attestation fluides frigorigènes de Dargent Thermique" }
   - { href: "/climatisation/", label: "Climatisation à Orléans : installation, entretien et dépannage" }
   - { href: "/climatisation/reversible/", label: "Climatisation réversible : le principe" }
-toConfirm:
-  - "Délais d’intervention en pic estival"
-  - "intervention sur matériel non installé par l’entreprise"
-  - "astreinte week-end."
 aides: false
 alert: true
 draft: false

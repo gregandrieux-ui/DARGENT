@@ -41,11 +41,6 @@ links:
   - { href: "/marques-partenaires/", label: "Les marques de chaudières que nous installons" }
   - { href: "/devis/", label: "Demander un devis" }
   - { href: "/chauffage/regulation-connectee/", label: "Régulation connectée pour votre chauffage" }
-toConfirm:
-  - "Chiffres hero : valider sources ADEME / fiches fabricant"
-  - "Chaudières fioul et biofioul toujours commercialisées ?"
-  - "marques distribuées"
-  - "position commerciale gaz vs PAC."
 aides: false
 alert: false
 draft: false

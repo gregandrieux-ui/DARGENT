@@ -32,11 +32,6 @@ links:
   - { href: "/depannage/", label: "Dépannage : nos engagements de service" }
   - { href: "/contact/", label: "Nous contacter : coordonnées, horaires et accès" }
   - { href: "/entreprise/#nos-qualifications", label: "Nos qualifications : RGE, Qualibat, QUALIPAC, fluides" }
-toConfirm:
-  - "Existence et périmètre d’une astreinte"
-  - "délai d’intervention réellement tenable"
-  - "zone de dépannage"
-  - "intervention sur matériel non installé par l’entreprise."
 aides: false
 alert: true
 draft: false

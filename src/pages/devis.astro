@@ -3,7 +3,6 @@ import Base from '../layouts/Base.astro';
 import Form from '../components/Form.astro';
 import Checks from '../components/Checks.astro';
 import Icon from '../components/Icon.astro';
-import ToConfirm from '../components/ToConfirm.astro';
 import Exits from '../components/Exits.astro';
 import { site } from '../data/site';
 import { breadcrumb, webPage } from '../lib/schema';
@@ -20,7 +19,6 @@ const description = 'Décrivez votre projet en quelques champs : nous vous rappe
         <p class="promise">Un devis établi après visite sur place, pas un prix au téléphone.</p>
         <h2 style="font-size: var(--text-h3); margin-top: 24px">Votre projet en 5 questions</h2>
         <Form kind="devis" submit="Envoyer ma demande" />
-        <ToConfirm items={['Délai de rappel annonçable', 'Destinataire des demandes (notification Netlify Forms à configurer)', 'Outil de suivi des leads']} />
       </div>
       <div>
         <h2 style="font-size: var(--text-h3)">Ce qui se passe ensuite</h2>

@@ -33,10 +33,6 @@ links:
   - { href: "/depannage/", label: "Dépannage de vos équipements tertiaires" }
   - { href: "/entreprise/#ils-nous-font-confiance", label: "Nos références auprès des professionnels et collectivités" }
   - { href: "/contact/", label: "Nos coordonnées pour nous consulter" }
-toConfirm:
-  - "Volonté commerciale de conserver et d'afficher l'offre B2B"
-  - "capacité actuelle"
-  - "interlocuteur dédié."
 aides: false
 alert: false
 draft: false

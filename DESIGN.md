@@ -120,7 +120,7 @@ The editorial rules don't change (PRODUCT.md): proof before promise, no invented
 - **Navy 50 `#eaf3fa`** / **blue 100 `#e7eff6`** / **blue 200 `#b5cce2`**: section fills and metric tiles / card borders / outline borders and muted text on navy.
 - **Tint `#f4f8fb`**: alternating sections, FAQ, exits, `.nums`.
 - **Cyan 700 `#117a85`**: maintain tile, cyan text on light backgrounds.
-- **Alert `#d93641`**: dépannage phone buttons, breakdown tile only. **Warn**: the « À confirmer » callout only.
+- **Alert `#d93641`**: dépannage phone buttons, breakdown tile only.
 - `--brand*` and `--navy*` hold the same values since dark mode was dropped; either works.
 
 ## Typography
