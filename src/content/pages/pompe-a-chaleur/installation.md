@@ -43,8 +43,6 @@ crumbs:
   - { href: "/pompe-a-chaleur/", label: "Pompe à chaleur" }
 ---
 
-Poser une pompe à chaleur, c’est ouvrir un chantier dans votre maison. Cette page décrit ce qui se passe entre votre premier contact et la remise de l’installation, étape par étape. Le choix du type d’appareil se fait sur la page [pompe à chaleur à Orléans et dans l’agglomération](/pompe-a-chaleur/) ; ici, nous parlons du déroulé.
-
 ## Étape 1 : la visite technique
 
 Tout commence chez vous. Nous ne chiffrons pas une pompe à chaleur au téléphone ni sur photos : un technicien vient relever la maison.
