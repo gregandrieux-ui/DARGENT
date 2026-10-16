@@ -4,7 +4,7 @@ priority: P1
 title: "Entretien de pompe à chaleur à Orléans et alentour"
 description: "Forfait ou contrat d’entretien pour votre pompe à chaleur : techniciens habilités fluides frigorigènes, rapport d’intervention et attestation remise."
 h1: "Entretien de votre pompe à chaleur"
-promise: "Un entretien réalisé par des techniciens habilités à la manipulation des fluides frigorigènes, avec remise des documents réglementaires."
+promise: "Un entretien réalisé par des techniciens habilités."
 template: service
 schema: Service
 faq:
