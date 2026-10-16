@@ -21,8 +21,8 @@ checks:
   - { label: "Photos de chantiers avec isolation projetée", detail: "plancher chauffant sous mousse projetée" }
   - { label: "Brochures techniques disponibles", detail: "régulation multizone et plancher rafraîchissant" }
 stats:
-  - { value: "0", label: "sensation de sol froid, chaleur homogène" }
-  - { value: "35 °C", label: "d’eau suffisent, contre 55 °C pour des radiateurs" }
+  - { value: "Chaleur homogène", label: "0 sensation de sol froid" }
+  - { value: "Silencieux", label: "Aucune gêne sonore" }
   - { value: "Jusqu’à 10 %", label: "de pertes de chaleur par le sol supprimées*" }
   - { value: "100 %", label: "des murs libres, sans radiateur" }
 photos:
