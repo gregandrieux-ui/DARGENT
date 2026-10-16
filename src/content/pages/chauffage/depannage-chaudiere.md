@@ -4,7 +4,7 @@ priority: P2
 title: "Dépannage de chaudière à Orléans et dans le Loiret"
 description: "Chaudière en panne, en sécurité ou sans eau chaude ? Diagnostic par un Professionnel du gaz et devis avant réparation. Appelez le 02 38 86 46 46."
 h1: "Dépannage de chaudière"
-promise: "Un diagnostic par une entreprise qualifiée Professionnel du gaz et un devis avant toute réparation importante."
+promise: ""
 template: service
 schema: Service
 faq: []
@@ -16,11 +16,7 @@ facts:
   - { label: "Pièces", value: "Magasin de pièces courantes avenue Ampère, à Saint-Jean-de-Braye" }
   - { label: "Intervention", value: "Sur rendez-vous, véhicules équipés et outillés" }
   - { label: "Depuis", value: "1936, trois générations de chauffagistes" }
-checks:
-  - { label: "Mention Professionnel du gaz", detail: "installation, entretien et dépannage des appareils gaz" }
-  - { label: "Devis écrit avant toute réparation importante", detail: "réparation engagée après votre accord" }
-  - { label: "Facture détaillée", detail: "tarif appliqué et prix des pièces remplacées" }
-  - { label: "Limites d’intervention écrites noir sur blanc", detail: "vétusté, pièces indisponibles" }
+checks: []
 photos:
   - { src: "/images/illustrations/depannage-chaudiere.svg", alt: "Déroulé d’un dépannage de chaudière : prise d’appel, diagnostic, devis avant réparation, réparation", caption: "Le déroulé d’un dépannage, du premier appel à la réparation" }
 links:
@@ -52,6 +48,8 @@ Une part des pannes vient d’un défaut d’entretien. L’[entretien annuel de
 
 ## Comment se passe une intervention
 
+Un diagnostic par une entreprise qualifiée Professionnel du gaz, puis un devis avant toute réparation importante : voici le déroulé d’une intervention.
+
 **La prise d’appel.** Au [02 38 86 46 46](tel:+33238864646), notre service maintenance note vos coordonnées, la marque, le modèle et l’année de la chaudière, le symptôme et l’éventuel code défaut. Si votre chaudière n’a pas été posée par nous : [À CONFIRMER : intervention sur matériel non installé par l’entreprise].
 
 **Le rendez-vous.** Toutes nos interventions sont planifiées sur rendez-vous. Le délai dépend de la charge de la saison [À CONFIRMER : délai d’intervention réellement tenable].
@@ -68,13 +66,15 @@ Lorsque le coût de la réparation n’est pas raisonnable au regard de l’âge
 
 Ces règles sont communes à tous nos dépannages : elles sont détaillées sur la page [dépannage de vos équipements](/depannage/).
 
-## Nous appeler
+## Préparer son appel
 
-Pour un dépannage de chaudière dans l’agglomération orléanaise, un seul numéro : [02 38 86 46 46](tel:+33238864646). Pour gagner du temps au téléphone, ayez sous la main :
+Pour gagner du temps au téléphone, ayez sous la main :
 
 - la marque et le modèle de la chaudière, lisibles sur la plaque signalétique ;
-- le code défaut affiché, s’il y en a un ;
+- la raison de votre appel : ce que vous constatez et le code défaut affiché, s’il y en a un ;
 - la date du dernier entretien et l’entreprise qui l’a réalisé ;
 - l’année de pose et l’énergie utilisée.
+
+Pour un dépannage de chaudière dans l’agglomération orléanaise, un seul numéro : [02 38 86 46 46](tel:+33238864646).
 
 Si la panne n’est pas bloquante, décrivez-la dans le formulaire : [Décrire ma panne (formulaire)](/devis/). Nos [coordonnées, horaires et plan d’accès](/contact/) figurent sur la page contact.

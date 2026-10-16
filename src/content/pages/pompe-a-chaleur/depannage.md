@@ -4,7 +4,7 @@ priority: P1
 title: "Dépannage de pompe à chaleur à Orléans et dans le 45"
 description: "Votre pompe à chaleur est en panne ? Nos techniciens interviennent sur rendez-vous, diagnostiquent et vous remettent un devis avant réparation. 02 38 86 46 46."
 h1: "Dépannage de pompe à chaleur"
-promise: "Un diagnostic par un technicien habilité et un devis avant toute réparation importante."
+promise: ""
 template: service
 schema: Service
 faq: []
@@ -16,11 +16,7 @@ facts:
   - { label: "Pièces", value: "Magasin de pièces courantes avenue Ampère, à Saint-Jean-de-Braye" }
   - { label: "Intervention", value: "Sur rendez-vous, véhicules équipés et outillés" }
   - { label: "Depuis", value: "1936, trois générations de chauffagistes" }
-checks:
-  - { label: "Techniciens habilités fluides frigorigènes", detail: "manipulations consignées au registre des fluides" }
-  - { label: "Devis écrit avant toute réparation importante", detail: "réparation engagée après votre accord" }
-  - { label: "Facture détaillée", detail: "tarif appliqué et prix des pièces indiqués" }
-  - { label: "Avis Google de Geoffrey Thomas", detail: "remise en route d’un thermostat de PAC" }
+checks: []
 photos:
   - { src: "/images/illustrations/depannage-pac.svg", alt: "Déroulé d’un dépannage de pompe à chaleur : prise d’appel, diagnostic, devis avant réparation, réparation", caption: "Le déroulé d’un dépannage, du premier appel à la réparation" }
 links:
@@ -53,6 +49,8 @@ Une part des pannes que nous constatons vient d’un défaut d’entretien. Un [
 
 ## Comment se passe une intervention
 
+Un diagnostic par un technicien habilité, puis un devis avant toute réparation importante : voici le déroulé d’une intervention.
+
 **La prise d’appel.** Au [02 38 86 46 46](tel:+33238864646), notre service maintenance note vos coordonnées, la marque et le modèle de l’appareil. Il relève aussi le symptôme et l’éventuel code erreur. Nos barèmes sont affichés dans notre salle d’exposition de Saint-Jean-de-Braye et transmis à chaque demande d’intervention, par téléphone ou par courriel. Si votre pompe à chaleur n’a pas été posée par nous : [À CONFIRMER : intervention sur matériel non installé par l’entreprise].
 
 **Le rendez-vous.** Toutes nos interventions sont planifiées sur rendez-vous. Le délai dépend de la charge de la saison [À CONFIRMER : délai d’intervention réellement tenable]. En dehors des heures ouvrées : [À CONFIRMER : existence et périmètre d’une astreinte]. Nous nous déplaçons dans l’agglomération orléanaise et le Loiret [À CONFIRMER : zone de dépannage].
@@ -77,7 +75,7 @@ Ces engagements (information sur les tarifs, devis, prévention, moyens, résult
 
 Notre magasin de l’avenue Ampère, à Saint-Jean-de-Braye, stocke les pièces de rechange les plus courantes. Les autres sont commandées auprès du fabricant ou de son distributeur.
 
-Nous respectons l’obligation légale de résultat qui s’attache à une réparation. Elle ne peut pas être retenue dans les cas suivants, que nous préférons écrire noir sur blanc :
+Certaines pannes ne peuvent pas être réparées durablement. Nous préférons vous le dire noir sur blanc, c’est le cas dans les situations suivantes :
 
 - **vétusté de l’appareil** : un équipement en fin de vie ne peut pas toujours être remis en état de façon sûre et durable ;
 - **équipement au R22** : ce fluide ne peut plus être utilisé pour recharger un circuit ; une PAC au R22 qui a perdu sa charge ne peut pas être remise en service à l’identique ;
@@ -89,15 +87,15 @@ Ces limites vous évitent des frais engagés sur un appareil qui ne pourra pas �
 
 Les opérations sur le circuit frigorifique sont encadrées par le code de l’environnement. Dargent Thermique détient l’attestation de capacité n° 111363-R1, délivrée par Bureau Veritas Certification, et chaque technicien concerné dispose de son habilitation individuelle. L’entreprise fait l’objet d’audits périodiques, au cours desquels le registre des fluides et les procédures sont contrôlés. Vous pouvez consulter [nos qualifications et certifications](/entreprise/#nos-certifications) et l’[attestation de capacité au format PDF](/documents/attestation-de-capacite.pdf).
 
-## Nous appeler
-
-Pour un dépannage de pompe à chaleur dans l’agglomération orléanaise, un seul numéro : [02 38 86 46 46](tel:+33238864646) de 8h à 18h. Nous partons de l’avenue Ampère à Saint-Jean-de-Braye, où nous sommes installés depuis 1969.
+## Préparer son appel
 
 Pour gagner du temps au téléphone, ayez sous la main :
 
 - la marque et le modèle de la PAC, lisibles sur la plaque signalétique de l’unité extérieure ;
-- le code erreur affiché, s’il y en a un ;
+- la raison de votre appel : ce que vous constatez et le code erreur affiché, s’il y en a un ;
 - la date du dernier entretien et l’entreprise qui l’a réalisé ;
 - l’année de pose et le nom de l’installateur.
+
+Pour un dépannage de pompe à chaleur dans l’agglomération orléanaise, un seul numéro : [02 38 86 46 46](tel:+33238864646) de 8h à 18h. Nous partons de l’avenue Ampère à Saint-Jean-de-Braye, où nous sommes installés depuis 1969.
 
 Si la panne n’est pas bloquante, décrivez-la dans le formulaire : [Décrire ma panne (formulaire)](/devis/). Nous vous rappelons pour fixer le rendez-vous. Nos [coordonnées, horaires et plan d’accès](/contact/) figurent sur la page contact. Une fois l’appareil réparé, un forfait ou un contrat d’[entretien de votre pompe à chaleur](/pompe-a-chaleur/entretien/) réduit le risque de revoir la même panne l’hiver suivant.

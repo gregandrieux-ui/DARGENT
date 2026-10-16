@@ -4,7 +4,7 @@ priority: P1
 title: "Dépannage de climatisation à Orléans et dans le Loiret"
 description: "Climatisation en panne ou qui ne refroidit plus ? Diagnostic par un technicien habilité fluides et devis avant réparation. Appelez le 02 38 86 46 46."
 h1: "Dépannage de climatisation"
-promise: "Un diagnostic honnête : nous vous prévenons quand une réparation n’est pas raisonnable."
+promise: ""
 template: service
 schema: Service
 faq: []
@@ -16,11 +16,7 @@ facts:
   - { label: "Pièces", value: "Magasin de pièces courantes avenue Ampère, à Saint-Jean-de-Braye" }
   - { label: "Périmètre", value: "Agglomération orléanaise et Loiret, sur rendez-vous" }
   - { label: "Depuis", value: "1936, trois générations de chauffagistes" }
-checks:
-  - { label: "Techniciens habilités fluides frigorigènes", detail: "manipulations consignées dans un registre audité" }
-  - { label: "Devis remis avant toute réparation importante", detail: "réparation engagée après votre accord" }
-  - { label: "Facture détaillée", detail: "tarif appliqué et prix des pièces remplacées" }
-  - { label: "Limites d’intervention écrites noir sur blanc", detail: "vétusté, R22, pièces indisponibles" }
+checks: []
 photos:
   - { src: "/images/illustrations/depannage-clim.svg", alt: "Déroulé d’un dépannage de climatisation : prise d’appel, diagnostic sur place, devis avant réparation, réparation et facture détaillée", caption: "Le déroulé d’un dépannage, du premier appel à la réparation" }
 links:
@@ -55,6 +51,8 @@ Une part des pannes que nous constatons vient d’un défaut d’entretien. Un [
 
 ## Le déroulé d’une intervention
 
+Un diagnostic honnête : nous vous prévenons quand une réparation n’est pas raisonnable. Voici le déroulé d’une intervention.
+
 **La prise d’appel.** Au 02 38 86 46 46, nous notons la marque et le modèle de l’appareil, ainsi que le symptôme observé. La plaque signalétique de l’unité extérieure indique ces références. Nous demandons aussi le code défaut éventuel, l’année de pose et la date du dernier entretien. Si votre climatisation n’a pas été posée par nous : [À CONFIRMER : intervention sur matériel non installé par l’entreprise].
 
 **La planification.** Toutes nos interventions sont planifiées sur rendez-vous. Le délai dépend de la charge de la saison [À CONFIRMER : délais d’intervention en pic estival]. Pour les week-ends et jours fériés : [À CONFIRMER : astreinte week-end].
@@ -75,7 +73,7 @@ Le devis est aussi le moment de l’avis franc. Si le coût de la réparation n�
 
 ## Les cas où la réparation n’est pas possible
 
-Nous respectons l’obligation légale de résultat qui s’attache à une réparation. Elle ne peut toutefois pas être retenue dans les situations suivantes, que nous vous signalons dès le diagnostic :
+Certaines pannes ne peuvent pas être réparées durablement. Nous vous signalons dès le diagnostic les situations suivantes :
 
 - **Vétusté de l’appareil.** Un climatiseur en fin de vie ne peut plus toujours être réparé dans des conditions sûres et durables.
 - **Équipements au R22.** La réglementation européenne ne permet plus d’utiliser ce fluide pour la maintenance. Une climatisation au R22 qui a perdu sa charge ne peut pas être remise en service à l’identique.
@@ -87,15 +85,15 @@ Ces limites ne sont pas un désengagement. Elles vous évitent des frais engagé
 
 Quand la réparation n’est pas possible, nous vous orientons vers une [étude de remplacement de votre climatisation](/climatisation/). Elle passe par une visite technique et un devis établi après cette visite, jamais au téléphone. Le détail de nos [qualifications et de notre habilitation fluides](/entreprise/#nos-certifications) est consultable en ligne.
 
-## Nous appeler
-
-Pour une panne de climatisation dans l’agglomération orléanaise et le Loiret, appelez le [02 38 86 46 46](tel:+33238864646) de 8h à 18h. Nous intervenons depuis notre siège de l’avenue Ampère à Saint-Jean-de-Braye, où l’entreprise est installée depuis 1969.
+## Préparer son appel
 
 Pour gagner du temps au téléphone, ayez sous la main :
 
 - la marque et le modèle de l’appareil ;
-- le symptôme observé et le code défaut affiché, s’il y en a un ;
+- la raison de votre appel : le symptôme observé et le code défaut affiché, s’il y en a un ;
 - la date du dernier entretien ;
 - l’année de pose, et le nom de l’installateur si ce n’est pas Dargent Thermique.
+
+Pour une panne de climatisation dans l’agglomération orléanaise et le Loiret, appelez le [02 38 86 46 46](tel:+33238864646) de 8h à 18h. Nous intervenons depuis notre siège de l’avenue Ampère à Saint-Jean-de-Braye, où l’entreprise est installée depuis 1969.
 
 Si la panne n’est pas bloquante, décrivez-la par écrit : [Décrire ma panne (formulaire)](/devis/). Nous vous rappelons pour fixer le rendez-vous. Nos [coordonnées, horaires et plan d’accès](/contact/) figurent sur la page contact. Une fois l’appareil réparé, un forfait ou un contrat d’entretien réduit le risque de revoir la même panne l’été suivant.
