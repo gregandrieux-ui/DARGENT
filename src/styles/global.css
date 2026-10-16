@@ -157,8 +157,6 @@ main .btn { white-space: normal; text-align: center; }
 .btn-outline:hover { background: var(--navy-50); border-color: var(--navy); color: var(--navy-900); }
 .btn-alert { background: var(--alert); border-color: var(--alert); color: #fff; }
 .btn-alert:hover { background: #b92a34; border-color: #b92a34; color: #fff; }
-.btn-cyan { background: var(--cyan); border-color: var(--cyan); color: var(--brand-900); }
-.btn-cyan:hover { background: #96dce2; border-color: #96dce2; color: var(--brand-900); }
 .tel { display: inline-flex; align-items: center; gap: var(--s-2); min-height: 44px; font-weight: 600; font-variant-numeric: tabular-nums; white-space: nowrap; text-decoration: none; }
 .tel:hover { text-decoration: underline; }
 
@@ -522,23 +520,9 @@ a.stretched::after { content: ''; position: absolute; inset: 0; z-index: 1; }
   .entry:has(.hero-copy) .hero-photo figcaption { position: absolute; inset: 100% 0 auto; }
 }
 .hero-facts { margin-top: var(--s-6); }
-.hero-alert { background: var(--brand-900); color: #fff; --focus: var(--cyan); }
-.hero-alert .proofs { background: rgba(255,255,255,0.08); }
-.hero-alert .proofs li { color: var(--cyan-200); }
-.hero-alert .proofs strong { color: #fff; }
-.hero-alert h1 { color: #fff; }
-.hero-alert .promise { color: var(--cyan-200); }
-.hero-alert .breadcrumb, .hero-alert .breadcrumb a { color: var(--cyan-200); }
-.hero-alert .ruled { background: rgba(255,255,255,0.06); border-color: rgba(255,255,255,0.2); }
-.hero-alert .ruled > dt { color: var(--cyan-200); }
-.hero-alert .ruled > dd { color: #fff; }
-.hero-alert .ruled > dt, .hero-alert .ruled > dd { border-bottom-color: rgba(255,255,255,0.15); }
-.hero-alert .checks strong { color: #fff; }
-.hero-alert .checks .muted { color: var(--cyan-200); }
-.hero-alert .checks .icon { color: var(--cyan); }
-.hero-alert .tel-big { font-size: clamp(1.5rem, 1rem + 2vw, 2.25rem); font-weight: 700; color: #fff; text-decoration: none; display: inline-flex; align-items: center; gap: var(--s-3); min-height: 48px; }
-.hero-alert .tel-big .icon { color: #ff7a82; }
-.hero-alert .photo figcaption { color: var(--cyan-200); }
+/* Dépannage : numéro en grand à droite du bouton, icône rouge. */
+.tel-big { font-size: clamp(1.375rem, 1rem + 1vw, 1.75rem); font-weight: 700; gap: var(--s-3); }
+.tel-big .icon { color: var(--alert); }
 
 /* Carrousel latéral (« Nos certifications ») : scroll-snap natif, une entrée par slide. */
 .carousel { display: flex; align-items: flex-start; gap: var(--s-4); overflow-x: auto; overflow-y: hidden; scroll-snap-type: x mandatory; scrollbar-width: thin; padding-bottom: var(--s-3); margin-top: var(--s-5); }
@@ -580,9 +564,6 @@ a.stretched::after { content: ''; position: absolute; inset: 0; z-index: 1; }
 .facts > div { padding: var(--s-3) var(--s-4); min-width: 0; }
 .facts dt { font-size: var(--text-label); font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; color: var(--cyan-700); }
 .facts dd { margin: var(--s-1) 0 0; font-weight: 600; color: var(--navy-900); line-height: 1.35; font-size: var(--text-small); }
-.hero-alert .facts { background: rgba(255, 255, 255, 0.08); }
-.hero-alert .facts dt { color: var(--cyan-200); }
-.hero-alert .facts dd { color: #fff; }
 /* Pages solutions : masqués visuellement, conservés dans le HTML pour les moteurs et lecteurs d'écran. */
 .facts-hidden { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
 .needs { padding-top: 0; }

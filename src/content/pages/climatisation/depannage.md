@@ -9,7 +9,7 @@ template: service
 schema: Service
 faq: []
 howto: []
-cta: { href: "tel:+33238864646", label: "Appeler le 02 38 86 46 46" }
+cta: { href: "/devis/", label: "Demande de dépannage" }
 cta2: { href: "/devis/", label: "Décrire ma panne (formulaire)" }
 facts:
   - { label: "Habilitation fluides", value: "Attestation de capacité n° 111363-R1 (Bureau Veritas)" }

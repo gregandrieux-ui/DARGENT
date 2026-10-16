@@ -38,7 +38,7 @@ const isLocal = d.template === 'local';
 const osm = `https://www.openstreetmap.org/export/embed.html?bbox=${site.geo.lng - 0.012},${site.geo.lat - 0.007},${site.geo.lng + 0.012},${site.geo.lat + 0.007}&layer=mapnik&marker=${site.geo.lat},${site.geo.lng}`;
 ---
 <Base title={d.title} description={d.description} path={path} noindex={d.draft} schema={schema} alert={d.alert} ogImage={heroPhoto?.src}>
-  <section class:list={['hero', { 'hero-alert': d.alert, 'hero-x': d.unit }]}>
+  <section class:list={['hero', { 'hero-x': d.unit }]}>
     <div class:list={{ 'hero-x-pin': d.unit }}>
     <div class="container">
       <nav class="breadcrumb" aria-label="Fil d’Ariane">
@@ -57,12 +57,8 @@ const osm = `https://www.openstreetmap.org/export/embed.html?bbox=${site.geo.lng
           )}
           {!simple && (
             <div class="actions">
-              {d.alert ? (
-                <a class="tel-big" href={site.phoneHref}><Icon name="phone" /> {site.phone}</a>
-              ) : (
-                <a class="btn" href={d.cta.href}>{d.cta.label}</a>
-              )}
-              {d.alert ? <a class="btn btn-cyan" href={d.cta.href}>{d.cta.label}</a> : d.tel && <a class="tel" href={site.phoneHref}><Icon name="phone" /> {site.phone}</a>}
+              <a class="btn" href={d.cta.href}>{d.cta.label}</a>
+              {d.tel && <a class:list={['tel', { 'tel-big': d.alert }]} href={site.phoneHref}><Icon name="phone" /> {site.phone}</a>}
             </div>
           )}
           {d.stats.length > 0 && <p class="stats-note">* Ordres de grandeur ADEME et fabricants, selon logement, usage et éligibilité. Chiffrage réel après visite technique.</p>}

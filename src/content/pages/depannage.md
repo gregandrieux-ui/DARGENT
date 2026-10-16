@@ -4,12 +4,12 @@ priority: P2
 title: "Dépannage PAC, climatisation et chaudière à Orléans"
 description: "Pompe à chaleur, climatisation ou chaudière en panne ? Diagnostic sur rendez-vous et devis avant toute réparation importante. 02 38 86 46 46."
 h1: "Dépannage de vos équipements"
-promise: "Un diagnostic honnête et un devis écrit avant toute réparation importante."
+promise: ""
 template: hub
 schema: CollectionPage
 faq: []
 howto: []
-cta: { href: "tel:+33238864646", label: "Appeler le 02 38 86 46 46" }
+cta: { href: "/devis/", label: "Demande de dépannage" }
 cta2: { href: "/devis/", label: "Décrire ma panne (formulaire)" }
 facts:
   - { label: "Fluides frigorigènes", value: "Attestation de capacité n° 111363-R1 (Bureau Veritas)" }
@@ -17,11 +17,7 @@ facts:
   - { label: "Moyens", value: "Magasin de pièces et véhicules équipés, avenue Ampère à Saint-Jean-de-Braye" }
   - { label: "Ancienneté", value: "Chauffagistes depuis 1936, trois générations" }
   - { label: "Périmètre", value: "Agglomération orléanaise et Loiret, sur rendez-vous" }
-checks:
-  - { label: "Devis écrit avant toute réparation au-delà d’un seuil", detail: "[À CONFIRMER : seuil de devis obligatoire]" }
-  - { label: "Facture détaillée", detail: "tarif appliqué et prix des pièces remplacées" }
-  - { label: "Magasin de pièces courantes sur place", detail: "réparation dès le premier passage dans de nombreux cas" }
-  - { label: "Limites d’intervention écrites noir sur blanc", detail: "vétusté, R22, pièces indisponibles" }
+checks: []
 photos:
   - { src: "/images/illustrations/depannage.svg", alt: "Déroulé d’un dépannage de pompe à chaleur, climatisation ou chaudière : prise d’appel, diagnostic, devis avant réparation, réparation", caption: "Le déroulé d’un dépannage, du premier appel à la réparation" }
 links:
@@ -37,6 +33,8 @@ crumbs: []
 ---
 
 ## Comment se passe un dépannage
+
+Un diagnostic honnête et un devis écrit avant toute réparation importante : voici les étapes d’un dépannage, de votre appel à la réparation.
 
 **La prise d’appel.** Un appel direct au [02 38 86 46 46](tel:+33238864646) : notre service maintenance note le symptôme, la marque et le modèle de l’appareil, et l’éventuel code erreur. Nos barèmes sont affichés dans notre salle d’exposition de Saint-Jean-de-Braye et transmis à chaque demande, par téléphone ou par courriel.
 
