@@ -3,7 +3,7 @@ id: CHA-03
 priority: P2
 title: "Ballon thermodynamique à Orléans : bien le choisir"
 description: "Capacité, niveau sonore, emplacement, raccordement à la ventilation : nos conseils pour choisir un chauffe-eau thermodynamique, et sa pose à Orléans."
-h1: "Ballon thermodynamique (chauffe-eau thermodynamique)"
+h1: "Ballon thermodynamique"
 promise: "Un conseil franc sur la capacité et l’emplacement, y compris sur les limites de l’appareil."
 template: service
 schema: Service
@@ -28,7 +28,7 @@ stats:
   - { value: "Jusqu’à 70 %", label: "d’électricité économisée face à un cumulus*" }
   - { value: "3 kWh", label: "d’eau chaude pour 1 kWh consommé" }
   - { value: "3 à 5 ans", label: "pour rentabiliser, aides déduites*" }
-  - { value: "5,5 %", label: "de TVA en logement de plus de 2 ans" }
+  - { value: "5,5 % de TVA", label: "pour les logements de plus de 2 ans" }
 photos:
   - { src: "/images/illustrations/ballon-thermodynamique.svg", alt: "Schéma d’un ballon thermodynamique : la pompe à chaleur du dessus capte la chaleur de l’air et la transmet à l’eau, une résistance sert d’appoint", caption: "Principe d’un ballon thermodynamique" }
 links:
