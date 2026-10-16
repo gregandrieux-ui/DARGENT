@@ -4,7 +4,7 @@ priority: P2
 title: "Entretien de chaudière à Orléans : forfait ou contrat"
 description: "Entretien annuel de votre chaudière gaz à Orléans : contrôle, nettoyage, attestation d'entretien et conseils. Forfait ou contrat, par des professionnels du gaz."
 h1: "Entretien de votre chaudière"
-promise: "Un entretien annuel réalisé par une entreprise qualifiée Professionnel du gaz, avec attestation."
+promise: "Un entretien annuel."
 template: service
 schema: Service
 faq: []
