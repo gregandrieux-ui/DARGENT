@@ -31,7 +31,7 @@ photos:
 links:
   - { href: "/climatisation/", label: "Toute notre offre de climatisation à Orléans : installation, entretien et dépannage" }
   - { href: "/climatisation/entretien/", label: "Entretien et maintenance de votre climatisation après la pose" }
-  - { href: "/entreprise/#nos-qualifications", label: "Nos qualifications et certifications : Qualibat 5423, RGE, fluides frigorigènes" }
+  - { href: "/entreprise/#nos-certifications", label: "Nos qualifications et certifications : Qualibat 5423, RGE, fluides frigorigènes" }
   - { href: "/devis/", label: "Demander une visite technique" }
   - { href: "/climatisation/gainable/", label: "Climatisation gainable : discrète et intégrée" }
 aides: false
@@ -71,7 +71,7 @@ L’unité intérieure est fixée de niveau sur sa platine, à l’emplacement v
 
 Le raccordement électrique se fait sur une ligne dédiée depuis le tableau, avec sa propre protection.
 
-Le circuit est ensuite mis sous pression d’azote pour contrôler l’étanchéité, puis tiré au vide avant l’ouverture des vannes. Ces opérations relèvent de notre attestation de capacité fluides frigorigènes n° 111363-R1, délivrée par Bureau Veritas. Elles s’inscrivent dans notre qualification Qualibat 5423 (climatiseurs à détente directe) et notre mention RGE, présentées sur la page [nos qualifications et certifications](/entreprise/#nos-qualifications).
+Le circuit est ensuite mis sous pression d’azote pour contrôler l’étanchéité, puis tiré au vide avant l’ouverture des vannes. Ces opérations relèvent de notre attestation de capacité fluides frigorigènes n° 111363-R1, délivrée par Bureau Veritas. Elles s’inscrivent dans notre qualification Qualibat 5423 (climatiseurs à détente directe) et notre mention RGE, présentées sur la page [nos qualifications et certifications](/entreprise/#nos-certifications).
 
 La durée du chantier dépend du nombre d’unités et de la longueur des passages. Elle vous est indiquée avec le devis [À CONFIRMER : délais de pose].
 

@@ -16,11 +16,11 @@ const stackCards = {
       else (cards.at(-1) ?? before).push(node);
     }
     if (!cards.length) return;
-    // « Nos qualifications », « Nos valeurs », « Ils nous font confiance » : chaque ### devient une slide d'un carrousel à défilement latéral (intro avant le 1er ### hors carrousel).
+    // « Nos certifications » : chaque ### devient une slide d'un carrousel à défilement latéral (intro avant le 1er ### hors carrousel).
     const text = (n) => (n.value ?? n.children?.map(text).join('') ?? '');
     for (const card of cards) {
       const title = text(card[0]).trim();
-      if (!['Nos qualifications', 'Nos valeurs', 'Ils nous font confiance'].includes(title)) continue;
+      if (!['Nos certifications'].includes(title)) continue;
       const first = card.findIndex((c) => c.tagName === 'h3');
       if (first < 0) continue;
       const slides = [];

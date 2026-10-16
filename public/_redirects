@@ -36,13 +36,13 @@ https://climatisation-chauffage-orleans.com/*       https://dargent-thermique.fr
 /solutions/ventilation/                                                       /ventilation/                           301
 /solutions/connectivite/                                                      /chauffage/regulation-connectee/        301
 /aides-financieres/                                                           /aides-financieres-pompe-a-chaleur/     301
-/references/realisations/                                                     /entreprise/#ils-nous-font-confiance                 301
-/realisations/                                                                /entreprise/#ils-nous-font-confiance                 301
-/references/clients/                                                          /entreprise/#ils-nous-font-confiance                 301
+/references/realisations/                                                     /entreprise/                                        301
+/realisations/                                                                /entreprise/                                        301
+/references/clients/                                                          /entreprise/                                        301
 /partenaires/                                                                 /marques-partenaires/                   301
-/societe/qualifications/                                                      /entreprise/#nos-qualifications             301
+/societe/qualifications/                                                      /entreprise/#nos-certifications             301
 /societe/historique/                                                          /entreprise/#notre-histoire             301
-/societe/engagements-ecologiques/                                             /entreprise/#nos-valeurs                301
+/societe/engagements-ecologiques/                                             /entreprise/                            301
 /postuler/                                                                    /recrutement/                           301
 /protection-donnees-personnelles/                                             /protection-donnees/                    301
 /referencement-site-internet-orleans.php                                      /410.html                               410
@@ -57,6 +57,6 @@ https://climatisation-chauffage-orleans.com/*       https://dargent-thermique.fr
 
 # --- Pages enfants Entreprise fusionnées dans /entreprise/ (30/09/2026) ---
 /entreprise/notre-histoire/   /entreprise/#notre-histoire            301
-/entreprise/qualifications/   /entreprise/#nos-qualifications        301
-/entreprise/engagements/      /entreprise/#nos-valeurs           301
-/entreprise/references/       /entreprise/#ils-nous-font-confiance   301
+/entreprise/qualifications/   /entreprise/#nos-certifications        301
+/entreprise/engagements/      /entreprise/                       301
+/entreprise/references/       /entreprise/                          301

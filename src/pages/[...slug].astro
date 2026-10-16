@@ -9,6 +9,7 @@ import Faq from '../components/Faq.astro';
 import CtaBand from '../components/CtaBand.astro';
 import Cachet from '../components/Cachet.astro';
 import Exploded from '../components/Exploded.astro';
+import Candidature from '../components/Candidature.astro';
 import { site } from '../data/site';
 import { breadcrumb, faqPage, howTo, localBusiness, service, webPage } from '../lib/schema';
 
@@ -61,7 +62,7 @@ const osm = `https://www.openstreetmap.org/export/embed.html?bbox=${site.geo.lng
               ) : (
                 <a class="btn" href={d.cta.href}>{d.cta.label}</a>
               )}
-              {d.alert ? <a class="btn btn-cyan" href={d.cta.href}>{d.cta.label}</a> : <a class="tel" href={site.phoneHref}><Icon name="phone" /> {site.phone}</a>}
+              {d.alert ? <a class="btn btn-cyan" href={d.cta.href}>{d.cta.label}</a> : d.tel && <a class="tel" href={site.phoneHref}><Icon name="phone" /> {site.phone}</a>}
             </div>
           )}
           {d.stats.length > 0 && <p class="stats-note">* Ordres de grandeur ADEME et fabricants, selon logement, usage et éligibilité. Chiffrage réel après visite technique.</p>}
@@ -102,6 +103,7 @@ const osm = `https://www.openstreetmap.org/export/embed.html?bbox=${site.geo.lng
       <div class="prose">
         <Content />
       </div>
+      {d.candidature && <Candidature inline={d.candidature === 'inline'} />}
       {morePhotos.length > 0 && (
         <ul class="gallery" style="margin-top: 32px">
           {morePhotos.map((p) => <li><Photo src={p.src} alt={p.alt} caption={p.caption} missing={p.missing} /></li>)}

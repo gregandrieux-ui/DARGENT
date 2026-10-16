@@ -28,7 +28,7 @@ links:
   - { href: "/climatisation/entretien/", label: "Entretien et maintenance de votre climatisation après la réparation" }
   - { href: "/depannage/", label: "Dépannage : nos engagements de service" }
   - { href: "/contact/", label: "Nous contacter : adresse, horaires et itinéraire" }
-  - { href: "/entreprise/#nos-qualifications", label: "Qualifications et attestation fluides frigorigènes de Dargent Thermique" }
+  - { href: "/entreprise/#nos-certifications", label: "Qualifications et attestation fluides frigorigènes de Dargent Thermique" }
   - { href: "/climatisation/", label: "Climatisation à Orléans : installation, entretien et dépannage" }
   - { href: "/climatisation/reversible/", label: "Climatisation réversible : le principe" }
 aides: false
@@ -86,7 +86,7 @@ Nous respectons l’obligation légale de résultat qui s’attache à une répa
 
 Ces limites ne sont pas un désengagement. Elles vous évitent des frais engagés sur un appareil qui ne pourra pas être remis en état durablement. Nous vous prévenons aussi quand une installation n’est pas conforme aux prescriptions du constructeur, aux règles de sécurité ou à la réglementation en vigueur. De même lorsque son état laisse craindre une nouvelle panne à court terme. L’intervention peut alors se limiter à une mise en sécurité.
 
-Quand la réparation n’est pas possible, nous vous orientons vers une [étude de remplacement de votre climatisation](/climatisation/). Elle passe par une visite technique et un devis établi après cette visite, jamais au téléphone. Le détail de nos [qualifications et de notre habilitation fluides](/entreprise/#nos-qualifications) est consultable en ligne.
+Quand la réparation n’est pas possible, nous vous orientons vers une [étude de remplacement de votre climatisation](/climatisation/). Elle passe par une visite technique et un devis établi après cette visite, jamais au téléphone. Le détail de nos [qualifications et de notre habilitation fluides](/entreprise/#nos-certifications) est consultable en ligne.
 
 ## Nous appeler
 

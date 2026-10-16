@@ -1,9 +1,10 @@
 ---
 // Formulaires Netlify (devis, contact, candidature). Labels visibles, erreurs natives, honeypot, RGPD.
-interface Props { kind: 'devis' | 'contact' | 'candidature'; submit: string }
-const { kind, submit } = Astro.props;
+// cv : champ fichier de la candidature, désactivé en v1 (spam, sécurité) ; cv={true} le réactive avec l'encodage multipart.
+interface Props { kind: 'devis' | 'contact' | 'candidature'; submit: string; cv?: boolean }
+const { kind, submit, cv = false } = Astro.props;
 ---
-<form class="form" name={kind} method="POST" action="/merci/" data-astro-reload data-netlify="true" netlify-honeypot="site-web" enctype={kind === 'candidature' ? 'multipart/form-data' : undefined}>
+<form class="form" name={kind} method="POST" action="/merci/" data-astro-reload data-netlify="true" netlify-honeypot="site-web" enctype={cv ? 'multipart/form-data' : undefined}>
   <input type="hidden" name="form-name" value={kind} />
   <p class="hp"><label>Ne pas remplir <input name="site-web" tabindex="-1" autocomplete="off" /></label></p>
   {kind === 'devis' && (
@@ -21,16 +22,18 @@ const { kind, submit } = Astro.props;
       <div><label for="commune">Commune du logement</label><input id="commune" name="commune" required autocomplete="address-level2" placeholder="Orléans" /></div>
     </>
   )}
-  {kind === 'candidature' && (
+  {kind === 'candidature' ? (
     <>
-      <div><label for="poste">Poste souhaité</label><input id="poste" name="poste" required placeholder="Technicien de maintenance" /></div>
-      <div><label for="cv">CV <span class="hint">(PDF, 5 Mo max)</span></label><input id="cv" name="cv" type="file" accept=".pdf" required /></div>
+      <div><label for="nom">Nom</label><input id="nom" name="nom" required autocomplete="family-name" /></div>
+      <div><label for="prenom">Prénom</label><input id="prenom" name="prenom" required autocomplete="given-name" /></div>
     </>
+  ) : (
+    <div><label for="nom">Nom et prénom</label><input id="nom" name="nom" required autocomplete="name" /></div>
   )}
-  <div><label for="nom">Nom et prénom</label><input id="nom" name="nom" required autocomplete="name" /></div>
   <div><label for="tel">Téléphone</label><input id="tel" name="telephone" type="tel" required autocomplete="tel" placeholder="06 12 34 56 78" /></div>
   <div><label for="email">E-mail</label><input id="email" name="email" type="email" required autocomplete="email" placeholder="nom@exemple.fr" /></div>
-  <div><label for="message">{kind === 'devis' ? 'Votre projet en quelques mots' : kind === 'candidature' ? 'Quelques mots sur vous' : 'Votre message'} <span class="hint">(facultatif)</span></label><textarea id="message" name="message" placeholder={kind === 'devis' ? 'Remplacement d’une chaudière gaz, maison de 120 m², radiateurs existants.' : ''}></textarea></div>
+  {cv && <div><label for="cv">CV <span class="hint">(PDF, 5 Mo max)</span></label><input id="cv" name="cv" type="file" accept=".pdf" required /></div>}
+  <div><label for="message">{kind === 'devis' ? 'Votre projet en quelques mots' : kind === 'candidature' ? 'Commentaire' : 'Votre message'} <span class="hint">(facultatif)</span></label><textarea id="message" name="message" placeholder={kind === 'devis' ? 'Remplacement d’une chaudière gaz, maison de 120 m², radiateurs existants.' : ''}></textarea></div>
   <div class="rgpd"><label style="font-weight:400"><input type="checkbox" name="rgpd" required value="oui" />J’accepte que Dargent Thermique utilise ces informations pour répondre à ma demande. Elles ne sont jamais transmises à des tiers. <a href="/protection-donnees/">Comment vos données sont traitées</a></label></div>
   <div><button type="submit" class="btn">{submit}</button></div>
 </form>

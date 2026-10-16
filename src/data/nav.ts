@@ -31,12 +31,10 @@ export const mainNav = [
     { label: 'Chaudière', href: '/chauffage/depannage-chaudiere/' },
   ]},
   { label: 'Entreprise', href: '/entreprise/', children: [
-    { label: 'Nos qualifications', href: '/entreprise/#nos-qualifications' },
     { label: 'Notre histoire', href: '/entreprise/#notre-histoire' },
-    { label: 'Nos valeurs', href: '/entreprise/#nos-valeurs' },
-    { label: 'Nos références', href: '/entreprise/#ils-nous-font-confiance' },
+    { label: 'Zone d’intervention', href: '/zones-intervention/' },
+    { label: 'Nos certifications', href: '/entreprise/#nos-certifications' },
     { label: 'Marques partenaires', href: '/marques-partenaires/' },
-    { label: 'Zones d’intervention', href: '/zones-intervention/' },
     { label: 'Recrutement', href: '/recrutement/' },
   ]},
 ];
@@ -53,11 +51,10 @@ export const footerNav = {
   ],
   Entreprise: [
     { label: 'L’entreprise', href: '/entreprise/' },
-    { label: 'Qualifications', href: '/entreprise/#nos-qualifications' },
     { label: 'Notre histoire', href: '/entreprise/#notre-histoire' },
-    { label: 'Valeurs', href: '/entreprise/#nos-valeurs' },
-    { label: 'Références', href: '/entreprise/#ils-nous-font-confiance' },
-    { label: 'Zones d’intervention', href: '/zones-intervention/' },
+    { label: 'Zone d’intervention', href: '/zones-intervention/' },
+    { label: 'Nos certifications', href: '/entreprise/#nos-certifications' },
+    { label: 'Marques partenaires', href: '/marques-partenaires/' },
     { label: 'Recrutement', href: '/recrutement/' },
   ],
   Légal: [
