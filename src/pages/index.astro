@@ -7,14 +7,12 @@ import CtaBand from '../components/CtaBand.astro';
 import Exploded from '../components/Exploded.astro';
 import ZoneMap from '../components/ZoneMap.astro';
 import { site } from '../data/site';
-import { byCat } from '../data/realisations';
 import { breadcrumb } from '../lib/schema';
 import { getCollection } from 'astro:content';
 
 const title = 'Chauffage, climatisation et PAC à Orléans | Dargent';
 const description = 'Installateur RGE de pompes à chaleur, climatisation et chauffage à Orléans depuis 1936. Étude personnalisée et devis gratuit. Appelez le 02 38 86 46 46.';
 const zones = (await getCollection('pages', (p) => p.id.startsWith('zones-intervention/') && !p.data.draft)).sort((a, b) => a.data.h1.localeCompare(b.data.h1));
-const hero = byCat('maintenance').find((x) => x.n === '033')!;
 // Court métrage : 6 cases du storyboard dépanneur, enchaînées en CSS (3 s chacune).
 const frames = Object.values(import.meta.glob<ImageMetadata>('../assets/film/*.jpg', { eager: true, import: 'default' }));
 const install = [
@@ -40,7 +38,7 @@ const steps = [
   { title: 'Devis', text: 'Il arrive après la visite : gratuit et sans engagement.' },
 ];
 ---
-<Base title={title} description={description} path="/" schema={[breadcrumb([{ name: 'Accueil', path: '/' }])]} ogImage={hero.src}>
+<Base title={title} description={description} path="/" schema={[breadcrumb([{ name: 'Accueil', path: '/' }])]}>
   <div class="home-c">
     <section class="hero hero-x hero-home" aria-labelledby="home-title"><div class="hero-x-pin"><div class="container entry">
       <div>

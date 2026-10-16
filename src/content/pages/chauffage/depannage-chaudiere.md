@@ -24,8 +24,6 @@ checks:
   - { label: "Limites d’intervention écrites noir sur blanc", detail: "vétusté, pièces indisponibles" }
 photos:
   - { src: "/images/illustrations/depannage-chaudiere.svg", alt: "Déroulé d’un dépannage de chaudière : prise d’appel, diagnostic, devis avant réparation, réparation", caption: "Le déroulé d’un dépannage, du premier appel à la réparation" }
-  - { src: "/images/realisations/maintenance/dargent-thermique-037.jpg", alt: "Contrôle d’une chaudière gaz par un technicien Dargent Thermique", caption: "Contrôle d’une chaudière gaz" }
-  - { src: "/images/realisations/maintenance/dargent-thermique-038.jpg", alt: "Entretien d’une installation de chauffage au gaz", caption: "Entretien d’une installation de chauffage au gaz" }
 links:
   - { href: "/chauffage/entretien-chaudiere/", label: "Entretien de votre chaudière : forfait ou contrat" }
   - { href: "/depannage/", label: "Dépannage : nos engagements de service" }

@@ -29,9 +29,6 @@ stats:
   - { value: "1 prime", label: "CEE mobilisable*" }
 photos:
   - { src: "/images/illustrations/clim-reversible.svg", alt: "Schéma d’une climatisation réversible : en été elle sort la chaleur de la maison, en hiver elle capte la chaleur de l’air extérieur pour chauffer", caption: "Le même appareil dans les deux sens : en été il sort la chaleur, en hiver il la fait entrer" }
-  - { src: "/images/realisations/climatisations-reversibles/dargent-thermique-027.jpg", alt: "Groupe extérieur de climatisation avec traitement acoustique", caption: "Groupe extérieur de climatisation avec traitement acoustique" }
-  - { src: "/images/realisations/climatisations-reversibles/dargent-thermique-014.jpg", alt: "Console murale de climatisation réversible", caption: "Console murale de climatisation réversible" }
-  - { src: "/images/realisations/climatisations-reversibles/dargent-thermique-032.jpg", alt: "Unité intérieure de climatisation tertiaire", caption: "Unité intérieure de climatisation tertiaire" }
 links:
   - { href: "/climatisation/gainable/", label: "Climatisation gainable : l’unité dissimulée dans le plafond" }
   - { href: "/climatisation/installation/", label: "Comment nous installons votre climatisation, étape par étape" }

@@ -28,7 +28,6 @@ stats:
   - { value: "2 aides cumulables", label: "MaPrimeRénov’ et Coup de Pouce CEE*" }
 photos:
   - { src: "/images/illustrations/pac-haute-temperature.svg", alt: "Schéma d’une pompe à chaleur haute température qui remplace la chaudière : groupe extérieur, module hydraulique, bouteille de découplage, radiateurs conservés", caption: "La PAC haute température prend la place de la chaudière, vos radiateurs restent" }
-  - { src: "/images/produits/pac-ht.jpg", alt: "Pompe à chaleur haute température : groupe extérieur et module hydraulique", caption: "Groupe extérieur et module hydraulique d’une PAC haute température (illustration fabricant)" }
   - { missing: "chantier de remplacement de chaudière par une PAC haute température, radiateurs conservés", caption: "Photo à collecter" }
 links:
   - { href: "/pompe-a-chaleur/", label: "Toutes nos pompes à chaleur à Orléans et dans l’agglomération" }

@@ -3,14 +3,13 @@ import { readFile } from 'node:fs/promises';
 import sharp, { type OverlayOptions, type Sharp } from 'sharp';
 import { getCollection } from 'astro:content';
 import { ogPath } from '../../lib/og';
-import { photos } from '../../data/realisations';
 
 const W = 1200, H = 630;
 const pub = (p: string) => readFile(`${process.cwd()}/public${p}`);
 
 export async function getStaticPaths() {
   const pages = await getCollection('pages');
-  const srcs = new Set<string | undefined>([undefined, photos[0].src, photos.find((x) => x.n === '033')?.src]);
+  const srcs = new Set<string | undefined>([undefined]);
   for (const p of pages) srcs.add(p.data.photos[0]?.src);
   return [...srcs].map((src) => ({ params: { key: ogPath(src).slice(4, -4) }, props: { src } }));
 }

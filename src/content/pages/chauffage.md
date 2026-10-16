@@ -18,7 +18,6 @@ facts:
 checks:
   - { label: "Qualibat 5312 et 5112", detail: "certificats à validité annuelle" }
   - { label: "Professionnel du gaz", detail: "raccordement et mise en service des chaudières gaz" }
-  - { label: "Photos de chaudières posées par nos équipes", detail: "chaudières en cascade et chaudières au sol" }
   - { label: "Trois générations de chauffagistes", detail: "entreprise fondée en 1936, avenue Ampère depuis 1969" }
 faq: []
 howto: []
@@ -27,9 +26,6 @@ stats:
   - { value: "Jusqu’à 15 %", label: "d’économies avec une régulation adaptée*" }
 photos:
   - { src: "/images/illustrations/chaudiere-condensation.svg", alt: "Schéma d’une chaudière gaz à condensation : la ventouse amène l’air neuf et évacue les fumées, la chaleur de la vapeur d’eau des fumées est récupérée, l’eau part vers les radiateurs et revient plus froide", caption: "Principe d’une chaudière à condensation avec ventouse" }
-  - { src: "/images/realisations/chaudieres-condensation-basses-temperatures/dargent-thermique-022.jpg", alt: "Chaudières à condensation installées en cascade", caption: "Chaudières à condensation en cascade" }
-  - { src: "/images/realisations/chaudieres-condensation-basses-temperatures/dargent-thermique-024.jpg", alt: "Chaudière au sol à condensation", caption: "Chaudière au sol à condensation" }
-  - { src: "/images/realisations/chaudieres-condensation-basses-temperatures/dargent-thermique-025.jpg", alt: "Chaudière murale à condensation raccordée à un plancher chauffant", caption: "Chaudière murale à condensation avec plancher chauffant" }
 needs:
   - { q: "Ma chaudière est à bout de souffle", title: "Chaudière à condensation", text: "Remplacement et pose, après une visite technique.", href: "/chauffage/chaudiere-condensation/" }
   - { q: "Je rénove ou je construis", title: "Plancher chauffant", text: "Un émetteur basse température, adapté à la pompe à chaleur.", href: "/chauffage/plancher-chauffant/" }

@@ -29,7 +29,7 @@ npm run assets     # re-télécharge photos, logos, PDF, vidéos de l'ancien sit
 | Accueil, devis, contact, réalisations, hub zones, merci | `src/pages/*.astro` |
 | Faits d'entreprise (NAP, qualifications, avis) | `src/data/site.ts` |
 | Navigation et pied de page | `src/data/nav.ts` |
-| Photos de réalisations et légendes | `src/data/realisations.ts` (fichiers dans `public/images/realisations/`, chemins conservés pour les redirections) |
+| Photos produits et réalisations (archivées, non servies) | `Photo_Produits/<solution>/` |
 | JSON-LD | `src/lib/schema.ts` |
 | Redirections (301, 410, fichiers, ancien domaine) | `public/_redirects` |
 | Contexte design (impeccable) | `PRODUCT.md`, `.impeccable/surfaces/src-pages-index-astro.md` (direction contract), `DESIGN.md` |

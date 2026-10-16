@@ -28,9 +28,6 @@ stats:
   - { value: "° Constant", label: "Température régulée toute l’année" }
 photos:
   - { src: "/images/illustrations/clim-reversible.svg", alt: "Schéma d’une climatisation réversible : en été elle sort la chaleur de la maison, en hiver elle capte la chaleur de l’air extérieur pour chauffer", caption: "Le même appareil dans les deux sens : en été il sort la chaleur, en hiver il la fait entrer" }
-  - { src: "/images/realisations/climatisations-reversibles/dargent-thermique-027.jpg", alt: "Groupe extérieur de climatisation avec traitement acoustique", caption: "Groupe extérieur de climatisation avec traitement acoustique" }
-  - { src: "/images/realisations/climatisations-reversibles/dargent-thermique-014.jpg", alt: "Console murale de climatisation réversible", caption: "Console murale de climatisation réversible" }
-  - { src: "/images/realisations/climatisations-reversibles/dargent-thermique-032.jpg", alt: "Unité intérieure de climatisation tertiaire", caption: "Unité intérieure de climatisation tertiaire" }
 needs:
   - { q: "J’ai trop chaud dans une ou deux pièces", title: "Climatisation réversible", text: "Du frais l’été, de la chaleur l’hiver, avec une unité par pièce.", href: "/climatisation/reversible/" }
   - { q: "Je ne veux voir aucun appareil", title: "Climatisation gainable", text: "Un seul groupe caché en faux plafond, l’air soufflé par des grilles discrètes.", href: "/climatisation/gainable/" }

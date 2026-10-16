@@ -24,8 +24,6 @@ checks:
   - { label: "Devis établi avant toute réparation au-delà du seuil", detail: "[À CONFIRMER : seuil de devis obligatoire]" }
 photos:
   - { src: "/images/illustrations/entretien-chaudiere.svg", alt: "Déroulé d’un entretien de chaudière : nettoyage du corps de chauffe, contrôle de la combustion, vérification des sécurités, remise de l’attestation", caption: "Un entretien en quatre temps, attestation remise à la fin" }
-  - { src: "/images/realisations/maintenance/dargent-thermique-037.jpg", alt: "Contrôle d’une chaudière gaz par un technicien Dargent Thermique", caption: "Contrôle d’une chaudière gaz" }
-  - { src: "/images/realisations/maintenance/dargent-thermique-038.jpg", alt: "Entretien d’une installation de chauffage au gaz", caption: "Entretien d’une installation de chauffage au gaz" }
 links:
   - { href: "/entretien/", label: "Entretien : nos engagements de service" }
   - { href: "/chauffage/depannage-chaudiere/", label: "Dépannage de chaudière : pannes courantes et intervention" }

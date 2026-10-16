@@ -6,8 +6,8 @@
 # --- Fichiers (chemins conservés ou déplacés) ---
 https://www.climatisation-chauffage-orleans.com/assets/pdf/*   https://dargent-thermique.fr/documents/:splat   301!
 https://climatisation-chauffage-orleans.com/assets/pdf/*       https://dargent-thermique.fr/documents/:splat   301!
-https://www.climatisation-chauffage-orleans.com/assets/img/realisations/*   https://dargent-thermique.fr/images/realisations/:splat   301!
-https://climatisation-chauffage-orleans.com/assets/img/realisations/*       https://dargent-thermique.fr/images/realisations/:splat   301!
+https://www.climatisation-chauffage-orleans.com/assets/img/realisations/*   /410.html   410!
+https://climatisation-chauffage-orleans.com/assets/img/realisations/*       /410.html   410!
 https://www.climatisation-chauffage-orleans.com/assets/videos/*   https://dargent-thermique.fr/videos/:splat   301!
 https://climatisation-chauffage-orleans.com/assets/videos/*       https://dargent-thermique.fr/videos/:splat   301!
 
@@ -49,7 +49,7 @@ https://climatisation-chauffage-orleans.com/*       https://dargent-thermique.fr
 /referencement-site-internet-loiret.php                                       /410.html                               410
 /referencement-site-internet-45.php                                           /410.html                               410
 /assets/pdf/*                                                                 /documents/:splat                       301
-/assets/img/realisations/*                                                    /images/realisations/:splat             301
+/assets/img/realisations/*                                                    /410.html                               410
 /assets/videos/*                                                              /videos/:splat                          301
 # /contact/, /mentions-legales/, /politique-confidentialite/, /cookies/, /cgu/ : chemin identique, couverts par la règle de domaine.
 

@@ -24,9 +24,6 @@ checks:
   - { label: "Avis Google de Geoffrey Thomas", detail: "remise en route d’un thermostat de PAC" }
 photos:
   - { src: "/images/illustrations/depannage-pac.svg", alt: "Déroulé d’un dépannage de pompe à chaleur : prise d’appel, diagnostic, devis avant réparation, réparation", caption: "Le déroulé d’un dépannage, du premier appel à la réparation" }
-  - { src: "/images/realisations/maintenance/dargent-thermique-033.jpg", alt: "Maintenance d’une unité extérieure de climatisation par un technicien Dargent Thermique", caption: "Maintenance d’une unité extérieure de climatisation par un technicien Dargent Thermique" }
-  - { src: "/images/realisations/maintenance/dargent-thermique-034.jpg", alt: "Maintenance de climatisation, contrôle de l’unité extérieure", caption: "Maintenance de climatisation, contrôle de l’unité extérieure" }
-  - { src: "/images/realisations/maintenance/dargent-thermique-008.jpg", alt: "Maintenance d’une installation de chauffage", caption: "Maintenance d’une installation de chauffage" }
 links:
   - { href: "/pompe-a-chaleur/entretien/", label: "Entretien de votre pompe à chaleur : forfait ou contrat" }
   - { href: "/depannage/", label: "Dépannage : nos engagements de service" }

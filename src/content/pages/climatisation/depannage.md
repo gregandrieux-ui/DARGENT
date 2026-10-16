@@ -24,9 +24,6 @@ checks:
   - { label: "Limites d’intervention écrites noir sur blanc", detail: "vétusté, R22, pièces indisponibles" }
 photos:
   - { src: "/images/illustrations/depannage-clim.svg", alt: "Déroulé d’un dépannage de climatisation : prise d’appel, diagnostic sur place, devis avant réparation, réparation et facture détaillée", caption: "Le déroulé d’un dépannage, du premier appel à la réparation" }
-  - { src: "/images/realisations/maintenance/dargent-thermique-033.jpg", alt: "Maintenance d’une unité extérieure de climatisation par un technicien Dargent Thermique", caption: "Maintenance d’une unité extérieure de climatisation par un technicien Dargent Thermique" }
-  - { src: "/images/realisations/maintenance/dargent-thermique-034.jpg", alt: "Maintenance de climatisation, contrôle de l’unité extérieure", caption: "Maintenance de climatisation, contrôle de l’unité extérieure" }
-  - { src: "/images/realisations/maintenance/dargent-thermique-008.jpg", alt: "Maintenance d’une installation de chauffage", caption: "Maintenance d’une installation de chauffage" }
 links:
   - { href: "/climatisation/entretien/", label: "Entretien et maintenance de votre climatisation après la réparation" }
   - { href: "/depannage/", label: "Dépannage : nos engagements de service" }

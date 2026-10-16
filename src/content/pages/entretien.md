@@ -24,9 +24,6 @@ checks:
   - { label: "Anomalies et vétusté signalées par écrit" }
 photos:
   - { src: "/images/illustrations/formules-entretien.svg", alt: "Trois formules pour votre pompe à chaleur, climatisation ou chaudière : forfait entretien, contrat d’entretien, dépannage avec devis avant réparation", caption: "Forfait, contrat ou dépannage" }
-  - { src: "/images/realisations/maintenance/dargent-thermique-033.jpg", alt: "Maintenance d’une unité extérieure de climatisation par un technicien Dargent Thermique", caption: "Maintenance d’une unité extérieure de climatisation par un technicien Dargent Thermique" }
-  - { src: "/images/realisations/maintenance/dargent-thermique-034.jpg", alt: "Maintenance de climatisation, contrôle de l’unité extérieure", caption: "Maintenance de climatisation, contrôle de l’unité extérieure" }
-  - { src: "/images/realisations/maintenance/dargent-thermique-008.jpg", alt: "Maintenance d’une installation de chauffage", caption: "Maintenance d’une installation de chauffage" }
 links:
   - { href: "/pompe-a-chaleur/entretien/", label: "Entretien de votre pompe à chaleur : forfait ou contrat" }
   - { href: "/climatisation/entretien/", label: "Entretien et maintenance de votre climatisation" }

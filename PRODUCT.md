@@ -52,7 +52,7 @@ Un installateur qui étudie le projet avant de le chiffrer : visite technique, d
 
 ## Evidence on Hand
 
-- 30 photos de réalisations légendées, 6 catégories (climatisations réversibles dont VRV avec traitement acoustique, chaudières à condensation, ventilations, ballons thermodynamiques, planchers chauffants, maintenance) : ancien site `/assets/img/realisations/`, à re-héberger sous `public/images/realisations/` en conservant les noms.
+- 30 photos de réalisations, 6 catégories (climatisations réversibles dont VRV avec traitement acoustique, chaudières à condensation, ventilations, ballons thermodynamiques, planchers chauffants, maintenance) : ancien site `/assets/img/realisations/`, retirées du site et archivées dans `Photo_Produits/` (anciennes URLs en 410).
 - 3 avis Google nommés (Patrick Blain, climatisation Daikin 2 groupes/6 unités ; Sylvain Aguenier, PAC air/air, accompagnement aides ; Geoffrey Thomas, dépannage thermostat PAC).
 - Frise historique 1936, 1947, 1960, 1969, 1982, 1993, 2007, 2018, 2023.
 - 7 logos partenaires (Daikin, Atlantic Fujitsu, Mitsubishi Electric, Vaillant, Frisquet, Chappée, GRDF), ~55 logos clients en 9 catégories : autorisations d'usage à confirmer.

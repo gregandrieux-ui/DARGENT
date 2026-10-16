@@ -26,7 +26,6 @@ stats:
   - { value: "24 h/24", label: "d’anticipation des variations météo" }
 photos:
   - { src: "/images/illustrations/regulation-chauffage.svg", alt: "Schéma de la régulation du chauffage : une sonde extérieure et un thermostat d’ambiance informent la chaudière ou la pompe à chaleur, un robinet thermostatique règle chaque radiateur", caption: "Sonde extérieure, thermostat d’ambiance et robinets thermostatiques" }
-  - { src: "/images/produits/robinet-thermostatique.jpg", alt: "Robinet thermostatique de régulation du chauffage", caption: "Robinet thermostatique, pièce par pièce" }
 links:
   - { href: "/chauffage/", label: "Nos solutions de chauffage" }
   - { href: "/chauffage/chaudiere-condensation/", label: "Chaudière à condensation" }
