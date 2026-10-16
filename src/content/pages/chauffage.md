@@ -23,9 +23,7 @@ checks:
 faq: []
 howto: []
 stats:
-  - { value: "1936", label: "chauffagistes depuis trois générations" }
-  - { value: "1993", label: "bureau d’études interne" }
-  - { value: "0", label: "chiffrage au téléphone, visite technique d’abord" }
+  - { value: "Depuis 1936", label: "chauffagistes depuis trois générations" }
   - { value: "Jusqu’à 15 %", label: "d’économies avec une régulation adaptée*" }
 photos:
   - { src: "/images/illustrations/chaudiere-condensation.svg", alt: "Schéma d’une chaudière gaz à condensation : la ventouse amène l’air neuf et évacue les fumées, la chaleur de la vapeur d’eau des fumées est récupérée, l’eau part vers les radiateurs et revient plus froide", caption: "Principe d’une chaudière à condensation avec ventouse" }

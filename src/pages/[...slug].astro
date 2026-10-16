@@ -44,12 +44,10 @@ const osm = `https://www.openstreetmap.org/export/embed.html?bbox=${site.geo.lng
         <ol>{crumbs.map((c, i) => <li>{i < crumbs.length - 1 ? <a href={c.path}>{c.name}</a> : <span aria-current="page">{c.name}</span>}</li>)}</ol>
       </nav>
       <div class={simple ? '' : 'entry'}>
-        <div>
+        <div class:list={{ 'hero-copy': d.stats.length > 0 }}>
           <h1>{d.h1}</h1>
           {d.stats.length > 0 ? (
-            <>
-              <ul class="stats">{d.stats.map((s) => <li><strong>{s.value}</strong> {s.label}</li>)}</ul>
-            </>
+            <ul class="stats">{d.stats.map((s) => <li><strong>{s.value}</strong> {s.label}</li>)}</ul>
           ) : (
             <>
               {d.promise && <p class="promise">{d.promise}</p>}
