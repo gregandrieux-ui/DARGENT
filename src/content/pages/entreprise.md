@@ -27,7 +27,7 @@ checks:
 faq: []
 howto: []
 photos:
-  - { src: "/images/illustrations/histoire-frise.svg", alt: "Frise de l’entreprise : fondation à Beaugency en 1936, avenue Ampère à Saint-Jean-de-Braye en 1969, création de Dargent Thermique en 1982, bureau d’études et climatisation en 1993", caption: "Quatre dates de notre histoire" }
+  - { src: "/images/illustrations/histoire-frise.svg", alt: "Frise de l’entreprise : fondation à Beaugency en 1936, avenue Ampère à Saint-Jean-de-Braye en 1969, création de Dargent Thermique en 1982, bureau d’études et climatisation en 1993, reprise par ENGIE en 2018, reprise par le groupe BCR-I en 2026", caption: "Six dates de notre histoire" }
   - { src: "/images/illustrations/qualifications-qualibat.svg", alt: "Nos quatre codes Qualibat : 8321 pompes à chaleur aérothermiques, 5423 climatisation, 5312 installations thermiques, 5112 plomberie sanitaire", caption: "Nos quatre codes Qualibat" }
   - { src: "/images/illustrations/engagements.svg", alt: "Les déchets et appareils déposés sur les chantiers reviennent avenue Ampère, où ils sont triés par filière ou confiés à Ecologic depuis juin 2012 ; quatre ruches y sont installées depuis mai 2014", caption: "Du chantier à notre site : tri des déchets, recyclage Ecologic, ruches" }
   - { missing: "Photo de l’équipe ou de la façade du siège", caption: "Photo à collecter" }
@@ -47,37 +47,35 @@ draft: false
 crumbs: []
 ---
 
-## Qui sommes-nous
+## Notre histoire
 
-Dargent Thermique installe et entretient des pompes à chaleur, des climatisations et des chaudières dans l’agglomération orléanaise. Nos techniciens interviennent depuis le [siège de Saint-Jean-de-Braye](/zones-intervention/saint-jean-de-braye/), qui réunit les bureaux, le bureau d’études, le magasin de pièces et une salle d’exposition.
-
-L’effectif actuel et le nombre de clients accompagnés ne sont pas des chiffres que nous publions sans les avoir vérifiés [À CONFIRMER : effectif] [À CONFIRMER : nombre de clients]. Ce que nous pouvons montrer sans ambiguïté, ce sont notre histoire, nos qualifications, nos valeurs et nos références, détaillés ci-dessous.
-
-### Notre histoire
-
-#### 1936-1947 : les débuts à Beaugency puis Orléans
+### 1936-1947 : les débuts à Beaugency puis Orléans
 
 René Dargent fonde l’entreprise en 1936 à Beaugency. Elle installe et répare alors des appareils de chauffage au bois et au charbon, les seules énergies domestiques disponibles à cette époque. En 1947, l’activité rejoint Orléans, où la clientèle et les chantiers sont plus nombreux. Trois générations de chauffagistes se sont succédé à sa tête : un métier transmis plutôt qu’un rachat commercial.
 
-#### 1960 : du charbon au fioul
+### 1960 : du charbon au fioul
 
 À partir de 1960, le fioul domestique remplace progressivement le charbon dans les maisons orléanaises. L’entreprise suit ce changement et adapte ses interventions aux nouvelles chaudières fioul. Ce basculement est le premier d’une longue série : bois, charbon, fioul, puis gaz, climatisation et pompes à chaleur. À chaque fois, l’activité s’est reformée autour de l’énergie que les foyers choisissaient, sans abandonner l’entretien des équipements plus anciens tant qu’ils restaient réparables. C’est pourquoi nous entretenons encore des installations au gaz et au fioul, en parallèle des pompes à chaleur que nous installons.
 
-#### 1969 : l’installation à Saint-Jean-de-Braye
+### 1969 : l’installation à Saint-Jean-de-Braye
 
 En 1969, l’entreprise s’installe avenue Ampère, dans la zone industrielle de Saint-Jean-de-Braye, à l’est de l’agglomération orléanaise. Ce site réunit pour la première fois les bureaux, un atelier et un stock de pièces au même endroit. Ce choix d’implantation n’a jamais changé : c’est toujours de cette adresse que partent les techniciens chaque matin.
 
-#### 1982 : la création de Dargent Thermique
+### 1982 : la création de Dargent Thermique
 
 En 1982, l’activité prend la forme juridique et le nom qu’elle porte encore : Dargent Thermique est immatriculée au RCS d’Orléans sous le numéro 323 765 404 (création au 1er février 1982). Cette structuration accompagne l’essor du gaz naturel comme énergie de chauffage, en parallèle du fioul déjà installé chez de nombreux clients de la région.
 
-#### 1993 : la climatisation et le bureau d’études
+### 1993 : la climatisation et le bureau d’études
 
 En 1993, l’entreprise ouvre un bureau d’études interne et ajoute la climatisation à son métier de chauffagiste. Cette double évolution prépare l’arrivée de la pompe à chaleur, qui combine les deux savoir-faire : le chauffage et le froid. Le bureau d’études dimensionne chaque projet avant qu’un devis ne soit établi, dès la visite technique : nous ne chiffrons jamais une installation au téléphone, car un appareil mal dimensionné est trop petit ou trop gros pour le logement.
 
-#### 2018 : aujourd’hui
+### 2018 - 2026
 
-En 2018, l’entreprise est reprise par un groupe industriel français de l’énergie et des services [À CONFIRMER : nom du groupe repreneur communicable]. Elle reste dirigée localement, et l’équipe comme l’adresse avenue Ampère restent inchangées. Depuis, l’activité s’oriente vers la pompe à chaleur, qui prolonge la trajectoire engagée en 1960 : accompagner les particuliers de l’agglomération orléanaise dans les transitions successives d’énergie de chauffage.
+En 2018, l’entreprise est reprise par ENGIE. Elle reste dirigée localement, et l’équipe comme l’adresse avenue Ampère restent inchangées. Depuis, l’activité s’oriente vers la pompe à chaleur, qui prolonge la trajectoire engagée en 1960 : accompagner les particuliers de l’agglomération orléanaise dans les transitions successives d’énergie de chauffage.
+
+### 2026 - Présent
+
+La société est reprise par le groupe français BCR-I avec une volonté de faire grandir l’entreprise.
 
 ## Nos qualifications
 
