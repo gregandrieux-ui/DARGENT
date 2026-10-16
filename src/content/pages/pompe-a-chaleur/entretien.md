@@ -33,7 +33,7 @@ checks:
   - { label: "Registre des fluides vérifié lors d’audits périodiques" }
   - { label: "Devis établi avant toute réparation au-delà du seuil", detail: "[À CONFIRMER : seuil de devis obligatoire]" }
 photos:
-  - { src: "/images/illustrations/entretien-pac.svg", alt: "Déroulé d’une visite d’entretien de pompe à chaleur : étanchéité du circuit, nettoyage de l’unité extérieure, réglage de la régulation, documents remis", caption: "Une visite d’entretien en quatre temps, documents remis à la fin" }
+  - { src: "/images/illustrations/entretien-pac.svg", alt: "Déroulé d’une visite d’entretien de pompe à chaleur : contrôle du circuit, nettoyage de l’unité extérieure, réglage de la régulation, documents remis après chaque visite", caption: "Une visite d’entretien en quatre temps, documents remis à la fin" }
 links:
   - { href: "/entretien/", label: "Entretien : nos engagements de service" }
   - { href: "/pompe-a-chaleur/depannage/", label: "Dépannage de pompe à chaleur : que faire en cas de panne" }
