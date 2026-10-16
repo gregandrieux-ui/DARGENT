@@ -10,7 +10,6 @@ schema: Service
 faq: []
 howto: []
 cta: { href: "/devis/", label: "Demande de dépannage" }
-cta2: { href: "/devis/", label: "Décrire ma panne (formulaire)" }
 facts:
   - { label: "Fluides frigorigènes", value: "Attestation de capacité n° 111363-R1 (Bureau Veritas Certification)" }
   - { label: "Qualifications", value: "QUALIPAC, RGE, Qualibat 8321, 5423, 5312, 5112" }

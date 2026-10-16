@@ -468,8 +468,6 @@ a.stretched::after { content: ''; position: absolute; inset: 0; z-index: 1; }
 .big-cta .acts { display: flex; flex-wrap: wrap; gap: var(--s-3) var(--s-5); align-items: center; }
 .big-cta .pill { display: inline-flex; align-items: center; gap: var(--s-2); min-height: 50px; padding: var(--s-2) var(--s-5); border-radius: var(--pill); background: var(--cyan); color: var(--brand-900); font-weight: 700; text-decoration: none; line-height: 1.25; transition: background var(--dur) var(--ease), transform var(--dur) var(--ease); }
 .big-cta .pill:hover { background: var(--cyan-200); color: var(--brand-900); transform: translateY(-2px); }
-.big-cta .pill.is-alert { background: var(--alert); color: #fff; }
-.big-cta .pill.is-alert:hover { background: #b92a34; color: #fff; }
 .big-cta .tel { color: #fff; }
 
 /* Pied de page bleu nuit ; la carte de contact reste blanche (logo lisible). */

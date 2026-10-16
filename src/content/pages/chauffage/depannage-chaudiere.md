@@ -10,7 +10,6 @@ schema: Service
 faq: []
 howto: []
 cta: { href: "/devis/", label: "Demande de dépannage" }
-cta2: { href: "/devis/", label: "Décrire ma panne (formulaire)" }
 facts:
   - { label: "Qualification", value: "Professionnel du gaz" }
   - { label: "Qualibat", value: "5312, installations thermiques" }

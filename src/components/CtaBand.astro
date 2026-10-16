@@ -1,16 +1,16 @@
 ---
 import Icon from './Icon.astro';
 import { site } from '../data/site';
-interface Props { title?: string; text?: string; cta?: string; href?: string; alert?: boolean }
-const { title = 'Parlons de votre projet', text = 'Visite technique, étude, puis devis gratuit et sans engagement.', cta = 'Demander un devis', href = '/devis/', alert = false } = Astro.props;
+interface Props { title?: string; text?: string; cta?: string; href?: string }
+const { title = 'Parlons de votre projet', text = 'Visite technique, étude, puis devis gratuit et sans engagement.', cta = 'Demander un devis', href = '/devis/' } = Astro.props;
 ---
 <section class="cta-band" aria-labelledby="cta-title">
   <div class="container">
     <div class="big-cta">
       <div><h2 id="cta-title">{title}</h2><p>{text}</p></div>
       <div class="acts">
-        <a class={`pill ${alert ? 'is-alert' : ''}`} href={alert ? site.phoneHref : href}>{alert && <Icon name="phone" />}{cta}{!alert && <Icon name="arrow-right" />}</a>
-        {!alert && <a class="tel" href={site.phoneHref}><Icon name="phone" /> {site.phone}</a>}
+        <a class="pill" href={href}>{cta}<Icon name="arrow-right" /></a>
+        <a class="tel" href={site.phoneHref}><Icon name="phone" /> {site.phone}</a>
       </div>
     </div>
     <slot />

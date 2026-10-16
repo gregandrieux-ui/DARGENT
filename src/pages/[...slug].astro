@@ -125,7 +125,7 @@ const osm = `https://www.openstreetmap.org/export/embed.html?bbox=${site.geo.lng
     </div>
   </section>
 
-  {!simple && <CtaBand alert={d.alert} cta={d.alert ? `Appeler le ${site.phone}` : d.cta.label} href={d.cta.href} title={d.alert ? 'Une panne ? Un diagnostic, puis un devis avant toute réparation.' : undefined} text={d.alert ? 'Intervention sur rendez-vous par un technicien habilité fluides frigorigènes.' : undefined} />}
+  {!simple && <CtaBand cta={d.cta.label} href={d.cta.href} title={d.alert ? 'Une panne ? Un diagnostic, puis un devis avant toute réparation.' : undefined} text={d.alert ? 'Intervention sur rendez-vous par un technicien habilité fluides frigorigènes.' : undefined} />}
 </Base>
 
 <script>
