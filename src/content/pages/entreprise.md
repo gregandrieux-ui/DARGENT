@@ -2,13 +2,13 @@
 id: ENTR-00
 priority: P2
 title: "Dargent Thermique : notre entreprise à Orléans depuis 1936"
-description: "Chauffagiste à Orléans depuis 1936 : notre histoire, nos qualifications RGE Qualibat et QUALIPAC, nos valeurs et nos références clients, sur une seule page."
+description: "Chauffagiste à Orléans depuis 1936 : notre histoire, notre zone d’intervention, nos certifications RGE Qualibat et QUALIPAC et nos offres d’emploi."
 h1: "L’entreprise Dargent Thermique"
-promise: "Une entreprise locale ancienne, dont les qualifications et les engagements sont publics."
+promise: "Une entreprise locale depuis 1936, dont les certifications sont publiques et vérifiables."
 template: about
 schema: AboutPage
 cta: { href: "/devis/", label: "Demander un devis" }
-cta2: { href: "#nos-qualifications", label: "Découvrir nos qualifications" }
+cta2: { href: "#nos-certifications", label: "Découvrir nos certifications" }
 facts:
   - { label: "Activité depuis", value: "1936, à Beaugency, par René Dargent" }
   - { label: "Siège actuel", value: "Avenue Ampère, Saint-Jean-de-Braye, depuis 1969" }
@@ -21,8 +21,6 @@ checks:
   - { label: "Bureau d’études interne", detail: "créé en 1993, dimensionnement avant devis" }
   - { label: "Qualibat RGE 8321 et QUALIPAC", detail: "pompes à chaleur aérothermiques" }
   - { label: "Attestation de capacité fluides frigorigènes n° 111363-R1", detail: "délivrée par Bureau Veritas" }
-  - { label: "Adhésion Ecologic", detail: "recyclage des climatiseurs déposés chez nos clients, depuis juin 2012" }
-  - { label: "Trois avis Google nommés", detail: "Patrick Blain, Sylvain Aguenier, Geoffrey Thomas" }
 faq: []
 howto: []
 photos:
@@ -74,9 +72,17 @@ En 2018, l’entreprise est reprise par ENGIE. Elle reste dirigée localement, e
 
 La société est reprise par le groupe français BCR-I avec une volonté de faire grandir l’entreprise.
 
-## Nos qualifications
+## Zone d’intervention
 
-Nos qualifications conditionnent les travaux que nous pouvons réaliser, engagent notre responsabilité et donnent accès à certaines aides pour nos clients.
+<span id="zone-intervention"></span>Depuis notre siège de Saint-Jean-de-Braye, nos techniciens interviennent dans un rayon d’environ 100 km autour d’Orléans : l’agglomération orléanaise et tout le Loiret, jusqu’à Chartres, Châteaudun, Blois et Vierzon.
+
+<figure class="zone-photo"><img src="/images/zone-intervention-carte.webp" alt="Carte de la zone d’intervention : un rayon de 100 km autour d’Orléans, de Chartres à Vierzon et de Blois à Montargis, avec le siège à Saint-Jean-de-Braye" width="1100" height="1100" loading="lazy" decoding="async"><figcaption>Fond de carte © <a href="https://www.openstreetmap.org/copyright">les contributeurs d’OpenStreetMap</a></figcaption></figure>
+
+[Voir toutes nos zones d’intervention](/zones-intervention/)
+
+## Nos certifications
+
+<span id="nos-qualifications"></span>Nos qualifications conditionnent les travaux que nous pouvons réaliser, engagent notre responsabilité et donnent accès à certaines aides pour nos clients.
 
 ### RGE Qualibat
 
@@ -108,3 +114,13 @@ Toute intervention sur un circuit frigorifique, climatisation ou pompe à chaleu
 ### Pourquoi cela compte pour vos aides
 
 La plupart des aides à la rénovation énergétique sont réservées aux travaux réalisés par une entreprise RGE. Nos qualifications Qualibat 8321 et QUALIPAC en sont la preuve pour une pompe à chaleur ; le code 5312 et la mention Professionnel du gaz jouent le même rôle pour une chaudière gaz. Elles ne garantissent pas à elles seules l’obtention d’une aide : chaque dispositif a ses propres conditions, liées à vos revenus, à votre logement et à l’équipement posé. Le détail figure sur [les aides financières pour votre pompe à chaleur](/aides-financieres-pompe-a-chaleur/).
+
+## Marques partenaires
+
+Nous nous appuyons sur des fabricants et des fournisseurs choisis pour la qualité de leurs équipements, la disponibilité des pièces et le suivi dans la durée. Leur présentation figure sur la page [nos marques partenaires](/marques-partenaires/).
+
+## Recrutement
+
+Nous recrutons des techniciens de maintenance et des chargés d’affaires pour faire grandir l’équipe de l’avenue Ampère.
+
+<p class="card-actions"><a class="btn" href="/recrutement/#candidature" data-candidature>Déposer ma candidature</a> <a href="/recrutement/">Découvrir nos métiers</a></p>

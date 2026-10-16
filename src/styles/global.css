@@ -282,6 +282,11 @@ main .btn { white-space: normal; text-align: center; }
 .photo figcaption { display: flex; gap: var(--s-2); padding: var(--s-2) var(--s-1) 0; font-size: var(--text-label); color: var(--ink-600); line-height: 1.45; }
 .photo figcaption .lbl { color: var(--cyan-700); font-weight: 600; flex: none; }
 .photo-illustration img { background: var(--navy-50); }
+/* Page Entreprise : carte de zone (fondu déjà dans l'image) et boutons d'une carte empilée. */
+.zone-photo { max-width: 560px; margin: var(--s-4) auto 0; text-align: center; }
+.zone-photo img { width: 100%; height: auto; }
+.zone-photo figcaption { font-size: var(--text-label); color: var(--ink-600); }
+.card-actions { display: flex; flex-wrap: wrap; align-items: center; gap: var(--s-3) var(--s-5); }
 .photo-missing { display: flex; align-items: center; justify-content: center; gap: var(--s-2); background: var(--tint); color: var(--ink-600); min-height: 180px; padding: var(--s-4); text-align: center; font-size: var(--text-small); border: 1px dashed var(--rule); border-radius: var(--radius-lg); }
 
 /* Liens de sortie : liste à chevrons, lignes cliquables ≥ 48 px. */

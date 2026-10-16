@@ -35,7 +35,7 @@ photos:
 links:
   - { href: "/entretien/", label: "Entretien de vos équipements : le cadre commun à toutes nos interventions" }
   - { href: "/climatisation/depannage/", label: "Dépannage de climatisation : diagnostic, puis devis avant réparation" }
-  - { href: "/entreprise/#nos-qualifications", label: "Nos qualifications et certifications, dont l’attestation fluides frigorigènes" }
+  - { href: "/entreprise/#nos-certifications", label: "Nos qualifications et certifications, dont l’attestation fluides frigorigènes" }
   - { href: "/pompe-a-chaleur/entretien/", label: "Entretien de votre pompe à chaleur air/eau ou air/air" }
   - { href: "/contact/", label: "Nous contacter pour fixer un rendez-vous d’entretien" }
 aides: false
@@ -99,7 +99,7 @@ Une climatisation contient un fluide frigorigène. Sa manipulation est encadrée
 
 Texte de référence : [code de l’environnement, partie réglementaire, sur Légifrance](https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006074220/). Source consultée le [À CONFIRMER : date]. Sous réserve d’évolution de la réglementation.
 
-L’ensemble de nos qualifications (Qualibat 8321, 5423, 5312 et 5112, RGE, QUALIPAC) est présenté sur la page [nos qualifications et certifications](/entreprise/#nos-qualifications).
+L’ensemble de nos qualifications (Qualibat 8321, 5423, 5312 et 5112, RGE, QUALIPAC) est présenté sur la page [nos qualifications et certifications](/entreprise/#nos-certifications).
 
 ## Nos engagements de service
 
