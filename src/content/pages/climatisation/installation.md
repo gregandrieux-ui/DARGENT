@@ -44,8 +44,6 @@ crumbs:
   - { href: "/climatisation/", label: "Climatisation" }
 ---
 
-Poser une climatisation, c’est percer des murs, fixer un groupe en façade et ouvrir un circuit frigorifique. Cette page décrit comment nous nous y prenons, de la première visite à la remise des commandes. Le choix du système (réversible, gainable, mono ou multi-split) est traité sur la page [climatisation à Orléans : installation, entretien et dépannage](/climatisation/).
-
 ## Étape 1 : le relevé sur place
 
 Nous ne chiffrons pas une climatisation au téléphone. Un technicien vient chez vous, dans l’agglomération orléanaise ou le Loiret, pour relever le logement.
