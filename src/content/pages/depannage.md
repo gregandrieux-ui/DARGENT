@@ -36,11 +36,11 @@ crumbs: []
 
 Un diagnostic honnête et un devis écrit avant toute réparation importante : voici les étapes d’un dépannage, de votre appel à la réparation.
 
-**La prise d’appel.** Un appel direct au [02 38 86 46 46](tel:+33238864646) : notre service maintenance note le symptôme, la marque et le modèle de l’appareil, et l’éventuel code erreur. Nos barèmes sont affichés dans notre salle d’exposition de Saint-Jean-de-Braye et transmis à chaque demande, par téléphone ou par courriel.
+**La prise d’appel.** Un appel direct au [02 38 86 46 46](tel:+33238864646) : notre service maintenance note la marque et le modèle de l’appareil, et la raison de votre appel (le dysfonctionnement constaté, l’éventuel code erreur). Il fixe avec vous le rendez-vous : toutes nos interventions sont planifiées. Le délai dépend de la charge de la saison [À CONFIRMER : délai d’intervention réellement tenable]. En dehors des heures ouvrées : [À CONFIRMER : existence d’une astreinte]. Nos barèmes sont affichés dans notre salle d’exposition de Saint-Jean-de-Braye et transmis à chaque demande, par téléphone ou par courriel.
 
-**Le rendez-vous.** Toutes nos interventions sont planifiées sur rendez-vous. Le délai dépend de la charge de la saison [À CONFIRMER : délai d’intervention réellement tenable]. En dehors des heures ouvrées : [À CONFIRMER : existence d’une astreinte].
+**Le diagnostic sur place.** Le technicien constate la panne chez vous et estime le coût de la remise en état. Nous n’établissons jamais de chiffrage au téléphone.
 
-**Le diagnostic.** Le technicien constate la panne sur place et estime le coût de la remise en état. Nous n’établissons jamais de chiffrage au téléphone.
+**Le devis.** Au-delà d’un certain montant, le technicien vous remet un devis écrit et attend votre accord avant de réparer (voir ci-dessous).
 
 **La réparation.** Si la pièce est disponible, la réparation est faite lors du même passage. Sinon, elle est commandée et un second rendez-vous est fixé. Vous recevez une facture détaillée qui indique le tarif appliqué et le prix des pièces remplacées.
 
@@ -50,6 +50,8 @@ Lorsque le coût de la remise en état atteint un certain seuil, le technicien �
 
 Le devis est aussi le moment de l’avis franc. Lorsque le coût de la réparation n’est pas raisonnable au regard de l’âge de l’appareil, nous vous le disons. Nous vous signalons aussi par écrit toute installation non conforme ou toute vétusté qui laisse craindre une nouvelle panne : l’intervention peut alors se limiter à une mise en sécurité.
 
+Certains appareils ne peuvent pas être réparés durablement : un équipement au R22, fluide qui ne peut plus être rechargé, ou un modèle dont les pièces de rechange sont introuvables. Nous vous le disons après le diagnostic et vous proposons une étude de remplacement, avec visite technique et devis établi après visite. Le dimensionnement est assuré par notre bureau d’études interne, créé en 1993.
+
 ## Nos moyens (équipe, véhicules, pièces)
 
 Une équipe maintenance dédiée prend vos rendez-vous et organise les interventions [À CONFIRMER : composition de l’équipe]. Les techniciens interviennent avec des véhicules équipés et outillés, chargés chaque matin depuis notre site de l’avenue Ampère, à Saint-Jean-de-Braye.
@@ -57,17 +59,6 @@ Une équipe maintenance dédiée prend vos rendez-vous et organise les intervent
 Un magasin de pièces courantes est tenu sur place : une pièce disponible permet, dans de nombreux cas, une réparation dès le premier passage. Une pièce absente du stock est commandée auprès du fabricant ou de son distributeur.
 
 Sur une pompe à chaleur ou une climatisation, seul un technicien habilité peut ouvrir le circuit frigorifique : Dargent Thermique détient l’attestation de capacité n° 111363-R1, délivrée par Bureau Veritas. Sur une chaudière gaz, nous intervenons en tant qu’entreprise qualifiée Professionnel du gaz.
-
-## Les limites de notre obligation de résultat
-
-Une réparation est soumise à une obligation de résultat, que nous respectons. Elle ne peut cependant pas être retenue dans les situations suivantes, que nous préférons écrire noir sur blanc plutôt que de les découvrir sur place :
-
-- **vétusté de l’appareil** : un équipement en fin de vie ne peut pas toujours être remis en état de façon sûre et durable ;
-- **équipement au R22** : ce fluide ne peut plus être utilisé pour recharger le circuit d’une pompe à chaleur ou d’une climatisation ;
-- **pièces de rechange introuvables**, fabricant disparu ou distributeurs en rupture ;
-- **refus du devis proposé**, ou toute autre cause étrangère qui empêche la réparation.
-
-Dans ces cas, nous vous proposons une étude de remplacement, avec visite technique et devis établi après visite, jamais au téléphone. Le dimensionnement est assuré par notre bureau d’études interne, créé en 1993.
 
 ## Dépannage par équipement
 
