@@ -522,7 +522,7 @@ a.stretched::after { content: ''; position: absolute; inset: 0; z-index: 1; }
   .entry:has(.hero-copy) .hero-photo figcaption { position: absolute; inset: 100% 0 auto; }
 }
 .hero-facts { margin-top: var(--s-6); }
-/* Dépannage : numéro en grand à droite du bouton, icône rouge. */
+/* Hero : numéro en grand à droite du bouton, icône rouge. */
 .tel-big { font-size: clamp(1.375rem, 1rem + 1vw, 1.75rem); font-weight: 700; gap: var(--s-3); }
 .tel-big .icon { color: var(--alert); }
 

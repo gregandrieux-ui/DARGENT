@@ -24,7 +24,7 @@ const pages = defineCollection({
     photos: z.array(z.object({ src: z.string().optional(), alt: z.string().default(''), caption: z.string().optional(), missing: z.string().optional() })).default([]),
     links: z.array(link).default([]),      // Liens sortants (xlsx) → sorties numérotées
     aides: z.boolean().default(false),     // bloc réassurance : lien vers la page aides si pertinent
-    alert: z.boolean().default(false),     // hero dépannage : téléphone en rouge
+    alert: z.boolean().default(false),     // dépannage : barre d'appel mobile rouge, texte de la bande finale
     tel: z.boolean().default(true),        // hero : lien téléphone à côté du CTA
     candidature: z.enum(['inline', 'modal']).optional(), // formulaire de candidature : dans la page (sans JS) ou modale seule
     unit: z.enum(['pac']).optional(),      // hero : vue éclatée animée (Exploded.astro) ; photos[0] passe en galerie
