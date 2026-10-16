@@ -15,10 +15,6 @@ facts:
   - { label: "Bureau d’études", value: "Interne, depuis 1993" }
   - { label: "Chauffagistes", value: "Trois générations depuis 1936" }
   - { label: "Périmètre", value: "Agglomération orléanaise et Loiret" }
-checks:
-  - { label: "Qualibat 5312 et 5112", detail: "certificats à validité annuelle" }
-  - { label: "Professionnel du gaz", detail: "raccordement et mise en service des chaudières gaz" }
-  - { label: "Trois générations de chauffagistes", detail: "entreprise fondée en 1936, avenue Ampère depuis 1969" }
 faq: []
 howto: []
 stats:

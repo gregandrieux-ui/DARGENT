@@ -21,11 +21,6 @@ facts:
   - { label: "Bureau d’études", value: "Interne, créé en 1993" }
   - { label: "Ancienneté", value: "Trois générations depuis 1936, avenue Ampère à Saint-Jean-de-Braye depuis 1969" }
   - { label: "Périmètre", value: "Agglomération orléanaise et Loiret" }
-checks:
-  - { label: "Traitement acoustique des groupes extérieurs", detail: "capotages visibles sur nos photos de chantiers" }
-  - { label: "Pose par notre équipe interne" }
-  - { label: "Avis Google de Patrick Blain", detail: "climatisation Daikin, deux groupes et six unités" }
-  - { label: "Devis établi après la visite technique", detail: "jamais au téléphone" }
 photos:
   - { src: "/images/illustrations/clim-installation.svg", alt: "Les quatre étapes de l’installation d’une climatisation : relevé sur place, étude et devis, pose, mise en service et prise en main", caption: "Les quatre étapes de votre installation" }
 links:
@@ -100,3 +95,10 @@ Trois leviers se combinent : un modèle doté d’un mode silencieux, un emplac
 Ce traitement est appliqué sur nos chantiers, en maison comme en tertiaire. Patrick Blain, client pour une climatisation Daikin à deux groupes et six unités, a laissé un avis Google sur son installation.
 
 Pour chiffrer votre projet à Orléans ou dans le Loiret : [demander un devis de climatisation après visite technique](/devis/). Vous pouvez aussi appeler le 02 38 86 46 46.
+
+## Pourquoi nous faire confiance
+
+- **Traitement acoustique des groupes extérieurs** capotages visibles sur nos photos de chantiers
+- **Pose par notre équipe interne**
+- **Avis Google de Patrick Blain** climatisation Daikin, deux groupes et six unités
+- **Devis établi après la visite technique** jamais au téléphone

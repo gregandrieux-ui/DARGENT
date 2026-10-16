@@ -15,10 +15,6 @@ facts:
   - { label: "Bureau d’études", value: "Interne, depuis 1993" }
   - { label: "Public", value: "Particuliers, professionnels et collectivités" }
   - { label: "Zone", value: "Agglomération orléanaise et Loiret" }
-checks:
-  - { label: "Visite technique avant tout devis", detail: "jamais de chiffrage au téléphone" }
-  - { label: "Dimensionnement par notre bureau d’études", detail: "adapté au bâti et aux pièces du logement" }
-  - { label: "Interventions en groupe scolaire et en tertiaire", detail: "centrales de traitement d’air" }
 stats:
   - { value: "100 %", label: "d’air renouvelé en continu" }
   - { value: "Jusqu’à 90 %", label: "de la chaleur récupérée sur l’air extrait (double flux)*" }

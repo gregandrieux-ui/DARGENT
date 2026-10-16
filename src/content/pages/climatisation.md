@@ -14,11 +14,6 @@ facts:
   - { label: "Bureau d’études", value: "Interne, depuis 1993" }
   - { label: "Unités intérieures", value: "Mural, console, gainable, cassette" }
   - { label: "Périmètre", value: "Agglomération orléanaise et Loiret" }
-checks:
-  - { label: "Qualibat 5423", detail: "climatiseurs à détente directe, technicité supérieure" }
-  - { label: "Attestation de capacité fluides frigorigènes n° 111363-R1", detail: "délivrée par Bureau Veritas" }
-  - { label: "Avis Google de Patrick Blain", detail: "climatisation Daikin, 2 groupes et 6 unités" }
-  - { label: "Photos de chantiers de climatisation", detail: "groupe extérieur avec traitement acoustique, console murale, unité tertiaire" }
 faq: []
 howto: []
 stats:

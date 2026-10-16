@@ -17,10 +17,6 @@ facts:
   - { label: "Fluides frigorigènes", value: "Attestation de capacité n° 111363-R1 (Bureau Veritas)" }
   - { label: "Bureau d’études", value: "Interne, depuis 1993" }
   - { label: "Zone", value: "Orléans et son agglomération (Loiret)" }
-checks:
-  - { label: "Visite technique avant tout devis", detail: "jamais de chiffrage au téléphone" }
-  - { label: "Dimensionnement par notre bureau d’études", detail: "calcul des déperditions pièce par pièce" }
-  - { label: "Attestation de capacité fluides frigorigènes", detail: "n° 111363-R1, Bureau Veritas" }
 stats:
   - { value: "Jusqu’à 65 %", label: "d’économies d’énergie*" }
   - { value: "2-en-1", label: "chauffage doux et eau chaude sanitaire" }

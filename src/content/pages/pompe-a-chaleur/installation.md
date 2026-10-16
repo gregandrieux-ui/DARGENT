@@ -22,11 +22,6 @@ facts:
   - { label: "Bureau d’études", value: "Interne, créé en 1993" }
   - { label: "Devis", value: "Établi après la visite technique, jamais au téléphone" }
   - { label: "Périmètre", value: "Orléans et son agglomération (Loiret)" }
-checks:
-  - { label: "Dimensionnement par notre bureau d’études", detail: "calcul des déperditions pièce par pièce" }
-  - { label: "Attestation de capacité fluides frigorigènes n° 111363-R1", detail: "délivrée par Bureau Veritas" }
-  - { label: "Avis Google de Sylvain Aguenier", detail: "délai respecté, accompagnement pour les aides" }
-  - { label: "Trois générations de chauffagistes depuis 1936" }
 photos:
   - { src: "/images/illustrations/pac-installation.svg", alt: "Les cinq étapes de l’installation d’une pompe à chaleur : visite technique, étude et devis, préparation, pose, mise en service", caption: "Les cinq étapes de votre chantier" }
   - { missing: "chantier d’installation de PAC, étape par étape", caption: "Photo à collecter" }
@@ -122,3 +117,10 @@ Une pompe à chaleur posée par une entreprise RGE peut ouvrir droit à des aide
 Les dispositifs, leurs conditions et leurs montants évoluent régulièrement. Nous ne les reprenons pas ici : ils sont tenus à jour, avec leurs sources officielles, sur la page [aides financières pour votre pompe à chaleur](/aides-financieres-pompe-a-chaleur/).
 
 Le devis et la facture sont établis avec les mentions attendues par les organismes. Sylvain Aguenier souligne dans son avis Google l’accompagnement reçu pour obtenir ses aides. L’étendue de cet accompagnement est en cours de formalisation [À CONFIRMER : prise en charge des démarches d’aides].
+
+## Pourquoi nous faire confiance
+
+- **Dimensionnement par notre bureau d’études** calcul des déperditions pièce par pièce
+- **Attestation de capacité fluides frigorigènes n° 111363-R1** délivrée par Bureau Veritas
+- **Avis Google de Sylvain Aguenier** délai respecté, accompagnement pour les aides
+- **Trois générations de chauffagistes depuis 1936**

@@ -15,11 +15,6 @@ facts:
   - { label: "Traçabilité", value: "Registre des manipulations de fluides, vérifié lors d’audits" }
   - { label: "Moyens", value: "Véhicules équipés, magasin de pièces courantes à Saint-Jean-de-Braye" }
   - { label: "Périmètre", value: "Agglomération orléanaise et Loiret, sur rendez-vous" }
-checks:
-  - { label: "Attestation de capacité fluides frigorigènes", detail: "n° 111363-R1, article R. 543-99 du code de l’environnement, consultable en PDF" }
-  - { label: "Registre des fluides tenu par site et par machine", detail: "procédures contrôlées lors d’audits réguliers" }
-  - { label: "Rapport d’intervention et attestation d’entretien remis après la visite" }
-  - { label: "Magasin de pièces courantes et véhicules équipés", detail: "avenue Ampère, Saint-Jean-de-Braye" }
 faq:
   - q: "L’entretien de ma climatisation est-il obligatoire ?"
     a: "Pour certaines climatisations, oui : un entretien périodique par un professionnel est imposé selon la puissance de l’appareil et sa charge en fluide frigorigène [À CONFIRMER : seuils à re-sourcer sur Légifrance]. Sous réserve d’évolution de la réglementation. Les conditions de prise en charge du constructeur prévoient souvent, elles aussi, un entretien régulier."
@@ -135,3 +130,10 @@ La réparation est soumise à une obligation de résultat. Nous la respectons. E
 Tout part de notre formulaire : [Souscrire un contrat d’entretien](/devis/). Indiquez la marque et le modèle de votre climatisation, le nombre d’unités intérieures, l’année de pose et la date du dernier entretien. Pour une visite ponctuelle, précisez que vous souhaitez un forfait. Nous vous rappelons pour convenir d’un rendez-vous.
 
 Vous préférez parler à quelqu’un ? Appelez le [02 38 86 46 46](tel:+33238864646) ou passez par la page [nous contacter](/contact/). Nous intervenons dans l’agglomération orléanaise et dans le Loiret.
+
+## Pourquoi nous faire confiance
+
+- **Attestation de capacité fluides frigorigènes** n° 111363-R1, article R. 543-99 du code de l’environnement, consultable en PDF
+- **Registre des fluides tenu par site et par machine** procédures contrôlées lors d’audits réguliers
+- **Rapport d’intervention et attestation d’entretien remis après la visite**
+- **Magasin de pièces courantes et véhicules équipés** avenue Ampère, Saint-Jean-de-Braye

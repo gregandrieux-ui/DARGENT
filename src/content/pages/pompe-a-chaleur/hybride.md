@@ -17,10 +17,6 @@ facts:
   - { label: "Partie pompe à chaleur", value: "RGE, QUALIPAC, attestation de capacité fluides frigorigènes n° 111363-R1 (Bureau Veritas)" }
   - { label: "Bureau d’études", value: "Interne, depuis 1993" }
   - { label: "Zone", value: "Orléans et son agglomération (Loiret)" }
-checks:
-  - { label: "Visite technique avant tout devis", detail: "jamais de chiffrage au téléphone" }
-  - { label: "Partie gaz réalisée par nos propres équipes", detail: "qualification Professionnel du gaz" }
-  - { label: "Fluides frigorigènes manipulés sous attestation de capacité", detail: "n° 111363-R1, Bureau Veritas" }
 stats:
   - { value: "Jusqu’à 40 %", label: "d’économies de gaz possibles*" }
   - { value: "2 énergies", label: "pour un confort optimal peu importe la température" }

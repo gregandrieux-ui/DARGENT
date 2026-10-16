@@ -17,11 +17,6 @@ facts:
   - { label: "Bureau d’études", value: "Interne depuis 1993 : calcul des débits et des réseaux de gaines" }
   - { label: "Unités intérieures", value: "Gainable, mais aussi mural, console et cassette" }
   - { label: "Périmètre", value: "Agglomération orléanaise et Loiret" }
-checks:
-  - { label: "Qualibat 5423", detail: "climatiseurs à détente directe" }
-  - { label: "Attestation de capacité fluides frigorigènes n° 111363-R1", detail: "délivrée par Bureau Veritas, registre des fluides tenu" }
-  - { label: "Bureau d’études interne depuis 1993", detail: "chaque gainable est dimensionné sur relevé, jamais sur plan seul" }
-  - { label: "Chantiers de climatisation tertiaire", detail: "unités intérieures posées dans des locaux professionnels, visibles sur nos réalisations" }
 stats:
   - { value: "0", label: "appareil visible : seules des grilles discrètes" }
   - { value: "1", label: "seul groupe pour tout le logement" }

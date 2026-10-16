@@ -17,11 +17,6 @@ facts:
   - { label: "Bureau d’études", value: "Interne depuis 1993" }
   - { label: "Unités intérieures", value: "Mural, console, cassette, gainable" }
   - { label: "Périmètre", value: "Agglomération orléanaise (Loiret)" }
-checks:
-  - { label: "Avis Google de Patrick Blain", detail: "climatisation Daikin, deux groupes et six unités : étude préalable, délais tenus, chantier propre" }
-  - { label: "Photos de nos chantiers de climatisation réversible", detail: "groupe extérieur avec traitement acoustique, console murale, unité tertiaire" }
-  - { label: "Qualibat 5423", detail: "climatiseurs à détente directe" }
-  - { label: "Registre des fluides frigorigènes", detail: "attestation de capacité n° 111363-R1, Bureau Veritas" }
 stats:
   - { value: "2-en-1", label: "fraîcheur l’été, chauffage l’hiver" }
   - { value: "Jusqu’à 75 %", label: "d’électricité en moins face à des radiateurs électriques (SCOP > 4)*" }

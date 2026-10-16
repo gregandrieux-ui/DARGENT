@@ -32,6 +32,16 @@ const stackCards = {
       const track = { type: 'element', tagName: 'div', properties: { className: ['carousel'], tabindex: 0, role: 'region', ariaLabel: title }, children: slides };
       card.splice(first, card.length, { type: 'element', tagName: 'div', properties: { className: ['carousel-wrap'] }, children: [btn('-1', 'Entrée précédente', '‹'), track, btn('1', 'Entrée suivante', '›')] });
     }
+    // « Pourquoi nous faire confiance » : la liste prend le style .checks (icône en CSS), un span par item comme Checks.astro.
+    // Nœuds en lecture seule : on reconstruit ul et li au lieu de les modifier.
+    for (const card of cards) {
+      if (text(card[0]).trim() !== 'Pourquoi nous faire confiance') continue;
+      card.forEach((c, i) => {
+        if (c.tagName !== 'ul') return;
+        const items = c.children.map((li) => li.tagName === 'li' ? { type: 'element', tagName: 'li', properties: {}, children: [{ type: 'element', tagName: 'span', properties: {}, children: li.children }] } : li);
+        card[i] = { type: 'element', tagName: 'ul', properties: { className: ['checks'] }, children: items };
+      });
+    }
     const n = cards.length;
     const sections = cards.map((children, i) => ({
       type: 'element', tagName: 'section',
@@ -50,7 +60,7 @@ export default defineConfig({
   site: 'https://dargent-thermique.fr',
   trailingSlash: 'always',
   build: { format: 'directory' },
-  markdown: { processor: satteri({ hastPlugins: [({ fileURL }) => /\/pages\/(pompe-a-chaleur|climatisation|chauffage|entretien|depannage|entreprise|aides-financieres-pompe-a-chaleur|professionnels|ventilation)(\/|\.md$)/.test(fileURL?.pathname ?? '') && stackCards] }) },
+  markdown: { processor: satteri({ hastPlugins: [({ fileURL }) => /\/pages\/(pompe-a-chaleur|climatisation|chauffage|entretien|depannage|entreprise|aides-financieres-pompe-a-chaleur|professionnels|ventilation|marques-partenaires)(\/|\.md$)/.test(fileURL?.pathname ?? '') && stackCards] }) },
   integrations: [
     sitemap({
       // ponytail: draft pages are also marked noindex by <Seo>; this keeps them out of the XML sitemap

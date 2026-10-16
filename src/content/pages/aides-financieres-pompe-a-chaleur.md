@@ -14,10 +14,6 @@ facts:
   - { label: "Qualification PAC", value: "QUALIPAC" }
   - { label: "Attestation fluides frigorigènes", value: "n° 111363-R1, Bureau Veritas" }
   - { label: "Bureau d’études", value: "Interne, créé en 1993" }
-checks:
-  - { label: "Certification RGE Qualibat et QUALIPAC", detail: "condition d’accès aux aides" }
-  - { label: "Accompagnement au montage de dossier", detail: "avis Sylvain Aguenier" }
-  - { label: "Devis établi après une visite technique", detail: "jamais au téléphone" }
 faq:
   - { q: "Une pompe à chaleur donne-t-elle droit à une aide ?", a: "Cela dépend du dispositif en vigueur au moment de votre demande, de votre logement et de vos ressources. Vérifiez votre situation sur les sources officielles citées plus bas [À CONFIRMER : montant en vigueur]." }
   - { q: "Pourquoi la certification RGE est-elle obligatoire ?", a: "Les dispositifs d’aide à la rénovation énergétique exigent que les travaux soient réalisés par une entreprise certifiée RGE. Dargent Thermique est certifiée Qualibat et QUALIPAC." }
@@ -93,3 +89,9 @@ Ces sources font foi, pas les montants indiqués sur un site tiers, y compris le
 Cette page est revue [À CONFIRMER : périodicité de revue] afin de limiter les écarts avec les dispositifs réellement en vigueur. La date figurant en haut de page indique la dernière vérification des sources citées.
 
 Sous réserve d’éligibilité et d’évolution des dispositifs. En cas de doute sur un montant ou une condition, la source officielle correspondante prévaut sur ce texte.
+
+## Pourquoi nous faire confiance
+
+- **Certification RGE Qualibat et QUALIPAC** condition d’accès aux aides
+- **Accompagnement au montage de dossier** avis Sylvain Aguenier
+- **Devis établi après une visite technique** jamais au téléphone

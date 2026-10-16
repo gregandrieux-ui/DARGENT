@@ -16,10 +16,6 @@ facts:
   - { label: "Qualifications", value: "Qualibat 5112 (plomberie sanitaire) et 5312 (installations thermiques)" }
   - { label: "Isolation en plaque", value: "Systèmes Rehau ou équivalent" }
   - { label: "Isolation projetée", value: "Isolat Sol ou équivalent, en polyuréthane projeté" }
-checks:
-  - { label: "Mise en œuvre conforme au DTU 52.10" }
-  - { label: "Photos de chantiers avec isolation projetée", detail: "plancher chauffant sous mousse projetée" }
-  - { label: "Brochures techniques disponibles", detail: "régulation multizone et plancher rafraîchissant" }
 stats:
   - { value: "Chaleur homogène", label: "0 sensation de sol froid" }
   - { value: "Silencieux", label: "Aucune gêne sonore" }

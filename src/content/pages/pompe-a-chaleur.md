@@ -15,11 +15,6 @@ facts:
   - { label: "Fluides frigorigènes", value: "Attestation de capacité n° 111363-R1 (Bureau Veritas)" }
   - { label: "Bureau d’études", value: "Interne, créé en 1993" }
   - { label: "Périmètre", value: "Agglomération orléanaise et Loiret" }
-checks:
-  - { label: "Qualibat 8321, QUALIPAC et RGE", detail: "certificats à validité annuelle" }
-  - { label: "Attestation de capacité fluides frigorigènes n° 111363-R1", detail: "délivrée par Bureau Veritas" }
-  - { label: "Avis Google de Sylvain Aguenier", detail: "PAC air/air et accompagnement sur les aides" }
-  - { label: "Avis Google de Geoffrey Thomas", detail: "dépannage du thermostat d’une PAC" }
 faq:
   - { q: "Faut-il changer mes radiateurs pour installer une pompe à chaleur ?", a: "Pas forcément. Une PAC haute température alimente des radiateurs existants. Une PAC basse température demande un plancher chauffant ou des radiateurs adaptés. Notre bureau d’études vérifie votre réseau lors de la visite." }
   - { q: "Une pompe à chaleur peut-elle remplacer ma chaudière fioul ou gaz ?", a: "Oui, c’est le cas le plus fréquent en rénovation. La PAC haute température remplace la chaudière sans reprendre le réseau. Si la maison reste raccordée au gaz, la PAC hybride conserve une chaudière en relève." }

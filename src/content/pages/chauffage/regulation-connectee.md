@@ -16,9 +16,6 @@ facts:
   - { label: "Bureau d’études", value: "Interne, depuis 1993" }
   - { label: "Ancienneté", value: "Chauffagistes depuis 1936, à Saint-Jean-de-Braye depuis 1969" }
   - { label: "Zone", value: "Agglomération orléanaise et Loiret" }
-checks:
-  - { label: "Devis établi après visite", detail: "aucun chiffrage au téléphone" }
-  - { label: "Bureau d’études interne", detail: "dimensionnement et réglage de la régulation" }
 stats:
   - { value: "Jusqu’à 15 %", label: "d’économies sur la facture de chauffage*" }
   - { value: "Jusqu’à 7 %", label: "d’économies par degré de consigne en moins*" }

@@ -16,11 +16,6 @@ facts:
   - { label: "Bureau d’études interne", value: "Depuis 1993" }
   - { label: "Qualifications", value: "Qualibat 8321, 5423, 5312, 5112, RGE, QUALIPAC, Professionnel du gaz" }
   - { label: "Attestation fluides frigorigènes", value: "N° 111363-R1, délivrée par Bureau Veritas" }
-checks:
-  - { label: "Trois générations de chauffagistes", detail: "activité continue depuis 1936" }
-  - { label: "Bureau d’études interne", detail: "créé en 1993, dimensionnement avant devis" }
-  - { label: "Qualibat RGE 8321 et QUALIPAC", detail: "pompes à chaleur aérothermiques" }
-  - { label: "Attestation de capacité fluides frigorigènes n° 111363-R1", detail: "délivrée par Bureau Veritas" }
 faq: []
 howto: []
 photos:
@@ -125,3 +120,10 @@ Nous nous appuyons sur des fabricants et des fournisseurs choisis pour la qualit
 Nous recrutons des techniciens de maintenance et des chargés d’affaires pour faire grandir l’équipe de l’avenue Ampère.
 
 <p class="card-actions"><a class="btn" href="/recrutement/#candidature" data-candidature>Déposer ma candidature</a> <a href="/recrutement/">Découvrir nos métiers</a></p>
+
+## Pourquoi nous faire confiance
+
+- **Trois générations de chauffagistes** activité continue depuis 1936
+- **Bureau d’études interne** créé en 1993, dimensionnement avant devis
+- **Qualibat RGE 8321 et QUALIPAC** pompes à chaleur aérothermiques
+- **Attestation de capacité fluides frigorigènes n° 111363-R1** délivrée par Bureau Veritas

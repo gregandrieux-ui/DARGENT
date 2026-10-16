@@ -27,11 +27,6 @@ facts:
   - { label: "Traçabilité", value: "Registre des fluides tenu par site et par machine" }
   - { label: "Ancienneté", value: "Chauffagistes depuis 1936, trois générations" }
   - { label: "Périmètre", value: "Agglomération orléanaise (Loiret), sur rendez-vous" }
-checks:
-  - { label: "Techniciens habilités à la manipulation des fluides frigorigènes", detail: "attestation de capacité n° 111363-R1, article R. 543-99 du code de l’environnement" }
-  - { label: "Rapport d’intervention et attestation d’entretien remis après chaque visite" }
-  - { label: "Registre des fluides vérifié lors d’audits périodiques" }
-  - { label: "Devis établi avant toute réparation au-delà du seuil", detail: "[À CONFIRMER : seuil de devis obligatoire]" }
 photos:
   - { src: "/images/illustrations/entretien-pac.svg", alt: "Déroulé d’une visite d’entretien de pompe à chaleur : contrôle du circuit, nettoyage de l’unité extérieure, réglage de la régulation, documents remis après chaque visite", caption: "Une visite d’entretien en quatre temps, documents remis à la fin" }
 links:
@@ -117,3 +112,10 @@ Ces engagements valent pour l’entretien comme pour le [dépannage de votre pom
 Tout part de notre formulaire : [Souscrire un contrat d’entretien](/devis/). Indiquez le type de pompe à chaleur (air/eau ou air/air), sa marque, son année de pose, la date du dernier entretien et votre commune. Pour une visite ponctuelle, précisez que vous souhaitez un forfait entretien. Nous revenons vers vous pour fixer le rendez-vous ou, si nous ne connaissons pas votre installation, une visite technique préalable.
 
 Vous préférez parler à quelqu’un ? Appelez le 02 38 86 46 46 ou passez par la page [nous contacter](/contact/) : l’équipe maintenance vous répond depuis Saint-Jean-de-Braye. Si votre pompe à chaleur ne fonctionne plus, passez directement par notre [service de dépannage de pompe à chaleur](/pompe-a-chaleur/depannage/).
+
+## Pourquoi nous faire confiance
+
+- **Techniciens habilités à la manipulation des fluides frigorigènes** attestation de capacité n° 111363-R1, article R. 543-99 du code de l’environnement
+- **Rapport d’intervention et attestation d’entretien remis après chaque visite**
+- **Registre des fluides vérifié lors d’audits périodiques**
+- **Devis établi avant toute réparation au-delà du seuil** [À CONFIRMER : seuil de devis obligatoire]

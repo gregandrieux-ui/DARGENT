@@ -17,11 +17,6 @@ facts:
   - { label: "Bureau d’études", value: "Interne, depuis 1993" }
   - { label: "Ancienneté", value: "Chauffagistes depuis 1936, à Saint-Jean-de-Braye depuis 1969" }
   - { label: "Zone", value: "Agglomération orléanaise et Loiret" }
-checks:
-  - { label: "Mention Professionnel du gaz", detail: "installation et mise en service des appareils gaz" }
-  - { label: "Qualibat 5312", detail: "certificat à validité annuelle" }
-  - { label: "Photos de chaudières au sol et en cascade", detail: "chantiers réels, voir la galerie ci-dessous" }
-  - { label: "Visite technique avant tout devis", detail: "jamais de chiffrage au téléphone" }
 stats:
   - { value: "Jusqu’à 20 %", label: "de gaz économisé face à une chaudière ancienne*" }
   - { value: "A", label: "classe énergétique chauffage (ErP)" }

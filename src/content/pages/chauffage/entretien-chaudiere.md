@@ -17,11 +17,6 @@ facts:
   - { label: "Bureau d’études", value: "Interne, depuis 1993" }
   - { label: "Ancienneté", value: "Chauffagistes depuis 1936, à Saint-Jean-de-Braye depuis 1969" }
   - { label: "Zone", value: "Agglomération orléanaise et Loiret" }
-checks:
-  - { label: "Mention Professionnel du gaz", detail: "installation et entretien des appareils gaz" }
-  - { label: "Qualibat 5312", detail: "certificat à validité annuelle" }
-  - { label: "Attestation d’entretien remise après chaque visite" }
-  - { label: "Devis établi avant toute réparation au-delà du seuil", detail: "[À CONFIRMER : seuil de devis obligatoire]" }
 photos:
   - { src: "/images/illustrations/entretien-chaudiere.svg", alt: "Déroulé d’un entretien de chaudière : nettoyage du corps de chauffe, contrôle de la combustion, vérification des sécurités, remise de l’attestation", caption: "Un entretien en quatre temps, attestation remise à la fin" }
 links:
@@ -96,3 +91,10 @@ Tout part de notre formulaire : [souscrire un contrat d’entretien](/devis/). 
 Le contrat couvre l’agglomération orléanaise et le Loiret [À CONFIRMER : périmètre géographique]. Nous revenons vers vous pour fixer le rendez-vous ou, si nous ne connaissons pas votre installation, une visite technique préalable.
 
 Vous préférez parler à quelqu’un ? Appelez le 02 38 86 46 46 ou passez par la page [nous contacter](/contact/) : l’équipe maintenance vous répond depuis Saint-Jean-de-Braye.
+
+## Pourquoi nous faire confiance
+
+- **Mention Professionnel du gaz** installation et entretien des appareils gaz
+- **Qualibat 5312** certificat à validité annuelle
+- **Attestation d’entretien remise après chaque visite**
+- **Devis établi avant toute réparation au-delà du seuil** [À CONFIRMER : seuil de devis obligatoire]

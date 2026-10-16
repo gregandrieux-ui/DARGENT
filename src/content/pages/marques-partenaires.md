@@ -14,11 +14,6 @@ facts:
   - { label: "Attestation fluides frigorigènes", value: "n° 111363-R1, Bureau Veritas" }
   - { label: "Qualifications", value: "Qualibat 8321, 5423, 5312, 5112, RGE, QUALIPAC" }
   - { label: "Statut gaz", value: "Professionnel du gaz" }
-checks:
-  - { label: "7 logos de marques partenaires affichés", detail: "Daikin, Atlantic Fujitsu, Mitsubishi Electric, Vaillant, Frisquet, Chappée, GRDF" }
-  - { label: "Magasin de pièces détachées sur site" }
-  - { label: "Avis client mentionnant une installation Daikin", detail: "Patrick Blain" }
-  - { label: "Attestation de capacité fluides frigorigènes n° 111363-R1", detail: "délivrée par Bureau Veritas" }
 faq: []
 howto: []
 photos:
@@ -81,3 +76,10 @@ Le service après-vente s’appuie sur nos qualifications Qualibat 8321, 5423, 5
 Un appareil très ancien ou dont les pièces ne sont plus fabriquées par la marque ne peut pas toujours être réparé durablement, quelle que soit la marque installée : nous vous le disons avant d’intervenir et nous proposons un remplacement chiffré si nécessaire.
 
 Pour un avis sur le matériel adapté à votre logement, vous pouvez [demander un conseil sur le matériel](/devis/) ou appeler directement le 02 38 86 46 46. Si votre projet est déjà défini, vous pouvez [demander un devis](/devis/).
+
+## Pourquoi nous faire confiance
+
+- **7 logos de marques partenaires affichés** Daikin, Atlantic Fujitsu, Mitsubishi Electric, Vaillant, Frisquet, Chappée, GRDF
+- **Magasin de pièces détachées sur site**
+- **Avis client mentionnant une installation Daikin** Patrick Blain
+- **Attestation de capacité fluides frigorigènes n° 111363-R1** délivrée par Bureau Veritas

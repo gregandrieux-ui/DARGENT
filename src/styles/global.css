@@ -265,6 +265,10 @@ main .btn { white-space: normal; text-align: center; }
 .checks li { display: flex; gap: var(--s-3); align-items: flex-start; max-width: 60ch; }
 .checks .icon { color: var(--cyan-700); width: 1.375em; height: 1.375em; stroke-width: 2; margin-top: 0.1em; }
 .checks strong { font-weight: 600; }
+/* Preuves en vignette (Markdown, cf. astro.config.mjs) : pas de composant <Icon>, square-check dessiné en masque. */
+.stack-card .checks li { color: var(--ink-600); }
+.stack-card .checks strong { color: var(--navy-900); }
+.stack-card .checks li::before { content: ''; flex: none; width: 1.375em; height: 1.375em; margin-top: 0.1em; background: var(--cyan-700); mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M3 5a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-14'/%3E%3Cpath d='M9 12l2 2l4 -4'/%3E%3C/svg%3E") center / contain no-repeat; }
 
 /* Carte de contact (ex-cachet) : logo, raison sociale, téléphone. */
 .cachet {

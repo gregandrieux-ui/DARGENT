@@ -17,11 +17,6 @@ facts:
   - { label: "Documents", value: "Rapport d’intervention et attestation d’entretien après chaque visite" }
   - { label: "Ancienneté", value: "Chauffagistes depuis 1936, trois générations" }
   - { label: "Périmètre", value: "Agglomération orléanaise et Loiret, sur rendez-vous" }
-checks:
-  - { label: "Attestation de capacité fluides frigorigènes n° 111363-R1", detail: "délivrée par Bureau Veritas, registre des fluides vérifié lors d’audits" }
-  - { label: "Barèmes affichés dans notre salle d’exposition", detail: "avenue Ampère, à Saint-Jean-de-Braye" }
-  - { label: "Rapport d’intervention et attestation remis après chaque visite" }
-  - { label: "Anomalies et vétusté signalées par écrit" }
 photos:
   - { src: "/images/illustrations/formules-entretien.svg", alt: "Deux formules pour votre pompe à chaleur, climatisation ou chaudière : sans abonnement (à la demande, prise de RDV nécessaire, prix fluctuants) et abonnement (historique des visites, RDV automatique, intervention à tarif réduit)", caption: "Sans abonnement ou abonnement" }
 links:
@@ -77,3 +72,10 @@ Chaque équipement a ses points de contrôle propres. Le détail de chaque formu
 Ces prestations s’appuient sur nos certifications Qualibat 8321, 5423, 5312 et 5112, sur la mention RGE, la qualification QUALIPAC et le statut de Professionnel du gaz, présentées en détail sur la page [nos qualifications et l’attestation de capacité fluides frigorigènes](/entreprise/#nos-certifications).
 
 Pour souscrire un abonnement d’entretien, utilisez notre formulaire : [Souscrire un abonnement d’entretien](/devis/), ou appelez le [02 38 86 46 46](tel:+33238864646).
+
+## Pourquoi nous faire confiance
+
+- **Attestation de capacité fluides frigorigènes n° 111363-R1** délivrée par Bureau Veritas, registre des fluides vérifié lors d’audits
+- **Barèmes affichés dans notre salle d’exposition** avenue Ampère, à Saint-Jean-de-Braye
+- **Rapport d’intervention et attestation remis après chaque visite**
+- **Anomalies et vétusté signalées par écrit**

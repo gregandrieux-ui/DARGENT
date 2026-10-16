@@ -17,10 +17,6 @@ facts:
   - { label: "Fluides frigorigènes", value: "Attestation de capacité n° 111363-R1 (Bureau Veritas)" }
   - { label: "Bureau d’études", value: "Interne, depuis 1993" }
   - { label: "Zone", value: "Orléans et son agglomération (Loiret)" }
-checks:
-  - { label: "Visite technique avant tout devis", detail: "relevé des radiateurs pièce par pièce" }
-  - { label: "Dimensionnement par notre bureau d’études", detail: "calcul des déperditions de la maison" }
-  - { label: "Attestation de capacité fluides frigorigènes", detail: "n° 111363-R1, Bureau Veritas" }
 stats:
   - { value: "0", label: "radiateur à changer dans la plupart des cas, après étude" }
   - { value: "Chaleur constante", label: "même par grand froid" }
