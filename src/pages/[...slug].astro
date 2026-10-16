@@ -52,7 +52,7 @@ const osm = `https://www.openstreetmap.org/export/embed.html?bbox=${site.geo.lng
             </>
           ) : (
             <>
-              <p class="promise">{d.promise}</p>
+              {d.promise && <p class="promise">{d.promise}</p>}
               {d.checks.length > 0 && <Checks items={d.checks} />}
             </>
           )}

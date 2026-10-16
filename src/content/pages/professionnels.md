@@ -4,7 +4,7 @@ priority: P2
 title: "Climatisation et chauffage pour les professionnels (45)"
 description: "Bureaux, commerces, industrie et collectivités : étude, installation et maintenance de vos équipements de climatisation et de chauffage dans le Loiret."
 h1: "Nos solutions pour les professionnels et les collectivités"
-promise: "Un interlocuteur unique pour l’étude, l’installation et la maintenance de vos installations."
+promise: ""
 template: service
 schema: Service
 faq: []
@@ -16,10 +16,7 @@ facts:
   - { label: "Bureau d’études", value: "Interne, créé en 1993" }
   - { label: "Attestation fluides frigorigènes", value: "N° 111363-R1, Bureau Veritas" }
   - { label: "Ancienneté", value: "Trois générations de chauffagistes depuis 1936" }
-checks:
-  - { label: "Installations VRV avec traitement acoustique", detail: "photos de réalisations tertiaires" }
-  - { label: "Ventilation double flux en établissement scolaire", detail: "réalisation documentée" }
-  - { label: "Bureau d’études interne", detail: "dimensionnement avant devis, sur chaque projet" }
+checks: []
 photos:
   - { src: "/images/illustrations/vrv-tertiaire.svg", alt: "Schéma d’une installation VRV tertiaire : groupes extérieurs communs, une unité intérieure par zone, gestion centralisée", caption: "Principe d’une installation VRV avec gestion centralisée" }
   - { missing: "Installation VRV en environnement tertiaire", caption: "Photo à collecter" }
@@ -41,7 +38,7 @@ crumbs: []
 
 ## Nos domaines d’intervention
 
-Dargent Thermique intervient auprès des bureaux, commerces, sites industriels et collectivités du Loiret et de l’agglomération orléanaise. Nos qualifications couvrent l’ensemble des équipements de climatisation, de ventilation et de chauffage, y compris pour les installations dites « tertiaires », plus étendues qu’un logement.
+Un interlocuteur unique pour l’étude, l’installation et la maintenance de vos installations : Dargent Thermique intervient auprès des bureaux, commerces, sites industriels et collectivités du Loiret et de l’agglomération orléanaise. Nos qualifications couvrent l’ensemble des équipements de climatisation, de ventilation et de chauffage, y compris pour les installations dites « tertiaires », plus étendues qu’un logement.
 
 Notre qualification Qualibat 5423, qui distingue la technicité supérieure, s’applique aux installations de climatisation les plus complexes : plusieurs unités intérieures pilotées depuis un même réseau, régulation centralisée, traitement acoustique. Le bureau d’études interne, créé en 1993, étudie chaque projet avant le chiffrage : implantation des groupes extérieurs, répartition des unités intérieures, contraintes acoustiques et accès pour la maintenance.
 
@@ -57,7 +54,7 @@ Selon la configuration des locaux, nous posons des unités murales, en console, 
 
 Pour le détail des types d’unités et des prestations de pose, la page [installation, entretien et dépannage de climatisation à Orléans](/climatisation/) présente l’ensemble de notre offre.
 
-## Ventilation et traitement d’air
+## Ventilation double flux et traitement d’air
 
 Le renouvellement de l’air est une obligation dans la plupart des locaux professionnels et des établissements recevant du public. Nous installons des systèmes de ventilation simple flux et double flux, dimensionnés selon la surface, l’occupation et l’usage des locaux.
 
