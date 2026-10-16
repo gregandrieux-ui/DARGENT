@@ -22,6 +22,7 @@ links:
 aides: false
 alert: false
 tel: false
+candidature: inline
 draft: false
 crumbs: []
 ---

@@ -38,6 +38,7 @@ links:
   - { href: "/recrutement/", label: "Nos offres et candidatures spontanées" }
 aides: true
 alert: false
+candidature: modal
 draft: false
 crumbs: []
 ---

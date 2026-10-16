@@ -1,0 +1,71 @@
+---
+// Candidature en modale : <dialog> natif (Échap, fond inerte, focus gardé dans la modale, rôle modal).
+// inline : sans JS le dialogue reste ouvert dans la page (ancre #candidature) ; le script le referme et l'ouvre à la demande.
+// Déclencheurs : tout lien vers #candidature et tout [data-candidature].
+import Form from './Form.astro';
+interface Props { inline?: boolean }
+const { inline = false } = Astro.props;
+---
+<dialog id="candidature" class="cand" open={inline} aria-labelledby="cand-title">
+  <div class="cand-head">
+    <h2 id="cand-title">Déposer ma candidature</h2>
+    <button type="button" class="btn btn-outline cand-close">Fermer</button>
+  </div>
+  <Form kind="candidature" submit="Envoyer ma candidature" />
+  <p class="cand-msg" role="status"></p>
+</dialog>
+
+<style>
+  .cand { width: min(640px, calc(100% - 2 * var(--gutter))); max-height: calc(100dvh - 32px); overflow: auto; padding: var(--s-6); border: 0; border-radius: var(--radius-lg); background: var(--surface); color: var(--ink); }
+  .cand::backdrop { background: rgb(11 42 74 / 0.6); }
+  .cand:not(:modal) { position: static; width: auto; max-height: none; margin: var(--s-7) 0 0; padding: 0; }
+  .cand:not(:modal) .cand-close { display: none; }
+  .cand-head { display: flex; justify-content: space-between; align-items: center; gap: var(--s-4); margin-bottom: var(--s-5); }
+  .cand-head h2 { margin: 0; }
+  .cand-msg:empty { display: none; }
+  .cand-msg { margin-top: var(--s-4); font-weight: 600; color: var(--navy-900); }
+</style>
+
+<script>
+  document.addEventListener('astro:page-load', () => {
+    const dlg = document.querySelector<HTMLDialogElement>('dialog.cand');
+    if (!dlg) return;
+    const form = dlg.querySelector('form')!;
+    const msg = dlg.querySelector('.cand-msg')!;
+    let opener: HTMLElement | null = null;
+    const open = () => {
+      opener = document.activeElement as HTMLElement | null;
+      dlg.showModal();
+      dlg.querySelector<HTMLInputElement>('#nom')?.focus(); // pas le champ piège anti-spam
+    };
+    dlg.close(); // ouvert dans la page seulement sans JS
+    if (location.hash === '#candidature') open();
+
+    const ac = new AbortController();
+    document.addEventListener('astro:before-swap', () => ac.abort(), { once: true });
+    // capture : avant le routeur, qui naviguerait vers /recrutement/#candidature.
+    addEventListener('click', (e) => {
+      if (!(e.target as Element).closest('a[href$="#candidature"], [data-candidature]')) return;
+      e.preventDefault();
+      e.stopPropagation();
+      open();
+    }, { capture: true, signal: ac.signal });
+    dlg.addEventListener('close', () => opener?.focus());
+    dlg.querySelector('.cand-close')!.addEventListener('click', () => dlg.close());
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const data = new FormData(form);
+      // Avec un champ fichier (cv) : multipart tel quel ; sinon encodage URL, attendu par Netlify Forms.
+      const body = form.enctype === 'multipart/form-data' ? data : new URLSearchParams(data as unknown as Record<string, string>);
+      try {
+        const res = await fetch('/', { method: 'POST', body });
+        if (!res.ok) throw new Error(String(res.status));
+        form.hidden = true;
+        msg.textContent = 'Merci, votre candidature a bien été envoyée. Nous revenons vers vous rapidement.';
+      } catch {
+        msg.textContent = 'L’envoi n’a pas abouti. Réessayez dans un instant ou écrivez-nous depuis la page Contact.';
+      }
+    });
+  });
+</script>
