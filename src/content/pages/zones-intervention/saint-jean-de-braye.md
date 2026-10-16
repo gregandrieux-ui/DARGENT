@@ -27,6 +27,7 @@ photos:
 links:
   - { href: "/contact/", label: "Nos coordonnées, horaires et plan d’accès" }
   - { href: "/entreprise/#notre-histoire", label: "Notre histoire depuis 1936" }
+  - { href: "/recrutement/", label: "Rejoindre l’équipe de l’avenue Ampère" }
   - { href: "/pompe-a-chaleur/", label: "Pompe à chaleur à Orléans et dans l’agglomération" }
   - { href: "/climatisation/", label: "Climatisation à Orléans : installation, entretien et dépannage" }
 aides: false

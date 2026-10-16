@@ -16,12 +16,13 @@ const { inline = false } = Astro.props;
 </dialog>
 
 <style>
-  .cand { width: min(640px, calc(100% - 2 * var(--gutter))); max-height: calc(100dvh - 32px); overflow: auto; padding: var(--s-6); border: 0; border-radius: var(--radius-lg); background: var(--surface); color: var(--ink); }
+  .cand { width: min(640px, calc(100% - 2 * var(--gutter))); max-height: calc(100dvh - 32px); overflow: auto; padding: clamp(var(--s-4), 5vw, var(--s-6)); border: 0; border-radius: var(--radius-lg); background: var(--surface); color: var(--ink); }
   .cand::backdrop { background: rgb(11 42 74 / 0.6); }
   .cand:not(:modal) { position: static; width: auto; max-height: none; margin: var(--s-7) 0 0; padding: 0; }
   .cand:not(:modal) .cand-close { display: none; }
   .cand-head { display: flex; justify-content: space-between; align-items: center; gap: var(--s-4); margin-bottom: var(--s-5); }
-  .cand-head h2 { margin: 0; }
+  .cand-head h2 { margin: 0; min-width: 0; }
+  .cand-close { flex: none; }
   .cand-msg:empty { display: none; }
   .cand-msg { margin-top: var(--s-4); font-weight: 600; color: var(--navy-900); }
 </style>

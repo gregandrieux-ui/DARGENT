@@ -89,7 +89,7 @@ const oldSitemap = ['/', '/solutions/plancher-chauffant/', '/politique-confident
 for (const u of oldSitemap) {
   const covered = sources.includes(u) || sources.includes('/*') || pathSet.has(u);
   if (!covered) err(`_redirects: ancienne URL non couverte ${u}`);
-  if (sources.includes(u)) { const t = rules[sources.indexOf(u)][1]; const tn = t.replace(/^https:\/\/dargent-thermique\.fr/, ''); if (tn.startsWith('/') && !tn.endsWith('.html') && !pathSet.has(tn)) err(`_redirects: cible inexistante ${u} -> ${t}`); }
+  if (sources.includes(u)) { const t = rules[sources.indexOf(u)][1]; const tn = t.replace(/^https:\/\/dargent-thermique\.fr/, '').split('#')[0]; /* ancre : pas une page */ if (tn.startsWith('/') && !tn.endsWith('.html') && !pathSet.has(tn)) err(`_redirects: cible inexistante ${u} -> ${t}`); }
 }
 for (const t of targets) if (sources.includes(t) && !t.endsWith('.html')) err(`_redirects: chaîne, la cible ${t} est aussi une source`);
 

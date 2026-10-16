@@ -93,7 +93,7 @@ Notre siège et notre salle d’exposition sont au 1 avenue André-Marie Ampère
 
 Vous pouvez y voir des unités intérieures et des générateurs exposés, et consulter nos barèmes affichés : [À CONFIRMER : salle d’exposition ouverte au public et horaires]. Nous vous conseillons d’appeler le 02 38 86 46 46 avant de passer, pour être certain qu’un conseiller soit disponible.
 
-Notre présence dans l’Orléanais ne date pas d’hier : entreprise fondée en 1936 à Beaugency, installée à Orléans en 1947, puis avenue Ampère depuis 1969. Trois générations se sont succédé avant que Dargent Thermique, créée en 1982, ne rejoigne en 2018 un groupe industriel français de l’énergie et des services.
+Notre présence dans l’Orléanais ne date pas d’hier : entreprise fondée en 1936 à Beaugency, installée à Orléans en 1947, puis avenue Ampère depuis 1969. Trois générations se sont succédé avant que Dargent Thermique, créée en 1982, ne soit reprise par ENGIE en 2018, puis par le groupe français BCR-I en 2026.
 
 ## Demander un devis
 

@@ -540,7 +540,7 @@ a.stretched::after { content: ''; position: absolute; inset: 0; z-index: 1; }
 .hero-alert .tel-big .icon { color: #ff7a82; }
 .hero-alert .photo figcaption { color: var(--cyan-200); }
 
-/* Carrousel latéral (« Ils nous font confiance ») : scroll-snap natif, une entrée par slide. */
+/* Carrousel latéral (« Nos certifications ») : scroll-snap natif, une entrée par slide. */
 .carousel { display: flex; align-items: flex-start; gap: var(--s-4); overflow-x: auto; overflow-y: hidden; scroll-snap-type: x mandatory; scrollbar-width: thin; padding-bottom: var(--s-3); margin-top: var(--s-5); }
 .slide { flex: 0 0 100%; scroll-snap-align: start; border: 1px solid var(--line); border-radius: var(--radius-lg); padding: var(--s-5); }
 .carousel-wrap { position: relative; }
