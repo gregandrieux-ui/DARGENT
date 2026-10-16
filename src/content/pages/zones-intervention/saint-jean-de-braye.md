@@ -26,7 +26,6 @@ photos:
   - { src: "/images/illustrations/site-avenue-ampere.svg", alt: "Notre site de l’avenue Ampère à Saint-Jean-de-Braye depuis 1969 : bureau d’études, magasin de pièces, salle d’exposition ; départ des techniciens chaque matin", caption: "Notre site de l’avenue Ampère et ce qu’il regroupe" }
 links:
   - { href: "/contact/", label: "Nos coordonnées, horaires et plan d’accès" }
-  - { href: "/entreprise/#nos-valeurs", label: "Nos engagements : tri des déchets, ruches" }
   - { href: "/entreprise/#notre-histoire", label: "Notre histoire depuis 1936" }
   - { href: "/pompe-a-chaleur/", label: "Pompe à chaleur à Orléans et dans l’agglomération" }
   - { href: "/climatisation/", label: "Climatisation à Orléans : installation, entretien et dépannage" }
@@ -70,9 +69,7 @@ Quel que soit le projet, le chiffrage suit la même règle : pas de prix au té
 
 Le site de l’avenue Ampère est aussi l’endroit où nous appliquons nos engagements environnementaux. Les déchets de chantier ramenés par les techniciens y sont triés par filière [À CONFIRMER : filières de tri en place]. Les fluides frigorigènes récupérés sur les climatiseurs sont suivis dans le registre des fluides, comme l’impose notre attestation de capacité. Les équipements électriques en fin de vie suivent la filière Ecologic, dont nous sommes adhérents.
 
-Depuis mai 2014, quatre ruches sont installées sur le terrain. Elles font l’objet de photos et de trois vidéos que vous pouvez consulter sur le site [À CONFIRMER : ruches toujours en place]. Ce n’est pas un argument technique, mais cela dit quelque chose de la façon dont nous occupons l’espace de la zone industrielle.
-
-Le détail de ces actions, avec les photos des ruches, figure sur la page [nos engagements : tri des déchets, ruches](/entreprise/#nos-valeurs).
+Depuis mai 2014, quatre ruches sont installées sur le terrain. [À CONFIRMER : ruches toujours en place]. Ce n’est pas un argument technique, mais cela dit quelque chose de la façon dont nous occupons l’espace de la zone industrielle.
 
 ## Nos chantiers alentour
 

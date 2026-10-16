@@ -33,8 +33,6 @@ export const mainNav = [
   { label: 'Entreprise', href: '/entreprise/', children: [
     { label: 'Nos qualifications', href: '/entreprise/#nos-qualifications' },
     { label: 'Notre histoire', href: '/entreprise/#notre-histoire' },
-    { label: 'Nos valeurs', href: '/entreprise/#nos-valeurs' },
-    { label: 'Nos références', href: '/entreprise/#ils-nous-font-confiance' },
     { label: 'Marques partenaires', href: '/marques-partenaires/' },
     { label: 'Zones d’intervention', href: '/zones-intervention/' },
     { label: 'Recrutement', href: '/recrutement/' },
@@ -55,8 +53,6 @@ export const footerNav = {
     { label: 'L’entreprise', href: '/entreprise/' },
     { label: 'Qualifications', href: '/entreprise/#nos-qualifications' },
     { label: 'Notre histoire', href: '/entreprise/#notre-histoire' },
-    { label: 'Valeurs', href: '/entreprise/#nos-valeurs' },
-    { label: 'Références', href: '/entreprise/#ils-nous-font-confiance' },
     { label: 'Zones d’intervention', href: '/zones-intervention/' },
     { label: 'Recrutement', href: '/recrutement/' },
   ],

@@ -10,7 +10,7 @@ schema: Service
 faq: []
 howto: []
 cta: { href: "/contact/", label: "Nous consulter pour un projet" }
-cta2: { href: "/entreprise/#ils-nous-font-confiance", label: "Voir nos références" }
+cta2: { href: "/entreprise/", label: "Découvrir l’entreprise" }
 facts:
   - { label: "Qualification technicité supérieure", value: "Qualibat 5423" }
   - { label: "Bureau d’études", value: "Interne, créé en 1993" }
@@ -28,7 +28,6 @@ links:
   - { href: "/ventilation/", label: "Ventilation simple flux et double flux pour vos locaux" }
   - { href: "/entretien/", label: "Entretien de vos équipements tertiaires" }
   - { href: "/depannage/", label: "Dépannage de vos équipements tertiaires" }
-  - { href: "/entreprise/#ils-nous-font-confiance", label: "Nos références auprès des professionnels et collectivités" }
   - { href: "/contact/", label: "Nos coordonnées pour nous consulter" }
 aides: false
 alert: false
@@ -74,7 +73,7 @@ Nos techniciens interviennent avec un registre de suivi des fluides frigorigène
 
 Nous travaillons depuis plusieurs années avec des banques, des enseignes, des sites industriels et des collectivités de l’agglomération orléanaise et du Loiret. Ces références s’appuient sur des installations réellement livrées : systèmes VRV, ventilation double flux, gestion centralisée.
 
-Les photographies de ces chantiers ne sont publiées qu’avec l’accord des clients concernés, de même que tout logo. La page [nos références auprès des professionnels et collectivités](/entreprise/#ils-nous-font-confiance) présente les projets pour lesquels cet accord a été obtenu.
+Les photographies de ces chantiers ne sont publiées qu’avec l’accord des clients concernés, de même que tout logo.
 
 Nos qualifications Qualibat 5423 (climatiseurs à détente directe, technicité supérieure), 5312 (installations thermiques) et 5112 (plomberie sanitaire), notre statut de Professionnel du gaz et notre attestation de capacité fluides frigorigènes s’appliquent à ces chantiers comme aux chantiers résidentiels.
 

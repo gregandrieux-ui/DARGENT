@@ -16,7 +16,6 @@ facts:
   - { label: "Bureau d’études interne", value: "Depuis 1993" }
   - { label: "Qualifications", value: "Qualibat 8321, 5423, 5312, 5112, RGE, QUALIPAC, Professionnel du gaz" }
   - { label: "Attestation fluides frigorigènes", value: "N° 111363-R1, délivrée par Bureau Veritas" }
-  - { label: "Engagements", value: "Ecologic depuis juin 2012, 4 ruches depuis mai 2014" }
 checks:
   - { label: "Trois générations de chauffagistes", detail: "activité continue depuis 1936" }
   - { label: "Bureau d’études interne", detail: "créé en 1993, dimensionnement avant devis" }
@@ -29,11 +28,9 @@ howto: []
 photos:
   - { src: "/images/illustrations/histoire-frise.svg", alt: "Frise de l’entreprise : fondation à Beaugency en 1936, avenue Ampère à Saint-Jean-de-Braye en 1969, création de Dargent Thermique en 1982, bureau d’études et climatisation en 1993, reprise par ENGIE en 2018, reprise par le groupe BCR-I en 2026", caption: "Six dates de notre histoire" }
   - { src: "/images/illustrations/qualifications-qualibat.svg", alt: "Nos quatre codes Qualibat : 8321 pompes à chaleur aérothermiques, 5423 climatisation, 5312 installations thermiques, 5112 plomberie sanitaire", caption: "Nos quatre codes Qualibat" }
-  - { src: "/images/illustrations/engagements.svg", alt: "Les déchets et appareils déposés sur les chantiers reviennent avenue Ampère, où ils sont triés par filière ou confiés à Ecologic depuis juin 2012 ; quatre ruches y sont installées depuis mai 2014", caption: "Du chantier à notre site : tri des déchets, recyclage Ecologic, ruches" }
   - { missing: "Photo de l’équipe ou de la façade du siège", caption: "Photo à collecter" }
   - { missing: "Photos d’archives de l’entreprise", caption: "Photo à collecter" }
   - { missing: "Certificats Qualibat et attestation fluides frigorigènes", caption: "Photo à collecter" }
-  - { missing: "Logos et visuels des références clients, sous réserve d’autorisation écrite", caption: "Photo à collecter" }
 links:
   - { href: "/zones-intervention/saint-jean-de-braye/", label: "Notre siège à Saint-Jean-de-Braye" }
   - { href: "/aides-financieres-pompe-a-chaleur/", label: "Les aides financières pour votre pompe à chaleur" }
@@ -111,57 +108,3 @@ Toute intervention sur un circuit frigorifique, climatisation ou pompe à chaleu
 ### Pourquoi cela compte pour vos aides
 
 La plupart des aides à la rénovation énergétique sont réservées aux travaux réalisés par une entreprise RGE. Nos qualifications Qualibat 8321 et QUALIPAC en sont la preuve pour une pompe à chaleur ; le code 5312 et la mention Professionnel du gaz jouent le même rôle pour une chaudière gaz. Elles ne garantissent pas à elles seules l’obtention d’une aide : chaque dispositif a ses propres conditions, liées à vos revenus, à votre logement et à l’équipement posé. Le détail figure sur [les aides financières pour votre pompe à chaleur](/aides-financieres-pompe-a-chaleur/).
-
-## Nos valeurs
-
-Nos engagements portent sur ce que nous maîtrisons directement. Ils ne remplacent pas une promesse chiffrée d’économie d’énergie, que nous ne formulons pas.
-
-### Le tri des déchets de chantier
-
-Chaque intervention produit des déchets : chutes de tuyauterie, isolants, emballages, pièces changées. Nous les ramenons sur notre site de l’avenue Ampère plutôt que de les laisser chez vous ou de les mélanger. Des zones de tri différenciées y reçoivent le carton, le plastique, le polystyrène, le métal, les déchets électroniques et les piles [À CONFIRMER : filières de tri en place]. Les fluides frigorigènes récupérés suivent un circuit séparé, consigné dans le registre imposé par notre attestation de capacité.
-
-### Le recyclage des climatiseurs (Ecologic, depuis juin 2012)
-
-Depuis juin 2012, nous sommes adhérents d’Ecologic, l’éco-organisme agréé qui collecte et retraite les équipements électriques et électroniques en fin de vie. Les climatiseurs, pompes à chaleur et chaudières électriques que nous déposons chez vous lors d’un remplacement suivent cette filière : métaux, plastiques et fluides sont séparés et orientés vers les filières adaptées [À CONFIRMER : adhésion Ecologic active].
-
-### Les ruches de l’entreprise (depuis mai 2014)
-
-Depuis mai 2014, quatre ruches occupent un coin du terrain de notre site, avenue Ampère. Ce n’est pas un argument technique, mais une manière d’occuper l’espace d’une zone industrielle autrement qu’en le laissant vide. Si vous venez sur place pour un rendez-vous ou pour retirer une pièce, vous pouvez les voir depuis le parking [À CONFIRMER : ruches toujours en place].
-
-### Nos engagements de service
-
-**Information tarifaire.** Nos barèmes sont affichés dans notre salle d’exposition. Nous ne donnons pas de prix par téléphone sans avoir vu votre installation : une visite technique précède toujours un chiffrage.
-
-**Devis.** Pour une installation, le devis suit une visite du bureau d’études. Pour une réparation, un devis écrit précède toute intervention au-delà d’un certain montant [À CONFIRMER : seuil de devis obligatoire]. En dessous, l’intervention peut être réalisée directement, sur votre accord.
-
-**Prévention.** L’entretien régulier de votre équipement limite les pannes et prolonge sa durée de vie. Le détail des formules figure sur la page [entretien de vos équipements](/entretien/).
-
-**Moyens.** Nos techniciens partent chaque matin avec des véhicules équipés et un accès direct au magasin de pièces détachées du site, pour limiter les délais liés à une pièce manquante.
-
-**Résultat.** Nous vous disons quand un appareil ne peut plus être réparé durablement : vétusté, fluide R22, pièce qui n’est plus fabriquée. Dans ce cas, nous proposons un remplacement chiffré après visite plutôt qu’une réparation provisoire.
-
-## Ils nous font confiance
-
-Nos références s’appuient sur des travaux réels et des avis publiés sous le nom de leurs auteurs, jamais sur des chiffres globaux non vérifiés. Les organisations ne sont citées qu’avec leur accord écrit [À CONFIRMER : autorisation d’affichage de chaque logo], et certaines relations datent de plusieurs années [À CONFIRMER : relations commerciales toujours actives].
-
-### Banques et assurances
-
-Des agences bancaires et des cabinets d’assurance de l’agglomération orléanaise font entretenir ou installer leur climatisation par Dargent Thermique [À CONFIRMER : liste des agences et autorisation de citation]. Ces locaux reçoivent du public toute la journée : la climatisation doit fonctionner sans coupure, ce qui suppose un contrat d’entretien programmé. Un système multi-split ou VRV permet de régler chaque bureau séparément.
-
-### Commerces et enseignes
-
-Boutiques indépendantes et enseignes nous confient la climatisation de leur point de vente [À CONFIRMER : noms d’enseignes et autorisation de citation]. Une vitrine chauffe vite l’été à cause de l’éclairage et de l’affluence : le dimensionnement tient compte de ces apports propres au commerce. Une panne en pleine saison a un effet direct sur la fréquentation : nous priorisons ces demandes, sans promesse de délai chiffré.
-
-### Hôtellerie et restauration
-
-Hôtels et restaurants ont des besoins différents d’une salle à l’autre : chambres à régler individuellement, salle à forte occupation ponctuelle, cuisine à ventiler séparément [À CONFIRMER : établissements clients et autorisation de citation]. Un système gainable ou une unité cassette permet de climatiser sans appareil visible ; la cuisine demande une ventilation dédiée, distincte du réseau de climatisation.
-
-### Tertiaire, industrie et collectivités
-
-Sur les bureaux et sites industriels de la région, nos interventions vont de la climatisation de plateaux de bureaux à des installations plus lourdes en atelier ou en entrepôt [À CONFIRMER : sites clients et autorisation de citation]. Mairies, écoles et établissements publics du Loiret font aussi partie de nos donneurs d’ordre [À CONFIRMER : collectivités clientes et autorisation de citation], selon les règles de mise en concurrence de la commande publique. Pour ces projets, consultez nos [prestations pour les professionnels et collectivités](/professionnels/).
-
-### Particuliers
-
-La majorité de nos clients reste des propriétaires de maisons et d’appartements de l’agglomération orléanaise [À CONFIRMER : chiffre de 8 000 clients]. Trois avis publiés sur notre fiche Google en donnent un aperçu concret : Patrick Blain décrit l’installation d’une climatisation Daikin à deux groupes extérieurs et six unités intérieures, Sylvain Aguenier une pompe à chaleur air/air avec un accompagnement sur les aides, et Geoffrey Thomas la réparation du thermostat d’une pompe à chaleur.
-
-Ces avis ne remplacent pas une visite technique chez vous : chaque projet est dimensionné par le bureau d’études avant l’établissement d’un devis. Vous pouvez [Demander un devis](/devis/), rejoindre l’équipe via [nos offres et candidatures spontanées](/recrutement/), ou nous appeler au 02 38 86 46 46.
