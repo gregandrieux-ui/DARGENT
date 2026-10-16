@@ -23,8 +23,8 @@ checks:
 faq: []
 howto: []
 stats:
-  - { value: "Depuis 1936", label: "chauffagistes depuis trois générations" }
-  - { value: "Jusqu’à 15 %", label: "d’économies avec une régulation adaptée*" }
+  - { value: "Depuis 1936", label: "chauffagistes depuis trois générations" }
+  - { value: "Jusqu’à 15 %", label: "d’économies avec une régulation adaptée*" }
 photos:
   - { src: "/images/illustrations/chaudiere-condensation.svg", alt: "Schéma d’une chaudière gaz à condensation : la ventouse amène l’air neuf et évacue les fumées, la chaleur de la vapeur d’eau des fumées est récupérée, l’eau part vers les radiateurs et revient plus froide", caption: "Principe d’une chaudière à condensation avec ventouse" }
   - { src: "/images/realisations/chaudieres-condensation-basses-temperatures/dargent-thermique-022.jpg", alt: "Chaudières à condensation installées en cascade", caption: "Chaudières à condensation en cascade" }
