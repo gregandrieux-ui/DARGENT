@@ -25,6 +25,7 @@ const pages = defineCollection({
     links: z.array(link).default([]),      // Liens sortants (xlsx) → sorties numérotées
     aides: z.boolean().default(false),     // bloc réassurance : lien vers la page aides si pertinent
     alert: z.boolean().default(false),     // hero dépannage : téléphone en rouge
+    tel: z.boolean().default(true),        // hero : lien téléphone à côté du CTA
     unit: z.enum(['pac']).optional(),      // hero : vue éclatée animée (Exploded.astro) ; photos[0] passe en galerie
     draft: z.boolean().default(false),     // noindex + hors sitemap + non listé
     crumbs: z.array(link).default([]),

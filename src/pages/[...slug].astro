@@ -61,7 +61,7 @@ const osm = `https://www.openstreetmap.org/export/embed.html?bbox=${site.geo.lng
               ) : (
                 <a class="btn" href={d.cta.href}>{d.cta.label}</a>
               )}
-              {d.alert ? <a class="btn btn-cyan" href={d.cta.href}>{d.cta.label}</a> : <a class="tel" href={site.phoneHref}><Icon name="phone" /> {site.phone}</a>}
+              {d.alert ? <a class="btn btn-cyan" href={d.cta.href}>{d.cta.label}</a> : d.tel && <a class="tel" href={site.phoneHref}><Icon name="phone" /> {site.phone}</a>}
             </div>
           )}
           {d.stats.length > 0 && <p class="stats-note">* Ordres de grandeur ADEME et fabricants, selon logement, usage et éligibilité. Chiffrage réel après visite technique.</p>}
